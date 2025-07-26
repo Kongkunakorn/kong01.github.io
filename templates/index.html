@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing & Translate</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 30px;
+      /* max-width: 600px; */
+     /*margin: auto;*/
+    }
+    #current-word {
+    font-size: 2em;
+    margin-bottom: 30px;
+    margin-top: 40px;         
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    }
+    #input {
+    font-size: 1.5em;
+    padding: 5px;
+    width: 50%;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-bottom: 2px solid #26a69a; /* เส้นใต้ input */
+    outline: none;
+    background: transparent;
+    text-align: center;
+    }
+    #translation {
+      color: green;
+      font-size: 1.2em;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">Typing Test & Translate</a>
+      <!--<ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>-->
+    </div>
+  </nav>
+
+  <div class="center"id="current-word">Loading...</div>
+  <input class="center" type="text" id="input" placeholder="พิมพ์คำตรงนี้..." autocomplete="off" />
+  <p class="center" id="translation"></p>
+
+  <script>
+    const words = JSON.parse('{{ sentence | tojson | safe }}');
+    let index = 0;
+
+    const input = document.getElementById('input');
+    const currentWord = document.getElementById('current-word');
+    const translation = document.getElementById('translation');
+
+    function showWord() {
+      if (index < words.length) {
+        currentWord.textContent = words[index];
+        input.value = '';
+        translation.textContent = '';
+        input.focus();
+      } else {
+        currentWord.textContent = '✅พิมพ์ครบแล้ว!✅';
+        input.disabled = true;
+      }
+    }
+
+    input.addEventListener('input', () => {
+    if (input.value.trim().toLowerCase() === words[index].toLowerCase()) {
+      fetch('/translate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ word: words[index] })
+      })
+      .then(response => response.json())
+      .then(data => {
+        translation.textContent = `คำแปล: ${data.translation}`;
+        index++;
+        setTimeout(showWord, 1000);
+      });
+      }
+    });
+
+    showWord();
+    src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+  </script>
+
+</body>
+</html>
