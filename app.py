@@ -11,6 +11,7 @@ CATEGORIES = {
     "wordlist": "🍎"
 }
 
+@app.route('/')
 def home():
     category_sizes = {}
     for key in CATEGORIES:
