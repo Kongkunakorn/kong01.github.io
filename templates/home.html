@@ -1,0 +1,36 @@
+{% extends "base.html" %} {% block title %}Typing Menu{% endblock %} {% block
+content %}
+<h1 class="brand-logo center">TypingMenu</h1>
+
+<div style="max-width: 500px; margin: auto">
+  {% for key, icon in categories.items() %}
+  <form
+    method="get"
+    action="{{ url_for('play', category=key) }}"
+    style="margin-bottom: 10px"
+  >
+    <button
+      type="submit"
+      style="
+        width: 100%;
+        padding: 15px 20px;
+        text-align: left;
+        font-size: 18px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+      "
+    >
+      <span>{{ icon }} {{ key|capitalize }}</span>
+      <span style="font-size: 14px; color: gray">
+        {{ category_sizes[key] }} คำ
+      </span>
+    </button>
+  </form>
+  {% endfor %}
+</div>
+{% endblock %}
