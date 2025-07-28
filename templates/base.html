@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{% block title %} {% endblock %}</title>
+
+    {% block styles %}
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 0px 30px 30px 30px;
+        background-color: #f0faff;
+        margin: 10;
+      }
+       nav {
+        background-color: #8706ff;
+        height: 80px;
+        line-height: 80px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12); 
+       }
+
+      nav .nav-wrapper {
+        background-color: #8706ff;
+        height: 100px !important ; 
+        line-height: 80px;
+        padding: 0 30px;
+      }
+      nav .nav-wrapper a.brand-logo {
+        color: white; /* ตัวอักษรใน Navbar เป็นสีขาว */
+        font-size: 2.5em; /* ทำให้โลโก้ใหญ่ขึ้น */
+        line-height: 80px; /* ปรับ line-height ของโลโก้ให้ตรงกับความสูง Navbar */
+        /* ถ้ายังไม่ตรงกลาง อาจต้องใช้ position */
+        position: absolute; /* เพื่อให้สามารถจัดตำแหน่งได้แม่นยำ */
+        left: 50%;
+        transform: translateX(-50%); /* เลื่อนกลับมาครึ่งหนึ่งของความกว้างตัวเอง */
+      }
+    </style>
+    {% endblock %}
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="{{ url_for('home') }}" class="brand-logo center">Typing Test & Translate</a>
+      </div>
+    </nav>
+    {% block content %} {% endblock %}
+    {% block scripts %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    {% endblock %}
+  </body>
+</html>
