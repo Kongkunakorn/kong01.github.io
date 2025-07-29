@@ -40,17 +40,34 @@
       }
 
       nav .nav-wrapper a.brand-logo {
-        color: white !important;
-        font-size: 5em !important;
-        line-height: 150px !important;
+    color: white !important;
+    font-size: 5em !important;
+    line-height: 150px !important;
+    text-align: center;
+    white-space: nowrap;
+  }
 
-      }
+  @media (max-width: 768px) {
+    nav .nav-wrapper a.brand-logo {
+      font-size: 2em !important;
+      line-height: 100px !important;
+    }
+
+    nav {
+      height: 100px !important;
+      line-height: 100px !important;
+    }
+
+    nav .nav-wrapper {
+      height: 100px !important;
+    }
+  }
       .TypingMenu {
         font-size: 2.5em ;
         margin-top: 40px ;
         margin-bottom: 20px ;
       }
-
+      
     </style>
     {% endblock %}
 
