@@ -1,0 +1,60 @@
+{% extends "base.html" %} {% block title %}Typing Test{% endblock %} {% block
+content %}
+<div class="center" id="current-word">Loading...</div>
+<div class="input-center">
+  <div id="letter-boxes" style="margin-bottom: 20px"></div>
+  <input id="hidden-input"
+       type="text"
+       maxlength="30"
+       autocomplete="off"
+       autocorrect="off"
+       autocapitalize="off"
+       style="position:absolute; opacity:0; width:1px; height:1px; border:none;" />
+</div>
+<p class="center" id="translation"></p>
+{% endblock %} {% block scripts %}
+<style>
+  #current-word {
+        font-size: 2em;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      #translation {
+        color: green;
+        font-size: 1.5em;
+      }
+      
+  #letter-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+  .letter-box {
+    width: 38px;
+    height: 38px;
+    border: 2px solid #bbb;
+    border-radius: 6px;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 38px;
+    background: #fff;
+    transition: border-color 0.2s, background 0.2s;
+    user-select: none;
+  }
+  .letter-box.correct {
+    border-color: #4caf50;
+    background: #c8e6c9;
+  }
+  .letter-box.wrong {
+    border-color: #e53935;
+    background: #ffcdd2;
+  }
+</style>
+<script>
+  window.words = JSON.parse('{{ words | safe }}');
+  window.category = "{{ category }}";
+</script>
+<script src="{{ url_for('static', filename='js/typing_game.js') }}"></script>
+{% endblock %}

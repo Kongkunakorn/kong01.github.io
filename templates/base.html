@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{% block title %} {% endblock %}</title>
+
+    {% block styles %}
+    <style>
+      html, body {
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 100%;
+        overflow-x: hidden;
+      }
+
+      body {
+        font-family: sans-serif;
+        background-color: #f0faff;
+      }
+
+      nav {
+        background-color: #8706ff !important;
+        height: 150px !important;
+        line-height: 150px !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+        position: relative;
+        z-index: 1000; 
+      }
+
+      nav .nav-wrapper {
+        background-color: #8706ff !important;
+        height: 150px !important;
+        line-height: inherit !important;
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+      }
+
+      nav .nav-wrapper a.brand-logo {
+        color: white !important;
+        font-size: 5em !important;
+        line-height: 150px !important;
+
+      }
+      .TypingMenu {
+        font-size: 2.5em ;
+        margin-top: 40px ;
+        margin-bottom: 20px ;
+      }
+
+    </style>
+    {% endblock %}
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="{{ url_for('home') }}" class="brand-logo center">Typing Test & Translate</a>
+      </div>
+    </nav>
+
+    <div class="content-area">
+      {% block content %} {% endblock %}
+    </div>
+    {% block scripts %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    {% endblock %}
+  </body>
+</html>
