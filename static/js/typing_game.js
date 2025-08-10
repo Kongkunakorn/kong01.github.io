@@ -5,11 +5,13 @@ const words = window.words;
 const category = window.category;
 let index = 0;
 let userInput = "";
+let totalScore = 0;
+
 
 const currentWord = document.getElementById("current-word");
 const translation = document.getElementById("translation");
 const letterBoxes = document.getElementById("letter-boxes");
-const inputBox = document.getElementById("hidden-input"); // 👈 สำคัญ
+const inputBox = document.getElementById("hidden-input");
 
 let currentWordText = words[index];
 let currentIndex = 0;
@@ -47,13 +49,26 @@ function showWord() {
     inputBox.value = "";
     inputBox.focus(); // 👈 สำคัญ
   } else {
-    currentWord.textContent = "✅พิมพ์ครบแล้ว!✅";
+    currentWord.textContent = "✅ พิมพ์ครบแล้ว! ✅";
     letterBoxes.innerHTML = "";
     translation.textContent = "";
-  }
-}
 
-// 👇 รองรับมือถือด้วย input
+    fetch("/submit_score", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ room: category, score: totalScore }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.status === "ok") {
+          window.location.href = `/leaderboard/${category}`;
+        } else {
+          alert("เกิดข้อผิดพลาดในการส่งคะแนน");
+        }
+      });
+  }
+
+}
 inputBox.addEventListener("input", () => {
   if (index >= words.length) return;
   const word = words[index];
@@ -67,18 +82,16 @@ inputBox.addEventListener("input", () => {
     }
   }
 
-  // ✅ เล่นเสียงทุกครั้งที่พิมพ์ตัวถูก
   if (
     userInput.length <= word.length &&
     userInput[userInput.length - 1]?.toLowerCase() ===
-      word[userInput.length - 1]?.toLowerCase()
+    word[userInput.length - 1]?.toLowerCase()
   ) {
     TypingSound.currentTime = 0;
     TypingSound.play();
   }
 
   renderLetterBoxes(word, userInput, wrongIndex);
-
   if (wrongIndex !== -1) {
     wrongSound.currentTime = 0;
     wrongSound.play();
@@ -92,6 +105,8 @@ inputBox.addEventListener("input", () => {
     userInput.length === word.length &&
     userInput.toLowerCase() === word.toLowerCase()
   ) {
+    totalScore++;
+
     fetch("/translate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -103,10 +118,12 @@ inputBox.addEventListener("input", () => {
         index++;
         setTimeout(showWord, 1000);
       });
+
   }
+
 });
 
-// 👇 อัตโนมัติ focus input เมื่อแตะจอ
+
 document.addEventListener("click", () => inputBox.focus());
 
 showWord();

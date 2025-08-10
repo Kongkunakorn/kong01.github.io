@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Leaderboard - {{ room }}{% endblock %}
+{% block content %}
+<div class="container py-4">
+  <h2 class="mb-4">🏆 Leaderboard ห้อง {{ room }}</h2>
+  {% if scores %}
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>อันดับ</th>
+        <th>ผู้เล่น</th>
+        <th>คะแนน</th>
+        <th>เวลา</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for score in scores %}
+      <tr {% if current_user.username == score.username %}style="background: #f0f8ff"{% endif %}>
+        <td>{{ loop.index }}</td>
+        <td>{{ score.username }}</td>
+        <td>{{ score.score }}</td>
+        <td>{{ score.timestamp|replace("T", " ")|slice(0, 19) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p>ยังไม่มีคะแนนในห้องนี้</p>
+  {% endif %}
+  <a href="{{ url_for('home') }}" class="btn btn-primary mt-3">🔙 กลับหน้าหลัก</a>
+</div>
+{% endblock %}
