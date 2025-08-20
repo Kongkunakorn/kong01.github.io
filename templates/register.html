@@ -7,13 +7,9 @@
     <title>สมัครสมาชิก - Word Game</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <style>
-        body {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            font-family: 'Sarabun', sans-serif;
-        }
-
+        /* Register Page Extra Styling */
         .register-container {
             min-height: 100vh;
             display: flex;
@@ -23,13 +19,14 @@
         }
 
         .register-card {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 20px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            background-color: #2b2b2b;
+            border: 2px solid #ffffff;
+            border-radius: 12px;
             padding: 40px;
-            width: 100%;
             max-width: 400px;
-            backdrop-filter: blur(10px);
+            width: 100%;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+            text-align: left;
         }
 
         .register-header {
@@ -38,80 +35,27 @@
         }
 
         .register-header h2 {
-            color: #333;
-            font-weight: 600;
-            margin-bottom: 10px;
+            font-family: "Lora", serif;
+            font-weight: 700;
+            color: #ffffff;
         }
 
         .register-header p {
-            color: #666;
-            margin: 0;
-        }
-
-        .form-floating {
-            margin-bottom: 20px;
+            color: #cccccc;
         }
 
         .form-control {
-            border: 2px solid #e0e0e0;
-            border-radius: 12px;
-            padding: 15px;
-            font-size: 16px;
-            transition: all 0.3s ease;
+            background-color: #2b2b2b;
+            border: 2px solid #ffffff;
+            border-radius: 8px;
+            color: #ffffff;
+            font-family: "Lora", serif;
         }
 
         .form-control:focus {
-            border-color: #667eea;
-            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
-        }
-
-        .btn-register {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border: none;
-            border-radius: 12px;
-            padding: 15px;
-            font-size: 16px;
-            font-weight: 600;
-            color: white;
-            width: 100%;
-            transition: all 0.3s ease;
-            margin-bottom: 20px;
-        }
-
-        .btn-register:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
-        }
-
-        .login-link {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .login-link a {
-            color: #667eea;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .login-link a:hover {
-            color: #764ba2;
-        }
-
-        .alert {
-            border-radius: 12px;
-            border: none;
-            margin-bottom: 20px;
-        }
-
-        .password-requirements {
-            font-size: 12px;
-            color: #666;
-            margin-top: 5px;
-        }
-
-        .input-group {
-            position: relative;
+            border-color: #00ff00;
+            box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+            outline: none;
         }
 
         .password-toggle {
@@ -121,9 +65,40 @@
             transform: translateY(-50%);
             background: none;
             border: none;
-            color: #666;
+            color: #cccccc;
             cursor: pointer;
-            z-index: 10;
+        }
+
+        .btn-register {
+            background-color: #2b2b2b;
+            border: 2px solid #00ff00;
+            color: #00ff00;
+            font-weight: 600;
+            border-radius: 8px;
+            width: 100%;
+            padding: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-register:hover {
+            background-color: #00ff00;
+            color: #2b2b2b;
+            transform: translateY(-2px);
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .login-link a {
+            color: #00aaff;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .login-link a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -149,17 +124,16 @@
             {% endwith %}
 
             <form method="POST" id="registerForm">
-                <div class="form-floating">
+                <div class="mb-3 position-relative">
+                    <label for="username" class="form-label"><i class="fas fa-user"></i> ชื่อผู้ใช้</label>
                     <input type="text" class="form-control" id="username" name="username" placeholder="ชื่อผู้ใช้"
                         required minlength="3" maxlength="20" pattern="[a-zA-Z0-9_]+"
                         title="ชื่อผู้ใช้ควรเป็นตัวอักษร ตัวเลข หรือขีดล่างเท่านั้น">
-                    <label for="username"><i class="fas fa-user"></i> ชื่อผู้ใช้</label>
-                    <div class="password-requirements">
-                        อย่างน้อย 3 ตัวอักษร (a-z, A-Z, 0-9, _)
-                    </div>
+                    <div class="form-text">อย่างน้อย 3 ตัวอักษร (a-z, A-Z, 0-9, _)</div>
                 </div>
 
-                <div class="form-floating">
+                <div class="mb-3 position-relative">
+                    <label for="password" class="form-label"><i class="fas fa-lock"></i> รหัสผ่าน</label>
                     <div class="input-group">
                         <input type="password" class="form-control" id="password" name="password" placeholder="รหัสผ่าน"
                             required minlength="6">
@@ -167,13 +141,11 @@
                             <i class="fas fa-eye" id="passwordIcon"></i>
                         </button>
                     </div>
-                    <label for="password"><i class="fas fa-lock"></i> รหัสผ่าน</label>
-                    <div class="password-requirements">
-                        อย่างน้อย 6 ตัวอักษร
-                    </div>
+                    <div class="form-text">อย่างน้อย 6 ตัวอักษร</div>
                 </div>
 
-                <div class="form-floating">
+                <div class="mb-3 position-relative">
+                    <label for="confirmPassword" class="form-label"><i class="fas fa-lock"></i> ยืนยันรหัสผ่าน</label>
                     <div class="input-group">
                         <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"
                             placeholder="ยืนยันรหัสผ่าน" required>
@@ -181,7 +153,6 @@
                             <i class="fas fa-eye" id="confirmPasswordIcon"></i>
                         </button>
                     </div>
-                    <label for="confirmPassword"><i class="fas fa-lock"></i> ยืนยันรหัสผ่าน</label>
                 </div>
 
                 <button type="submit" class="btn btn-register">
@@ -204,50 +175,12 @@
 
             if (input.type === 'password') {
                 input.type = 'text';
-                icon.classList.remove('fa-eye');
-                icon.classList.add('fa-eye-slash');
+                icon.classList.replace('fa-eye', 'fa-eye-slash');
             } else {
                 input.type = 'password';
-                icon.classList.remove('fa-eye-slash');
-                icon.classList.add('fa-eye');
+                icon.classList.replace('fa-eye-slash', 'fa-eye');
             }
         }
-
-        document.getElementById('registerForm').addEventListener('submit', function (e) {
-            const password = document.getElementById('password').value;
-            const confirmPassword = document.getElementById('confirmPassword').value;
-
-            if (password !== confirmPassword) {
-                e.preventDefault();
-                alert('รหัสผ่านไม่ตรงกัน');
-                return false;
-            }
-
-            if (password.length < 6) {
-                e.preventDefault();
-                alert('รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร');
-                return false;
-            }
-
-            const username = document.getElementById('username').value;
-            if (username.length < 3) {
-                e.preventDefault();
-                alert('ชื่อผู้ใช้ต้องมีอย่างน้อย 3 ตัวอักษร');
-                return false;
-            }
-        });
-
-        // Real-time password validation
-        document.getElementById('confirmPassword').addEventListener('input', function () {
-            const password = document.getElementById('password').value;
-            const confirmPassword = this.value;
-
-            if (confirmPassword && password !== confirmPassword) {
-                this.setCustomValidity('รหัสผ่านไม่ตรงกัน');
-            } else {
-                this.setCustomValidity('');
-            }
-        });
     </script>
 </body>
 
