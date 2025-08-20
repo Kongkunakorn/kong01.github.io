@@ -115,15 +115,22 @@ def create_user_in_grist(username, password_hash):
 def home():
     category_sizes = {}
     for key in CATEGORIES:
-        path = os.path.join('wordlist', f'{key}.json')
-        if os.path.exists(path):
-            with open(path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                category_sizes[key] = len(data)
+        path = os.path.join(os.path.dirname(__file__), 'wordlist', f'{key}.json')
+        exists = os.path.exists(path)
+        print(f"[DEBUG] Checking category: {key}, Path: {path}, Exists: {exists}")
+        if exists:
+            try:
+                with open(path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    category_sizes[key] = len(data)
+                    print(f"[DEBUG] Loaded {len(data)} words for {key}")
+            except Exception as e:
+                print(f"[ERROR] Failed to load {key}: {e}")
+                category_sizes[key] = 0
         else:
             category_sizes[key] = 0
+    return render_template('home.html', categories=CATEGORIES, category_sizes=category_sizes)
 
-    return render_template("home.html", categories=CATEGORIES, category_sizes=category_sizes)
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
