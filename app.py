@@ -237,7 +237,8 @@ def profile():
 @app.route('/play/<category>')
 @login_required
 def play(category):
-    path = os.path.join('wordlist', f'{category}.json')
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(BASE_DIR, "wordlist", f"{category}.json")
     if not os.path.exists(path):
         return f'ไม่พบหมวด: {category}', 404
 
@@ -468,4 +469,5 @@ def submit_score():
 
 
 if __name__ == '__main__':
+
     app.run(debug=True, port=10100, host="0.0.0.0", use_reloader=False)
