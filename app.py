@@ -195,6 +195,45 @@ def logout():
     flash('ออกจากระบบแล้ว', 'info')
     return redirect(url_for('home'))
 
+@app.route('/profile')
+@login_required
+def profile():
+    user_id = current_user.id
+    username = current_user.username
+
+    url_base = f"{GRIST_API_URL}/{GRIST_DOC_ID}/tables/Scores"
+    headers = {
+        "Authorization": f"Bearer {GRIST_API_KEY}",
+        "Content-Type": "application/json"
+    }
+
+    stats = {
+        "total_words": 0,
+        "wpm": 0,
+        "total_seconds": 0,
+        "timestamp_human": None
+    }
+
+    try:
+        res = requests.get(f"{url_base}/records", headers=headers)
+        if res.status_code == 200:
+            all_records = res.json().get("records", [])
+            record = next(
+                (r for r in all_records if str(r["fields"].get("user_id")) == str(user_id)),
+                None
+            )
+            if record:
+                fields = record["fields"]
+                stats["total_words"] = fields.get("total_words", 0)
+                stats["wpm"] = fields.get("wpm", 0)
+                stats["total_seconds"] = fields.get("total_seconds", 0)
+                stats["timestamp_human"] = fields.get("timestamp_human", "-")
+    except Exception as e:
+        print(f"Error loading profile stats: {e}")
+
+    return render_template("profile.html", user=current_user, stats=stats)
+
+
 @app.route('/play/<category>')
 @login_required
 def play(category):
@@ -208,9 +247,18 @@ def play(category):
     word_pool = list(dictionary.keys())
     random.shuffle(word_pool)
 
+    max_words = request.args.get("max_words", type=int)
+    if max_words and max_words > 0:
+        word_pool = word_pool[:max_words]
+
     words_json_string = json.dumps(word_pool)
 
-    return render_template('index.html', words=words_json_string, dictionary=dictionary, category=category)
+    return render_template(
+        'index.html',
+        words=words_json_string,
+        dictionary=dictionary,
+        category=category
+    )
 
 @app.route('/translate', methods=['POST'])
 def translate():
@@ -271,7 +319,6 @@ def send_score_to_grist(user_id, username, table_id, score):
                             "username": username,
                             "room": table_id,
                             "score": score,
-                            "timestamp": datetime.now().isoformat()
                         }
                     }]
                 }
@@ -297,16 +344,15 @@ def send_score_to_grist(user_id, username, table_id, score):
         return False
 
     
-def create_new_score_record(user_id, username, room, score, url_base, headers):
+def create_new_score_record(user_id, username, total_words, wpm, url_base, headers):
     post_url = f"{url_base}/records"
     payload = {
         "records": [{
             "fields": {
                 "user_id": user_id,
                 "username": username,
-                "room": room,
-                "score": score,
-                "timestamp": datetime.now().isoformat()
+                "total_words": total_words,
+                "wpm": wpm,
             }
         }]
     }
@@ -352,18 +398,74 @@ def leaderboard(room):
 @login_required
 def submit_score():
     data = request.json
-    room = data.get('room', 'default')
-    score = int(data.get('score', 0))
-    
-    # ใช้ข้อมูลจาก current_user แทนที่จะรับจาก request
+    new_total_words = int(data.get('total_words', 0) or 0)
+    wpm = int(data.get('wpm', 0) or 0)
+    play_seconds = int(data.get('total_seconds', 0) or 0)
+
     user_id = current_user.id
     username = current_user.username
-    
-    success = send_score_to_grist(user_id, username, room, score)
-    
+
+    url_base = f"{GRIST_API_URL}/{GRIST_DOC_ID}/tables/Scores"
+    headers = {
+        "Authorization": f"Bearer {GRIST_API_KEY}",
+        "Content-Type": "application/json"
+    }
+
+    try:
+        res = requests.get(f"{url_base}/records", headers=headers)
+        if res.status_code != 200:
+            return jsonify({'status': 'error', 'message': 'Failed to fetch records'}), 500
+
+        all_records = res.json().get("records", [])
+        existing_record = next(
+            (r for r in all_records if str(r["fields"].get("user_id")) == str(user_id)),
+            None
+        )
+
+        if existing_record:
+            fields = existing_record["fields"]
+            old_total_words = fields.get("total_words", 0)
+            old_total_seconds = fields.get("total_seconds", 0)
+
+            payload = {
+                "records": [{
+                    "id": existing_record["id"],
+                    "fields": {
+                        "user_id": user_id,
+                        "username": username,
+                        "total_words": old_total_words + new_total_words,
+                        "wpm": wpm,
+                        "total_seconds": old_total_seconds + play_seconds,
+                    }
+                }]
+            }
+            res_patch = requests.patch(f"{url_base}/records", headers=headers, json=payload)
+            success = res_patch.status_code == 200
+        else:
+            payload = {
+                "records": [{
+                    "fields": {
+                        "user_id": user_id,
+                        "username": username,
+                        "total_words": new_total_words,
+                        "wpm": wpm,
+                        "total_seconds": play_seconds,
+                    }
+                }]
+            }
+            res_post = requests.post(f"{url_base}/records", headers=headers, json=payload)
+            success = res_post.status_code == 200
+
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        success = False
+
     return jsonify({
         'status': 'ok' if success else 'error',
-        'message': 'Score submitted successfully' if success else 'Failed to submit score'
+        'message': 'Data submitted successfully' if success else 'Failed to submit data'
     })
+
+
 if __name__ == '__main__':
     app.run(debug=True, port=10100, host="0.0.0.0", use_reloader=False)

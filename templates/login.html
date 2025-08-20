@@ -5,103 +5,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>เข้าสู่ระบบ - Word Game</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts - Lora -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
     <style>
-        body {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            font-family: 'Sarabun', sans-serif;
-        }
-
+        /* Login Specific Styles */
         .login-container {
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 20px;
+            background-color: #2b2b2b;
         }
 
         .login-card {
-            background: rgba(255, 255, 255, 0.95);
+            background-color: #3f3f3f;
+            border: 3px solid #ffffff;
             border-radius: 20px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-            padding: 40px;
+            box-shadow: 0 20px 40px rgba(255, 255, 255, 0.1);
+            padding: 50px;
             width: 100%;
-            max-width: 400px;
-            backdrop-filter: blur(10px);
+            max-width: 450px;
+            position: relative;
+        }
+
+        .login-card::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #ffffff, #cccccc, #ffffff);
+            border-radius: 22px;
+            z-index: -1;
         }
 
         .login-header {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
 
         .login-header h2 {
-            color: #333;
-            font-weight: 600;
-            margin-bottom: 10px;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            font-family: "Lora", serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
 
         .login-header p {
-            color: #666;
+            color: #cccccc;
             margin: 0;
+            font-size: 1.2em;
+            font-family: "Lora", serif;
+            font-style: italic;
         }
 
-        .form-floating {
-            margin-bottom: 20px;
+        .form-group {
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .form-group label {
+            display: block;
+            color: #ffffff;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-family: "Lora", serif;
+            font-size: 1.1em;
+        }
+
+        .form-group label i {
+            margin-right: 8px;
+            color: #00ff00;
         }
 
         .form-control {
-            border: 2px solid #e0e0e0;
+            width: 100%;
+            padding: 15px 20px;
+            border: 2px solid #ffffff;
             border-radius: 12px;
-            padding: 15px;
+            background-color: #2b2b2b;
+            color: #ffffff;
             font-size: 16px;
+            font-family: "Lora", serif;
             transition: all 0.3s ease;
+            box-sizing: border-box;
         }
 
         .form-control:focus {
-            border-color: #667eea;
-            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+            outline: none;
+            border-color: #00ff00;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+            background-color: #333333;
         }
 
-        .btn-login {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border: none;
-            border-radius: 12px;
-            padding: 15px;
-            font-size: 16px;
-            font-weight: 600;
-            color: white;
-            width: 100%;
-            transition: all 0.3s ease;
-            margin-bottom: 20px;
-        }
-
-        .btn-login:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
-        }
-
-        .register-link {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .register-link a {
-            color: #667eea;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .register-link a:hover {
-            color: #764ba2;
-        }
-
-        .alert {
-            border-radius: 12px;
-            border: none;
-            margin-bottom: 20px;
+        .form-control::placeholder {
+            color: #888888;
+            font-family: "Lora", serif;
         }
 
         .input-group {
@@ -115,19 +123,191 @@
             transform: translateY(-50%);
             background: none;
             border: none;
-            color: #666;
+            color: #ffffff;
             cursor: pointer;
-            z-index: 10;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .password-toggle:hover {
+            color: #00ff00;
         }
 
         .remember-me {
             display: flex;
             align-items: center;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            font-family: "Lora", serif;
         }
 
         .remember-me input[type="checkbox"] {
-            margin-right: 10px;
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+            accent-color: #00ff00;
+        }
+
+        .remember-me label {
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 0;
+        }
+
+        .btn-login {
+            width: 100%;
+            padding: 18px;
+            background-color: #2b2b2b;
+            border: 3px solid #ffffff;
+            border-radius: 12px;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: "Lora", serif;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 25px;
+        }
+
+        .btn-login:hover {
+            background-color: #ffffff;
+            color: #2b2b2b;
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-login:active {
+            transform: translateY(-1px);
+        }
+
+        .login-links {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .login-links p {
+            margin: 15px 0;
+            font-family: "Lora", serif;
+        }
+
+        .login-links a {
+            color: #00ff00;
+            text-decoration: none;
+            font-weight: 600;
+            font-family: "Lora", serif;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+
+        .login-links a:hover {
+            color: #ffffff;
+            border-bottom-color: #ffffff;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+        }
+
+        .alert {
+            border-radius: 12px;
+            border: 2px solid;
+            margin-bottom: 25px;
+            padding: 15px;
+            font-family: "Lora", serif;
+            font-weight: 500;
+        }
+
+        .alert-danger {
+            background-color: #2b2b2b;
+            border-color: #ff0000;
+            color: #ff0000;
+        }
+
+        .alert-success {
+            background-color: #2b2b2b;
+            border-color: #00ff00;
+            color: #00ff00;
+        }
+
+        .alert-info {
+            background-color: #2b2b2b;
+            border-color: #ffffff;
+            color: #ffffff;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .login-card {
+                padding: 30px 25px;
+                margin: 10px;
+            }
+
+            .login-header h2 {
+                font-size: 2em;
+            }
+
+            .login-header p {
+                font-size: 1em;
+            }
+
+            .form-control {
+                padding: 12px 15px;
+                font-size: 14px;
+            }
+
+            .btn-login {
+                padding: 15px;
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .login-container {
+                padding: 15px;
+            }
+
+            .login-card {
+                padding: 25px 20px;
+            }
+
+            .login-header h2 {
+                font-size: 1.8em;
+                letter-spacing: 1px;
+            }
+        }
+
+        /* Animation */
+        .login-card {
+            animation: slideUp 0.8s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #2b2b2b;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #ffffff;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #cccccc;
         }
     </style>
 </head>
@@ -140,34 +320,34 @@
                 <p>ยินดีต้อนรับกลับมา!</p>
             </div>
 
+            <!-- Flash Messages -->
             {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
             {% for category, message in messages %}
-            <div class="alert alert-{% if category == 'error' %}danger{% elif category == 'success' %}success{% else %}info{% endif %} alert-dismissible fade show"
-                role="alert">
+            <div
+                class="alert alert-{% if category == 'error' %}danger{% elif category == 'success' %}success{% else %}info{% endif %}">
                 {{ message }}
-                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
             </div>
             {% endfor %}
             {% endif %}
             {% endwith %}
 
             <form method="POST" id="loginForm">
-                <div class="form-floating">
-                    <input type="text" class="form-control" id="username" name="username" placeholder="ชื่อผู้ใช้"
-                        required>
+                <div class="form-group">
                     <label for="username"><i class="fas fa-user"></i> ชื่อผู้ใช้</label>
+                    <input type="text" class="form-control" id="username" name="username"
+                        placeholder="กรุณาใส่ชื่อผู้ใช้" required>
                 </div>
 
-                <div class="form-floating">
+                <div class="form-group">
+                    <label for="password"><i class="fas fa-lock"></i> รหัสผ่าน</label>
                     <div class="input-group">
-                        <input type="password" class="form-control" id="password" name="password" placeholder="รหัสผ่าน"
-                            required>
+                        <input type="password" class="form-control" id="password" name="password"
+                            placeholder="กรุณาใส่รหัสผ่าน" required>
                         <button type="button" class="password-toggle" onclick="togglePassword('password')">
                             <i class="fas fa-eye" id="passwordIcon"></i>
                         </button>
                     </div>
-                    <label for="password"><i class="fas fa-lock"></i> รหัสผ่าน</label>
                 </div>
 
                 <div class="remember-me">
@@ -175,19 +355,18 @@
                     <label for="remember">จดจำฉันไว้</label>
                 </div>
 
-                <button type="submit" class="btn btn-login">
+                <button type="submit" class="btn-login">
                     <i class="fas fa-sign-in-alt"></i> เข้าสู่ระบบ
                 </button>
             </form>
 
-            <div class="register-link">
+            <div class="login-links">
                 <p>ยังไม่มีบัญชี? <a href="{{ url_for('register') }}">สมัครสมาชิก</a></p>
                 <p><a href="{{ url_for('home') }}"><i class="fas fa-home"></i> กลับหน้าหลัก</a></p>
             </div>
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script>
         function togglePassword(inputId) {
             const input = document.getElementById(inputId);
@@ -203,6 +382,18 @@
                 icon.classList.add('fa-eye');
             }
         }
+
+        // Form submission animation
+        document.getElementById('loginForm').addEventListener('submit', function (e) {
+            const submitBtn = this.querySelector('.btn-login');
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> กำลังเข้าสู่ระบบ...';
+            submitBtn.disabled = true;
+        });
+
+        // Auto focus on first input
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('username').focus();
+        });
     </script>
 </body>
 

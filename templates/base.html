@@ -4,29 +4,45 @@
 <head>
   <meta charset="UTF-8" />
   <title>{% block title %} {% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- เปลี่ยนเป็นฟอนต์ Lora -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
   {% block styles %}
   <style>
   </style>
   {% endblock %}
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 </head>
 
 <body>
-  <!-- ด้านใน <body> ของ base.html -->
-  <nav style="background: #333; color: white; padding: 10px 20px; display: flex; justify-content: space-between;">
-    <div>
-      <a href="{{ url_for('home') }}" class="brand-logo center">Typing Test & Translate</a>
-    </div>
-    <div>
+  <!-- อัปเดต navbar -->
+  <nav style="background: #000; color: white; padding: 10px 20px; 
+            display: flex; justify-content: space-between; align-items: center;">
+
+    <div style="flex:1;"></div>
+
+    <a href="{{ url_for('home') }}"
+      style="font-size: 22px; font-weight: bold; color: white; text-decoration: none; text-align:center; flex:1;">
+      Typing Test & Translate
+    </a>
+    <div style="display: flex; justify-content: flex-end; align-items: center; gap: 20px; flex:1; font-size: 18px;">
       {% if current_user.is_authenticated %}
-      👋 {{ current_user.username }} |
-      <a href="{{ url_for('logout') }}" style="color: #ffc107; text-decoration: none;">ออกจากระบบ</a>
+      <span>👋 {{ current_user.username }}</span>
+      <a href="{{ url_for('profile') }}" style="color: #ffffff; text-decoration: none; font-size: 24px;"
+        title="โปรไฟล์">👤</a>
+      <a href="{{ url_for('logout') }}"
+        style="color: #ffffff; text-decoration: none; font-size: 20px; font-weight: bold;">logout</a>
       {% else %}
-      <a href="{{ url_for('login') }}" style="color: #0dcaf0; text-decoration: none;">เข้าสู่ระบบ</a> |
-      <a href="{{ url_for('register') }}" style="color: #0dcaf0; text-decoration: none;">สมัครสมาชิก</a>
+      <a href="{{ url_for('login') }}"
+        style="color: #ffffff; text-decoration: none; font-size: 20px; font-weight: bold;">login</a>
+      <span>|</span>
+      <a href="{{ url_for('register') }}"
+        style="color: #ffffff; text-decoration: none; font-size: 20px; font-weight: bold;">register</a>
       {% endif %}
     </div>
   </nav>

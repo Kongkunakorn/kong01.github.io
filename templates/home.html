@@ -1,63 +1,49 @@
-{% extends "base.html" %} 
+{% extends "base.html" %}
 
-{% block title %}Typing Menu{% endblock %} 
+{% block title %}Typing Menu{% endblock %}
 
 {% block content %}
-<h1 class="center TypingMenu">TypingMenu</h1>
-
+<a class="center TypingMenu">TypingMenu</a>
 <div id="category-list-container" style="max-width: 500px; margin: auto">
   {% for key, icon in categories.items() %}
-  <form
-    method="get"
-    action="{{ url_for('play', category=key) }}"
-    style="margin-bottom: 0px"
-  >
-    <button
-      type="submit"
-      class="category-button"
-    >
-      <span>{{ icon }} {{ key|capitalize }}</span>
-      <span style="font-size: 14px; color: gray">
-        {{ category_sizes[key] }} คำ
-      </span>
-    </button>
-  </form>
+  <button type="button" class="category-button modal-trigger" data-target="wordModal"
+    onclick="selectCategory('{{ key }}', '{{ category_sizes[key] }}')">
+    <span>{{ icon }} {{ key|capitalize }}</span>
+    <span style="font-size: 14px; color: #cccccc">
+      {{ category_sizes[key] }} คำ
+    </span>
+  </button>
   {% endfor %}
+</div>
+
+<!-- Modal สำหรับเลือกจำนวนคำ -->
+<div id="wordModal" class="modal">
+  <div class="modal-content">
+    <h5>เลือกจำนวนคำที่จะเล่น</h5>
+    <form id="wordForm" method="get">
+      <input type="hidden" name="category" id="categoryInput" />
+      <div class="input-field">
+        <input type="number" id="max_words" name="max_words" min="1" value="10" />
+        <label for="max_words">จำนวนคำ</label>
+      </div>
+      <button type="submit" class="btn waves-effect waves-light">เริ่มเล่น</button>
+    </form>
+  </div>
 </div>
 {% endblock %}
 
 {% block scripts %}
-  {{ super() }}
-  <style>
-    
-    #category-list-container {
-      border: 1px solid #7a7a7a;
-      border-radius: 8px;
-      overflow: hidden; 
-    }
+{{ super() }}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.modal');
+    M.Modal.init(elems);
+  });
 
-    .category-button {
-      width: 100%;
-      padding: 15px 20px;
-      text-align: left;
-      font-size: 18px;
-      background-color: white;
-      border: none;
-      border-bottom: 1px solid #eee;
-      border-radius: 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      cursor: pointer;
-      transition: background-color 0.2s;
-    }
-
-    .category-button:last-child {
-      border-bottom: 30;
-    }
-
-    .category-button:hover {
-      background-color: hwb(0 69% 31%);
-    }
-  </style>
+  function selectCategory(category, maxCount) {
+    document.getElementById('categoryInput').value = category;
+    document.getElementById('max_words').max = parseInt(maxCount, 10);
+    document.getElementById('wordForm').action = "/play/" + category;
+  }
+</script>
 {% endblock %}

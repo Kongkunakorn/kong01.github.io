@@ -1,83 +1,210 @@
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Lora", serif; /* เปลี่ยนเป็นฟอนต์ Lora */
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #2b2b2b; /* เปลี่ยนเป็นสีดำ */
+  color: #ffffff; /* ข้อความสีขาว */
   text-align: center;
-}
-body {
-  margin: 0 !important;
-  padding: 0 !important;
-  height: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
-body {
-  font-family: sans-serif;
-  background-color: #f0faff;
-}
-
+/* Navbar Styling - อัปเดตใหม่ */
 nav {
-  background-color: #8706ff !important;
-  height: 150px !important;
-  line-height: 150px !important;
+  background-color: #111111 !important; /* พื้นหลังสีดำ */
+  height: auto  !important;
+  min-height: 100px !important;
+  line-height: normal  !important;
   width: 100% !important;
   margin: 0 !important;
-  padding: 0 !important;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 15px 20px !important;
+  border: 1px solid #ffffff !important; /* ไม่มีกรอบ */
+  box-shadow: none !important; /* ไม่มีเงา */
   position: relative;
   z-index: 1000;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
 }
 
 nav .nav-wrapper {
-  background-color: #8706ff !important;
-  height: 150px !important;
+  background-color: #2b2b2b !important;
+  height: auto !important;
   line-height: inherit !important;
   display: flex;
   justify-content: center;
   align-items: center !important;
+  border: none !important;
 }
 
-nav .nav-wrapper a.brand-logo {
-  color: white !important;
-  font-size: 5em !important;
-  line-height: 150px !important;
+nav .nav-wrapper a.brand-logo,
+nav .brand-logo {
+  color: #ffffff !important; /* ข้อความสีขาวล้วน */
+  font-size: 2.5em !important;
+  line-height: 1.2 !important;
   text-align: center;
   white-space: nowrap;
+  text-decoration: none;
+  border: none !important;
+  font-family: "Lora", serif !important; /* ใช้ Lora สำหรับโลโก้ */
+  font-weight: 700 !important;
+}
+
+/* Navigation Links */
+nav a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  border: none !important;
+  font-family: "Lora", serif !important; /* ใช้ Lora สำหรับลิงก์ */
+}
+
+nav a:hover {
+  color: #cccccc !important;
+}
+
+/* Navigation Links Container */
+nav div:last-child {
+  display: flex !important;
+  align-items: center !important;
+  gap: 20px !important;
+}
+
+/* Navigation Links - ขนาดใหญ่และหนา */
+nav div a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  transition: color 0.3s ease !important;
+  padding: 5px 10px !important;
+  border-radius: 5px !important;
+  border: none !important;
+  font-family: "Lora", serif !important;
+}
+
+nav div a:hover {
+  color: #cccccc !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Profile Icon */
+nav div a[title="โปรไฟล์"] {
+  font-size: 24px !important;
+  padding: 8px !important;
+  border-radius: 50% !important;
+  transition: background-color 0.3s ease, transform 0.3s ease !important;
+}
+
+nav div a[title="โปรไฟล์"]:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  transform: scale(1.1) !important;
+}
+
+/* User Greeting */
+nav div span {
+  color: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: normal !important;
+  font-family: "Lora", serif !important;
+}
+
+/* Separator */
+nav div span[style*="color: #ffffff"] {
+  color: #cccccc !important;
+  font-size: 16px !important;
+  margin: 0 5px !important;
 }
 
 @media (max-width: 768px) {
+  /* Navbar Responsive */
+  nav {
+    flex-direction: column !important;
+    gap: 15px !important;
+    padding: 15px !important;
+    text-align: center !important;
+    min-height: auto !important;
+  }
+  
+  nav .brand-logo {
+    font-size: 2em !important;
+  }
+  
+  nav div:last-child {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 15px !important;
+  }
+  
+  nav div a {
+    font-size: 18px !important;
+  }
+  
+  nav div span {
+    font-size: 16px !important;
+  }
+
   nav .nav-wrapper a.brand-logo {
     font-size: 2em !important;
-    line-height: 100px !important;
+    line-height: 1.2 !important;
   }
 
   nav {
-    height: 100px !important;
-    line-height: 100px !important;
+    height: auto !important;
+    line-height: normal !important;
   }
 
   nav .nav-wrapper {
-    height: 100px !important;
+    height: auto !important;
   }
 }
+
+@media (max-width: 480px) {
+  nav .brand-logo {
+    font-size: 1.5em !important;
+  }
+  
+  nav div a {
+    font-size: 16px !important;
+    padding: 8px 12px !important;
+  }
+  
+  nav div a[title="โปรไฟล์"] {
+    font-size: 20px !important;
+  }
+}
+
+/* TypingMenu Title */
 .TypingMenu {
   font-size: 2.5em;
   margin-top: 40px;
   margin-bottom: 20px;
+  color: #ffffff;
+  font-family: "Lora", serif !important;
+  font-weight: 600 !important;
 }
+
+/* Container */
 .container {
   max-width: 800px;
   margin: auto;
   padding: 20px;
 }
 
+/* Headers */
 h1 {
   font-size: 2.5em;
   margin: 10px 0;
-  color: #333;
+  color: #ffffff;
   text-align: center;
   word-break: keep-all;
+  font-family: "Lora", serif !important;
+  font-weight: 600 !important;
+}
+
+h4 {
+  color: #ffffff;
+  font-family: "Lora", serif !important;
+  font-weight: 600 !important;
 }
 
 @media (max-width: 600px) {
@@ -85,50 +212,111 @@ h1 {
     font-size: 1.4em;
     white-space: nowrap;
     overflow: hidden;
-    /*text-overflow: ellipsis;*/
   }
 }
 
+/* Category List Container - กรอบสีขาว ข้างในสีดำ */
+#category-list-container {
+  border: 2px solid #ffffff !important; /* กรอบสีขาว */
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #2b2b2b; /* ข้างในสีดำ */
+}
+
+.category-button {
+  width: 100%;
+  padding: 15px 20px;
+  text-align: left;
+  font-size: 18px;
+  background-color: #2b2b2b !important; /* พื้นหลังสีดำ */
+  color: #ffffff !important; /* ข้อความสีขาว */
+  border: none;
+  border-bottom: 1px solid #ffffff; /* เส้นแบ่งสีขาว */
+  border-radius: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  font-family: "Lora", serif !important;
+  font-weight: 500 !important;
+}
+
+.category-button:last-child {
+  border-bottom: none;
+}
+
+.category-button:hover {
+  background-color: #333333 !important; /* สีเทาเข้มเมื่อ hover */
+  color: #ffffff !important;
+}
+
+.category-button span {
+  color: #ffffff !important;
+  font-family: "Lora", serif !important;
+}
+
+/* Typing Game Elements */
 #current-word {
   font-size: 2.5em;
   margin: 20px 0;
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Lora", serif !important;
+  font-weight: 700 !important;
 }
 
+#translation {
+  font-size: 1.2em;
+  color: #00ff00;
+  margin-top: 15px;
+  font-size: 1.5em;
+  font-family: "Lora", serif !important;
+  font-weight: 500 !important;
+  font-style: italic !important; /* เพิ่มความสวยงามด้วย italic */
+}
+
+/* Letter Boxes */
 #letter-boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 20px;
-  gap: 5px;
+  gap: 8px;
 }
 
 .letter-box {
-  width: 40px;
-  height: 50px;
-  border: 2px solid #ccc;
+  width: 38px;
+  height: 38px;
+  border: 2px solid #ffffff; /* กรอบสีขาว */
+  border-radius: 6px;
   font-size: 1.5em;
-  line-height: 50px;
   text-align: center;
-  background-color: white;
-  transition: 0.2s;
+  line-height: 38px;
+  background: #2b2b2b; /* พื้นหลังสีดำ */
+  color: #ffffff; /* ตัวอักษรสีขาว */
+  transition: border-color 0.2s, background 0.2s;
+  user-select: none;
+  font-family: "Lora", serif !important;
+  font-weight: 600 !important;
 }
 
 .letter-box.correct {
-  background-color: #c8f7c5;
-  border-color: #2ecc71;
+  border-color: #00ff00; /* เขียวสด */
+  background: #003300; /* เขียวเข้ม */
+  color: #006800;
 }
 
 .letter-box.wrong {
-  background-color: #f7c5c5;
-  border-color: #e74c3c;
+  border-color: #ff0000; /* แดงสด */
+  background: #330000; /* แดงเข้ม */
+  color: #520000;
 }
 
-#translation {
-  font-size: 1.2em;
-  color: #555;
-  margin-top: 15px;
-}
-
+/* Input Elements */
 input#input-box {
   padding: 10px;
   font-size: 1.2em;
@@ -136,10 +324,116 @@ input#input-box {
   max-width: 300px;
   margin-top: 15px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 2px solid #ffffff;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-family: "Lora", serif !important;
 }
 
-/* ✅ ปรับสำหรับหน้าจอเล็ก (มือถือ) */
+input#input-box:focus {
+  outline: none;
+  border-color: #00ff00;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}
+
+/* Hidden Input */
+#hidden-input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  border: none;
+  background: transparent;
+}
+
+/* Profile Cards */
+.card {
+  background-color: #2b2b2b !important;
+  border: 2px solid #ffffff !important;
+  border-radius: 8px !important;
+}
+
+.card-content {
+  color: #3d3d3d !important;
+  font-family: "Lora", serif !important;
+}
+
+.card-title {
+  color: #6b6b6b !important;
+  font-family: "Lora", serif !important;
+  font-weight: 600 !important;
+}
+
+.grey-text {
+  color: #cccccc !important;
+  font-family: "Lora", serif !important;
+}
+
+/* Buttons */
+.btn {
+  background-color: #2b2b2b !important;
+  border: 2px solid #ffffff !important;
+  color: #ffffff !important;
+  border-radius: 5px;
+  font-family: "Lora", serif !important;
+  font-weight: 600 !important;
+}
+
+.btn:hover {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+}
+
+.btn.blue {
+  border-color: #00aaff !important;
+  color: #ffffff !important;
+}
+
+.btn.blue:hover {
+  background-color: #00aaff !important;
+  color: #2b2b2b !important;
+}
+
+.btn.red {
+  border-color: #ff0000 !important;
+  color: #ffffff !important;
+}
+
+.btn.red:hover {
+  background-color: #ff0000 !important;
+  color: #2b2b2b !important;
+}
+
+/* Material Icons */
+.material-icons {
+  color: #ffffff !important;
+}
+
+/* Content Area */
+.content-area {
+  background-color: #2b2b2b;
+  color: #ffffff;
+  min-height: calc(100vh - 150px);
+  padding: 20px 0;
+  font-family: "Lora", serif !important;
+}
+
+/* Links in navigation - อัปเดต */
+nav div a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  font-family: "Lora", serif !important;
+}
+
+nav div a:hover {
+  color: #cccccc !important;
+  text-decoration: none !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Responsive Design */
 @media (max-width: 600px) {
   h1 {
     font-size: 1.5em;
@@ -164,4 +458,46 @@ input#input-box {
   #translation {
     font-size: 1em;
   }
+
+  .TypingMenu {
+    font-size: 2em;
+  }
+}
+
+/* Additional UI Elements */
+.input-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Flash Messages (if any) */
+.alert {
+  background-color: #2b2b2b !important;
+  border: 2px solid #ffffff !important;
+  color: #ffffff !important;
+  border-radius: 5px;
+  font-family: "Lora", serif !important;
+}
+
+.alert-success {
+  border-color: #00ff00 !important;
+  color: #00ff00 !important;
+}
+
+.alert-danger {
+  border-color: #ff0000 !important;
+  color: #ff0000 !important;
+}
+
+/* Selection styling */
+::selection {
+  background-color: #ffffff;
+  color: #2b2b2b;
+}
+
+::-moz-selection {
+  background-color: #ffffff;
+  color: #2b2b2b;
 }

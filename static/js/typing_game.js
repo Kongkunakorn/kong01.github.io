@@ -6,7 +6,12 @@ const category = window.category;
 let index = 0;
 let userInput = "";
 let totalScore = 0;
+let totalWordsTyped = 0; // เก็บจำนวนคำทั้งหมด
+let startTime = null;
+let endTime = null;
 
+let maxWordsToPlay = words.length;
+words.splice(maxWordsToPlay);
 
 const currentWord = document.getElementById("current-word");
 const translation = document.getElementById("translation");
@@ -15,6 +20,31 @@ const inputBox = document.getElementById("hidden-input");
 
 let currentWordText = words[index];
 let currentIndex = 0;
+
+function calcWPM() {
+  if (!startTime) return 0;
+  let elapsedMinutes = (Date.now() - startTime) / 60000;
+  return Math.round(totalWordsTyped / elapsedMinutes);
+}
+
+function calcPlayTime() {
+  if (!startTime) return 0;
+  endTime = Date.now();
+  let elapsedSeconds = Math.floor((endTime - startTime) / 1000);
+  return elapsedSeconds;
+}
+
+function sendScore() {
+  fetch("/submit_score", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      total_words: 1,
+      wpm: calcWPM(),
+      total_seconds: calcPlayTime()
+    })
+  }).catch(err => console.error("ส่งข้อมูลผิดพลาด", err));
+}
 
 function renderLetterBoxes(word, userInput = "", wrongIndex = -1) {
   letterBoxes.innerHTML = "";
@@ -47,29 +77,17 @@ function showWord() {
     translation.textContent = "";
     renderLetterBoxes(currentWordText, "");
     inputBox.value = "";
-    inputBox.focus(); // 👈 สำคัญ
+    inputBox.focus();
   } else {
-    currentWord.textContent = "✅ พิมพ์ครบแล้ว! ✅";
+    currentWord.textContent = `✅ จบเกม! ✅\nคุณพิมพ์ถูก ${totalScore}/${maxWordsToPlay} คำ | WPM: ${calcWPM()}`;
     letterBoxes.innerHTML = "";
     translation.textContent = "";
-
-    fetch("/submit_score", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ room: category, score: totalScore }),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.status === "ok") {
-          window.location.href = `/leaderboard/${category}`;
-        } else {
-          alert("เกิดข้อผิดพลาดในการส่งคะแนน");
-        }
-      });
   }
-
 }
+
 inputBox.addEventListener("input", () => {
+  if (!startTime) startTime = Date.now();
+
   if (index >= words.length) return;
   const word = words[index];
   userInput = inputBox.value;
@@ -92,6 +110,7 @@ inputBox.addEventListener("input", () => {
   }
 
   renderLetterBoxes(word, userInput, wrongIndex);
+
   if (wrongIndex !== -1) {
     wrongSound.currentTime = 0;
     wrongSound.play();
@@ -106,23 +125,27 @@ inputBox.addEventListener("input", () => {
     userInput.toLowerCase() === word.toLowerCase()
   ) {
     totalScore++;
+    totalWordsTyped++;
+
+    sendScore();
 
     fetch("/translate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ word: currentWordText, category }),
+      body: JSON.stringify({ word: currentWordText, category })
     })
-      .then((res) => res.json())
-      .then((data) => {
+      .then(res => res.json())
+      .then(data => {
         translation.textContent = `คำแปล: ${data.translation}`;
         index++;
-        setTimeout(showWord, 1000);
+        if (index >= words.length) {
+          setTimeout(showWord, 500);
+        } else {
+          setTimeout(showWord, 500);
+        }
       });
-
   }
-
 });
-
 
 document.addEventListener("click", () => inputBox.focus());
 
