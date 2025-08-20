@@ -239,12 +239,30 @@ def profile():
 def play(category):
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     path = os.path.join(BASE_DIR, "wordlist", f"{category}.json")
+
+    # 🟢 Debug log
+    print("="*50)
+    print(f"[DEBUG] Category: {category}")
+    print(f"[DEBUG] BASE_DIR: {BASE_DIR}")
+    print(f"[DEBUG] Looking for file: {path}")
+    print(f"[DEBUG] File exists? {os.path.exists(path)}")
+    if os.path.exists(path):
+        print(f"[DEBUG] File size: {os.path.getsize(path)} bytes")
+    print("="*50)
+
     if not os.path.exists(path):
         return f'ไม่พบหมวด: {category}', 404
 
-    with open(path, 'r', encoding='utf-8') as f:
-        dictionary = json.load(f)
-    
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            dictionary = json.load(f)
+    except Exception as e:
+        print(f"[ERROR] Failed to load JSON for {category}: {e}")
+        return f"Error loading category {category}: {str(e)}", 500
+
+    # 🟢 Debug dictionary
+    print(f"[DEBUG] Loaded dictionary keys count: {len(dictionary)}")
+
     word_pool = list(dictionary.keys())
     random.shuffle(word_pool)
 
@@ -469,5 +487,4 @@ def submit_score():
 
 
 if __name__ == '__main__':
-
     app.run(debug=True, port=10100, host="0.0.0.0", use_reloader=False)
