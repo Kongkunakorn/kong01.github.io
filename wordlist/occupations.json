@@ -1,0 +1,1002 @@
+{
+  "teacher": {
+    "en": "teacher",
+    "th": "ครู",
+    "ja": "教師",
+    "ko": "교사",
+    "zh": "老师",
+    "es": "maestro",
+    "fr": "enseignant",
+    "de": "Lehrer"
+  },
+  "doctor": {
+    "en": "doctor",
+    "th": "หมอ",
+    "ja": "医者",
+    "ko": "의사",
+    "zh": "医生",
+    "es": "doctor",
+    "fr": "médecin",
+    "de": "Arzt"
+  },
+  "nurse": {
+    "en": "nurse",
+    "th": "พยาบาล",
+    "ja": "看護師",
+    "ko": "간호사",
+    "zh": "护士",
+    "es": "enfermera",
+    "fr": "infirmier",
+    "de": "Krankenpfleger"
+  },
+  "farmer": {
+    "en": "farmer",
+    "th": "ชาวนา",
+    "ja": "農家",
+    "ko": "농부",
+    "zh": "农民",
+    "es": "granjero",
+    "fr": "agriculteur",
+    "de": "Bauer"
+  },
+  "engineer": {
+    "en": "engineer",
+    "th": "วิศวกร",
+    "ja": "エンジニア",
+    "ko": "엔지니어",
+    "zh": "工程师",
+    "es": "ingeniero",
+    "fr": "ingénieur",
+    "de": "Ingenieur"
+  },
+  "scientist": {
+    "en": "scientist",
+    "th": "นักวิทยาศาสตร์",
+    "ja": "科学者",
+    "ko": "과학자",
+    "zh": "科学家",
+    "es": "científico",
+    "fr": "scientifique",
+    "de": "Wissenschaftler"
+  },
+  "lawyer": {
+    "en": "lawyer",
+    "th": "ทนายความ",
+    "ja": "弁護士",
+    "ko": "변호사",
+    "zh": "律师",
+    "es": "abogado",
+    "fr": "avocat",
+    "de": "Anwalt"
+  },
+  "judge": {
+    "en": "judge",
+    "th": "ผู้พิพากษา",
+    "ja": "裁判官",
+    "ko": "판사",
+    "zh": "法官",
+    "es": "juez",
+    "fr": "juge",
+    "de": "Richter"
+  },
+  "driver": {
+    "en": "driver",
+    "th": "คนขับรถ",
+    "ja": "運転手",
+    "ko": "운전사",
+    "zh": "司机",
+    "es": "conductor",
+    "fr": "conducteur",
+    "de": "Fahrer"
+  },
+  "pilot": {
+    "en": "pilot",
+    "th": "pilot",
+    "ja": "pilot",
+    "ko": "pilot",
+    "zh": "pilot",
+    "es": "pilot",
+    "fr": "pilot",
+    "de": "pilot"
+  },
+  "chef": {
+    "en": "chef",
+    "th": "พ่อครัว",
+    "ja": "シェフ",
+    "ko": "요리사",
+    "zh": "厨师",
+    "es": "cocinero",
+    "fr": "cuisinier",
+    "de": "Koch"
+  },
+  "soldier": {
+    "en": "soldier",
+    "th": "ทหาร",
+    "ja": "兵士",
+    "ko": "군인",
+    "zh": "士兵",
+    "es": "soldado",
+    "fr": "soldat",
+    "de": "Soldat"
+  },
+  "police": {
+    "en": "police officer",
+    "th": "ตำรวจ",
+    "ja": "警察官",
+    "ko": "경찰관",
+    "zh": "警察",
+    "es": "policía",
+    "fr": "policier",
+    "de": "Polizist"
+  },
+  "firefighter": {
+    "en": "firefighter",
+    "th": "นักดับเพลิง",
+    "ja": "消防士",
+    "ko": "소방관",
+    "zh": "消防员",
+    "es": "bombero",
+    "fr": "pompier",
+    "de": "Feuerwehrmann"
+  },
+  "singer": {
+    "en": "singer",
+    "th": "นักร้อง",
+    "ja": "歌手",
+    "ko": "가수",
+    "zh": "歌手",
+    "es": "cantante",
+    "fr": "chanteur",
+    "de": "Sänger"
+  },
+  "actor": {
+    "en": "actor",
+    "th": "นักแสดง",
+    "ja": "俳優",
+    "ko": "배우",
+    "zh": "演员",
+    "es": "actor",
+    "fr": "acteur",
+    "de": "Schauspieler"
+  },
+  "dancer": {
+    "en": "dancer",
+    "th": "นักเต้น",
+    "ja": "ダンサー",
+    "ko": "댄서",
+    "zh": "舞者",
+    "es": "bailarín",
+    "fr": "danseur",
+    "de": "Tänzer"
+  },
+  "writer": {
+    "en": "writer",
+    "th": "นักเขียน",
+    "ja": "作家",
+    "ko": "작가",
+    "zh": "作家",
+    "es": "escritor",
+    "fr": "écrivain",
+    "de": "Schriftsteller"
+  },
+  "student": {
+    "en": "student",
+    "th": "นักเรียน",
+    "ja": "学生",
+    "ko": "학생",
+    "zh": "学生",
+    "es": "estudiante",
+    "fr": "étudiant",
+    "de": "Student"
+  },
+  "programmer": {
+    "en": "programmer",
+    "th": "นักเขียนโปรแกรม",
+    "ja": "プログラマー",
+    "ko": "프로그래머",
+    "zh": "程序员",
+    "es": "programador",
+    "fr": "programmeur",
+    "de": "Programmierer"
+  },
+  "architect": {
+    "en": "architect",
+    "th": "architect",
+    "ja": "architect",
+    "ko": "architect",
+    "zh": "architect",
+    "es": "architect",
+    "fr": "architect",
+    "de": "architect"
+  },
+  "plumber": {
+    "en": "plumber",
+    "th": "plumber",
+    "ja": "plumber",
+    "ko": "plumber",
+    "zh": "plumber",
+    "es": "plumber",
+    "fr": "plumber",
+    "de": "plumber"
+  },
+  "electrician": {
+    "en": "electrician",
+    "th": "electrician",
+    "ja": "electrician",
+    "ko": "electrician",
+    "zh": "electrician",
+    "es": "electrician",
+    "fr": "electrician",
+    "de": "electrician"
+  },
+  "mechanic": {
+    "en": "mechanic",
+    "th": "mechanic",
+    "ja": "mechanic",
+    "ko": "mechanic",
+    "zh": "mechanic",
+    "es": "mechanic",
+    "fr": "mechanic",
+    "de": "mechanic"
+  },
+  "carpenter": {
+    "en": "carpenter",
+    "th": "carpenter",
+    "ja": "carpenter",
+    "ko": "carpenter",
+    "zh": "carpenter",
+    "es": "carpenter",
+    "fr": "carpenter",
+    "de": "carpenter"
+  },
+  "butcher": {
+    "en": "butcher",
+    "th": "butcher",
+    "ja": "butcher",
+    "ko": "butcher",
+    "zh": "butcher",
+    "es": "butcher",
+    "fr": "butcher",
+    "de": "butcher"
+  },
+  "baker": {
+    "en": "baker",
+    "th": "baker",
+    "ja": "baker",
+    "ko": "baker",
+    "zh": "baker",
+    "es": "baker",
+    "fr": "baker",
+    "de": "baker"
+  },
+  "tailor": {
+    "en": "tailor",
+    "th": "tailor",
+    "ja": "tailor",
+    "ko": "tailor",
+    "zh": "tailor",
+    "es": "tailor",
+    "fr": "tailor",
+    "de": "tailor"
+  },
+  "barber": {
+    "en": "barber",
+    "th": "barber",
+    "ja": "barber",
+    "ko": "barber",
+    "zh": "barber",
+    "es": "barber",
+    "fr": "barber",
+    "de": "barber"
+  },
+  "hairdresser": {
+    "en": "hairdresser",
+    "th": "hairdresser",
+    "ja": "hairdresser",
+    "ko": "hairdresser",
+    "zh": "hairdresser",
+    "es": "hairdresser",
+    "fr": "hairdresser",
+    "de": "hairdresser"
+  },
+  "artist": {
+    "en": "artist",
+    "th": "artist",
+    "ja": "artist",
+    "ko": "artist",
+    "zh": "artist",
+    "es": "artist",
+    "fr": "artist",
+    "de": "artist"
+  },
+  "painter": {
+    "en": "painter",
+    "th": "painter",
+    "ja": "painter",
+    "ko": "painter",
+    "zh": "painter",
+    "es": "painter",
+    "fr": "painter",
+    "de": "painter"
+  },
+  "sculptor": {
+    "en": "sculptor",
+    "th": "sculptor",
+    "ja": "sculptor",
+    "ko": "sculptor",
+    "zh": "sculptor",
+    "es": "sculptor",
+    "fr": "sculptor",
+    "de": "sculptor"
+  },
+  "photographer": {
+    "en": "photographer",
+    "th": "photographer",
+    "ja": "photographer",
+    "ko": "photographer",
+    "zh": "photographer",
+    "es": "photographer",
+    "fr": "photographer",
+    "de": "photographer"
+  },
+  "journalist": {
+    "en": "journalist",
+    "th": "journalist",
+    "ja": "journalist",
+    "ko": "journalist",
+    "zh": "journalist",
+    "es": "journalist",
+    "fr": "journalist",
+    "de": "journalist"
+  },
+  "editor": {
+    "en": "editor",
+    "th": "editor",
+    "ja": "editor",
+    "ko": "editor",
+    "zh": "editor",
+    "es": "editor",
+    "fr": "editor",
+    "de": "editor"
+  },
+  "reporter": {
+    "en": "reporter",
+    "th": "reporter",
+    "ja": "reporter",
+    "ko": "reporter",
+    "zh": "reporter",
+    "es": "reporter",
+    "fr": "reporter",
+    "de": "reporter"
+  },
+  "designer": {
+    "en": "designer",
+    "th": "designer",
+    "ja": "designer",
+    "ko": "designer",
+    "zh": "designer",
+    "es": "designer",
+    "fr": "designer",
+    "de": "designer"
+  },
+  "fashion designer": {
+    "en": "fashion designer",
+    "th": "fashion designer",
+    "ja": "fashion designer",
+    "ko": "fashion designer",
+    "zh": "fashion designer",
+    "es": "fashion designer",
+    "fr": "fashion designer",
+    "de": "fashion designer"
+  },
+  "musician": {
+    "en": "musician",
+    "th": "musician",
+    "ja": "musician",
+    "ko": "musician",
+    "zh": "musician",
+    "es": "musician",
+    "fr": "musician",
+    "de": "musician"
+  },
+  "composer": {
+    "en": "composer",
+    "th": "composer",
+    "ja": "composer",
+    "ko": "composer",
+    "zh": "composer",
+    "es": "composer",
+    "fr": "composer",
+    "de": "composer"
+  },
+  "conductor": {
+    "en": "conductor",
+    "th": "conductor",
+    "ja": "conductor",
+    "ko": "conductor",
+    "zh": "conductor",
+    "es": "conductor",
+    "fr": "conductor",
+    "de": "conductor"
+  },
+  "athlete": {
+    "en": "athlete",
+    "th": "athlete",
+    "ja": "athlete",
+    "ko": "athlete",
+    "zh": "athlete",
+    "es": "athlete",
+    "fr": "athlete",
+    "de": "athlete"
+  },
+  "coach": {
+    "en": "coach",
+    "th": "coach",
+    "ja": "coach",
+    "ko": "coach",
+    "zh": "coach",
+    "es": "coach",
+    "fr": "coach",
+    "de": "coach"
+  },
+  "trainer": {
+    "en": "trainer",
+    "th": "trainer",
+    "ja": "trainer",
+    "ko": "trainer",
+    "zh": "trainer",
+    "es": "trainer",
+    "fr": "trainer",
+    "de": "trainer"
+  },
+  "referee": {
+    "en": "referee",
+    "th": "referee",
+    "ja": "referee",
+    "ko": "referee",
+    "zh": "referee",
+    "es": "referee",
+    "fr": "referee",
+    "de": "referee"
+  },
+  "dentist": {
+    "en": "dentist",
+    "th": "dentist",
+    "ja": "dentist",
+    "ko": "dentist",
+    "zh": "dentist",
+    "es": "dentist",
+    "fr": "dentist",
+    "de": "dentist"
+  },
+  "pharmacist": {
+    "en": "pharmacist",
+    "th": "pharmacist",
+    "ja": "pharmacist",
+    "ko": "pharmacist",
+    "zh": "pharmacist",
+    "es": "pharmacist",
+    "fr": "pharmacist",
+    "de": "pharmacist"
+  },
+  "veterinarian": {
+    "en": "veterinarian",
+    "th": "veterinarian",
+    "ja": "veterinarian",
+    "ko": "veterinarian",
+    "zh": "veterinarian",
+    "es": "veterinarian",
+    "fr": "veterinarian",
+    "de": "veterinarian"
+  },
+  "optician": {
+    "en": "optician",
+    "th": "optician",
+    "ja": "optician",
+    "ko": "optician",
+    "zh": "optician",
+    "es": "optician",
+    "fr": "optician",
+    "de": "optician"
+  },
+  "cashier": {
+    "en": "cashier",
+    "th": "cashier",
+    "ja": "cashier",
+    "ko": "cashier",
+    "zh": "cashier",
+    "es": "cashier",
+    "fr": "cashier",
+    "de": "cashier"
+  },
+  "waiter": {
+    "en": "waiter",
+    "th": "waiter",
+    "ja": "waiter",
+    "ko": "waiter",
+    "zh": "waiter",
+    "es": "waiter",
+    "fr": "waiter",
+    "de": "waiter"
+  },
+  "waitress": {
+    "en": "waitress",
+    "th": "waitress",
+    "ja": "waitress",
+    "ko": "waitress",
+    "zh": "waitress",
+    "es": "waitress",
+    "fr": "waitress",
+    "de": "waitress"
+  },
+  "shopkeeper": {
+    "en": "shopkeeper",
+    "th": "shopkeeper",
+    "ja": "shopkeeper",
+    "ko": "shopkeeper",
+    "zh": "shopkeeper",
+    "es": "shopkeeper",
+    "fr": "shopkeeper",
+    "de": "shopkeeper"
+  },
+  "manager": {
+    "en": "manager",
+    "th": "manager",
+    "ja": "manager",
+    "ko": "manager",
+    "zh": "manager",
+    "es": "manager",
+    "fr": "manager",
+    "de": "manager"
+  },
+  "director": {
+    "en": "director",
+    "th": "director",
+    "ja": "director",
+    "ko": "director",
+    "zh": "director",
+    "es": "director",
+    "fr": "director",
+    "de": "director"
+  },
+  "secretary": {
+    "en": "secretary",
+    "th": "secretary",
+    "ja": "secretary",
+    "ko": "secretary",
+    "zh": "secretary",
+    "es": "secretary",
+    "fr": "secretary",
+    "de": "secretary"
+  },
+  "receptionist": {
+    "en": "receptionist",
+    "th": "receptionist",
+    "ja": "receptionist",
+    "ko": "receptionist",
+    "zh": "receptionist",
+    "es": "receptionist",
+    "fr": "receptionist",
+    "de": "receptionist"
+  },
+  "accountant": {
+    "en": "accountant",
+    "th": "accountant",
+    "ja": "accountant",
+    "ko": "accountant",
+    "zh": "accountant",
+    "es": "accountant",
+    "fr": "accountant",
+    "de": "accountant"
+  },
+  "banker": {
+    "en": "banker",
+    "th": "banker",
+    "ja": "banker",
+    "ko": "banker",
+    "zh": "banker",
+    "es": "banker",
+    "fr": "banker",
+    "de": "banker"
+  },
+  "economist": {
+    "en": "economist",
+    "th": "economist",
+    "ja": "economist",
+    "ko": "economist",
+    "zh": "economist",
+    "es": "economist",
+    "fr": "economist",
+    "de": "economist"
+  },
+  "consultant": {
+    "en": "consultant",
+    "th": "consultant",
+    "ja": "consultant",
+    "ko": "consultant",
+    "zh": "consultant",
+    "es": "consultant",
+    "fr": "consultant",
+    "de": "consultant"
+  },
+  "psychologist": {
+    "en": "psychologist",
+    "th": "psychologist",
+    "ja": "psychologist",
+    "ko": "psychologist",
+    "zh": "psychologist",
+    "es": "psychologist",
+    "fr": "psychologist",
+    "de": "psychologist"
+  },
+  "therapist": {
+    "en": "therapist",
+    "th": "therapist",
+    "ja": "therapist",
+    "ko": "therapist",
+    "zh": "therapist",
+    "es": "therapist",
+    "fr": "therapist",
+    "de": "therapist"
+  },
+  "social worker": {
+    "en": "social worker",
+    "th": "social worker",
+    "ja": "social worker",
+    "ko": "social worker",
+    "zh": "social worker",
+    "es": "social worker",
+    "fr": "social worker",
+    "de": "social worker"
+  },
+  "librarian": {
+    "en": "librarian",
+    "th": "librarian",
+    "ja": "librarian",
+    "ko": "librarian",
+    "zh": "librarian",
+    "es": "librarian",
+    "fr": "librarian",
+    "de": "librarian"
+  },
+  "researcher": {
+    "en": "researcher",
+    "th": "researcher",
+    "ja": "researcher",
+    "ko": "researcher",
+    "zh": "researcher",
+    "es": "researcher",
+    "fr": "researcher",
+    "de": "researcher"
+  },
+  "technician": {
+    "en": "technician",
+    "th": "technician",
+    "ja": "technician",
+    "ko": "technician",
+    "zh": "technician",
+    "es": "technician",
+    "fr": "technician",
+    "de": "technician"
+  },
+  "analyst": {
+    "en": "analyst",
+    "th": "analyst",
+    "ja": "analyst",
+    "ko": "analyst",
+    "zh": "analyst",
+    "es": "analyst",
+    "fr": "analyst",
+    "de": "analyst"
+  },
+  "operator": {
+    "en": "operator",
+    "th": "operator",
+    "ja": "operator",
+    "ko": "operator",
+    "zh": "operator",
+    "es": "operator",
+    "fr": "operator",
+    "de": "operator"
+  },
+  "miner": {
+    "en": "miner",
+    "th": "miner",
+    "ja": "miner",
+    "ko": "miner",
+    "zh": "miner",
+    "es": "miner",
+    "fr": "miner",
+    "de": "miner"
+  },
+  "sailor": {
+    "en": "sailor",
+    "th": "sailor",
+    "ja": "sailor",
+    "ko": "sailor",
+    "zh": "sailor",
+    "es": "sailor",
+    "fr": "sailor",
+    "de": "sailor"
+  },
+  "fisherman": {
+    "en": "fisherman",
+    "th": "fisherman",
+    "ja": "fisherman",
+    "ko": "fisherman",
+    "zh": "fisherman",
+    "es": "fisherman",
+    "fr": "fisherman",
+    "de": "fisherman"
+  },
+  "gardener": {
+    "en": "gardener",
+    "th": "gardener",
+    "ja": "gardener",
+    "ko": "gardener",
+    "zh": "gardener",
+    "es": "gardener",
+    "fr": "gardener",
+    "de": "gardener"
+  },
+  "florist": {
+    "en": "florist",
+    "th": "florist",
+    "ja": "florist",
+    "ko": "florist",
+    "zh": "florist",
+    "es": "florist",
+    "fr": "florist",
+    "de": "florist"
+  },
+  "cleaner": {
+    "en": "cleaner",
+    "th": "cleaner",
+    "ja": "cleaner",
+    "ko": "cleaner",
+    "zh": "cleaner",
+    "es": "cleaner",
+    "fr": "cleaner",
+    "de": "cleaner"
+  },
+  "maid": {
+    "en": "maid",
+    "th": "maid",
+    "ja": "maid",
+    "ko": "maid",
+    "zh": "maid",
+    "es": "maid",
+    "fr": "maid",
+    "de": "maid"
+  },
+  "security guard": {
+    "en": "security guard",
+    "th": "security guard",
+    "ja": "security guard",
+    "ko": "security guard",
+    "zh": "security guard",
+    "es": "security guard",
+    "fr": "security guard",
+    "de": "security guard"
+  },
+  "janitor": {
+    "en": "janitor",
+    "th": "janitor",
+    "ja": "janitor",
+    "ko": "janitor",
+    "zh": "janitor",
+    "es": "janitor",
+    "fr": "janitor",
+    "de": "janitor"
+  },
+  "delivery person": {
+    "en": "delivery person",
+    "th": "delivery person",
+    "ja": "delivery person",
+    "ko": "delivery person",
+    "zh": "delivery person",
+    "es": "delivery person",
+    "fr": "delivery person",
+    "de": "delivery person"
+  },
+  "steward": {
+    "en": "steward",
+    "th": "steward",
+    "ja": "steward",
+    "ko": "steward",
+    "zh": "steward",
+    "es": "steward",
+    "fr": "steward",
+    "de": "steward"
+  },
+  "stewardess": {
+    "en": "stewardess",
+    "th": "stewardess",
+    "ja": "stewardess",
+    "ko": "stewardess",
+    "zh": "stewardess",
+    "es": "stewardess",
+    "fr": "stewardess",
+    "de": "stewardess"
+  },
+  "tour guide": {
+    "en": "tour guide",
+    "th": "tour guide",
+    "ja": "tour guide",
+    "ko": "tour guide",
+    "zh": "tour guide",
+    "es": "tour guide",
+    "fr": "tour guide",
+    "de": "tour guide"
+  },
+  "translator": {
+    "en": "translator",
+    "th": "translator",
+    "ja": "translator",
+    "ko": "translator",
+    "zh": "translator",
+    "es": "translator",
+    "fr": "translator",
+    "de": "translator"
+  },
+  "interpreter": {
+    "en": "interpreter",
+    "th": "interpreter",
+    "ja": "interpreter",
+    "ko": "interpreter",
+    "zh": "interpreter",
+    "es": "interpreter",
+    "fr": "interpreter",
+    "de": "interpreter"
+  },
+  "diplomat": {
+    "en": "diplomat",
+    "th": "diplomat",
+    "ja": "diplomat",
+    "ko": "diplomat",
+    "zh": "diplomat",
+    "es": "diplomat",
+    "fr": "diplomat",
+    "de": "diplomat"
+  },
+  "politician": {
+    "en": "politician",
+    "th": "politician",
+    "ja": "politician",
+    "ko": "politician",
+    "zh": "politician",
+    "es": "politician",
+    "fr": "politician",
+    "de": "politician"
+  },
+  "mayor": {
+    "en": "mayor",
+    "th": "mayor",
+    "ja": "mayor",
+    "ko": "mayor",
+    "zh": "mayor",
+    "es": "mayor",
+    "fr": "mayor",
+    "de": "mayor"
+  },
+  "governor": {
+    "en": "governor",
+    "th": "governor",
+    "ja": "governor",
+    "ko": "governor",
+    "zh": "governor",
+    "es": "governor",
+    "fr": "governor",
+    "de": "governor"
+  },
+  "president": {
+    "en": "president",
+    "th": "president",
+    "ja": "president",
+    "ko": "president",
+    "zh": "president",
+    "es": "president",
+    "fr": "president",
+    "de": "president"
+  },
+  "prime minister": {
+    "en": "prime minister",
+    "th": "prime minister",
+    "ja": "prime minister",
+    "ko": "prime minister",
+    "zh": "prime minister",
+    "es": "prime minister",
+    "fr": "prime minister",
+    "de": "prime minister"
+  },
+  "king": {
+    "en": "king",
+    "th": "king",
+    "ja": "king",
+    "ko": "king",
+    "zh": "king",
+    "es": "king",
+    "fr": "king",
+    "de": "king"
+  },
+  "queen": {
+    "en": "queen",
+    "th": "queen",
+    "ja": "queen",
+    "ko": "queen",
+    "zh": "queen",
+    "es": "queen",
+    "fr": "queen",
+    "de": "queen"
+  },
+  "prince": {
+    "en": "prince",
+    "th": "prince",
+    "ja": "prince",
+    "ko": "prince",
+    "zh": "prince",
+    "es": "prince",
+    "fr": "prince",
+    "de": "prince"
+  },
+  "princess": {
+    "en": "princess",
+    "th": "princess",
+    "ja": "princess",
+    "ko": "princess",
+    "zh": "princess",
+    "es": "princess",
+    "fr": "princess",
+    "de": "princess"
+  },
+  "monk": {
+    "en": "monk",
+    "th": "monk",
+    "ja": "monk",
+    "ko": "monk",
+    "zh": "monk",
+    "es": "monk",
+    "fr": "monk",
+    "de": "monk"
+  },
+  "priest": {
+    "en": "priest",
+    "th": "priest",
+    "ja": "priest",
+    "ko": "priest",
+    "zh": "priest",
+    "es": "priest",
+    "fr": "priest",
+    "de": "priest"
+  },
+  "nun": {
+    "en": "nun",
+    "th": "nun",
+    "ja": "nun",
+    "ko": "nun",
+    "zh": "nun",
+    "es": "nun",
+    "fr": "nun",
+    "de": "nun"
+  },
+  "imam": {
+    "en": "imam",
+    "th": "imam",
+    "ja": "imam",
+    "ko": "imam",
+    "zh": "imam",
+    "es": "imam",
+    "fr": "imam",
+    "de": "imam"
+  },
+  "rabbi": {
+    "en": "rabbi",
+    "th": "rabbi",
+    "ja": "rabbi",
+    "ko": "rabbi",
+    "zh": "rabbi",
+    "es": "rabbi",
+    "fr": "rabbi",
+    "de": "rabbi"
+  }
+}

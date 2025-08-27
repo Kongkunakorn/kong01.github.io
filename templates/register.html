@@ -5,57 +5,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>สมัครสมาชิก - Word Game</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="style.css">
     <style>
-        /* Register Page Extra Styling */
         .register-container {
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 20px;
+            background-color: #2b2b2b;
         }
 
         .register-card {
             background-color: #2b2b2b;
-            border: 2px solid #ffffff;
-            border-radius: 12px;
-            padding: 40px;
-            max-width: 400px;
+            border: 3px solid #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(255, 255, 255, 0.1);
+            padding: 50px;
             width: 100%;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
-            text-align: left;
+            max-width: 450px;
+            position: relative;
+        }
+
+        .register-card::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #ffffff, #cccccc, #ffffff);
+            border-radius: 22px;
+            z-index: -1;
         }
 
         .register-header {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
 
         .register-header h2 {
-            font-family: "Lora", serif;
-            font-weight: 700;
             color: #ffffff;
+            font-weight: 700;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            font-family: "Lora", serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
 
         .register-header p {
             color: #cccccc;
+            margin: 0;
+            font-size: 1.2em;
+            font-family: "Lora", serif;
+            font-style: italic;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .form-group label {
+            display: block;
+            color: #ffffff;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-family: "Lora", serif;
+            font-size: 1.1em;
+        }
+
+        .form-group label i {
+            margin-right: 8px;
+            color: #00ff00;
         }
 
         .form-control {
-            background-color: #2b2b2b;
+            width: 100%;
+            padding: 15px 20px;
             border: 2px solid #ffffff;
-            border-radius: 8px;
+            border-radius: 12px;
+            background-color: #2b2b2b;
             color: #ffffff;
+            font-size: 16px;
             font-family: "Lora", serif;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
         }
 
         .form-control:focus {
-            border-color: #00ff00;
-            box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
             outline: none;
+            border-color: #00ff00;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+            background-color: #333333;
+        }
+
+        .form-control.valid {
+            border-color: #00ff00;
+            background-color: #003300;
+        }
+
+        .form-control.invalid {
+            border-color: #ff0000;
+            background-color: #330000;
+        }
+
+        .form-control::placeholder {
+            color: #888888;
+            font-family: "Lora", serif;
+        }
+
+        .input-group {
+            position: relative;
         }
 
         .password-toggle {
@@ -65,40 +129,254 @@
             transform: translateY(-50%);
             background: none;
             border: none;
-            color: #cccccc;
+            color: #ffffff;
             cursor: pointer;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .password-toggle:hover {
+            color: #00ff00;
+        }
+
+        .password-requirements {
+            font-size: 13px;
+            color: #888888;
+            margin-top: 5px;
+            font-family: "Lora", serif;
+            font-style: italic;
+        }
+
+        .password-requirements.valid {
+            color: #00ff00;
+        }
+
+        .password-requirements.invalid {
+            color: #ff0000;
+        }
+
+        .strength-indicator {
+            width: 100%;
+            height: 4px;
+            background-color: #333333;
+            border-radius: 2px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+
+        .strength-bar {
+            height: 100%;
+            width: 0%;
+            transition: width 0.3s ease, background-color 0.3s ease;
+            border-radius: 2px;
+        }
+
+        .strength-weak {
+            background-color: #ff0000;
+            width: 25%;
+        }
+
+        .strength-fair {
+            background-color: #ff8800;
+            width: 50%;
+        }
+
+        .strength-good {
+            background-color: #ffff00;
+            width: 75%;
+        }
+
+        .strength-strong {
+            background-color: #00ff00;
+            width: 100%;
         }
 
         .btn-register {
-            background-color: #2b2b2b;
-            border: 2px solid #00ff00;
-            color: #00ff00;
-            font-weight: 600;
-            border-radius: 8px;
             width: 100%;
-            padding: 12px;
+            padding: 18px;
+            background-color: #2b2b2b;
+            border: 3px solid #ffffff;
+            border-radius: 12px;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: "Lora", serif;
+            cursor: pointer;
             transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 25px;
         }
 
         .btn-register:hover {
-            background-color: #00ff00;
+            background-color: #ffffff;
             color: #2b2b2b;
-            transform: translateY(-2px);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(255, 255, 255, 0.2);
         }
 
-        .login-link {
+        .btn-register:active {
+            transform: translateY(-1px);
+        }
+
+        .btn-register:disabled {
+            background-color: #333333;
+            border-color: #666666;
+            color: #666666;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .register-links {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 30px;
         }
 
-        .login-link a {
-            color: #00aaff;
-            font-weight: 600;
+        .register-links p {
+            margin: 15px 0;
+            font-family: "Lora", serif;
+        }
+
+        .register-links a {
+            color: #00ff00;
             text-decoration: none;
+            font-weight: 600;
+            font-family: "Lora", serif;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
         }
 
-        .login-link a:hover {
-            text-decoration: underline;
+        .register-links a:hover {
+            color: #ffffff;
+            border-bottom-color: #ffffff;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+        }
+
+        .alert {
+            border-radius: 12px;
+            border: 2px solid;
+            margin-bottom: 25px;
+            padding: 15px;
+            font-family: "Lora", serif;
+            font-weight: 500;
+        }
+
+        .alert-danger {
+            background-color: #2b2b2b;
+            border-color: #ff0000;
+            color: #ff0000;
+        }
+
+        .alert-success {
+            background-color: #2b2b2b;
+            border-color: #00ff00;
+            color: #00ff00;
+        }
+
+        .alert-info {
+            background-color: #2b2b2b;
+            border-color: #ffffff;
+            color: #ffffff;
+        }
+
+        /* Validation Icons */
+        .validation-icon {
+            position: absolute;
+            right: 45px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 16px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .validation-icon.show {
+            opacity: 1;
+        }
+
+        .validation-icon.valid {
+            color: #00ff00;
+        }
+
+        .validation-icon.invalid {
+            color: #ff0000;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .register-card {
+                padding: 30px 25px;
+                margin: 10px;
+            }
+
+            .register-header h2 {
+                font-size: 2em;
+            }
+
+            .register-header p {
+                font-size: 1em;
+            }
+
+            .form-control {
+                padding: 12px 15px;
+                font-size: 14px;
+            }
+
+            .btn-register {
+                padding: 15px;
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .register-container {
+                padding: 15px;
+            }
+
+            .register-card {
+                padding: 25px 20px;
+            }
+
+            .register-header h2 {
+                font-size: 1.8em;
+                letter-spacing: 1px;
+            }
+        }
+
+        /* Animation */
+        .register-card {
+            animation: slideUp 0.8s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #2b2b2b;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #ffffff;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #cccccc;
         }
     </style>
 </head>
@@ -111,63 +389,80 @@
                 <p>เริ่มต้นการเล่นเกมคำศัพท์กับเรา</p>
             </div>
 
+            <!-- Flash Messages -->
             {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
             {% for category, message in messages %}
-            <div class="alert alert-{% if category == 'error' %}danger{% elif category == 'success' %}success{% else %}info{% endif %} alert-dismissible fade show"
-                role="alert">
+            <div
+                class="alert alert-{% if category == 'error' %}danger{% elif category == 'success' %}success{% else %}info{% endif %}">
                 {{ message }}
-                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
             </div>
             {% endfor %}
             {% endif %}
             {% endwith %}
 
             <form method="POST" id="registerForm">
-                <div class="mb-3 position-relative">
-                    <label for="username" class="form-label"><i class="fas fa-user"></i> ชื่อผู้ใช้</label>
-                    <input type="text" class="form-control" id="username" name="username" placeholder="ชื่อผู้ใช้"
-                        required minlength="3" maxlength="20" pattern="[a-zA-Z0-9_]+"
-                        title="ชื่อผู้ใช้ควรเป็นตัวอักษร ตัวเลข หรือขีดล่างเท่านั้น">
-                    <div class="form-text">อย่างน้อย 3 ตัวอักษร (a-z, A-Z, 0-9, _)</div>
+                <div class="form-group">
+                    <label for="username"><i class="fas fa-user"></i> ชื่อผู้ใช้</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="username" name="username"
+                            placeholder="กรุณาใส่ชื่อผู้ใช้" required minlength="3" maxlength="20"
+                            pattern="[a-zA-Z0-9_]+">
+                        <i class="fas fa-check validation-icon" id="usernameValid"></i>
+                        <i class="fas fa-times validation-icon" id="usernameInvalid"></i>
+                    </div>
+                    <div class="password-requirements" id="usernameReq">
+                        อย่างน้อย 3 ตัวอักษร (a-z, A-Z, 0-9, _)
+                    </div>
                 </div>
 
-                <div class="mb-3 position-relative">
-                    <label for="password" class="form-label"><i class="fas fa-lock"></i> รหัสผ่าน</label>
+                <div class="form-group">
+                    <label for="password"><i class="fas fa-lock"></i> รหัสผ่าน</label>
                     <div class="input-group">
-                        <input type="password" class="form-control" id="password" name="password" placeholder="รหัสผ่าน"
-                            required minlength="6">
+                        <input type="password" class="form-control" id="password" name="password"
+                            placeholder="กรุณาใส่รหัสผ่าน" required minlength="6">
                         <button type="button" class="password-toggle" onclick="togglePassword('password')">
                             <i class="fas fa-eye" id="passwordIcon"></i>
                         </button>
+                        <i class="fas fa-check validation-icon" id="passwordValid"></i>
+                        <i class="fas fa-times validation-icon" id="passwordInvalid"></i>
                     </div>
-                    <div class="form-text">อย่างน้อย 6 ตัวอักษร</div>
+                    <div class="strength-indicator">
+                        <div class="strength-bar" id="strengthBar"></div>
+                    </div>
+                    <div class="password-requirements" id="passwordReq">
+                        อย่างน้อย 6 ตัวอักษร
+                    </div>
                 </div>
 
-                <div class="mb-3 position-relative">
-                    <label for="confirmPassword" class="form-label"><i class="fas fa-lock"></i> ยืนยันรหัสผ่าน</label>
+                <div class="form-group">
+                    <label for="confirmPassword"><i class="fas fa-lock"></i> ยืนยันรหัสผ่าน</label>
                     <div class="input-group">
                         <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"
-                            placeholder="ยืนยันรหัสผ่าน" required>
+                            placeholder="กรุณายืนยันรหัสผ่าน" required>
                         <button type="button" class="password-toggle" onclick="togglePassword('confirmPassword')">
                             <i class="fas fa-eye" id="confirmPasswordIcon"></i>
                         </button>
+                        <i class="fas fa-check validation-icon" id="confirmValid"></i>
+                        <i class="fas fa-times validation-icon" id="confirmInvalid"></i>
+                    </div>
+                    <div class="password-requirements" id="confirmReq">
+                        รหัสผ่านต้องตรงกัน
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-register">
+                <button type="submit" class="btn-register" id="submitBtn">
                     <i class="fas fa-user-plus"></i> สมัครสมาชิก
                 </button>
             </form>
 
-            <div class="login-link">
+            <div class="register-links">
                 <p>มีบัญชีแล้ว? <a href="{{ url_for('login') }}">เข้าสู่ระบบ</a></p>
                 <p><a href="{{ url_for('home') }}"><i class="fas fa-home"></i> กลับหน้าหลัก</a></p>
             </div>
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script>
         function togglePassword(inputId) {
             const input = document.getElementById(inputId);
@@ -175,13 +470,160 @@
 
             if (input.type === 'password') {
                 input.type = 'text';
-                icon.classList.replace('fa-eye', 'fa-eye-slash');
+                icon.classList.remove('fa-eye');
+                icon.classList.add('fa-eye-slash');
             } else {
                 input.type = 'password';
-                icon.classList.replace('fa-eye-slash', 'fa-eye');
+                icon.classList.remove('fa-eye-slash');
+                icon.classList.add('fa-eye');
             }
         }
-    </script>
-</body>
 
-</html>
+        function validateField(input, validIcon, invalidIcon, reqElement, isValid) {
+            if (isValid) {
+                input.classList.add('valid');
+                input.classList.remove('invalid');
+                validIcon.classList.add('show', 'valid');
+                invalidIcon.classList.remove('show');
+                reqElement.classList.add('valid');
+                reqElement.classList.remove('invalid');
+            } else {
+                input.classList.add('invalid');
+                input.classList.remove('valid');
+                invalidIcon.classList.add('show', 'invalid');
+                validIcon.classList.remove('show');
+                reqElement.classList.add('invalid');
+                reqElement.classList.remove('valid');
+            }
+        }
+
+        function checkPasswordStrength(password) {
+            const strengthBar = document.getElementById('strengthBar');
+            let strength = 0;
+
+            if (password.length >= 6) strength++;
+            if (password.match(/[a-z]+/)) strength++;
+            if (password.match(/[A-Z]+/)) strength++;
+            if (password.match(/[0-9]+/)) strength++;
+            if (password.match(/[!@#$%^&*(),.?":{}|<>]+/)) strength++;
+
+            strengthBar.className = 'strength-bar';
+            if (strength >= 1) strengthBar.classList.add('strength-weak');
+            if (strength >= 2) strengthBar.classList.add('strength-fair');
+            if (strength >= 3) strengthBar.classList.add('strength-good');
+            if (strength >= 4) strengthBar.classList.add('strength-strong');
+
+            return strength;
+        }
+
+        function updateSubmitButton() {
+            const username = document.getElementById('username');
+            const password = document.getElementById('password');
+            const confirmPassword = document.getElementById('confirmPassword');
+            const submitBtn = document.getElementById('submitBtn');
+
+            const isUsernameValid = username.value.length >= 3 && /^[a-zA-Z0-9_]+$/.test(username.value);
+            const isPasswordValid = password.value.length >= 6;
+            const isConfirmValid = confirmPassword.value === password.value && confirmPassword.value.length > 0;
+
+            if (isUsernameValid && isPasswordValid && isConfirmValid) {
+                submitBtn.disabled = false;
+            } else {
+                submitBtn.disabled = true;
+            }
+        }
+        document.getElementById('username').addEventListener('input', function () {
+            const isValid = this.value.length >= 3 && /^[a-zA-Z0-9_]+$/.test(this.value);
+            validateField(
+                this,
+                document.getElementById('usernameValid'),
+                document.getElementById('usernameInvalid'),
+                document.getElementById('usernameReq'),
+                isValid
+            );
+            updateSubmitButton();
+        });
+
+        document.getElementById('password').addEventListener('input', function () {
+            const isValid = this.value.length >= 6;
+            checkPasswordStrength(this.value);
+            validateField(
+                this,
+                document.getElementById('passwordValid'),
+                document.getElementById('passwordInvalid'),
+                document.getElementById('passwordReq'),
+                isValid
+            );
+            const confirmPassword = document.getElementById('confirmPassword');
+            if (confirmPassword.value) {
+                const isConfirmValid = confirmPassword.value === this.value;
+                validateField(
+                    confirmPassword,
+                    document.getElementById('confirmValid'),
+                    document.getElementById('confirmInvalid'),
+                    document.getElementById('confirmReq'),
+                    isConfirmValid
+                );
+            }
+            updateSubmitButton();
+        });
+
+        document.getElementById('confirmPassword').addEventListener('input', function () {
+            const password = document.getElementById('password').value;
+            const isValid = this.value === password && this.value.length > 0;
+            validateField(
+                this,
+                document.getElementById('confirmValid'),
+                document.getElementById('confirmInvalid'),
+                document.getElementById('confirmReq'),
+                isValid
+            );
+            updateSubmitButton();
+        });
+        document.getElementById('registerForm').addEventListener('submit', function (e) {
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+            const username = document.getElementById('username').value;
+
+            if (password !== confirmPassword) {
+                e.preventDefault();
+                alert('รหัสผ่านไม่ตรงกัน');
+                return false;
+            }
+
+            if (password.length < 6) {
+                e.preventDefault();
+                alert('รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร');
+                return false;
+            }
+
+            if (username.length < 3) {
+                e.preventDefault();
+                alert('ชื่อผู้ใช้ต้องมีอย่างน้อย 3 ตัวอักษร');
+                return false;
+            }
+
+            if (!/^[a-zA-Z0-9_]+$/.test(username)) {
+                e.preventDefault();
+                alert('ชื่อผู้ใช้ควรเป็นตัวอักษร ตัวเลข หรือขีดล่างเท่านั้น');
+                return false;
+            }
+            const submitBtn = this.querySelector('.btn-register');
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> กำลังสมัครสมาชิก...';
+            submitBtn.disabled = true;
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('username').focus();
+            updateSubmitButton();
+        });
+        let usernameTimeout;
+        document.getElementById('username').addEventListener('input', function () {
+            clearTimeout(usernameTimeout);
+            const username = this.value;
+
+            if (username.length >= 3) {
+                usernameTimeout = setTimeout(() => {
+                }, 500);
+            }
+        });

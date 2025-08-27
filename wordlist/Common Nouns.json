@@ -1,0 +1,977 @@
+{
+  "house": {
+    "en": "house",
+    "th": "บ้าน",
+    "ja": "家",
+    "ko": "집",
+    "zh": "房子",
+    "es": "casa",
+    "fr": "maison",
+    "de": "Haus"
+  },
+  "school": {
+    "en": "school",
+    "th": "โรงเรียน",
+    "ja": "学校",
+    "ko": "학교",
+    "zh": "学校",
+    "es": "escuela",
+    "fr": "école",
+    "de": "Schule"
+  },
+  "car": {
+    "en": "car",
+    "th": "รถยนต์",
+    "ja": "車",
+    "ko": "자동차",
+    "zh": "汽车",
+    "es": "coche",
+    "fr": "voiture",
+    "de": "Auto"
+  },
+  "book": {
+    "en": "book",
+    "th": "หนังสือ",
+    "ja": "本",
+    "ko": "책",
+    "zh": "书",
+    "es": "libro",
+    "fr": "livre",
+    "de": "Buch"
+  },
+  "water": {
+    "en": "water",
+    "th": "น้ำ",
+    "ja": "水",
+    "ko": "물",
+    "zh": "水",
+    "es": "agua",
+    "fr": "eau",
+    "de": "Wasser"
+  },
+  "table": {
+    "en": "table",
+    "th": "โต๊ะ",
+    "ja": "テーブル",
+    "ko": "테이블",
+    "zh": "桌子",
+    "es": "mesa",
+    "fr": "table",
+    "de": "Tisch"
+  },
+  "chair": {
+    "en": "chair",
+    "th": "เก้าอี้",
+    "ja": "椅子",
+    "ko": "의자",
+    "zh": "椅子",
+    "es": "silla",
+    "fr": "chaise",
+    "de": "Stuhl"
+  },
+  "phone": {
+    "en": "phone",
+    "th": "โทรศัพท์",
+    "ja": "電話",
+    "ko": "전화기",
+    "zh": "电话",
+    "es": "teléfono",
+    "fr": "téléphone",
+    "de": "Telefon"
+  },
+  "computer": {
+    "en": "computer",
+    "th": "คอมพิวเตอร์",
+    "ja": "コンピュータ",
+    "ko": "컴퓨터",
+    "zh": "电脑",
+    "es": "ordenador",
+    "fr": "ordinateur",
+    "de": "Computer"
+  },
+  "city": {
+    "en": "city",
+    "th": "เมือง",
+    "ja": "都市",
+    "ko": "도시",
+    "zh": "城市",
+    "es": "ciudad",
+    "fr": "ville",
+    "de": "Stadt"
+  },
+  "road": {
+    "en": "road",
+    "th": "ถนน",
+    "ja": "道路",
+    "ko": "도로",
+    "zh": "道路",
+    "es": "carretera",
+    "fr": "route",
+    "de": "Straße"
+  },
+  "money": {
+    "en": "money",
+    "th": "เงิน",
+    "ja": "お金",
+    "ko": "돈",
+    "zh": "钱",
+    "es": "dinero",
+    "fr": "argent",
+    "de": "Geld"
+  },
+  "food": {
+    "en": "food",
+    "th": "อาหาร",
+    "ja": "食べ物",
+    "ko": "음식",
+    "zh": "食物",
+    "es": "comida",
+    "fr": "nourriture",
+    "de": "Essen"
+  },
+  "music": {
+    "en": "music",
+    "th": "เพลง",
+    "ja": "音楽",
+    "ko": "음악",
+    "zh": "音乐",
+    "es": "música",
+    "fr": "musique",
+    "de": "Musik"
+  },
+  "friend": {
+    "en": "friend",
+    "th": "เพื่อน",
+    "ja": "友達",
+    "ko": "친구",
+    "zh": "朋友",
+    "es": "amigo",
+    "fr": "ami",
+    "de": "Freund"
+  },
+  "family": {
+    "en": "family",
+    "th": "ครอบครัว",
+    "ja": "家族",
+    "ko": "가족",
+    "zh": "家庭",
+    "es": "familia",
+    "fr": "famille",
+    "de": "Familie"
+  },
+  "country": {
+    "en": "country",
+    "th": "ประเทศ",
+    "ja": "国",
+    "ko": "나라",
+    "zh": "国家",
+    "es": "país",
+    "fr": "pays",
+    "de": "Land"
+  },
+  "river": {
+    "en": "river",
+    "th": "แม่น้ำ",
+    "ja": "川",
+    "ko": "강",
+    "zh": "河流",
+    "es": "río",
+    "fr": "rivière",
+    "de": "Fluss"
+  },
+  "mountain": {
+    "en": "mountain",
+    "th": "ภูเขา",
+    "ja": "山",
+    "ko": "산",
+    "zh": "山",
+    "es": "montaña",
+    "fr": "montagne",
+    "de": "Berg"
+  },
+  "sun": {
+    "en": "sun",
+    "th": "พระอาทิตย์",
+    "ja": "太陽",
+    "ko": "태양",
+    "zh": "太阳",
+    "es": "sol",
+    "fr": "soleil",
+    "de": "Sonne"
+  },
+  "moon": {
+    "en": "moon",
+    "th": "พระจันทร์",
+    "ja": "月",
+    "ko": "달",
+    "zh": "月亮",
+    "es": "luna",
+    "fr": "lune",
+    "de": "Mond"
+  },
+  "star": {
+    "en": "star",
+    "th": "ดาว",
+    "ja": "星",
+    "ko": "별",
+    "zh": "星星",
+    "es": "estrella",
+    "fr": "étoile",
+    "de": "Stern"
+  },
+  "sky": {
+    "en": "sky",
+    "th": "ท้องฟ้า",
+    "ja": "空",
+    "ko": "하늘",
+    "zh": "天空",
+    "es": "cielo",
+    "fr": "ciel",
+    "de": "Himmel"
+  },
+  "air": {
+    "en": "air",
+    "th": "อากาศ",
+    "ja": "空気",
+    "ko": "공기",
+    "zh": "空气",
+    "es": "aire",
+    "fr": "air",
+    "de": "Luft"
+  },
+  "fire": {
+    "en": "fire",
+    "th": "ไฟ",
+    "ja": "火",
+    "ko": "불",
+    "zh": "火",
+    "es": "fuego",
+    "fr": "feu",
+    "de": "Feuer"
+  },
+  "job": {
+    "en": "job",
+    "th": "งาน",
+    "ja": "仕事",
+    "ko": "직업",
+    "zh": "工作",
+    "es": "trabajo",
+    "fr": "emploi",
+    "de": "Job"
+  },
+  "work": {
+    "en": "work",
+    "th": "การทำงาน",
+    "ja": "働くこと",
+    "ko": "일",
+    "zh": "工作",
+    "es": "trabajo",
+    "fr": "travail",
+    "de": "Arbeit"
+  },
+  "shop": {
+    "en": "shop",
+    "th": "ร้านค้า",
+    "ja": "店",
+    "ko": "가게",
+    "zh": "商店",
+    "es": "tienda",
+    "fr": "magasin",
+    "de": "Laden"
+  },
+  "market": {
+    "en": "market",
+    "th": "ตลาด",
+    "ja": "市場",
+    "ko": "시장",
+    "zh": "市场",
+    "es": "mercado",
+    "fr": "marché",
+    "de": "Markt"
+  },
+  "store": {
+    "en": "store",
+    "th": "ร้าน",
+    "ja": "ストア",
+    "ko": "상점",
+    "zh": "商店",
+    "es": "almacén",
+    "fr": "boutique",
+    "de": "Geschäft"
+  },
+  "garden": {
+    "en": "garden",
+    "th": "สวน",
+    "ja": "庭",
+    "ko": "정원",
+    "zh": "花园",
+    "es": "jardín",
+    "fr": "jardin",
+    "de": "Garten"
+  },
+  "park": {
+    "en": "park",
+    "th": "สวนสาธารณะ",
+    "ja": "公園",
+    "ko": "공원",
+    "zh": "公园",
+    "es": "parque",
+    "fr": "parc",
+    "de": "Park"
+  },
+  "hospital": {
+    "en": "hospital",
+    "th": "โรงพยาบาล",
+    "ja": "病院",
+    "ko": "병원",
+    "zh": "医院",
+    "es": "hospital",
+    "fr": "hôpital",
+    "de": "Krankenhaus"
+  },
+  "doctor": {
+    "en": "doctor",
+    "th": "หมอ",
+    "ja": "医者",
+    "ko": "의사",
+    "zh": "医生",
+    "es": "doctor",
+    "fr": "docteur",
+    "de": "Arzt"
+  },
+  "teacher": {
+    "en": "teacher",
+    "th": "ครู",
+    "ja": "先生",
+    "ko": "선생님",
+    "zh": "老师",
+    "es": "maestro",
+    "fr": "professeur",
+    "de": "Lehrer"
+  },
+  "student": {
+    "en": "student",
+    "th": "นักเรียน",
+    "ja": "学生",
+    "ko": "학생",
+    "zh": "学生",
+    "es": "estudiante",
+    "fr": "étudiant",
+    "de": "Schüler"
+  },
+  "child": {
+    "en": "child",
+    "th": "เด็ก",
+    "ja": "子供",
+    "ko": "아이",
+    "zh": "孩子",
+    "es": "niño",
+    "fr": "enfant",
+    "de": "Kind"
+  },
+  "man": {
+    "en": "man",
+    "th": "ผู้ชาย",
+    "ja": "男",
+    "ko": "남자",
+    "zh": "男人",
+    "es": "hombre",
+    "fr": "homme",
+    "de": "Mann"
+  },
+  "woman": {
+    "en": "woman",
+    "th": "ผู้หญิง",
+    "ja": "女",
+    "ko": "여자",
+    "zh": "女人",
+    "es": "mujer",
+    "fr": "femme",
+    "de": "Frau"
+  },
+  "people": {
+    "en": "people",
+    "th": "ผู้คน",
+    "ja": "人々",
+    "ko": "사람들",
+    "zh": "人们",
+    "es": "gente",
+    "fr": "gens",
+    "de": "Leute"
+  },
+  "police": {
+    "en": "police",
+    "th": "ตำรวจ",
+    "ja": "警察",
+    "ko": "경찰",
+    "zh": "警察",
+    "es": "policía",
+    "fr": "police",
+    "de": "Polizei"
+  },
+  "firefighter": {
+    "en": "firefighter",
+    "th": "นักดับเพลิง",
+    "ja": "消防士",
+    "ko": "소방관",
+    "zh": "消防员",
+    "es": "bombero",
+    "fr": "pompier",
+    "de": "Feuerwehrmann"
+  },
+  "farmer": {
+    "en": "farmer",
+    "th": "ชาวนา",
+    "ja": "農家",
+    "ko": "농부",
+    "zh": "农民",
+    "es": "granjero",
+    "fr": "fermier",
+    "de": "Bauer"
+  },
+  "worker": {
+    "en": "worker",
+    "th": "คนงาน",
+    "ja": "労働者",
+    "ko": "노동자",
+    "zh": "工人",
+    "es": "trabajador",
+    "fr": "ouvrier",
+    "de": "Arbeiter"
+  },
+  "driver": {
+    "en": "driver",
+    "th": "คนขับรถ",
+    "ja": "運転手",
+    "ko": "운전사",
+    "zh": "司机",
+    "es": "conductor",
+    "fr": "conducteur",
+    "de": "Fahrer"
+  },
+  "bus": {
+    "en": "bus",
+    "th": "รถบัส",
+    "ja": "バス",
+    "ko": "버스",
+    "zh": "公共汽车",
+    "es": "autobús",
+    "fr": "bus",
+    "de": "Bus"
+  },
+  "train": {
+    "en": "train",
+    "th": "รถไฟ",
+    "ja": "電車",
+    "ko": "기차",
+    "zh": "火车",
+    "es": "tren",
+    "fr": "train",
+    "de": "Zug"
+  },
+  "airplane": {
+    "en": "airplane",
+    "th": "เครื่องบิน",
+    "ja": "飛行機",
+    "ko": "비행기",
+    "zh": "飞机",
+    "es": "avión",
+    "fr": "avion",
+    "de": "Flugzeug"
+  },
+  "ship": {
+    "en": "ship",
+    "th": "เรือ",
+    "ja": "船",
+    "ko": "배",
+    "zh": "船",
+    "es": "barco",
+    "fr": "navire",
+    "de": "Schiff"
+  },
+  "bike": {
+    "en": "bike",
+    "th": "จักรยาน",
+    "ja": "自転車",
+    "ko": "자전거",
+    "zh": "自行车",
+    "es": "bicicleta",
+    "fr": "vélo",
+    "de": "Fahrrad"
+  },
+
+  "letter": {
+    "en": "letter",
+    "th": "จดหมาย",
+    "ja": "手紙",
+    "ko": "편지",
+    "zh": "信",
+    "es": "carta",
+    "fr": "lettre",
+    "de": "Brief"
+  },
+  "newspaper": {
+    "en": "newspaper",
+    "th": "หนังสือพิมพ์",
+    "ja": "新聞",
+    "ko": "신문",
+    "zh": "报纸",
+    "es": "periódico",
+    "fr": "journal",
+    "de": "Zeitung"
+  },
+  "magazine": {
+    "en": "magazine",
+    "th": "นิตยสาร",
+    "ja": "雑誌",
+    "ko": "잡지",
+    "zh": "杂志",
+    "es": "revista",
+    "fr": "magazine",
+    "de": "Zeitschrift"
+  },
+  "pen": {
+    "en": "pen",
+    "th": "ปากกา",
+    "ja": "ペン",
+    "ko": "펜",
+    "zh": "笔",
+    "es": "bolígrafo",
+    "fr": "stylo",
+    "de": "Stift"
+  },
+  "pencil": {
+    "en": "pencil",
+    "th": "ดินสอ",
+    "ja": "鉛筆",
+    "ko": "연필",
+    "zh": "铅笔",
+    "es": "lápiz",
+    "fr": "crayon",
+    "de": "Bleistift"
+  },
+  "paper": {
+    "en": "paper",
+    "th": "กระดาษ",
+    "ja": "紙",
+    "ko": "종이",
+    "zh": "纸",
+    "es": "papel",
+    "fr": "papier",
+    "de": "Papier"
+  },
+  "bag": {
+    "en": "bag",
+    "th": "กระเป๋า",
+    "ja": "バッグ",
+    "ko": "가방",
+    "zh": "包",
+    "es": "bolsa",
+    "fr": "sac",
+    "de": "Tasche"
+  },
+  "box": {
+    "en": "box",
+    "th": "กล่อง",
+    "ja": "箱",
+    "ko": "상자",
+    "zh": "盒子",
+    "es": "caja",
+    "fr": "boîte",
+    "de": "Kiste"
+  },
+  "door": {
+    "en": "door",
+    "th": "ประตู",
+    "ja": "ドア",
+    "ko": "문",
+    "zh": "门",
+    "es": "puerta",
+    "fr": "porte",
+    "de": "Tür"
+  },
+  "window": {
+    "en": "window",
+    "th": "หน้าต่าง",
+    "ja": "窓",
+    "ko": "창문",
+    "zh": "窗户",
+    "es": "ventana",
+    "fr": "fenêtre",
+    "de": "Fenster"
+  },
+  "floor": {
+    "en": "floor",
+    "th": "พื้น",
+    "ja": "床",
+    "ko": "바닥",
+    "zh": "地板",
+    "es": "suelo",
+    "fr": "sol",
+    "de": "Boden"
+  },
+  "wall": {
+    "en": "wall",
+    "th": "กำแพง",
+    "ja": "壁",
+    "ko": "벽",
+    "zh": "墙",
+    "es": "pared",
+    "fr": "mur",
+    "de": "Wand"
+  },
+  "ceiling": {
+    "en": "ceiling",
+    "th": "เพดาน",
+    "ja": "天井",
+    "ko": "천장",
+    "zh": "天花板",
+    "es": "techo",
+    "fr": "plafond",
+    "de": "Decke"
+  },
+  "room": {
+    "en": "room",
+    "th": "ห้อง",
+    "ja": "部屋",
+    "ko": "방",
+    "zh": "房间",
+    "es": "habitación",
+    "fr": "pièce",
+    "de": "Zimmer"
+  },
+  "kitchen": {
+    "en": "kitchen",
+    "th": "ห้องครัว",
+    "ja": "台所",
+    "ko": "부엌",
+    "zh": "厨房",
+    "es": "cocina",
+    "fr": "cuisine",
+    "de": "Küche"
+  },
+  "bedroom": {
+    "en": "bedroom",
+    "th": "ห้องนอน",
+    "ja": "寝室",
+    "ko": "침실",
+    "zh": "卧室",
+    "es": "dormitorio",
+    "fr": "chambre",
+    "de": "Schlafzimmer"
+  },
+  "bathroom": {
+    "en": "bathroom",
+    "th": "ห้องน้ำ",
+    "ja": "浴室",
+    "ko": "욕실",
+    "zh": "浴室",
+    "es": "baño",
+    "fr": "salle de bain",
+    "de": "Badezimmer"
+  },
+  "livingroom": {
+    "en": "living room",
+    "th": "ห้องนั่งเล่น",
+    "ja": "居間",
+    "ko": "거실",
+    "zh": "客厅",
+    "es": "sala",
+    "fr": "salon",
+    "de": "Wohnzimmer"
+  },
+  "bed": {
+    "en": "bed",
+    "th": "เตียง",
+    "ja": "ベッド",
+    "ko": "침대",
+    "zh": "床",
+    "es": "cama",
+    "fr": "lit",
+    "de": "Bett"
+  },
+  "chair2": {
+    "en": "sofa",
+    "th": "โซฟา",
+    "ja": "ソファ",
+    "ko": "소파",
+    "zh": "沙发",
+    "es": "sofá",
+    "fr": "canapé",
+    "de": "Sofa"
+  },
+  "clock": {
+    "en": "clock",
+    "th": "นาฬิกา",
+    "ja": "時計",
+    "ko": "시계",
+    "zh": "钟",
+    "es": "reloj",
+    "fr": "horloge",
+    "de": "Uhr"
+  },
+  "watch": {
+    "en": "watch",
+    "th": "นาฬิกาข้อมือ",
+    "ja": "腕時計",
+    "ko": "손목시계",
+    "zh": "手表",
+    "es": "reloj de pulsera",
+    "fr": "montre",
+    "de": "Armbanduhr"
+  },
+  "bag2": {
+    "en": "backpack",
+    "th": "กระเป๋าเป้",
+    "ja": "リュック",
+    "ko": "배낭",
+    "zh": "背包",
+    "es": "mochila",
+    "fr": "sac à dos",
+    "de": "Rucksack"
+  },
+  "shoe": {
+    "en": "shoe",
+    "th": "รองเท้า",
+    "ja": "靴",
+    "ko": "신발",
+    "zh": "鞋",
+    "es": "zapato",
+    "fr": "chaussure",
+    "de": "Schuh"
+  },
+  "clothes": {
+    "en": "clothes",
+    "th": "เสื้อผ้า",
+    "ja": "服",
+    "ko": "옷",
+    "zh": "衣服",
+    "es": "ropa",
+    "fr": "vêtements",
+    "de": "Kleidung"
+  },
+  "hat": {
+    "en": "hat",
+    "th": "หมวก",
+    "ja": "帽子",
+    "ko": "모자",
+    "zh": "帽子",
+    "es": "sombrero",
+    "fr": "chapeau",
+    "de": "Hut"
+  },
+  "glasses": {
+    "en": "glasses",
+    "th": "แว่นตา",
+    "ja": "眼鏡",
+    "ko": "안경",
+    "zh": "眼镜",
+    "es": "gafas",
+    "fr": "lunettes",
+    "de": "Brille"
+  },
+  "food2": {
+    "en": "meal",
+    "th": "มื้ออาหาร",
+    "ja": "食事",
+    "ko": "식사",
+    "zh": "餐",
+    "es": "comida",
+    "fr": "repas",
+    "de": "Mahlzeit"
+  },
+  "drink": {
+    "en": "drink",
+    "th": "เครื่องดื่ม",
+    "ja": "飲み物",
+    "ko": "음료",
+    "zh": "饮料",
+    "es": "bebida",
+    "fr": "boisson",
+    "de": "Getränk"
+  },
+  "fruit": {
+    "en": "fruit",
+    "th": "ผลไม้",
+    "ja": "果物",
+    "ko": "과일",
+    "zh": "水果",
+    "es": "fruta",
+    "fr": "fruit",
+    "de": "Obst"
+  },
+  "vegetable": {
+    "en": "vegetable",
+    "th": "ผัก",
+    "ja": "野菜",
+    "ko": "야채",
+    "zh": "蔬菜",
+    "es": "verdura",
+    "fr": "légume",
+    "de": "Gemüse"
+  },
+  "meat": {
+    "en": "meat",
+    "th": "เนื้อ",
+    "ja": "肉",
+    "ko": "고기",
+    "zh": "肉",
+    "es": "carne",
+    "fr": "viande",
+    "de": "Fleisch"
+  },
+  "rice": {
+    "en": "rice",
+    "th": "ข้าว",
+    "ja": "ご飯",
+    "ko": "밥",
+    "zh": "米饭",
+    "es": "arroz",
+    "fr": "riz",
+    "de": "Reis"
+  },
+  "bread": {
+    "en": "bread",
+    "th": "ขนมปัง",
+    "ja": "パン",
+    "ko": "빵",
+    "zh": "面包",
+    "es": "pan",
+    "fr": "pain",
+    "de": "Brot"
+  },
+  "egg": {
+    "en": "egg",
+    "th": "ไข่",
+    "ja": "卵",
+    "ko": "달걀",
+    "zh": "鸡蛋",
+    "es": "huevo",
+    "fr": "œuf",
+    "de": "Ei"
+  },
+  "milk": {
+    "en": "milk",
+    "th": "นม",
+    "ja": "牛乳",
+    "ko": "우유",
+    "zh": "牛奶",
+    "es": "leche",
+    "fr": "lait",
+    "de": "Milch"
+  },
+  "tea": {
+    "en": "tea",
+    "th": "ชา",
+    "ja": "お茶",
+    "ko": "차",
+    "zh": "茶",
+    "es": "té",
+    "fr": "thé",
+    "de": "Tee"
+  },
+  "coffee": {
+    "en": "coffee",
+    "th": "กาแฟ",
+    "ja": "コーヒー",
+    "ko": "커피",
+    "zh": "咖啡",
+    "es": "café",
+    "fr": "café",
+    "de": "Kaffee"
+  },
+  "sugar": {
+    "en": "sugar",
+    "th": "น้ำตาล",
+    "ja": "砂糖",
+    "ko": "설탕",
+    "zh": "糖",
+    "es": "azúcar",
+    "fr": "sucre",
+    "de": "Zucker"
+  },
+  "salt": {
+    "en": "salt",
+    "th": "เกลือ",
+    "ja": "塩",
+    "ko": "소금",
+    "zh": "盐",
+    "es": "sal",
+    "fr": "sel",
+    "de": "Salz"
+  },
+  "oil": {
+    "en": "oil",
+    "th": "น้ำมัน",
+    "ja": "油",
+    "ko": "기름",
+    "zh": "油",
+    "es": "aceite",
+    "fr": "huile",
+    "de": "Öl"
+  },
+  "butter": {
+    "en": "butter",
+    "th": "เนย",
+    "ja": "バター",
+    "ko": "버터",
+    "zh": "黄油",
+    "es": "mantequilla",
+    "fr": "beurre",
+    "de": "Butter"
+  },
+  "cheese": {
+    "en": "cheese",
+    "th": "ชีส",
+    "ja": "チーズ",
+    "ko": "치즈",
+    "zh": "奶酪",
+    "es": "queso",
+    "fr": "fromage",
+    "de": "Käse"
+  },
+  "soup": {
+    "en": "soup",
+    "th": "ซุป",
+    "ja": "スープ",
+    "ko": "수프",
+    "zh": "汤",
+    "es": "sopa",
+    "fr": "soupe",
+    "de": "Suppe"
+  },
+  "cake": {
+    "en": "cake",
+    "th": "เค้ก",
+    "ja": "ケーキ",
+    "ko": "케이크",
+    "zh": "蛋糕",
+    "es": "pastel",
+    "fr": "gâteau",
+    "de": "Kuchen"
+  },
+  "icecream": {
+    "en": "ice cream",
+    "th": "ไอศกรีม",
+    "ja": "アイスクリーム",
+    "ko": "아이스크림",
+    "zh": "冰淇淋",
+    "es": "helado",
+    "fr": "glace",
+    "de": "Eis"
+  },
+  "candy": {
+    "en": "candy",
+    "th": "ลูกอม",
+    "ja": "キャンディー",
+    "ko": "사탕",
+    "zh": "糖果",
+    "es": "caramelo",
+    "fr": "bonbon",
+    "de": "Süßigkeit"
+  },
+  "bridge": {"en":"bridge","th":"สะพาน","ja":"橋","ko":"다리","zh":"桥","es":"puente","fr":"pont","de":"Brücke"},
+"mirror": {"en":"mirror","th":"กระจก","ja":"鏡","ko":"거울","zh":"镜子","es":"espejo","fr":"miroir","de":"Spiegel"},
+"roof": {"en":"roof","th":"หลังคา","ja":"屋根","ko":"지붕","zh":"屋顶","es":"techo","fr":"toit","de":"Dach"},
+"key": {"en":"key","th":"กุญแจ","ja":"鍵","ko":"열쇠","zh":"钥匙","es":"llave","fr":"clé","de":"Schlüssel"}
+}

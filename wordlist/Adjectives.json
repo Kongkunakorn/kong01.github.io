@@ -1,0 +1,1002 @@
+{
+  "big": {
+    "en": "big",
+    "th": "ใหญ่",
+    "ja": "大きい",
+    "ko": "큰",
+    "zh": "大的",
+    "es": "grande",
+    "fr": "grand",
+    "de": "groß"
+  },
+  "small": {
+    "en": "small",
+    "th": "เล็ก",
+    "ja": "小さい",
+    "ko": "작은",
+    "zh": "小的",
+    "es": "pequeño",
+    "fr": "petit",
+    "de": "klein"
+  },
+  "hot": {
+    "en": "hot",
+    "th": "ร้อน",
+    "ja": "暑い",
+    "ko": "더운",
+    "zh": "热的",
+    "es": "caliente",
+    "fr": "chaud",
+    "de": "heiß"
+  },
+  "cold": {
+    "en": "cold",
+    "th": "เย็น",
+    "ja": "寒い",
+    "ko": "추운",
+    "zh": "冷的",
+    "es": "frío",
+    "fr": "froid",
+    "de": "kalt"
+  },
+  "beautiful": {
+    "en": "beautiful",
+    "th": "สวยงาม",
+    "ja": "美しい",
+    "ko": "아름다운",
+    "zh": "美丽的",
+    "es": "hermoso",
+    "fr": "beau",
+    "de": "schön"
+  },
+  "ugly": {
+    "en": "ugly",
+    "th": "น่าเกลียด",
+    "ja": "醜い",
+    "ko": "못생긴",
+    "zh": "丑陋的",
+    "es": "feo",
+    "fr": "laid",
+    "de": "hässlich"
+  },
+  "happy": {
+    "en": "happy",
+    "th": "มีความสุข",
+    "ja": "幸せな",
+    "ko": "행복한",
+    "zh": "快乐的",
+    "es": "feliz",
+    "fr": "heureux",
+    "de": "glücklich"
+  },
+  "sad": {
+    "en": "sad",
+    "th": "เศร้า",
+    "ja": "悲しい",
+    "ko": "슬픈",
+    "zh": "伤心的",
+    "es": "triste",
+    "fr": "triste",
+    "de": "traurig"
+  },
+  "fast": {
+    "en": "fast",
+    "th": "เร็ว",
+    "ja": "速い",
+    "ko": "빠른",
+    "zh": "快的",
+    "es": "rápido",
+    "fr": "rapide",
+    "de": "schnell"
+  },
+  "slow": {
+    "en": "slow",
+    "th": "ช้า",
+    "ja": "遅い",
+    "ko": "느린",
+    "zh": "慢的",
+    "es": "lento",
+    "fr": "lent",
+    "de": "langsam"
+  },
+  "good": {
+    "en": "good",
+    "th": "ดี",
+    "ja": "良い",
+    "ko": "좋은",
+    "zh": "好的",
+    "es": "bueno",
+    "fr": "bon",
+    "de": "gut"
+  },
+  "bad": {
+    "en": "bad",
+    "th": "แย่",
+    "ja": "悪い",
+    "ko": "나쁜",
+    "zh": "坏的",
+    "es": "malo",
+    "fr": "mauvais",
+    "de": "schlecht"
+  },
+  "strong": {
+    "en": "strong",
+    "th": "แข็งแรง",
+    "ja": "強い",
+    "ko": "강한",
+    "zh": "强壮的",
+    "es": "fuerte",
+    "fr": "fort",
+    "de": "stark"
+  },
+  "weak": {
+    "en": "weak",
+    "th": "อ่อนแอ",
+    "ja": "弱い",
+    "ko": "약한",
+    "zh": "虚弱的",
+    "es": "débil",
+    "fr": "faible",
+    "de": "schwach"
+  },
+  "new": {
+    "en": "new",
+    "th": "ใหม่",
+    "ja": "新しい",
+    "ko": "새로운",
+    "zh": "新的",
+    "es": "nuevo",
+    "fr": "nouveau",
+    "de": "neu"
+  },
+  "old": {
+    "en": "old",
+    "th": "เก่า",
+    "ja": "古い",
+    "ko": "오래된",
+    "zh": "旧的",
+    "es": "viejo",
+    "fr": "vieux",
+    "de": "alt"
+  },
+  "long": {
+    "en": "long",
+    "th": "ยาว",
+    "ja": "長い",
+    "ko": "긴",
+    "zh": "长的",
+    "es": "largo",
+    "fr": "long",
+    "de": "lang"
+  },
+  "short": {
+    "en": "short",
+    "th": "สั้น",
+    "ja": "短い",
+    "ko": "짧은",
+    "zh": "短的",
+    "es": "corto",
+    "fr": "court",
+    "de": "kurz"
+  },
+  "clean": {
+    "en": "clean",
+    "th": "สะอาด",
+    "ja": "きれいな",
+    "ko": "깨끗한",
+    "zh": "干净的",
+    "es": "limpio",
+    "fr": "propre",
+    "de": "sauber"
+  },
+  "dirty": {
+    "en": "dirty",
+    "th": "สกปรก",
+    "ja": "汚い",
+    "ko": "더러운",
+    "zh": "脏的",
+    "es": "sucio",
+    "fr": "sale",
+    "de": "schmutzig"
+  },
+  "young": {
+    "en": "young",
+    "th": "อายุน้อย",
+    "ja": "若い",
+    "ko": "젊은",
+    "zh": "年轻的",
+    "es": "joven",
+    "fr": "jeune",
+    "de": "jung"
+  },
+  "old-fashioned": {
+    "en": "old-fashioned",
+    "th": "ล้าสมัย",
+    "ja": "古風な",
+    "ko": "구식의",
+    "zh": "老式的",
+    "es": "anticuado",
+    "fr": "démodé",
+    "de": "altmodisch"
+  },
+  "easy": {
+    "en": "easy",
+    "th": "ง่าย",
+    "ja": "簡単な",
+    "ko": "쉬운",
+    "zh": "容易的",
+    "es": "fácil",
+    "fr": "facile",
+    "de": "einfach"
+  },
+  "difficult": {
+    "en": "difficult",
+    "th": "ยาก",
+    "ja": "難しい",
+    "ko": "어려운",
+    "zh": "困难的",
+    "es": "difícil",
+    "fr": "difficile",
+    "de": "schwierig"
+  },
+  "rich": {
+    "en": "rich",
+    "th": "รวย",
+    "ja": "裕福な",
+    "ko": "부유한",
+    "zh": "富有的",
+    "es": "rico",
+    "fr": "riche",
+    "de": "reich"
+  },
+  "poor": {
+    "en": "poor",
+    "th": "จน",
+    "ja": "貧しい",
+    "ko": "가난한",
+    "zh": "贫穷的",
+    "es": "pobre",
+    "fr": "pauvre",
+    "de": "arm"
+  },
+  "fat": {
+    "en": "fat",
+    "th": "อ้วน",
+    "ja": "太った",
+    "ko": "뚱뚱한",
+    "zh": "胖的",
+    "es": "gordo",
+    "fr": "gros",
+    "de": "dick"
+  },
+  "thin": {
+    "en": "thin",
+    "th": "ผอม",
+    "ja": "痩せた",
+    "ko": "마른",
+    "zh": "瘦的",
+    "es": "delgado",
+    "fr": "mince",
+    "de": "dünn"
+  },
+  "tall": {
+    "en": "tall",
+    "th": "สูง",
+    "ja": "背が高い",
+    "ko": "키가 큰",
+    "zh": "高的",
+    "es": "alto",
+    "fr": "grand",
+    "de": "groß"
+  },
+  "short-tempered": {
+    "en": "short-tempered",
+    "th": "ขี้โมโห",
+    "ja": "短気な",
+    "ko": "성격이 급한",
+    "zh": "急躁的",
+    "es": "irascible",
+    "fr": "coléreux",
+    "de": "reizbar"
+  },
+  "kind": {
+    "en": "kind",
+    "th": "ใจดี",
+    "ja": "優しい",
+    "ko": "친절한",
+    "zh": "善良的",
+    "es": "amable",
+    "fr": "gentil",
+    "de": "freundlich"
+  },
+  "cruel": {
+    "en": "cruel",
+    "th": "โหดร้าย",
+    "ja": "残酷な",
+    "ko": "잔인한",
+    "zh": "残酷的",
+    "es": "cruel",
+    "fr": "cruel",
+    "de": "grausam"
+  },
+  "brave": {
+    "en": "brave",
+    "th": "กล้าหาญ",
+    "ja": "勇敢な",
+    "ko": "용감한",
+    "zh": "勇敢的",
+    "es": "valiente",
+    "fr": "courageux",
+    "de": "mutig"
+  },
+  "cowardly": {
+    "en": "cowardly",
+    "th": "ขี้ขลาด",
+    "ja": "臆病な",
+    "ko": "겁 많은",
+    "zh": "胆小的",
+    "es": "cobarde",
+    "fr": "lâche",
+    "de": "feige"
+  },
+  "polite": {
+    "en": "polite",
+    "th": "สุภาพ",
+    "ja": "礼儀正しい",
+    "ko": "예의 바른",
+    "zh": "有礼貌的",
+    "es": "educado",
+    "fr": "poli",
+    "de": "höflich"
+  },
+  "rude": {
+    "en": "rude",
+    "th": "หยาบคาย",
+    "ja": "失礼な",
+    "ko": "무례한",
+    "zh": "粗鲁的",
+    "es": "grosero",
+    "fr": "impoli",
+    "de": "unhöflich"
+  },
+  "smart": {
+    "en": "smart",
+    "th": "ฉลาด",
+    "ja": "賢い",
+    "ko": "똑똑한",
+    "zh": "聪明的",
+    "es": "inteligente",
+    "fr": "intelligent",
+    "de": "klug"
+  },
+  "stupid": {
+    "en": "stupid",
+    "th": "โง่",
+    "ja": "愚かな",
+    "ko": "어리석은",
+    "zh": "愚蠢的",
+    "es": "estúpido",
+    "fr": "stupide",
+    "de": "dumm"
+  },
+  "quiet": {
+    "en": "quiet",
+    "th": "เงียบ",
+    "ja": "静かな",
+    "ko": "조용한",
+    "zh": "安静的",
+    "es": "tranquilo",
+    "fr": "calme",
+    "de": "ruhig"
+  },
+  "noisy": {
+    "en": "noisy",
+    "th": "เสียงดัง",
+    "ja": "うるさい",
+    "ko": "시끄러운",
+    "zh": "吵闹的",
+    "es": "ruidoso",
+    "fr": "bruyant",
+    "de": "laut"
+  },
+  "busy": {
+    "en": "busy",
+    "th": "ยุ่ง",
+    "ja": "忙しい",
+    "ko": "바쁜",
+    "zh": "忙碌的",
+    "es": "ocupado",
+    "fr": "occupé",
+    "de": "beschäftigt"
+  },
+  "lazy": {
+    "en": "lazy",
+    "th": "ขี้เกียจ",
+    "ja": "怠け者の",
+    "ko": "게으른",
+    "zh": "懒惰的",
+    "es": "perezoso",
+    "fr": "paresseux",
+    "de": "faul"
+  },
+  "hungry": {
+    "en": "hungry",
+    "th": "หิว",
+    "ja": "空腹の",
+    "ko": "배고픈",
+    "zh": "饥饿的",
+    "es": "hambriento",
+    "fr": "affamé",
+    "de": "hungrig"
+  },
+  "thirsty": {
+    "en": "thirsty",
+    "th": "กระหายน้ำ",
+    "ja": "喉が渇いた",
+    "ko": "목마른",
+    "zh": "口渴的",
+    "es": "sediento",
+    "fr": "assoiffé",
+    "de": "durstig"
+  },
+  "angry": {
+    "en": "angry",
+    "th": "โกรธ",
+    "ja": "怒っている",
+    "ko": "화난",
+    "zh": "生气的",
+    "es": "enojado",
+    "fr": "fâché",
+    "de": "wütend"
+  },
+  "calm": {
+    "en": "calm",
+    "th": "สงบ",
+    "ja": "穏やかな",
+    "ko": "차분한",
+    "zh": "冷静的",
+    "es": "tranquilo",
+    "fr": "calme",
+    "de": "ruhig"
+  },
+  "friendly": {
+    "en": "friendly",
+    "th": "เป็นมิตร",
+    "ja": "親しみやすい",
+    "ko": "친근한",
+    "zh": "友好的",
+    "es": "amistoso",
+    "fr": "amical",
+    "de": "freundlich"
+  },
+  "unfriendly": {
+    "en": "unfriendly",
+    "th": "ไม่เป็นมิตร",
+    "ja": "不親切な",
+    "ko": "불친절한",
+    "zh": "不友好的",
+    "es": "antipático",
+    "fr": "inamicaux",
+    "de": "unfreundlich"
+  },
+  "funny": {
+    "en": "funny",
+    "th": "ตลก",
+    "ja": "面白い",
+    "ko": "웃긴",
+    "zh": "有趣的",
+    "es": "gracioso",
+    "fr": "drôle",
+    "de": "lustig"
+  },
+  "serious": {
+    "en": "serious",
+    "th": "จริงจัง",
+    "ja": "真面目な",
+    "ko": "진지한",
+    "zh": "严肃的",
+    "es": "serio",
+    "fr": "sérieux",
+    "de": "ernst"
+  },
+  "hard": {
+    "en": "hard",
+    "th": "แข็ง",
+    "ja": "硬い",
+    "ko": "단단한",
+    "zh": "硬的",
+    "es": "duro",
+    "fr": "dur",
+    "de": "hart"
+  },
+  "soft": {
+    "en": "soft",
+    "th": "นุ่ม",
+    "ja": "柔らかい",
+    "ko": "부드러운",
+    "zh": "软的",
+    "es": "suave",
+    "fr": "doux",
+    "de": "weich"
+  },
+  "light": {
+    "en": "light",
+    "th": "สว่าง",
+    "ja": "明るい",
+    "ko": "밝은",
+    "zh": "明亮的",
+    "es": "claro",
+    "fr": "clair",
+    "de": "hell"
+  },
+  "dark": {
+    "en": "dark",
+    "th": "มืด",
+    "ja": "暗い",
+    "ko": "어두운",
+    "zh": "黑暗的",
+    "es": "oscuro",
+    "fr": "sombre",
+    "de": "dunkel"
+  },
+  "early": {
+    "en": "early",
+    "th": "เช้า/ก่อนเวลา",
+    "ja": "早い",
+    "ko": "이른",
+    "zh": "早的",
+    "es": "temprano",
+    "fr": "tôt",
+    "de": "früh"
+  },
+  "late": {
+    "en": "late",
+    "th": "สาย",
+    "ja": "遅い",
+    "ko": "늦은",
+    "zh": "晚的",
+    "es": "tarde",
+    "fr": "en retard",
+    "de": "spät"
+  },
+  "safe": {
+    "en": "safe",
+    "th": "ปลอดภัย",
+    "ja": "安全な",
+    "ko": "안전한",
+    "zh": "安全的",
+    "es": "seguro",
+    "fr": "sûr",
+    "de": "sicher"
+  },
+  "dangerous": {
+    "en": "dangerous",
+    "th": "อันตราย",
+    "ja": "危険な",
+    "ko": "위험한",
+    "zh": "危险的",
+    "es": "peligroso",
+    "fr": "dangereux",
+    "de": "gefährlich"
+  },
+  "expensive": {
+    "en": "expensive",
+    "th": "แพง",
+    "ja": "高価な",
+    "ko": "비싼",
+    "zh": "昂贵的",
+    "es": "caro",
+    "fr": "cher",
+    "de": "teuer"
+  },
+  "cheap": {
+    "en": "cheap",
+    "th": "ถูก",
+    "ja": "安い",
+    "ko": "싼",
+    "zh": "便宜的",
+    "es": "barato",
+    "fr": "bon marché",
+    "de": "billig"
+  },
+  "sweet": {
+    "en": "sweet",
+    "th": "หวาน",
+    "ja": "甘い",
+    "ko": "달콤한",
+    "zh": "甜的",
+    "es": "dulce",
+    "fr": "doux",
+    "de": "süß"
+  },
+  "sour": {
+    "en": "sour",
+    "th": "เปรี้ยว",
+    "ja": "酸っぱい",
+    "ko": "신",
+    "zh": "酸的",
+    "es": "agrio",
+    "fr": "aigre",
+    "de": "sauer"
+  },
+  "bitter": {
+    "en": "bitter",
+    "th": "ขม",
+    "ja": "苦い",
+    "ko": "쓴",
+    "zh": "苦的",
+    "es": "amargo",
+    "fr": "amer",
+    "de": "bitter"
+  },
+  "salty": {
+    "en": "salty",
+    "th": "เค็ม",
+    "ja": "塩辛い",
+    "ko": "짠",
+    "zh": "咸的",
+    "es": "salado",
+    "fr": "salé",
+    "de": "salzig"
+  },
+  "spicy": {
+    "en": "spicy",
+    "th": "เผ็ด",
+    "ja": "辛い",
+    "ko": "매운",
+    "zh": "辣的",
+    "es": "picante",
+    "fr": "épicé",
+    "de": "scharf"
+  },
+  "delicious": {
+    "en": "delicious",
+    "th": "อร่อย",
+    "ja": "美味しい",
+    "ko": "맛있는",
+    "zh": "美味的",
+    "es": "delicioso",
+    "fr": "délicieux",
+    "de": "köstlich"
+  },
+  "boring": {
+    "en": "boring",
+    "th": "น่าเบื่อ",
+    "ja": "退屈な",
+    "ko": "지루한",
+    "zh": "无聊的",
+    "es": "aburrido",
+    "fr": "ennuyeux",
+    "de": "langweilig"
+  },
+  "interesting": {
+    "en": "interesting",
+    "th": "น่าสนใจ",
+    "ja": "面白い",
+    "ko": "흥미로운",
+    "zh": "有趣的",
+    "es": "interesante",
+    "fr": "intéressant",
+    "de": "interessant"
+  },
+  "important": {
+    "en": "important",
+    "th": "สำคัญ",
+    "ja": "重要な",
+    "ko": "중요한",
+    "zh": "重要的",
+    "es": "importante",
+    "fr": "important",
+    "de": "wichtig"
+  },
+  "unimportant": {
+    "en": "unimportant",
+    "th": "ไม่สำคัญ",
+    "ja": "重要でない",
+    "ko": "중요하지 않은",
+    "zh": "不重要的",
+    "es": "sin importancia",
+    "fr": "sans importance",
+    "de": "unwichtig"
+  },
+  "lucky": {
+    "en": "lucky",
+    "th": "โชคดี",
+    "ja": "運がいい",
+    "ko": "운이 좋은",
+    "zh": "幸运的",
+    "es": "afortunado",
+    "fr": "chanceux",
+    "de": "glücklich"
+  },
+  "unlucky": {
+    "en": "unlucky",
+    "th": "โชคร้าย",
+    "ja": "運が悪い",
+    "ko": "운이 나쁜",
+    "zh": "不幸的",
+    "es": "desafortunado",
+    "fr": "malchanceux",
+    "de": "unglücklich"
+  },
+  "famous": {
+    "en": "famous",
+    "th": "มีชื่อเสียง",
+    "ja": "有名な",
+    "ko": "유명한",
+    "zh": "著名的",
+    "es": "famoso",
+    "fr": "célèbre",
+    "de": "berühmt"
+  },
+  "unknown": {
+    "en": "unknown",
+    "th": "ไม่รู้จัก",
+    "ja": "未知の",
+    "ko": "알려지지 않은",
+    "zh": "未知的",
+    "es": "desconocido",
+    "fr": "inconnu",
+    "de": "unbekannt"
+  },
+  "honest": {
+    "en": "honest",
+    "th": "ซื่อสัตย์",
+    "ja": "正直な",
+    "ko": "정직한",
+    "zh": "诚实的",
+    "es": "honesto",
+    "fr": "honnête",
+    "de": "ehrlich"
+  },
+  "dishonest": {
+    "en": "dishonest",
+    "th": "ไม่ซื่อสัตย์",
+    "ja": "不正直な",
+    "ko": "부정직한",
+    "zh": "不诚实的",
+    "es": "deshonesto",
+    "fr": "malhonnête",
+    "de": "unehrlich"
+  },
+  "healthy": {
+    "en": "healthy",
+    "th": "สุขภาพดี",
+    "ja": "健康な",
+    "ko": "건강한",
+    "zh": "健康的",
+    "es": "saludable",
+    "fr": "en bonne santé",
+    "de": "gesund"
+  },
+  "sick": {
+    "en": "sick",
+    "th": "ป่วย",
+    "ja": "病気の",
+    "ko": "아픈",
+    "zh": "生病的",
+    "es": "enfermo",
+    "fr": "malade",
+    "de": "krank"
+  },
+  "warm": {
+    "en": "warm",
+    "th": "อบอุ่น",
+    "ja": "暖かい",
+    "ko": "따뜻한",
+    "zh": "温暖的",
+    "es": "cálido",
+    "fr": "chaud",
+    "de": "warm"
+  },
+  "cool": {
+    "en": "cool",
+    "th": "เย็นสบาย",
+    "ja": "涼しい",
+    "ko": "시원한",
+    "zh": "凉爽的",
+    "es": "fresco",
+    "fr": "frais",
+    "de": "kühl"
+  },
+  "open": {
+    "en": "open",
+    "th": "เปิด",
+    "ja": "開いている",
+    "ko": "열린",
+    "zh": "打开的",
+    "es": "abierto",
+    "fr": "ouvert",
+    "de": "offen"
+  },
+  "closed": {
+    "en": "closed",
+    "th": "ปิด",
+    "ja": "閉じている",
+    "ko": "닫힌",
+    "zh": "关闭的",
+    "es": "cerrado",
+    "fr": "fermé",
+    "de": "geschlossen"
+  },
+  "wide": {
+    "en": "wide",
+    "th": "กว้าง",
+    "ja": "広い",
+    "ko": "넓은",
+    "zh": "宽的",
+    "es": "ancho",
+    "fr": "large",
+    "de": "breit"
+  },
+  "narrow": {
+    "en": "narrow",
+    "th": "แคบ",
+    "ja": "狭い",
+    "ko": "좁은",
+    "zh": "窄的",
+    "es": "estrecho",
+    "fr": "étroit",
+    "de": "schmal"
+  },
+  "deep": {
+    "en": "deep",
+    "th": "ลึก",
+    "ja": "深い",
+    "ko": "깊은",
+    "zh": "深的",
+    "es": "profundo",
+    "fr": "profond",
+    "de": "tief"
+  },
+  "shallow": {
+    "en": "shallow",
+    "th": "ตื้น",
+    "ja": "浅い",
+    "ko": "얕은",
+    "zh": "浅的",
+    "es": "poco profundo",
+    "fr": "peu profond",
+    "de": "seicht"
+  },
+  "full": {
+    "en": "full",
+    "th": "เต็ม",
+    "ja": "いっぱいの",
+    "ko": "가득 찬",
+    "zh": "满的",
+    "es": "lleno",
+    "fr": "plein",
+    "de": "voll"
+  },
+  "empty": {
+    "en": "empty",
+    "th": "ว่างเปล่า",
+    "ja": "空の",
+    "ko": "빈",
+    "zh": "空的",
+    "es": "vacío",
+    "fr": "vide",
+    "de": "leer"
+  },
+  "possible": {
+    "en": "possible",
+    "th": "เป็นไปได้",
+    "ja": "可能な",
+    "ko": "가능한",
+    "zh": "可能的",
+    "es": "posible",
+    "fr": "possible",
+    "de": "möglich"
+  },
+  "impossible": {
+    "en": "impossible",
+    "th": "เป็นไปไม่ได้",
+    "ja": "不可能な",
+    "ko": "불가능한",
+    "zh": "不可能的",
+    "es": "imposible",
+    "fr": "impossible",
+    "de": "unmöglich"
+  },
+  "true": {
+    "en": "true",
+    "th": "จริง",
+    "ja": "本当の",
+    "ko": "진실한",
+    "zh": "真的",
+    "es": "verdadero",
+    "fr": "vrai",
+    "de": "wahr"
+  },
+  "false": {
+    "en": "false",
+    "th": "เท็จ",
+    "ja": "偽の",
+    "ko": "거짓의",
+    "zh": "假的",
+    "es": "falso",
+    "fr": "faux",
+    "de": "falsch"
+  },
+  "right": {
+    "en": "right",
+    "th": "ถูกต้อง",
+    "ja": "正しい",
+    "ko": "옳은",
+    "zh": "正确的",
+    "es": "correcto",
+    "fr": "juste",
+    "de": "richtig"
+  },
+  "wrong": {
+    "en": "wrong",
+    "th": "ผิด",
+    "ja": "間違った",
+    "ko": "잘못된",
+    "zh": "错误的",
+    "es": "equivocado",
+    "fr": "faux",
+    "de": "falsch"
+  },
+  "same": {
+    "en": "same",
+    "th": "เหมือนกัน",
+    "ja": "同じ",
+    "ko": "같은",
+    "zh": "相同的",
+    "es": "mismo",
+    "fr": "même",
+    "de": "gleich"
+  },
+  "different": {
+    "en": "different",
+    "th": "แตกต่าง",
+    "ja": "違う",
+    "ko": "다른",
+    "zh": "不同的",
+    "es": "diferente",
+    "fr": "différent",
+    "de": "anders"
+  },
+  "beautiful-looking": {
+    "en": "beautiful-looking",
+    "th": "รูปร่างสวย",
+    "ja": "見た目が美しい",
+    "ko": "보기 좋은",
+    "zh": "好看的",
+    "es": "hermoso",
+    "fr": "beau à voir",
+    "de": "schön aussehend"
+  },
+  "handsome": {
+    "en": "handsome",
+    "th": "หล่อ",
+    "ja": "ハンサムな",
+    "ko": "잘생긴",
+    "zh": "英俊的",
+    "es": "guapo",
+    "fr": "beau",
+    "de": "gutaussehend"
+  },
+  "cute": {
+    "en": "cute",
+    "th": "น่ารัก",
+    "ja": "可愛い",
+    "ko": "귀여운",
+    "zh": "可爱的",
+    "es": "lindo",
+    "fr": "mignon",
+    "de": "süß"
+  },
+  "pretty": {
+    "en": "pretty",
+    "th": "สวย",
+    "ja": "きれいな",
+    "ko": "예쁜",
+    "zh": "漂亮的",
+    "es": "bonito",
+    "fr": "joli",
+    "de": "hübsch"
+  }
+}

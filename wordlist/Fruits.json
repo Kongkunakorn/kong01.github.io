@@ -1,0 +1,1002 @@
+{
+  "acerola": {
+    "en": "acerola",
+    "th": "อะเซโรลา",
+    "ja": "アセロラ",
+    "ko": "아세로라",
+    "zh": "西印度樱桃",
+    "es": "acerola",
+    "fr": "acérola",
+    "de": "Acerolakirsche"
+  },
+  "ackee": {
+    "en": "ackee",
+    "th": "แอคกี",
+    "ja": "アキー",
+    "ko": "아키",
+    "zh": "西非荔枝",
+    "es": "ackee",
+    "fr": "ackee",
+    "de": "Ackee"
+  },
+  "ackee apple": {
+    "en": "ackee apple",
+    "th": "แอคกีแอปเปิ้ล",
+    "ja": "アキーアップル",
+    "ko": "아키애플",
+    "zh": "西非荔枝果",
+    "es": "ackee apple",
+    "fr": "ackee apple",
+    "de": "Ackeeapfel"
+  },
+  "apple": {
+    "en": "apple",
+    "th": "แอปเปิ้ล",
+    "ja": "りんご",
+    "ko": "사과",
+    "zh": "苹果",
+    "es": "manzana",
+    "fr": "pomme",
+    "de": "Apfel"
+  },
+  "apricot": {
+    "en": "apricot",
+    "th": "แอปริคอต",
+    "ja": "アンズ",
+    "ko": "살구",
+    "zh": "杏子",
+    "es": "albaricoque",
+    "fr": "abricot",
+    "de": "Aprikose"
+  },
+  "avocado": {
+    "en": "avocado",
+    "th": "อะโวคาโด",
+    "ja": "アボカド",
+    "ko": "아보카도",
+    "zh": "鳄梨",
+    "es": "aguacate",
+    "fr": "avocat",
+    "de": "Avocado"
+  },
+  "babaco": {
+    "en": "babaco",
+    "th": "บาบาโก",
+    "ja": "ババコ",
+    "ko": "바바코",
+    "zh": "巴巴果",
+    "es": "babaco",
+    "fr": "babaco",
+    "de": "Babaco"
+  },
+  "banana": {
+    "en": "banana",
+    "th": "กล้วย",
+    "ja": "バナナ",
+    "ko": "바나나",
+    "zh": "香蕉",
+    "es": "plátano",
+    "fr": "banane",
+    "de": "Banane"
+  },
+  "bignay": {
+    "en": "bignay",
+    "th": "มะเม่า",
+    "ja": "ビグナイ",
+    "ko": "비그나이",
+    "zh": "南蛇藤果",
+    "es": "bignay",
+    "fr": "bignay",
+    "de": "Bignay"
+  },
+  "bilberry": {
+    "en": "bilberry",
+    "th": "บิลเบอร์รี่",
+    "ja": "ビルベリー",
+    "ko": "빌베리",
+    "zh": "越橘",
+    "es": "arándano europeo",
+    "fr": "myrtille",
+    "de": "Heidelbeere"
+  },
+  "black sapote": {
+    "en": "black sapote",
+    "th": "ซาโปเตดำ",
+    "ja": "ブラックサポテ",
+    "ko": "블랙사포테",
+    "zh": "黑人心果",
+    "es": "zapote negro",
+    "fr": "sapote noir",
+    "de": "Schwarze Sapote"
+  },
+  "blackberry": {
+    "en": "blackberry",
+    "th": "แบล็กเบอร์รี่",
+    "ja": "ブラックベリー",
+    "ko": "블랙베리",
+    "zh": "黑莓",
+    "es": "mora",
+    "fr": "mûre",
+    "de": "Brombeere"
+  },
+  "blueberry": {
+    "en": "blueberry",
+    "th": "บลูเบอร์รี่",
+    "ja": "ブルーベリー",
+    "ko": "블루베리",
+    "zh": "蓝莓",
+    "es": "arándano",
+    "fr": "myrtille",
+    "de": "Heidelbeere"
+  },
+  "breadfruit": {
+    "en": "breadfruit",
+    "th": "สาเก",
+    "ja": "パンノキ",
+    "ko": "빵나무",
+    "zh": "面包果",
+    "es": "fruta de pan",
+    "fr": "fruit à pain",
+    "de": "Brotfrucht"
+  },
+  "calabash": {
+    "en": "calabash",
+    "th": "น้ำเต้า",
+    "ja": "ヒョウタン",
+    "ko": "칼라바시",
+    "zh": "葫芦",
+    "es": "calabaza",
+    "fr": "calebasse",
+    "de": "Kalebasse"
+  },
+  "camu camu": {
+    "en": "camu camu",
+    "th": "คามูคามู",
+    "ja": "カムカム",
+    "ko": "카무카무",
+    "zh": "卡姆果",
+    "es": "camu camu",
+    "fr": "camu camu",
+    "de": "Camu Camu"
+  },
+  "canistel": {
+    "en": "canistel",
+    "th": "ละมุดเทศ",
+    "ja": "カニステル",
+    "ko": "카니스텔",
+    "zh": "蛋黄果",
+    "es": "canistel",
+    "fr": "canistel",
+    "de": "Eierfrucht"
+  },
+  "cantaloupe": {
+    "en": "cantaloupe",
+    "th": "แคนตาลูป",
+    "ja": "カンタロープ",
+    "ko": "칸탈루프",
+    "zh": "哈密瓜",
+    "es": "cantalupo",
+    "fr": "cantaloup",
+    "de": "Cantaloupe"
+  },
+  "carambola": {
+    "en": "carambola",
+    "th": "มะเฟือง",
+    "ja": "カランボラ",
+    "ko": "카라암볼라",
+    "zh": "杨桃",
+    "es": "carambola",
+    "fr": "carambole",
+    "de": "Sternfrucht"
+  },
+  "cherry": {
+    "en": "cherry",
+    "th": "เชอร์รี่",
+    "ja": "さくらんぼ",
+    "ko": "체리",
+    "zh": "樱桃",
+    "es": "cereza",
+    "fr": "cerise",
+    "de": "Kirsche"
+  },
+  "chico": {
+    "en": "chico",
+    "th": "ซาโปเต",
+    "ja": "チコ",
+    "ko": "치코",
+    "zh": "人心果",
+    "es": "chicozapote",
+    "fr": "sapotier",
+    "de": "Sapotille"
+  },
+  "cloudberry": {
+    "en": "cloudberry",
+    "th": "คลาวด์เบอร์รี่",
+    "ja": "クラウドベリー",
+    "ko": "클라우드베리",
+    "zh": "云莓",
+    "es": "mora ártica",
+    "fr": "mûre arctique",
+    "de": "Moltebeere"
+  },
+  "coconut": {
+    "en": "coconut",
+    "th": "มะพร้าว",
+    "ja": "ココナッツ",
+    "ko": "코코넛",
+    "zh": "椰子",
+    "es": "coco",
+    "fr": "noix de coco",
+    "de": "Kokosnuss"
+  },
+  "cranberry": {
+    "en": "cranberry",
+    "th": "แครนเบอร์รี่",
+    "ja": "クランベリー",
+    "ko": "크랜베리",
+    "zh": "蔓越莓",
+    "es": "arándano rojo",
+    "fr": "canneberge",
+    "de": "Preiselbeere"
+  },
+  "cupuacu": {
+    "en": "cupuacu",
+    "th": "คูพูอาซู",
+    "ja": "クプアス",
+    "ko": "쿠푸아수",
+    "zh": "杯果木",
+    "es": "cupuaçu",
+    "fr": "cupuaçu",
+    "de": "Cupuaçu"
+  },
+  "currant": {
+    "en": "currant",
+    "th": "ลูกเกด",
+    "ja": "カラント",
+    "ko": "커런트",
+    "zh": "红醋栗",
+    "es": "grosella",
+    "fr": "groseille",
+    "de": "Johannisbeere"
+  },
+  "custard apple": {
+    "en": "custard apple",
+    "th": "น้อยหน่าฝรั่ง",
+    "ja": "カスタードアップル",
+    "ko": "카스타드애플",
+    "zh": "释迦果",
+    "es": "anona",
+    "fr": "pomme-cannelle",
+    "de": "Rahmapfel"
+  },
+  "damson": {
+    "en": "damson",
+    "th": "พลัมดำซัน",
+    "ja": "ダムソン",
+    "ko": "댐슨",
+    "zh": "西梅李",
+    "es": "ciruela damascena",
+    "fr": "prune de Damas",
+    "de": "Kriechenpflaume"
+  },
+  "date": {
+    "en": "date",
+    "th": "อินทผลัม",
+    "ja": "デーツ",
+    "ko": "대추야자",
+    "zh": "枣",
+    "es": "dátil",
+    "fr": "datte",
+    "de": "Dattel"
+  },
+  "dragonfruit": {
+    "en": "dragonfruit",
+    "th": "แก้วมังกร",
+    "ja": "ドラゴンフルーツ",
+    "ko": "용과",
+    "zh": "火龙果",
+    "es": "pitahaya",
+    "fr": "fruit du dragon",
+    "de": "Drachenfrucht"
+  },
+  "durian": {
+    "en": "durian",
+    "th": "ทุเรียน",
+    "ja": "ドリアン",
+    "ko": "두리안",
+    "zh": "榴莲",
+    "es": "durio",
+    "fr": "durian",
+    "de": "Durian"
+  },
+  "elderberry": {
+    "en": "elderberry",
+    "th": "เอลเดอร์เบอร์รี่",
+    "ja": "ニワトコ",
+    "ko": "엘더베리",
+    "zh": "接骨木莓",
+    "es": "saúco",
+    "fr": "sureau",
+    "de": "Holunderbeere"
+  },
+  "feijoa": {
+    "en": "feijoa",
+    "th": "เฟโจอา",
+    "ja": "フェイジョア",
+    "ko": "페이조아",
+    "zh": "费约果",
+    "es": "feijoa",
+    "fr": "feijoa",
+    "de": "Feijoa"
+  },
+  "fig": {
+    "en": "fig",
+    "th": "มะเดื่อ",
+    "ja": "イチジク",
+    "ko": "무화과",
+    "zh": "无花果",
+    "es": "higo",
+    "fr": "figue",
+    "de": "Feige"
+  },
+  "gac": {
+    "en": "gac",
+    "th": "ฟักข้าว",
+    "ja": "ガックフルーツ",
+    "ko": "각",
+    "zh": "木鳖果",
+    "es": "gac",
+    "fr": "gac",
+    "de": "Gac"
+  },
+  "genip": {
+    "en": "genip",
+    "th": "เจนิป",
+    "ja": "ジェニップ",
+    "ko": "제니프",
+    "zh": "龙眼果",
+    "es": "genip",
+    "fr": "genipe",
+    "de": "Genip"
+  },
+  "gooseberry": {
+    "en": "gooseberry",
+    "th": "มะยม",
+    "ja": "グーズベリー",
+    "ko": "구스베리",
+    "zh": "醋栗",
+    "es": "grosella espinosa",
+    "fr": "groseille à maquereau",
+    "de": "Stachelbeere"
+  },
+  "grape": {
+    "en": "grape",
+    "th": "องุ่น",
+    "ja": "ぶどう",
+    "ko": "포도",
+    "zh": "葡萄",
+    "es": "uva",
+    "fr": "raisin",
+    "de": "Traube"
+  },
+  "guava": {
+    "en": "guava",
+    "th": "ฝรั่ง",
+    "ja": "グアバ",
+    "ko": "구아바",
+    "zh": "番石榴",
+    "es": "guayaba",
+    "fr": "goyave",
+    "de": "Guave"
+  },
+  "huckleberry": {
+    "en": "huckleberry",
+    "th": "ฮัคเคิลเบอร์รี่",
+    "ja": "ハックルベリー",
+    "ko": "허클베리",
+    "zh": "越橘",
+    "es": "arándano",
+    "fr": "myrtille américaine",
+    "de": "Heidelbeere"
+  },
+  "jabuticaba": {
+    "en": "jabuticaba",
+    "th": "จากูติคาบา",
+    "ja": "ジャブチカバ",
+    "ko": "자부티カ바",
+    "zh": "嘉宝果",
+    "es": "jabuticaba",
+    "fr": "jaboticaba",
+    "de": "Jabuticaba"
+  },
+  "jackfruit": {
+    "en": "jackfruit",
+    "th": "ขนุน",
+    "ja": "ジャックフルーツ",
+    "ko": "잭프루트",
+    "zh": "菠萝蜜",
+    "es": "jaca",
+    "fr": "jacquier",
+    "de": "Jackfrucht"
+  },
+  "jujube": {
+    "en": "jujube",
+    "th": "พุทรา",
+    "ja": "ナツメ",
+    "ko": "대추",
+    "zh": "枣子",
+    "es": "azufaifo",
+    "fr": "jujube",
+    "de": "Jujube"
+  },
+  "kiwano": {
+    "en": "kiwano",
+    "th": "กีวาโน",
+    "ja": "キワノ",
+    "ko": "키와노",
+    "zh": "非洲角瓜",
+    "es": "kiwano",
+    "fr": "kiwano",
+    "de": "Kiwano"
+  },
+  "kiwi": {
+    "en": "kiwi",
+    "th": "กีวี",
+    "ja": "キウイ",
+    "ko": "키위",
+    "zh": "奇异果",
+    "es": "kiwi",
+    "fr": "kiwi",
+    "de": "Kiwi"
+  },
+  "langsat": {
+    "en": "langsat",
+    "th": "ลองกอง",
+    "ja": "ランサット",
+    "ko": "랑삿",
+    "zh": "龙贡",
+    "es": "lansio",
+    "fr": "lansat",
+    "de": "Langsat"
+  },
+  "lemon": {
+    "en": "lemon",
+    "th": "มะนาวเหลือง",
+    "ja": "レモン",
+    "ko": "레몬",
+    "zh": "柠檬",
+    "es": "limón",
+    "fr": "citron",
+    "de": "Zitrone"
+  },
+  "lime": {
+    "en": "lime",
+    "th": "มะนาว",
+    "ja": "ライム",
+    "ko": "라임",
+    "zh": "酸橙",
+    "es": "lima",
+    "fr": "citron vert",
+    "de": "Limette"
+  },
+  "longan": {
+    "en": "longan",
+    "th": "ลำไย",
+    "ja": "ロンガン",
+    "ko": "용안",
+    "zh": "龙眼",
+    "es": "longan",
+    "fr": "longane",
+    "de": "Longan"
+  },
+  "loquat": {
+    "en": "loquat",
+    "th": "โลควอท",
+    "ja": "ビワ",
+    "ko": "비파",
+    "zh": "枇杷",
+    "es": "níspero japonés",
+    "fr": "néflier",
+    "de": "Loquat"
+  },
+  "lucuma": {
+    "en": "lucuma",
+    "th": "ลูกคูมา",
+    "ja": "ルクマ",
+    "ko": "루쿠마",
+    "zh": "卢库马果",
+    "es": "lúcuma",
+    "fr": "lúcuma",
+    "de": "Lucuma"
+  },
+  "lychee": {
+    "en": "lychee",
+    "th": "ลิ้นจี่",
+    "ja": "ライチ",
+    "ko": "리치",
+    "zh": "荔枝",
+    "es": "litchi",
+    "fr": "litchi",
+    "de": "Litschi"
+  },
+  "madrono": {
+    "en": "madrono",
+    "th": "มาดรอนโญ",
+    "ja": "マドローニョ",
+    "ko": "마드로뇨",
+    "zh": "马德罗尼奥果",
+    "es": "madroño",
+    "fr": "arbousier",
+    "de": "Erdbeerbaumfrucht"
+  },
+  "mango": {
+    "en": "mango",
+    "th": "มะม่วง",
+    "ja": "マンゴー",
+    "ko": "망고",
+    "zh": "芒果",
+    "es": "mango",
+    "fr": "mangue",
+    "de": "Mango"
+  },
+  "mangosteen": {
+    "en": "mangosteen",
+    "th": "มังคุด",
+    "ja": "マンゴスチン",
+    "ko": "망고스틴",
+    "zh": "山竹",
+    "es": "mangostán",
+    "fr": "mangoustan",
+    "de": "Mangostan"
+  },
+  "marang": {
+    "en": "marang",
+    "th": "มะรัง",
+    "ja": "マラン",
+    "ko": "마랑",
+    "zh": "马朗果",
+    "es": "marang",
+    "fr": "marang",
+    "de": "Marang"
+  },
+  "medlar": {
+    "en": "medlar",
+    "th": "เมดลาร์",
+    "ja": "メドラー",
+    "ko": "메들러",
+    "zh": "枸杞子",
+    "es": "níspero europeo",
+    "fr": "néflier",
+    "de": "Mispel"
+  },
+  "melon": {
+    "en": "melon",
+    "th": "เมลอน",
+    "ja": "メロン",
+    "ko": "멜론",
+    "zh": "甜瓜",
+    "es": "melón",
+    "fr": "melon",
+    "de": "Melone"
+  },
+  "miracle fruit": {
+    "en": "miracle fruit",
+    "th": "มิราเคิลฟรุ๊ต",
+    "ja": "ミラクルフルーツ",
+    "ko": "미라클 프루트",
+    "zh": "神秘果",
+    "es": "fruta milagrosa",
+    "fr": "fruit miracle",
+    "de": "Wunderbeere"
+  },
+  "mulberry": {
+    "en": "mulberry",
+    "th": "หม่อน",
+    "ja": "桑の実",
+    "ko": "뽕나무 열매",
+    "zh": "桑葚",
+    "es": "mora",
+    "fr": "mûrier",
+    "de": "Maulbeere"
+  },
+  "nance": {
+    "en": "nance",
+    "th": "แนนซ์",
+    "ja": "ナンス",
+    "ko": "난스",
+    "zh": "南美小果",
+    "es": "nance",
+    "fr": "nance",
+    "de": "Nance"
+  },
+  "olive": {
+    "en": "olive",
+    "th": "มะกอก",
+    "ja": "オリーブ",
+    "ko": "올리브",
+    "zh": "橄榄",
+    "es": "aceituna",
+    "fr": "olive",
+    "de": "Olive"
+  },
+  "orange": {
+    "en": "orange",
+    "th": "ส้ม",
+    "ja": "オレンジ",
+    "ko": "오렌지",
+    "zh": "橙子",
+    "es": "naranja",
+    "fr": "orange",
+    "de": "Orange"
+  },
+  "papaya": {
+    "en": "papaya",
+    "th": "มะละกอ",
+    "ja": "パパイヤ",
+    "ko": "파파야",
+    "zh": "木瓜",
+    "es": "papaya",
+    "fr": "papaye",
+    "de": "Papaya"
+  },
+  "passionfruit": {
+    "en": "passionfruit",
+    "th": "เสาวรส",
+    "ja": "パッションフルーツ",
+    "ko": "패션프루트",
+    "zh": "百香果",
+    "es": "maracuyá",
+    "fr": "fruit de la passion",
+    "de": "Passionsfrucht"
+  },
+  "pawpaw": {
+    "en": "pawpaw",
+    "th": "พอว์พอว์",
+    "ja": "ポーポー",
+    "ko": "포포",
+    "zh": "番木瓜",
+    "es": "papaya americana",
+    "fr": "asiminier",
+    "de": "Papau"
+  },
+  "peach": {
+    "en": "peach",
+    "th": "ลูกพีช",
+    "ja": "もも",
+    "ko": "복숭아",
+    "zh": "桃子",
+    "es": "melocotón",
+    "fr": "pêche",
+    "de": "Pfirsich"
+  },
+  "pear": {
+    "en": "pear",
+    "th": "ลูกแพร์",
+    "ja": "梨",
+    "ko": "배",
+    "zh": "梨",
+    "es": "pera",
+    "fr": "poire",
+    "de": "Birne"
+  },
+  "persimmon": {
+    "en": "persimmon",
+    "th": "ลูกพลับ",
+    "ja": "柿",
+    "ko": "감",
+    "zh": "柿子",
+    "es": "caqui",
+    "fr": "kaki",
+    "de": "Kaki"
+  },
+  "pineapple": {
+    "en": "pineapple",
+    "th": "สับปะรด",
+    "ja": "パイナップル",
+    "ko": "파인애플",
+    "zh": "菠萝",
+    "es": "piña",
+    "fr": "ananas",
+    "de": "Ananas"
+  },
+  "pitanga": {
+    "en": "pitanga",
+    "th": "พิแทงกา",
+    "ja": "ピタンガ",
+    "ko": "피탕가",
+    "zh": "巴西樱桃",
+    "es": "pitanga",
+    "fr": "pitanga",
+    "de": "Pitanga"
+  },
+  "plum": {
+    "en": "plum",
+    "th": "พลัม",
+    "ja": "プラム",
+    "ko": "자두",
+    "zh": "李子",
+    "es": "ciruela",
+    "fr": "prune",
+    "de": "Pflaume"
+  },
+  "pomegranate": {
+    "en": "pomegranate",
+    "th": "ทับทิม",
+    "ja": "ザクロ",
+    "ko": "석류",
+    "zh": "石榴",
+    "es": "granada",
+    "fr": "grenade",
+    "de": "Granatapfel"
+  },
+  "prickly pear": {
+    "en": "prickly pear",
+    "th": "ลูกแพร์หนาม",
+    "ja": "ウチワサボテン",
+    "ko": "손바닥선인장 열매",
+    "zh": "仙人掌果",
+    "es": "tuna",
+    "fr": "figue de barbarie",
+    "de": "Kaktusfeige"
+  },
+  "quince": {
+    "en": "quince",
+    "th": "มะตูมฝรั่ง",
+    "ja": "マルメロ",
+    "ko": "모과",
+    "zh": "木瓜",
+    "es": "membrillo",
+    "fr": "coing",
+    "de": "Quitte"
+  },
+  "rambutan": {
+    "en": "rambutan",
+    "th": "เงาะ",
+    "ja": "ランブータン",
+    "ko": "람부탄",
+    "zh": "红毛丹",
+    "es": "rambután",
+    "fr": "ramboutan",
+    "de": "Rambutan"
+  },
+  "raspberry": {
+    "en": "raspberry",
+    "th": "ราสป์เบอร์รี่",
+    "ja": "ラズベリー",
+    "ko": "산딸기",
+    "zh": "覆盆子",
+    "es": "frambuesa",
+    "fr": "framboise",
+    "de": "Himbeere"
+  },
+  "rhubarb": {
+    "en": "rhubarb",
+    "th": "รูบาร์บ",
+    "ja": "ルバーブ",
+    "ko": "대황",
+    "zh": "大黄",
+    "es": "ruibarbo",
+    "fr": "rhubarbe",
+    "de": "Rhabarber"
+  },
+  "rose apple": {
+    "en": "rose apple",
+    "th": "ชมพู่",
+    "ja": "ローズアップル",
+    "ko": "로즈애플",
+    "zh": "莲雾",
+    "es": "poma rosa",
+    "fr": "pomme rose",
+    "de": "Rosenapfel"
+  },
+  "salak": {
+    "en": "salak",
+    "th": "ละเล็ดงู",
+    "ja": "サラック",
+    "ko": "살락",
+    "zh": "蛇皮果",
+    "es": "salak",
+    "fr": "salak",
+    "de": "Salak"
+  },
+  "santol": {
+    "en": "santol",
+    "th": "กระท้อน",
+    "ja": "サントル",
+    "ko": "산톨",
+    "zh": "山陀罗",
+    "es": "santol",
+    "fr": "santol",
+    "de": "Santol"
+  },
+  "sapodilla": {
+    "en": "sapodilla",
+    "th": "ละมุด",
+    "ja": "サポジラ",
+    "ko": "사포딜라",
+    "zh": "人心果",
+    "es": "níspero",
+    "fr": "sapotille",
+    "de": "Breiapfel"
+  },
+  "soursop": {
+    "en": "soursop",
+    "th": "ทุเรียนเทศ",
+    "ja": "グラヴィオラ",
+    "ko": "사워솝",
+    "zh": "刺果番荔枝",
+    "es": "guanábana",
+    "fr": "corossol",
+    "de": "Stachelannone"
+  },
+  "starfruit": {
+    "en": "starfruit",
+    "th": "มะเฟือง",
+    "ja": "スターフルーツ",
+    "ko": "스타후르츠",
+    "zh": "杨桃",
+    "es": "carambola",
+    "fr": "carambole",
+    "de": "Sternfrucht"
+  },
+  "strawberry": {
+    "en": "strawberry",
+    "th": "สตรอเบอร์รี่",
+    "ja": "いちご",
+    "ko": "딸기",
+    "zh": "草莓",
+    "es": "fresa",
+    "fr": "fraise",
+    "de": "Erdbeere"
+  },
+  "sugar apple": {
+    "en": "sugar apple",
+    "th": "น้อยหน่า",
+    "ja": "シュガーアップル",
+    "ko": "슈가애플",
+    "zh": "番荔枝",
+    "es": "anón",
+    "fr": "pomme cannelle",
+    "de": "Zimtapfel"
+  },
+  "surinam cherry": {
+    "en": "surinam cherry",
+    "th": "เชอร์รี่ซูรินาม",
+    "ja": "スリナムチェリー",
+    "ko": "수리남체리",
+    "zh": "巴西樱桃",
+    "es": "cereza de surinam",
+    "fr": "cerise de surinam",
+    "de": "Surinamkirsche"
+  },
+  "tamarind": {
+    "en": "tamarind",
+    "th": "มะขาม",
+    "ja": "タマリンド",
+    "ko": "타마린드",
+    "zh": "罗望子",
+    "es": "tamarindo",
+    "fr": "tamarin",
+    "de": "Tamarinde"
+  },
+  "tangelo": {
+    "en": "tangelo",
+    "th": "แทนเจโล",
+    "ja": "タンジェロ",
+    "ko": "탱젤로",
+    "zh": "桔柚",
+    "es": "tangelo",
+    "fr": "tangelo",
+    "de": "Tangelo"
+  },
+  "ugli fruit": {
+    "en": "ugli fruit",
+    "th": "อูกลีฟรุต",
+    "ja": "ウグリフルーツ",
+    "ko": "우글리프루트",
+    "zh": "丑橘",
+    "es": "ugli",
+    "fr": "ugli",
+    "de": "Ugli-Frucht"
+  },
+  "watermelon": {
+    "en": "watermelon",
+    "th": "แตงโม",
+    "ja": "スイカ",
+    "ko": "수박",
+    "zh": "西瓜",
+    "es": "sandía",
+    "fr": "pastèque",
+    "de": "Wassermelone"
+  },
+  "white sapote": {
+    "en": "white sapote",
+    "th": "ไวท์ซาโปเต",
+    "ja": "ホワイトサポテ",
+    "ko": "화이트사포테",
+    "zh": "白人心果",
+    "es": "zapote blanco",
+    "fr": "sapote blanc",
+    "de": "Weiße Sapote"
+  },
+  "yumberry": {
+    "en": "yumberry",
+    "th": "หยัมเบอร์รี่",
+    "ja": "ヤンメイ",
+    "ko": "양메이",
+    "zh": "杨梅",
+    "es": "yumberry",
+    "fr": "yumberry",
+    "de": "Yumberry"
+  },
+  "grapefruit": {
+    "en": "grapefruit",
+    "th": "เกรปฟรุต",
+    "ja": "グレープフルーツ",
+    "ko": "자몽",
+    "zh": "葡萄柚",
+    "es": "pomelo",
+    "fr": "pamplemousse",
+    "de": "Grapefruit"
+  },
+  "pomelo": {
+    "en": "pomelo",
+    "th": "ส้มโอ",
+    "ja": "ザボン",
+    "ko": "포멜로",
+    "zh": "柚子",
+    "es": "pomelo asiático",
+    "fr": "pomélo",
+    "de": "Pomelo"
+  },
+  "tangerine": {
+    "en": "tangerine",
+    "th": "ส้มแทนเจอรีน",
+    "ja": "タンジェリン",
+    "ko": "탄제린",
+    "zh": "橘子",
+    "es": "tangerina",
+    "fr": "tangerine",
+    "de": "Tangerine"
+  },
+  "mandarin": {
+    "en": "mandarin",
+    "th": "ส้มแมนดาริน",
+    "ja": "みかん",
+    "ko": "귤",
+    "zh": "柑橘",
+    "es": "mandarina",
+    "fr": "mandarine",
+    "de": "Mandarine"
+  },
+  "kumquat": {
+    "en": "kumquat",
+    "th": "คัมควอต",
+    "ja": "金柑",
+    "ko": "금귤",
+    "zh": "金桔",
+    "es": "kumquat",
+    "fr": "kumquat",
+    "de": "Kumquat"
+  },
+  "nectarine": {
+    "en": "nectarine",
+    "th": "เนคทารีน",
+    "ja": "ネクタリン",
+    "ko": "천도복숭아",
+    "zh": "油桃",
+    "es": "nectarina",
+    "fr": "nectarine",
+    "de": "Nektarine"
+  },
+  "clementine": {
+    "en": "clementine",
+    "th": "ส้มคลีเมนไทน์",
+    "ja": "クレメンタイン",
+    "ko": "클레멘타인",
+    "zh": "克莱门汀",
+    "es": "clementina",
+    "fr": "clémentine",
+    "de": "Clementine"
+  }
+}
