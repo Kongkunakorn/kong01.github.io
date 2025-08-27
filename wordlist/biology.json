@@ -1,0 +1,962 @@
+{
+  "cell": {
+    "en": "cell",
+    "th": "เซลล์",
+    "ja": "細胞",
+    "ko": "세포",
+    "zh": "细胞",
+    "es": "célula",
+    "fr": "cellule",
+    "de": "Zelle"
+  },
+  "tissue": {
+    "en": "tissue",
+    "th": "เนื้อเยื่อ",
+    "ja": "組織",
+    "ko": "조직",
+    "zh": "组织",
+    "es": "tejido",
+    "fr": "tissu",
+    "de": "Gewebe"
+  },
+  "organ": {
+    "en": "organ",
+    "th": "อวัยวะ",
+    "ja": "臓器",
+    "ko": "기관",
+    "zh": "器官",
+    "es": "órgano",
+    "fr": "organe",
+    "de": "Organ"
+  },
+  "system": {
+    "en": "system",
+    "th": "ระบบ",
+    "ja": "系",
+    "ko": "계",
+    "zh": "系统",
+    "es": "sistema",
+    "fr": "système",
+    "de": "System"
+  },
+  "organism": {
+    "en": "organism",
+    "th": "สิ่งมีชีวิต",
+    "ja": "生物",
+    "ko": "생물",
+    "zh": "有机体",
+    "es": "organismo",
+    "fr": "organisme",
+    "de": "Organismus"
+  },
+  "species": {
+    "en": "species",
+    "th": "สปีชีส์",
+    "ja": "種",
+    "ko": "종",
+    "zh": "物种",
+    "es": "especie",
+    "fr": "espèce",
+    "de": "Art"
+  },
+  "population": {
+    "en": "population",
+    "th": "ประชากร",
+    "ja": "個体群",
+    "ko": "개체군",
+    "zh": "种群",
+    "es": "población",
+    "fr": "population",
+    "de": "Population"
+  },
+  "community": {
+    "en": "community",
+    "th": "ชุมชน",
+    "ja": "群集",
+    "ko": "군집",
+    "zh": "群落",
+    "es": "comunidad",
+    "fr": "communauté",
+    "de": "Gemeinschaft"
+  },
+  "ecosystem": {
+    "en": "ecosystem",
+    "th": "ระบบนิเวศ",
+    "ja": "生態系",
+    "ko": "생태계",
+    "zh": "生态系统",
+    "es": "ecosistema",
+    "fr": "écosystème",
+    "de": "Ökosystem"
+  },
+  "habitat": {
+    "en": "habitat",
+    "th": "ถิ่นอาศัย",
+    "ja": "生息地",
+    "ko": "서식지",
+    "zh": "栖息地",
+    "es": "hábitat",
+    "fr": "habitat",
+    "de": "Lebensraum"
+  },
+  "evolution": {
+    "en": "evolution",
+    "th": "วิวัฒนาการ",
+    "ja": "進化",
+    "ko": "진화",
+    "zh": "进化",
+    "es": "evolución",
+    "fr": "évolution",
+    "de": "Evolution"
+  },
+  "adaptation": {
+    "en": "adaptation",
+    "th": "การปรับตัว",
+    "ja": "適応",
+    "ko": "적응",
+    "zh": "适应",
+    "es": "adaptación",
+    "fr": "adaptation",
+    "de": "Anpassung"
+  },
+  "mutation": {
+    "en": "mutation",
+    "th": "การกลายพันธุ์",
+    "ja": "突然変異",
+    "ko": "돌연변이",
+    "zh": "突变",
+    "es": "mutación",
+    "fr": "mutation",
+    "de": "Mutation"
+  },
+  "gene": {
+    "en": "gene",
+    "th": "ยีน",
+    "ja": "遺伝子",
+    "ko": "유전자",
+    "zh": "基因",
+    "es": "gen",
+    "fr": "gène",
+    "de": "Gen"
+  },
+  "chromosome": {
+    "en": "chromosome",
+    "th": "โครโมโซม",
+    "ja": "染色体",
+    "ko": "염색체",
+    "zh": "染色体",
+    "es": "cromosoma",
+    "fr": "chromosome",
+    "de": "Chromosom"
+  },
+  "DNA": {
+    "en": "DNA",
+    "th": "ดีเอ็นเอ",
+    "ja": "DNA",
+    "ko": "DNA",
+    "zh": "DNA",
+    "es": "ADN",
+    "fr": "ADN",
+    "de": "DNA"
+  },
+  "RNA": {
+    "en": "RNA",
+    "th": "อาร์เอ็นเอ",
+    "ja": "RNA",
+    "ko": "RNA",
+    "zh": "RNA",
+    "es": "ARN",
+    "fr": "ARN",
+    "de": "RNA"
+  },
+  "protein": {
+    "en": "protein",
+    "th": "โปรตีน",
+    "ja": "タンパク質",
+    "ko": "단백질",
+    "zh": "蛋白质",
+    "es": "proteína",
+    "fr": "protéine",
+    "de": "Protein"
+  },
+  "enzyme": {
+    "en": "enzyme",
+    "th": "เอนไซม์",
+    "ja": "酵素",
+    "ko": "효소",
+    "zh": "酶",
+    "es": "enzima",
+    "fr": "enzyme",
+    "de": "Enzym"
+  },
+  "hormone": {
+    "en": "hormone",
+    "th": "ฮอร์โมน",
+    "ja": "ホルモン",
+    "ko": "호르몬",
+    "zh": "激素",
+    "es": "hormona",
+    "fr": "hormone",
+    "de": "Hormon"
+  },
+  "photosynthesis": {
+    "en": "photosynthesis",
+    "th": "การสังเคราะห์ด้วยแสง",
+    "ja": "光合成",
+    "ko": "광합성",
+    "zh": "光合作用",
+    "es": "fotosíntesis",
+    "fr": "photosynthèse",
+    "de": "Photosynthese"
+  },
+  "chlorophyll": {
+    "en": "chlorophyll",
+    "th": "คลอโรฟิลล์",
+    "ja": "クロロフィル",
+    "ko": "엽록소",
+    "zh": "叶绿素",
+    "es": "clorofila",
+    "fr": "chlorophylle",
+    "de": "Chlorophyll"
+  },
+  "root": {
+    "en": "root",
+    "th": "ราก",
+    "ja": "根",
+    "ko": "뿌리",
+    "zh": "根",
+    "es": "raíz",
+    "fr": "racine",
+    "de": "Wurzel"
+  },
+  "stem": {
+    "en": "stem",
+    "th": "ลำต้น",
+    "ja": "茎",
+    "ko": "줄기",
+    "zh": "茎",
+    "es": "tallo",
+    "fr": "tige",
+    "de": "Stängel"
+  },
+  "leaf": {
+    "en": "leaf",
+    "th": "ใบ",
+    "ja": "葉",
+    "ko": "잎",
+    "zh": "叶",
+    "es": "hoja",
+    "fr": "feuille",
+    "de": "Blatt"
+  },
+  "flower": {
+    "en": "flower",
+    "th": "ดอกไม้",
+    "ja": "花",
+    "ko": "꽃",
+    "zh": "花",
+    "es": "flor",
+    "fr": "fleur",
+    "de": "Blume"
+  },
+  "seed": {
+    "en": "seed",
+    "th": "เมล็ด",
+    "ja": "種子",
+    "ko": "씨앗",
+    "zh": "种子",
+    "es": "semilla",
+    "fr": "graine",
+    "de": "Samen"
+  },
+  "pollination": {
+    "en": "pollination",
+    "th": "การผสมเกสร",
+    "ja": "受粉",
+    "ko": "수분",
+    "zh": "授粉",
+    "es": "polinización",
+    "fr": "pollinisation",
+    "de": "Bestäubung"
+  },
+  "bone": {
+    "en": "bone",
+    "th": "กระดูก",
+    "ja": "骨",
+    "ko": "뼈",
+    "zh": "骨头",
+    "es": "hueso",
+    "fr": "os",
+    "de": "Knochen"
+  },
+  "muscle": {
+    "en": "muscle",
+    "th": "กล้ามเนื้อ",
+    "ja": "筋肉",
+    "ko": "근육",
+    "zh": "肌肉",
+    "es": "músculo",
+    "fr": "muscle",
+    "de": "Muskel"
+  },
+  "blood": {
+    "en": "blood",
+    "th": "เลือด",
+    "ja": "血液",
+    "ko": "혈액",
+    "zh": "血液",
+    "es": "sangre",
+    "fr": "sang",
+    "de": "Blut"
+  },
+  "heart": {
+    "en": "heart",
+    "th": "หัวใจ",
+    "ja": "心臓",
+    "ko": "심장",
+    "zh": "心脏",
+    "es": "corazón",
+    "fr": "cœur",
+    "de": "Herz"
+  },
+  "lung": {
+    "en": "lung",
+    "th": "ปอด",
+    "ja": "肺",
+    "ko": "폐",
+    "zh": "肺",
+    "es": "pulmón",
+    "fr": "poumon",
+    "de": "Lunge"
+  },
+  "brain": {
+    "en": "brain",
+    "th": "สมอง",
+    "ja": "脳",
+    "ko": "뇌",
+    "zh": "大脑",
+    "es": "cerebro",
+    "fr": "cerveau",
+    "de": "Gehirn"
+  },
+  "nerve": {
+    "en": "nerve",
+    "th": "เส้นประสาท",
+    "ja": "神経",
+    "ko": "신경",
+    "zh": "神经",
+    "es": "nervio",
+    "fr": "nerf",
+    "de": "Nerv"
+  },
+  "reproduction": {
+    "en": "reproduction",
+    "th": "การสืบพันธุ์",
+    "ja": "生殖",
+    "ko": "생식",
+    "zh": "繁殖",
+    "es": "reproducción",
+    "fr": "reproduction",
+    "de": "Fortpflanzung"
+  },
+  "digestion": {
+    "en": "digestion",
+    "th": "การย่อยอาหาร",
+    "ja": "消化",
+    "ko": "소화",
+    "zh": "消化",
+    "es": "digestión",
+    "fr": "digestion",
+    "de": "Verdauung"
+  },
+  "respiration": {
+    "en": "respiration",
+    "th": "การหายใจ",
+    "ja": "呼吸",
+    "ko": "호흡",
+    "zh": "呼吸",
+    "es": "respiración",
+    "fr": "respiration",
+    "de": "Atmung"
+  },
+  "metabolism": {
+    "en": "metabolism",
+    "th": "เมตาบอลิซึม",
+    "ja": "代謝",
+    "ko": "대사",
+    "zh": "新陈代谢",
+    "es": "metabolismo",
+    "fr": "métabolisme",
+    "de": "Stoffwechsel"
+  },
+  "homeostasis": {
+    "en": "homeostasis",
+    "th": "การรักษาสมดุล",
+    "ja": "恒常性",
+    "ko": "항상성",
+    "zh": "体内平衡",
+    "es": "homeostasis",
+    "fr": "homéostasie",
+    "de": "Homöostase"
+  },
+  "cell division": {
+    "en": "cell division",
+    "th": "การแบ่งเซลล์",
+    "ja": "細胞分裂",
+    "ko": "세포 분열",
+    "zh": "细胞分裂",
+    "es": "división celular",
+    "fr": "division cellulaire",
+    "de": "Zellteilung"
+  },
+  "mitosis": {
+    "en": "mitosis",
+    "th": "ไมโทซิส",
+    "ja": "有糸分裂",
+    "ko": "유사 분열",
+    "zh": "有丝分裂",
+    "es": "mitosis",
+    "fr": "mitose",
+    "de": "Mitose"
+  },
+  "meiosis": {
+    "en": "meiosis",
+    "th": "ไมโอซิส",
+    "ja": "減数分裂",
+    "ko": "감수 분열",
+    "zh": "减数分裂",
+    "es": "meiosis",
+    "fr": "méiose",
+    "de": "Meiose"
+  },
+  "bacteria": {
+    "en": "bacteria",
+    "th": "แบคทีเรีย",
+    "ja": "細菌",
+    "ko": "박테리아",
+    "zh": "细菌",
+    "es": "bacteria",
+    "fr": "bactérie",
+    "de": "Bakterien"
+  },
+  "virus": {
+    "en": "virus",
+    "th": "ไวรัส",
+    "ja": "ウイルス",
+    "ko": "바이러스",
+    "zh": "病毒",
+    "es": "virus",
+    "fr": "virus",
+    "de": "Virus"
+  },
+  "fungus": {
+    "en": "fungus",
+    "th": "เชื้อรา",
+    "ja": "菌類",
+    "ko": "곰팡이",
+    "zh": "真菌",
+    "es": "hongo",
+    "fr": "champignon",
+    "de": "Pilz"
+  },
+  "algae": {
+    "en": "algae",
+    "th": "สาหร่าย",
+    "ja": "藻類",
+    "ko": "조류",
+    "zh": "藻类",
+    "es": "algas",
+    "fr": "algue",
+    "de": "Alge"
+  },
+  "plankton": {
+    "en": "plankton",
+    "th": "แพลงก์ตอน",
+    "ja": "プランクトン",
+    "ko": "플랑크톤",
+    "zh": "浮游生物",
+    "es": "plancton",
+    "fr": "plancton",
+    "de": "Plankton"
+  },
+  "protozoa": {
+    "en": "protozoa",
+    "th": "โพรโตซัว",
+    "ja": "原生動物",
+    "ko": "원생동물",
+    "zh": "原生动物",
+    "es": "protozoos",
+    "fr": "protozoaires",
+    "de": "Protozoen"
+  },
+  "archaea": {
+    "en": "archaea",
+    "th": "อาร์เคีย",
+    "ja": "古細菌",
+    "ko": "고세균",
+    "zh": "古菌",
+    "es": "arqueas",
+    "fr": "archées",
+    "de": "Archaeen"
+  },
+  "antibody": {
+    "en": "antibody",
+    "th": "แอนติบอดี",
+    "ja": "抗体",
+    "ko": "항체",
+    "zh": "抗体",
+    "es": "anticuerpo",
+    "fr": "anticorps",
+    "de": "Antikörper"
+  },
+  "antigen": {
+    "en": "antigen",
+    "th": "แอนติเจน",
+    "ja": "抗原",
+    "ko": "항원",
+    "zh": "抗原",
+    "es": "antígeno",
+    "fr": "antigène",
+    "de": "Antigen"
+  },
+  "vaccine": {
+    "en": "vaccine",
+    "th": "วัคซีน",
+    "ja": "ワクチン",
+    "ko": "백신",
+    "zh": "疫苗",
+    "es": "vacuna",
+    "fr": "vaccin",
+    "de": "Impfstoff"
+  },
+  "immune system": {
+    "en": "immune system",
+    "th": "ระบบภูมิคุ้มกัน",
+    "ja": "免疫系",
+    "ko": "면역계",
+    "zh": "免疫系统",
+    "es": "sistema inmunológico",
+    "fr": "système immunitaire",
+    "de": "Immunsystem"
+  },
+  "circulatory system": {
+    "en": "circulatory system",
+    "th": "ระบบไหลเวียนโลหิต",
+    "ja": "循環器系",
+    "ko": "순환계",
+    "zh": "循环系统",
+    "es": "sistema circulatorio",
+    "fr": "système circulatoire",
+    "de": "Kreislaufsystem"
+  },
+  "digestive system": {
+    "en": "digestive system",
+    "th": "ระบบย่อยอาหาร",
+    "ja": "消化器系",
+    "ko": "소화계",
+    "zh": "消化系统",
+    "es": "sistema digestivo",
+    "fr": "système digestif",
+    "de": "Verdauungssystem"
+  },
+  "respiratory system": {
+    "en": "respiratory system",
+    "th": "ระบบหายใจ",
+    "ja": "呼吸器系",
+    "ko": "호흡계",
+    "zh": "呼吸系统",
+    "es": "sistema respiratorio",
+    "fr": "système respiratoire",
+    "de": "Atmungssystem"
+  },
+  "nervous system": {
+    "en": "nervous system",
+    "th": "ระบบประสาท",
+    "ja": "神経系",
+    "ko": "신경계",
+    "zh": "神经系统",
+    "es": "sistema nervioso",
+    "fr": "système nerveux",
+    "de": "Nervensystem"
+  },
+  "endocrine system": {
+    "en": "endocrine system",
+    "th": "ระบบต่อมไร้ท่อ",
+    "ja": "内分泌系",
+    "ko": "내분비계",
+    "zh": "内分泌系统",
+    "es": "sistema endocrino",
+    "fr": "système endocrinien",
+    "de": "endokrines System"
+  },
+  "skeletal system": {
+    "en": "skeletal system",
+    "th": "ระบบโครงกระดูก",
+    "ja": "骨格系",
+    "ko": "골격계",
+    "zh": "骨骼系统",
+    "es": "sistema esquelético",
+    "fr": "système squelettique",
+    "de": "Skelettsystem"
+  },
+  "muscular system": {
+    "en": "muscular system",
+    "th": "ระบบกล้ามเนื้อ",
+    "ja": "筋肉系",
+    "ko": "근육계",
+    "zh": "肌肉系统",
+    "es": "sistema muscular",
+    "fr": "système musculaire",
+    "de": "Muskelsystem"
+  },
+  "excretory system": {
+    "en": "excretory system",
+    "th": "ระบบขับถ่าย",
+    "ja": "排出系",
+    "ko": "배설계",
+    "zh": "排泄系统",
+    "es": "sistema excretor",
+    "fr": "système excréteur",
+    "de": "Ausscheidungssystem"
+  },
+  "reproductive system": {
+    "en": "reproductive system",
+    "th": "ระบบสืบพันธุ์",
+    "ja": "生殖器系",
+    "ko": "생식계",
+    "zh": "生殖系统",
+    "es": "sistema reproductor",
+    "fr": "système reproducteur",
+    "de": "Fortpflanzungssystem"
+  },
+  "gamete": {
+    "en": "gamete",
+    "th": "เซลล์สืบพันธุ์",
+    "ja": "配偶子",
+    "ko": "생식세포",
+    "zh": "配子",
+    "es": "gameto",
+    "fr": "gamète",
+    "de": "Gamete"
+  },
+  "zygote": {
+    "en": "zygote",
+    "th": "ไซโกต",
+    "ja": "接合子",
+    "ko": "접합자",
+    "zh": "合子",
+    "es": "cigoto",
+    "fr": "zygote",
+    "de": "Zygote"
+  },
+  "embryo": {
+    "en": "embryo",
+    "th": "เอ็มบริโอ",
+    "ja": "胚",
+    "ko": "배아",
+    "zh": "胚胎",
+    "es": "embrión",
+    "fr": "embryon",
+    "de": "Embryo"
+  },
+  "fetus": {
+    "en": "fetus",
+    "th": "ทารกในครรภ์",
+    "ja": "胎児",
+    "ko": "태아",
+    "zh": "胎儿",
+    "es": "feto",
+    "fr": "fœtus",
+    "de": "Fötus"
+  },
+  "sperm": {
+    "en": "sperm",
+    "th": "สเปิร์ม",
+    "ja": "精子",
+    "ko": "정자",
+    "zh": "精子",
+    "es": "esperma",
+    "fr": "sperme",
+    "de": "Spermium"
+  },
+  "egg": {
+    "en": "egg",
+    "th": "ไข่",
+    "ja": "卵子",
+    "ko": "난자",
+    "zh": "卵子",
+    "es": "óvulo",
+    "fr": "ovule",
+    "de": "Eizelle"
+  },
+  "ovary": {
+    "en": "ovary",
+    "th": "รังไข่",
+    "ja": "卵巣",
+    "ko": "난소",
+    "zh": "卵巢",
+    "es": "ovario",
+    "fr": "ovaire",
+    "de": "Eierstock"
+  },
+  "testis": {
+    "en": "testis",
+    "th": "อัณฑะ",
+    "ja": "精巣",
+    "ko": "고환",
+    "zh": "睾丸",
+    "es": "testículo",
+    "fr": "testicule",
+    "de": "Hoden"
+  },
+  "uterus": {
+    "en": "uterus",
+    "th": "มดลูก",
+    "ja": "子宮",
+    "ko": "자궁",
+    "zh": "子宫",
+    "es": "útero",
+    "fr": "utérus",
+    "de": "Gebärmutter"
+  },
+  "placenta": {
+    "en": "placenta",
+    "th": "รก",
+    "ja": "胎盤",
+    "ko": "태반",
+    "zh": "胎盘",
+    "es": "placenta",
+    "fr": "placenta",
+    "de": "Plazenta"
+  },
+  "photosystem": {
+    "en": "photosystem",
+    "th": "โฟโตซิสเทม",
+    "ja": "光化学系",
+    "ko": "광화학계",
+    "zh": "光合成系统",
+    "es": "fotosistema",
+    "fr": "photosystème",
+    "de": "Photosystem"
+  },
+  "stomata": {
+    "en": "stomata",
+    "th": "ปากใบ",
+    "ja": "気孔",
+    "ko": "기공",
+    "zh": "气孔",
+    "es": "estomas",
+    "fr": "stomates",
+    "de": "Stomata"
+  },
+  "xylem": {
+    "en": "xylem",
+    "th": "ไซเลม",
+    "ja": "木部",
+    "ko": "물관부",
+    "zh": "木质部",
+    "es": "xilema",
+    "fr": "xylème",
+    "de": "Xylem"
+  },
+  "phloem": {
+    "en": "phloem",
+    "th": "โฟลเอ็ม",
+    "ja": "師部",
+    "ko": "체관부",
+    "zh": "韧皮部",
+    "es": "floema",
+    "fr": "phloème",
+    "de": "Phloem"
+  },
+  "epidermis": {
+    "en": "epidermis",
+    "th": "เอพิเดอร์มิส",
+    "ja": "表皮",
+    "ko": "표피",
+    "zh": "表皮",
+    "es": "epidermis",
+    "fr": "épiderme",
+    "de": "Epidermis"
+  },
+  "cuticle": {
+    "en": "cuticle",
+    "th": "คิวติเคิล",
+    "ja": "クチクラ",
+    "ko": "큐티클",
+    "zh": "角质层",
+    "es": "cutícula",
+    "fr": "cuticule",
+    "de": "Kutikula"
+  },
+  "spore": {
+    "en": "spore",
+    "th": "สปอร์",
+    "ja": "胞子",
+    "ko": "포자",
+    "zh": "孢子",
+    "es": "espora",
+    "fr": "spore",
+    "de": "Sporen"
+  },
+  "fern": {
+    "en": "fern",
+    "th": "เฟิร์น",
+    "ja": "シダ",
+    "ko": "양치류",
+    "zh": "蕨类",
+    "es": "helecho",
+    "fr": "fougère",
+    "de": "Farn"
+  },
+  "moss": {
+    "en": "moss",
+    "th": "มอส",
+    "ja": "コケ",
+    "ko": "이끼",
+    "zh": "苔藓",
+    "es": "musgo",
+    "fr": "mousse",
+    "de": "Moos"
+  },
+  "gymnosperm": {
+    "en": "gymnosperm",
+    "th": "พืชเมล็ดเปลือย",
+    "ja": "裸子植物",
+    "ko": "나자식물",
+    "zh": "裸子植物",
+    "es": "gimnosperma",
+    "fr": "gymnosperme",
+    "de": "Gymnosperm"
+  },
+  "angiosperm": {
+    "en": "angiosperm",
+    "th": "พืชดอก",
+    "ja": "被子植物",
+    "ko": "피자식물",
+    "zh": "被子植物",
+    "es": "angiosperma",
+    "fr": "angiosperme",
+    "de": "Angiosperm"
+  },
+  "monocot": {
+    "en": "monocot",
+    "th": "พืชใบเลี้ยงเดี่ยว",
+    "ja": "単子葉植物",
+    "ko": "외떡잎식물",
+    "zh": "单子叶植物",
+    "es": "monocotiledónea",
+    "fr": "monocotylédone",
+    "de": "Monokotyledone"
+  },
+  "dicot": {
+    "en": "dicot",
+    "th": "พืชใบเลี้ยงคู่",
+    "ja": "双子葉植物",
+    "ko": "쌍떡잎식물",
+    "zh": "双子叶植物",
+    "es": "dicotiledónea",
+    "fr": "dicotylédone",
+    "de": "Dikotyledone"
+  },
+  "kingdom": {
+    "en": "kingdom",
+    "th": "อาณาจักร",
+    "ja": "界",
+    "ko": "계",
+    "zh": "界",
+    "es": "reino",
+    "fr": "règne",
+    "de": "Reich"
+  },
+  "phylum": {
+    "en": "phylum",
+    "th": "ไฟลัม",
+    "ja": "門",
+    "ko": "문",
+    "zh": "门",
+    "es": "filo",
+    "fr": "embranchement",
+    "de": "Stamm"
+  },
+  "class": {
+    "en": "class",
+    "th": "ชั้น",
+    "ja": "綱",
+    "ko": "강",
+    "zh": "纲",
+    "es": "clase",
+    "fr": "classe",
+    "de": "Klasse"
+  },
+  "order": {
+    "en": "order",
+    "th": "อันดับ",
+    "ja": "目",
+    "ko": "목",
+    "zh": "目",
+    "es": "orden",
+    "fr": "ordre",
+    "de": "Ordnung"
+  },
+  "family": {
+    "en": "family",
+    "th": "วงศ์",
+    "ja": "科",
+    "ko": "과",
+    "zh": "科",
+    "es": "familia",
+    "fr": "famille",
+    "de": "Familie"
+  },
+  "genus": {
+    "en": "genus",
+    "th": "สกุล",
+    "ja": "属",
+    "ko": "속",
+    "zh": "属",
+    "es": "género",
+    "fr": "genre",
+    "de": "Gattung"
+  },
+  "taxonomy": {
+    "en": "taxonomy",
+    "th": "อนุกรมวิธาน",
+    "ja": "分類学",
+    "ko": "분류학",
+    "zh": "分类学",
+    "es": "taxonomía",
+    "fr": "taxonomie",
+    "de": "Taxonomie"
+  },
+  "binomial nomenclature": {
+    "en": "binomial nomenclature",
+    "th": "ระบบชื่อทวินาม",
+    "ja": "二名法",
+    "ko": "이명법",
+    "zh": "双名法",
+    "es": "nomenclatura binomial",
+    "fr": "nomenclature binomiale",
+    "de": "Binäre Nomenklatur"
+  },
+  "cladogram": {
+    "en": "cladogram",
+    "th": "แผนภูมิจล",
+    "ja": "系統樹",
+    "ko": "계통도",
+    "zh": "进化支图",
+    "es": "cladograma",
+    "fr": "cladogramme",
+    "de": "Kladogramm"
+  },
+  "phylogeny": {
+    "en": "phylogeny",
+    "th": "ลำดับวงศ์วิวัฒนาการ",
+    "ja": "系統発生",
+    "ko": "계통 발생",
+    "zh": "系统发育",
+    "es": "filogenia",
+    "fr": "phylogénie",
+    "de": "Phylogenie"
+  }
+}

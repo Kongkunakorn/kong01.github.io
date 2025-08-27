@@ -7,8 +7,19 @@
     <title>สมัครสมาชิก - Word Game</title>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
     <style>
+        .validation-icon {
+            pointer-events: none;
+        }
+
+        /* อย่าให้ intercept คลิก */
+        .password-toggle {
+            z-index: 3;
+        }
+
+        /* กันถูก element อื่นทับ */
+
         .register-container {
             min-height: 100vh;
             display: flex;
@@ -467,17 +478,17 @@
         function togglePassword(inputId) {
             const input = document.getElementById(inputId);
             const icon = document.getElementById(inputId + 'Icon');
+            if (!input) return;
 
-            if (input.type === 'password') {
-                input.type = 'text';
-                icon.classList.remove('fa-eye');
-                icon.classList.add('fa-eye-slash');
-            } else {
-                input.type = 'password';
-                icon.classList.remove('fa-eye-slash');
-                icon.classList.add('fa-eye');
+            const show = input.type === 'password';
+            input.type = show ? 'text' : 'password';
+
+            if (icon) {
+                icon.classList.toggle('fa-eye', !show);
+                icon.classList.toggle('fa-eye-slash', show);
             }
         }
+
 
         function validateField(input, validIcon, invalidIcon, reqElement, isValid) {
             if (isValid) {
@@ -627,3 +638,5 @@
                 }, 500);
             }
         });
+    </script>
+</body>
