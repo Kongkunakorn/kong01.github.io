@@ -1,0 +1,973 @@
+{
+  "eat": {
+    "en": "eat",
+    "th": "กิน",
+    "ja": "食べる",
+    "ko": "먹다",
+    "zh": "吃",
+    "es": "comer",
+    "fr": "manger",
+    "de": "essen"
+  },
+  "drink": {
+    "en": "drink",
+    "th": "ดื่ม",
+    "ja": "飲む",
+    "ko": "마시다",
+    "zh": "喝",
+    "es": "beber",
+    "fr": "boire",
+    "de": "trinken"
+  },
+  "sleep": {
+    "en": "sleep",
+    "th": "นอน",
+    "ja": "寝る",
+    "ko": "자다",
+    "zh": "睡觉",
+    "es": "dormir",
+    "fr": "dormir",
+    "de": "schlafen"
+  },
+  "wake": {
+    "en": "wake",
+    "th": "ตื่น",
+    "ja": "起きる",
+    "ko": "깨다",
+    "zh": "醒来",
+    "es": "despertar",
+    "fr": "se réveiller",
+    "de": "aufwachen"
+  },
+  "walk": {
+    "en": "walk",
+    "th": "เดิน",
+    "ja": "歩く",
+    "ko": "걷다",
+    "zh": "走路",
+    "es": "caminar",
+    "fr": "marcher",
+    "de": "gehen"
+  },
+  "run": {
+    "en": "run",
+    "th": "วิ่ง",
+    "ja": "走る",
+    "ko": "달리다",
+    "zh": "跑",
+    "es": "correr",
+    "fr": "courir",
+    "de": "laufen"
+  },
+  "sit": {
+    "en": "sit",
+    "th": "นั่ง",
+    "ja": "座る",
+    "ko": "앉다",
+    "zh": "坐",
+    "es": "sentarse",
+    "fr": "s’asseoir",
+    "de": "sitzen"
+  },
+  "stand": {
+    "en": "stand",
+    "th": "ยืน",
+    "ja": "立つ",
+    "ko": "서다",
+    "zh": "站",
+    "es": "estar de pie",
+    "fr": "se tenir debout",
+    "de": "stehen"
+  },
+  "go": {
+    "en": "go",
+    "th": "ไป",
+    "ja": "行く",
+    "ko": "가다",
+    "zh": "去",
+    "es": "ir",
+    "fr": "aller",
+    "de": "gehen"
+  },
+  "come": {
+    "en": "come",
+    "th": "มา",
+    "ja": "来る",
+    "ko": "오다",
+    "zh": "来",
+    "es": "venir",
+    "fr": "venir",
+    "de": "kommen"
+  },
+  "bring": {
+    "en": "bring",
+    "th": "นำมา",
+    "ja": "持ってくる",
+    "ko": "가져오다",
+    "zh": "带来",
+    "es": "traer",
+    "fr": "apporter",
+    "de": "bringen"
+  },
+  "take": {
+    "en": "take",
+    "th": "เอาไป",
+    "ja": "取る",
+    "ko": "가지다",
+    "zh": "拿",
+    "es": "tomar",
+    "fr": "prendre",
+    "de": "nehmen"
+  },
+  "open": {
+    "en": "open",
+    "th": "เปิด",
+    "ja": "開ける",
+    "ko": "열다",
+    "zh": "打开",
+    "es": "abrir",
+    "fr": "ouvrir",
+    "de": "öffnen"
+  },
+  "close": {
+    "en": "close",
+    "th": "ปิด",
+    "ja": "閉める",
+    "ko": "닫다",
+    "zh": "关",
+    "es": "cerrar",
+    "fr": "fermer",
+    "de": "schließen"
+  },
+  "start": {
+    "en": "start",
+    "th": "เริ่ม",
+    "ja": "始める",
+    "ko": "시작하다",
+    "zh": "开始",
+    "es": "empezar",
+    "fr": "commencer",
+    "de": "starten"
+  },
+  "stop": {
+    "en": "stop",
+    "th": "หยุด",
+    "ja": "止める",
+    "ko": "멈추다",
+    "zh": "停止",
+    "es": "parar",
+    "fr": "arrêter",
+    "de": "stoppen"
+  },
+  "work": {
+    "en": "work",
+    "th": "ทำงาน",
+    "ja": "働く",
+    "ko": "일하다",
+    "zh": "工作",
+    "es": "trabajar",
+    "fr": "travailler",
+    "de": "arbeiten"
+  },
+  "play": {
+    "en": "play",
+    "th": "เล่น",
+    "ja": "遊ぶ",
+    "ko": "놀다",
+    "zh": "玩",
+    "es": "jugar",
+    "fr": "jouer",
+    "de": "spielen"
+  },
+  "read": {
+    "en": "read",
+    "th": "อ่าน",
+    "ja": "読む",
+    "ko": "읽다",
+    "zh": "读",
+    "es": "leer",
+    "fr": "lire",
+    "de": "lesen"
+  },
+  "write": {
+    "en": "write",
+    "th": "เขียน",
+    "ja": "書く",
+    "ko": "쓰다",
+    "zh": "写",
+    "es": "escribir",
+    "fr": "écrire",
+    "de": "schreiben"
+  },
+  "say": {
+    "en": "say",
+    "th": "พูด",
+    "ja": "言う",
+    "ko": "말하다",
+    "zh": "说",
+    "es": "decir",
+    "fr": "dire",
+    "de": "sagen"
+  },
+  "tell": {
+    "en": "tell",
+    "th": "บอก",
+    "ja": "話す",
+    "ko": "말하다",
+    "zh": "告诉",
+    "es": "contar",
+    "fr": "raconter",
+    "de": "erzählen"
+  },
+  "speak": {
+    "en": "speak",
+    "th": "พูด",
+    "ja": "話す",
+    "ko": "말하다",
+    "zh": "讲话",
+    "es": "hablar",
+    "fr": "parler",
+    "de": "sprechen"
+  },
+  "talk": {
+    "en": "talk",
+    "th": "คุย",
+    "ja": "話す",
+    "ko": "얘기하다",
+    "zh": "谈话",
+    "es": "conversar",
+    "fr": "discuter",
+    "de": "reden"
+  },
+  "ask": {
+    "en": "ask",
+    "th": "ถาม",
+    "ja": "尋ねる",
+    "ko": "묻다",
+    "zh": "问",
+    "es": "preguntar",
+    "fr": "demander",
+    "de": "fragen"
+  },
+  "answer": {
+    "en": "answer",
+    "th": "ตอบ",
+    "ja": "答える",
+    "ko": "대답하다",
+    "zh": "回答",
+    "es": "responder",
+    "fr": "répondre",
+    "de": "antworten"
+  },
+  "call": {
+    "en": "call",
+    "th": "โทร, เรียก",
+    "ja": "呼ぶ",
+    "ko": "부르다",
+    "zh": "打电话",
+    "es": "llamar",
+    "fr": "appeler",
+    "de": "rufen"
+  },
+  "listen": {
+    "en": "listen",
+    "th": "ฟัง",
+    "ja": "聞く",
+    "ko": "듣다",
+    "zh": "听",
+    "es": "escuchar",
+    "fr": "écouter",
+    "de": "zuhören"
+  },
+  "hear": {
+    "en": "hear",
+    "th": "ได้ยิน",
+    "ja": "聞こえる",
+    "ko": "들리다",
+    "zh": "听到",
+    "es": "oír",
+    "fr": "entendre",
+    "de": "hören"
+  },
+  "explain": {
+    "en": "explain",
+    "th": "อธิบาย",
+    "ja": "説明する",
+    "ko": "설명하다",
+    "zh": "解释",
+    "es": "explicar",
+    "fr": "expliquer",
+    "de": "erklären"
+  },
+  "teach": {
+    "en": "teach",
+    "th": "สอน",
+    "ja": "教える",
+    "ko": "가르치다",
+    "zh": "教",
+    "es": "enseñar",
+    "fr": "enseigner",
+    "de": "unterrichten"
+  },
+  "learn": {
+    "en": "learn",
+    "th": "เรียนรู้",
+    "ja": "学ぶ",
+    "ko": "배우다",
+    "zh": "学习",
+    "es": "aprender",
+    "fr": "apprendre",
+    "de": "lernen"
+  },
+  "show": {
+    "en": "show",
+    "th": "แสดง",
+    "ja": "見せる",
+    "ko": "보여주다",
+    "zh": "展示",
+    "es": "mostrar",
+    "fr": "montrer",
+    "de": "zeigen"
+  },
+  "remind": {
+    "en": "remind",
+    "th": "เตือน",
+    "ja": "思い出させる",
+    "ko": "상기시키다",
+    "zh": "提醒",
+    "es": "recordar",
+    "fr": "rappeler",
+    "de": "erinnern"
+  },
+  "think": {
+    "en": "think",
+    "th": "คิด",
+    "ja": "考える",
+    "ko": "생각하다",
+    "zh": "想",
+    "es": "pensar",
+    "fr": "penser",
+    "de": "denken"
+  },
+  "know": {
+    "en": "know",
+    "th": "รู้",
+    "ja": "知る",
+    "ko": "알다",
+    "zh": "知道",
+    "es": "saber",
+    "fr": "savoir",
+    "de": "wissen"
+  },
+  "understand": {
+    "en": "understand",
+    "th": "เข้าใจ",
+    "ja": "理解する",
+    "ko": "이해하다",
+    "zh": "理解",
+    "es": "entender",
+    "fr": "comprendre",
+    "de": "verstehen"
+  },
+  "remember": {
+    "en": "remember",
+    "th": "จำได้",
+    "ja": "覚える",
+    "ko": "기억하다",
+    "zh": "记得",
+    "es": "recordar",
+    "fr": "se souvenir",
+    "de": "erinnern"
+  },
+  "forget": {
+    "en": "forget",
+    "th": "ลืม",
+    "ja": "忘れる",
+    "ko": "잊다",
+    "zh": "忘记",
+    "es": "olvidar",
+    "fr": "oublier",
+    "de": "vergessen"
+  },
+  "want": {
+    "en": "want",
+    "th": "ต้องการ",
+    "ja": "欲しい",
+    "ko": "원하다",
+    "zh": "想要",
+    "es": "querer",
+    "fr": "vouloir",
+    "de": "wollen"
+  },
+  "need": {
+    "en": "need",
+    "th": "จำเป็นต้อง",
+    "ja": "必要とする",
+    "ko": "필요하다",
+    "zh": "需要",
+    "es": "necesitar",
+    "fr": "avoir besoin",
+    "de": "brauchen"
+  },
+  "like": {
+    "en": "like",
+    "th": "ชอบ",
+    "ja": "好き",
+    "ko": "좋아하다",
+    "zh": "喜欢",
+    "es": "gustar",
+    "fr": "aimer",
+    "de": "mögen"
+  },
+  "love": {
+    "en": "love",
+    "th": "รัก",
+    "ja": "愛する",
+    "ko": "사랑하다",
+    "zh": "爱",
+    "es": "amar",
+    "fr": "aimer",
+    "de": "lieben"
+  },
+  "hate": {
+    "en": "hate",
+    "th": "เกลียด",
+    "ja": "嫌う",
+    "ko": "미워하다",
+    "zh": "讨厌",
+    "es": "odiar",
+    "fr": "détester",
+    "de": "hassen"
+  },
+  "feel": {
+    "en": "feel",
+    "th": "รู้สึก",
+    "ja": "感じる",
+    "ko": "느끼다",
+    "zh": "感觉",
+    "es": "sentir",
+    "fr": "ressentir",
+    "de": "fühlen"
+  },
+  "believe": {
+    "en": "believe",
+    "th": "เชื่อ",
+    "ja": "信じる",
+    "ko": "믿다",
+    "zh": "相信",
+    "es": "creer",
+    "fr": "croire",
+    "de": "glauben"
+  },
+  "hope": {
+    "en": "hope",
+    "th": "หวัง",
+    "ja": "望む",
+    "ko": "희망하다",
+    "zh": "希望",
+    "es": "esperar",
+    "fr": "espérer",
+    "de": "hoffen"
+  },
+  "decide": {
+    "en": "decide",
+    "th": "ตัดสินใจ",
+    "ja": "決める",
+    "ko": "결정하다",
+    "zh": "决定",
+    "es": "decidir",
+    "fr": "décider",
+    "de": "entscheiden"
+  },
+  "choose": {
+    "en": "choose",
+    "th": "เลือก",
+    "ja": "選ぶ",
+    "ko": "선택하다",
+    "zh": "选择",
+    "es": "elegir",
+    "fr": "choisir",
+    "de": "wählen"
+  },
+  "make": {
+    "en": "make",
+    "th": "ทำ",
+    "ja": "作る",
+    "ko": "만들다",
+    "zh": "做",
+    "es": "hacer",
+    "fr": "faire",
+    "de": "machen"
+  },
+  "build": {
+    "en": "build",
+    "th": "สร้าง",
+    "ja": "建てる",
+    "ko": "짓다",
+    "zh": "建造",
+    "es": "construir",
+    "fr": "construire",
+    "de": "bauen"
+  },
+  "break": {
+    "en": "break",
+    "th": "ทำลาย",
+    "ja": "壊す",
+    "ko": "부수다",
+    "zh": "打破",
+    "es": "romper",
+    "fr": "casser",
+    "de": "brechen"
+  },
+  "cut": {
+    "en": "cut",
+    "th": "ตัด",
+    "ja": "切る",
+    "ko": "자르다",
+    "zh": "切",
+    "es": "cortar",
+    "fr": "couper",
+    "de": "schneiden"
+  },
+  "draw": {
+    "en": "draw",
+    "th": "วาด",
+    "ja": "描く",
+    "ko": "그리다",
+    "zh": "画",
+    "es": "dibujar",
+    "fr": "dessiner",
+    "de": "zeichnen"
+  },
+  "paint": {
+    "en": "paint",
+    "th": "ระบายสี",
+    "ja": "描く",
+    "ko": "페인트하다",
+    "zh": "画画",
+    "es": "pintar",
+    "fr": "peindre",
+    "de": "malen"
+  },
+  "cook": {
+    "en": "cook",
+    "th": "ทำอาหาร",
+    "ja": "料理する",
+    "ko": "요리하다",
+    "zh": "做饭",
+    "es": "cocinar",
+    "fr": "cuisiner",
+    "de": "kochen"
+  },
+  "clean": {
+    "en": "clean",
+    "th": "ทำความสะอาด",
+    "ja": "掃除する",
+    "ko": "청소하다",
+    "zh": "打扫",
+    "es": "limpiar",
+    "fr": "nettoyer",
+    "de": "reinigen"
+  },
+  "wash": {
+    "en": "wash",
+    "th": "ล้าง",
+    "ja": "洗う",
+    "ko": "씻다",
+    "zh": "洗",
+    "es": "lavar",
+    "fr": "laver",
+    "de": "waschen"
+  },
+  "buy": {
+    "en": "buy",
+    "th": "ซื้อ",
+    "ja": "買う",
+    "ko": "사다",
+    "zh": "买",
+    "es": "comprar",
+    "fr": "acheter",
+    "de": "kaufen"
+  },
+  "sell": {
+    "en": "sell",
+    "th": "ขาย",
+    "ja": "売る",
+    "ko": "팔다",
+    "zh": "卖",
+    "es": "vender",
+    "fr": "vendre",
+    "de": "verkaufen"
+  },
+  "pay": {
+    "en": "pay",
+    "th": "จ่าย",
+    "ja": "払う",
+    "ko": "지불하다",
+    "zh": "付钱",
+    "es": "pagar",
+    "fr": "payer",
+    "de": "bezahlen"
+  },
+  "use": {
+    "en": "use",
+    "th": "ใช้",
+    "ja": "使う",
+    "ko": "사용하다",
+    "zh": "使用",
+    "es": "usar",
+    "fr": "utiliser",
+    "de": "benutzen"
+  },
+  "wear": {
+    "en": "wear",
+    "th": "สวมใส่",
+    "ja": "着る",
+    "ko": "입다",
+    "zh": "穿",
+    "es": "llevar",
+    "fr": "porter",
+    "de": "tragen"
+  },
+  "drive": {
+    "en": "drive",
+    "th": "ขับรถ",
+    "ja": "運転する",
+    "ko": "운전하다",
+    "zh": "驾驶",
+    "es": "conducir",
+    "fr": "conduire",
+    "de": "fahren"
+  },
+  "ride": {
+    "en": "ride",
+    "th": "ขี่",
+    "ja": "乗る",
+    "ko": "타다",
+    "zh": "骑",
+    "es": "montar",
+    "fr": "monter",
+    "de": "reiten"
+  },
+  "type": {
+    "en": "type",
+    "th": "พิมพ์",
+    "ja": "タイプする",
+    "ko": "타이핑하다",
+    "zh": "打字",
+    "es": "tipear",
+    "fr": "taper",
+    "de": "tippen"
+  },
+  "click": {
+    "en": "click",
+    "th": "คลิก",
+    "ja": "クリックする",
+    "ko": "클릭하다",
+    "zh": "点击",
+    "es": "clicar",
+    "fr": "cliquer",
+    "de": "klicken"
+  },
+  "send": {
+    "en": "send",
+    "th": "ส่ง",
+    "ja": "送る",
+    "ko": "보내다",
+    "zh": "发送",
+    "es": "enviar",
+    "fr": "envoyer",
+    "de": "senden"
+  },
+  "receive": {
+    "en": "receive",
+    "th": "ได้รับ",
+    "ja": "受け取る",
+    "ko": "받다",
+    "zh": "收到",
+    "es": "recibir",
+    "fr": "recevoir",
+    "de": "empfangen"
+  },
+  "save": {
+    "en": "save",
+    "th": "บันทึก",
+    "ja": "保存する",
+    "ko": "저장하다",
+    "zh": "保存",
+    "es": "guardar",
+    "fr": "sauvegarder",
+    "de": "speichern"
+  },
+  "delete": {
+    "en": "delete",
+    "th": "ลบ",
+    "ja": "削除する",
+    "ko": "삭제하다",
+    "zh": "删除",
+    "es": "eliminar",
+    "fr": "supprimer",
+    "de": "löschen"
+  },
+  "print": {
+    "en": "print",
+    "th": "พิมพ์",
+    "ja": "印刷する",
+    "ko": "인쇄하다",
+    "zh": "打印",
+    "es": "imprimir",
+    "fr": "imprimer",
+    "de": "drucken"
+  },
+  "search": {
+    "en": "search",
+    "th": "ค้นหา",
+    "ja": "検索する",
+    "ko": "검색하다",
+    "zh": "搜索",
+    "es": "buscar",
+    "fr": "chercher",
+    "de": "suchen"
+  },
+  "watch": {
+    "en": "watch",
+    "th": "ดู",
+    "ja": "見る",
+    "ko": "보다",
+    "zh": "观看",
+    "es": "mirar",
+    "fr": "regarder",
+    "de": "anschauen"
+  },
+  "download": {
+    "en": "download",
+    "th": "ดาวน์โหลด",
+    "ja": "ダウンロードする",
+    "ko": "다운로드하다",
+    "zh": "下载",
+    "es": "descargar",
+    "fr": "télécharger",
+    "de": "herunterladen"
+  },
+  "upload": {
+    "en": "upload",
+    "th": "อัปโหลด",
+    "ja": "アップロードする",
+    "ko": "업로드하다",
+    "zh": "上传",
+    "es": "subir",
+    "fr": "téléverser",
+    "de": "hochladen"
+  },
+  "share": {
+    "en": "share",
+    "th": "แบ่งปัน",
+    "ja": "共有する",
+    "ko": "공유하다",
+    "zh": "分享",
+    "es": "compartir",
+    "fr": "partager",
+    "de": "teilen"
+  },
+  "move": {
+    "en": "move",
+    "th": "ย้าย",
+    "ja": "動かす",
+    "ko": "옮기다",
+    "zh": "移动",
+    "es": "mover",
+    "fr": "déplacer",
+    "de": "bewegen"
+  },
+  "change": {
+    "en": "change",
+    "th": "เปลี่ยน",
+    "ja": "変える",
+    "ko": "바꾸다",
+    "zh": "改变",
+    "es": "cambiar",
+    "fr": "changer",
+    "de": "ändern"
+  },
+  "update": {
+    "en": "update",
+    "th": "อัปเดต",
+    "ja": "更新する",
+    "ko": "업데이트하다",
+    "zh": "更新",
+    "es": "actualizar",
+    "fr": "mettre à jour",
+    "de": "aktualisieren"
+  },
+  "create": {
+    "en": "create",
+    "th": "สร้าง",
+    "ja": "作成する",
+    "ko": "창조하다",
+    "zh": "创建",
+    "es": "crear",
+    "fr": "créer",
+    "de": "erstellen"
+  },
+  "give": {
+    "en": "give",
+    "th": "ให้",
+    "ja": "与える",
+    "ko": "주다",
+    "zh": "给",
+    "es": "dar",
+    "fr": "donner",
+    "de": "geben"
+  },
+  "get": {
+    "en": "get",
+    "th": "ได้รับ",
+    "ja": "得る",
+    "ko": "얻다",
+    "zh": "得到",
+    "es": "obtener",
+    "fr": "obtenir",
+    "de": "bekommen"
+  },
+  "put": {
+    "en": "put",
+    "th": "วาง",
+    "ja": "置く",
+    "ko": "놓다",
+    "zh": "放",
+    "es": "poner",
+    "fr": "mettre",
+    "de": "legen"
+  },
+  "find": {
+    "en": "find",
+    "th": "หา",
+    "ja": "見つける",
+    "ko": "찾다",
+    "zh": "找到",
+    "es": "encontrar",
+    "fr": "trouver",
+    "de": "finden"
+  },
+  "lose": {
+    "en": "lose",
+    "th": "แพ้, หาย",
+    "ja": "失う",
+    "ko": "잃다",
+    "zh": "丢失",
+    "es": "perder",
+    "fr": "perdre",
+    "de": "verlieren"
+  },
+  "win": {
+    "en": "win",
+    "th": "ชนะ",
+    "ja": "勝つ",
+    "ko": "이기다",
+    "zh": "赢",
+    "es": "ganar",
+    "fr": "gagner",
+    "de": "gewinnen"
+  },
+  "help": {
+    "en": "help",
+    "th": "ช่วย",
+    "ja": "助ける",
+    "ko": "돕다",
+    "zh": "帮助",
+    "es": "ayudar",
+    "fr": "aider",
+    "de": "helfen"
+  },
+  "support": {
+    "en": "support",
+    "th": "สนับสนุน",
+    "ja": "支える",
+    "ko": "지원하다",
+    "zh": "支持",
+    "es": "apoyar",
+    "fr": "soutenir",
+    "de": "unterstützen"
+  },
+  "join": {
+    "en": "join",
+    "th": "เข้าร่วม",
+    "ja": "参加する",
+    "ko": "참가하다",
+    "zh": "加入",
+    "es": "unirse",
+    "fr": "joindre",
+    "de": "beitreten"
+  },
+  "leave": {
+    "en": "leave",
+    "th": "ออกไป",
+    "ja": "去る",
+    "ko": "떠나다",
+    "zh": "离开",
+    "es": "salir",
+    "fr": "partir",
+    "de": "verlassen"
+  },
+  "enter": {
+    "en": "enter",
+    "th": "เข้า",
+    "ja": "入る",
+    "ko": "들어가다",
+    "zh": "进入",
+    "es": "entrar",
+    "fr": "entrer",
+    "de": "eintreten"
+  },
+  "exit": {
+    "en": "exit",
+    "th": "ออก",
+    "ja": "出る",
+    "ko": "나가다",
+    "zh": "出口",
+    "es": "salir",
+    "fr": "sortir",
+    "de": "hinausgehen"
+  },
+  "wait": {
+    "en": "wait",
+    "th": "รอ",
+    "ja": "待つ",
+    "ko": "기다리다",
+    "zh": "等",
+    "es": "esperar",
+    "fr": "attendre",
+    "de": "warten"
+  },
+  "follow": {
+    "en": "follow",
+    "th": "ติดตาม",
+    "ja": "従う",
+    "ko": "따르다",
+    "zh": "跟随",
+    "es": "seguir",
+    "fr": "suivre",
+    "de": "folgen"
+  },
+  "lead": {
+    "en": "lead",
+    "th": "นำ",
+    "ja": "導く",
+    "ko": "이끌다",
+    "zh": "带领",
+    "es": "liderar",
+    "fr": "mener",
+    "de": "führen"
+  },
+"fix": {"en":"fix","th":"ซ่อม","ja":"直す","ko":"고치다","zh":"修理","es":"arreglar","fr":"réparer","de":"reparieren"},
+"borrow": {"en":"borrow","th":"ยืม","ja":"借りる","ko":"빌리다","zh":"借","es":"tomar prestado","fr":"emprunter","de":"leihen"},
+"lend": {"en":"lend","th":"ให้ยืม","ja":"貸す","ko":"빌려주다","zh":"借出","es":"prestar","fr":"prêter","de":"verleihen"},
+"cover": {"en":"cover","th":"ปกคลุม/คลุม","ja":"覆う","ko":"덮다","zh":"覆盖","es":"cubrir","fr":"couvrir","de":"decken"},
+"throw": {"en":"throw","th":"ขว้าง","ja":"投げる","ko":"던지다","zh":"扔","es":"lanzar","fr":"jeter","de":"werfen"},
+"catch": {"en":"catch","th":"จับ","ja":"捕まえる","ko":"잡다","zh":"抓住","es":"atrapar","fr":"attraper","de":"fangen"},
+"push": {"en":"push","th":"ผลัก","ja":"押す","ko":"밀다","zh":"推","es":"empujar","fr":"pousser","de":"drücken"},
+"pull": {"en":"pull","th":"ดึง","ja":"引く","ko":"당기다","zh":"拉","es":"tirar","fr":"tirer","de":"ziehen"},
+"climb": {"en":"climb","th":"ปีน","ja":"登る","ko":"오르다","zh":"爬","es":"escalar","fr":"grimper","de":"klettern"},
+"sing": {"en":"sing","th":"ร้องเพลง","ja":"歌う","ko":"노래하다","zh":"唱歌","es":"cantar","fr":"chanter","de":"singen"},
+"dance": {"en":"dance","th":"เต้นรำ","ja":"踊る","ko":"춤추다","zh":"跳舞","es":"bailar","fr":"danser","de":"tanzen"}
+}

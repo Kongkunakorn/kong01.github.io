@@ -1,5 +1,7 @@
-{% extends "base.html" %} {% block title %}Typing Test{% endblock %} {% block
-content %}
+{% extends "base.html" %}
+{% block title %}Typing Test{% endblock %}
+
+{% block content %}
 <div class="center" id="current-word">Loading...</div>
 <div class="input-center">
   <div id="letter-boxes" style="margin-bottom: 20px"></div>
@@ -7,7 +9,29 @@ content %}
     style="position:absolute; opacity:0; width:1px; height:1px; border:none;" />
 </div>
 <p class="center" id="translation"></p>
-{% endblock %} {% block scripts %}
+
+<!-- แถบประวัติ: เปิดอยู่ตั้งแต่เริ่ม -->
+<aside id="history-panel" class="open" aria-hidden="false" style="
+  position: fixed; left: 0; top: 0; bottom: 0; width: 300px; max-width: 85vw;
+  background: #111; color: #eee; border-right: 1px solid #333; transform: translateX(0);
+  transition: transform .2s ease; z-index: 1000; display: flex; flex-direction: column;">
+  <div
+    style="display:flex; align-items:center; justify-content:space-between; padding:12px 12px; border-bottom:1px solid #333">
+    <strong>Past Words</strong>
+    <!-- ปุ่มปิด -->
+    <button id="history-close" title="Close"
+      style="background:#222; color:#ddd; border:1px solid #444; border-radius:6px; padding:4px 8px; cursor:pointer;">✕</button>
+  </div>
+  <div id="history-list" style="overflow:auto; padding: 10px 12px; gap:8px; display:flex; flex-direction:column;"></div>
+  <div class="resize-handle"></div>
+</aside>
+
+<!-- ปุ่ม History (จะโผล่มาเฉพาะตอน panel ปิด) -->
+<button id="history-open" class="history-btn" type="button">History</button>
+{% endblock %}
+
+
+{% block scripts %}
 <style>
   #current-word {
     font-size: 2em;
@@ -50,10 +74,193 @@ content %}
     border-color: #e53935;
     background: #ffcdd2;
   }
+
+  /* แสดง/ซ่อนแถบ */
+  #history-panel.open {
+    transform: translateX(0);
+  }
+
+  /* การ์ดรายการประวัติ */
+  .history-item {
+    border: 1px solid #2c2c2c;
+    border-radius: 8px;
+    padding: 8px 10px;
+    background: #181818;
+  }
+
+  .history-item:hover {
+    border-color: #00ff00;
+    box-shadow: 0 0 0 2px rgba(0, 255, 0, .12);
+  }
+
+  .history-src {
+    font-weight: 600;
+  }
+
+  .history-dest {
+    color: #a3d977;
+    margin-top: 2px;
+  }
+
+  .history-meta {
+    font-size: 12px;
+    color: #9a9a9a;
+    margin-top: 4px;
+  }
+
+  /* ปุ่มประวัติ: อยู่นอก content-area ใต้ navbar ฝั่งซ้าย ด้วย CSS ล้วน */
+  .history-btn {
+    position: fixed;
+    /* จากเดิม sticky → fixed */
+    top: 110px;
+    /* ปรับตามความสูง navbar ของคุณ */
+    left: 12px;
+    z-index: 1100;
+
+    padding: 8px 12px;
+    font-weight: 600;
+    border-radius: 10px;
+
+    background: #1f1f1f;
+    color: #eeeeee;
+    border: 1px solid #444;
+    cursor: pointer;
+    transition: background-color .25s ease, color .25s ease, border-color .25s ease, transform .12s ease, box-shadow .25s ease;
+    overflow: hidden;
+  }
+
+  /* เอฟเฟกต์แผ่นสีเขียวตอน hover (เหมือนเดิม) */
+  .history-btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 56px;
+    height: 56px;
+    border-radius: inherit;
+    background: #00ff88;
+    transform: scale(0);
+    z-index: -1;
+    transition: transform .6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .history-btn:hover {
+    color: #000000;
+    border-color: #00ff88;
+    box-shadow: 0 0 0 2px rgba(0, 255, 136, .15);
+  }
+
+  .history-btn:hover::before {
+    transform: scale(3);
+  }
+
+  .history-btn:active {
+    transform: scale(0.98);
+    color: #000000;
+    border-color: #00ff88;
+  }
+
+  /* เมื่อ #history-panel เปิดอยู่ ให้ปุ่มคงสีเขียว (CSS only) */
+  #history-panel.open~.history-btn {
+    background: #00ff88;
+    color: #000;
+    border-color: #00ff88;
+    box-shadow: 0 0 0 2px rgba(0, 255, 136, .15);
+  }
+
+  /* แถบจับ resize ทางขอบขวา */
+  #history-panel .resize-handle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6px;
+    /* ความกว้างของแถบจับ */
+    height: 100%;
+    cursor: ew-resize;
+    /* เปลี่ยนเมาส์เป็นลูกศรซ้าย–ขวา */
+    background: transparent;
+    /* ให้โปร่ง แต่ยังจับได้ */
+  }
+
+  #history-panel .resize-handle:hover {
+    background: rgba(0, 255, 136, 0.1);
+    /* highlight เล็กน้อยเมื่อ hover */
+  }
+
+  /* ========== End Actions (หลังจบเกม) ========== */
+  .game-actions {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .game-btn {
+    padding: 20px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color .25s ease, color .25s ease, border-color .25s ease, transform .12s ease;
+  }
+
+  .game-btn:hover {
+    background: #00ff00;
+    color: #000000;
+    border-color: #00ff00;
+  }
+
+  .game-btn:active {
+    transform: scale(0.98);
+  }
+
+  /* ซ่อนปุ่มถ้า panel เปิดอยู่ */
+  #history-panel.open~.history-btn {
+    display: none;
+  }
 </style>
+
 <script>
   window.words = JSON.parse('{{ words | safe }}');
   window.category = "{{ category }}";
+  window.srcLang = "{{ src }}";
+  window.destLang = "{{ dest }}";
+  window.HOME_URL = "{{ url_for('home') }}";
+
+  (function () {
+    const panel = document.getElementById('history-panel');
+    const handle = panel?.querySelector('.resize-handle');
+    if (!panel || !handle) return;
+
+    let startX, startWidth;
+
+    handle.addEventListener('mousedown', (e) => {
+      startX = e.clientX;
+      startWidth = panel.offsetWidth;
+      document.documentElement.style.cursor = 'ew-resize';
+      document.addEventListener('mousemove', onDrag);
+      document.addEventListener('mouseup', stopDrag);
+      e.preventDefault();
+    });
+
+    function onDrag(e) {
+      const dx = e.clientX - startX;
+      let newWidth = startWidth + dx;
+      if (newWidth < 200) newWidth = 200;
+      if (newWidth > window.innerWidth * 0.85) newWidth = window.innerWidth * 0.85;
+      panel.style.width = newWidth + "px";
+    }
+
+    function stopDrag() {
+      document.documentElement.style.cursor = '';
+      document.removeEventListener('mousemove', onDrag);
+      document.removeEventListener('mouseup', stopDrag);
+    }
+  })();
 </script>
+
 <script src="{{ url_for('static', filename='js/typing_game.js') }}"></script>
 {% endblock %}
