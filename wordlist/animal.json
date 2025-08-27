@@ -1,8 +1,976 @@
 {
-  "dog": "สุนัข",
-  "cat": "แมว",
-  "elephant": "ช้าง",
-  "tiger": "เสือ",
-  "lion": "สิงโต",
-  "monkey": "ลิง"
+  "dog": {
+    "en": "dog",
+    "th": "สุนัข",
+    "ja": "犬",
+    "ko": "개",
+    "zh": "狗",
+    "es": "perro",
+    "fr": "chien",
+    "de": "Hund"
+  },
+  "cat": {
+    "en": "cat",
+    "th": "แมว",
+    "ja": "猫",
+    "ko": "고양이",
+    "zh": "猫",
+    "es": "gato",
+    "fr": "chat",
+    "de": "Katze"
+  },
+  "fish": {
+    "en": "fish",
+    "th": "ปลา",
+    "ja": "魚",
+    "ko": "물고기",
+    "zh": "鱼",
+    "es": "pez",
+    "fr": "poisson",
+    "de": "Fisch"
+  },
+  "bird": {
+    "en": "bird",
+    "th": "นก",
+    "ja": "鳥",
+    "ko": "새",
+    "zh": "鸟",
+    "es": "pájaro",
+    "fr": "oiseau",
+    "de": "Vogel"
+  },
+  "cow": {
+    "en": "cow",
+    "th": "วัว",
+    "ja": "牛",
+    "ko": "소",
+    "zh": "牛",
+    "es": "vaca",
+    "fr": "vache",
+    "de": "Kuh"
+  },
+  "horse": {
+    "en": "horse",
+    "th": "ม้า",
+    "ja": "馬",
+    "ko": "말",
+    "zh": "马",
+    "es": "caballo",
+    "fr": "cheval",
+    "de": "Pferd"
+  },
+  "tiger": {
+    "en": "tiger",
+    "th": "เสือ",
+    "ja": "虎",
+    "ko": "호랑이",
+    "zh": "老虎",
+    "es": "tigre",
+    "fr": "tigre",
+    "de": "Tiger"
+  },
+  "lion": {
+    "en": "lion",
+    "th": "สิงโต",
+    "ja": "ライオン",
+    "ko": "사자",
+    "zh": "狮子",
+    "es": "león",
+    "fr": "lion",
+    "de": "Löwe"
+  },
+  "elephant": {
+    "en": "elephant",
+    "th": "ช้าง",
+    "ja": "象",
+    "ko": "코끼리",
+    "zh": "大象",
+    "es": "elefante",
+    "fr": "éléphant",
+    "de": "Elefant"
+  },
+  "rabbit": {
+    "en": "rabbit",
+    "th": "กระต่าย",
+    "ja": "ウサギ",
+    "ko": "토끼",
+    "zh": "兔子",
+    "es": "conejo",
+    "fr": "lapin",
+    "de": "Kaninchen"
+  },
+  "sheep": {
+    "en": "sheep",
+    "th": "แกะ",
+    "ja": "羊",
+    "ko": "양",
+    "zh": "羊",
+    "es": "oveja",
+    "fr": "mouton",
+    "de": "Schaf"
+  },
+  "goat": {
+    "en": "goat",
+    "th": "แพะ",
+    "ja": "ヤギ",
+    "ko": "염소",
+    "zh": "山羊",
+    "es": "cabra",
+    "fr": "chèvre",
+    "de": "Ziege"
+  },
+  "pig": {
+    "en": "pig",
+    "th": "หมู",
+    "ja": "豚",
+    "ko": "돼지",
+    "zh": "猪",
+    "es": "cerdo",
+    "fr": "cochon",
+    "de": "Schwein"
+  },
+  "chicken": {
+    "en": "chicken",
+    "th": "ไก่",
+    "ja": "鶏",
+    "ko": "닭",
+    "zh": "鸡",
+    "es": "pollo",
+    "fr": "poulet",
+    "de": "Huhn"
+  },
+  "duck": {
+    "en": "duck",
+    "th": "เป็ด",
+    "ja": "鴨",
+    "ko": "오리",
+    "zh": "鸭",
+    "es": "pato",
+    "fr": "canard",
+    "de": "Ente"
+  },
+  "goose": {
+    "en": "goose",
+    "th": "ห่าน",
+    "ja": "ガチョウ",
+    "ko": "거위",
+    "zh": "鹅",
+    "es": "ganso",
+    "fr": "oie",
+    "de": "Gans"
+  },
+  "turkey": {
+    "en": "turkey",
+    "th": "ไก่งวง",
+    "ja": "七面鳥",
+    "ko": "칠면조",
+    "zh": "火鸡",
+    "es": "pavo",
+    "fr": "dinde",
+    "de": "Truthahn"
+  },
+  "deer": {
+    "en": "deer",
+    "th": "กวาง",
+    "ja": "鹿",
+    "ko": "사슴",
+    "zh": "鹿",
+    "es": "ciervo",
+    "fr": "cerf",
+    "de": "Reh"
+  },
+  "bear": {
+    "en": "bear",
+    "th": "หมี",
+    "ja": "熊",
+    "ko": "곰",
+    "zh": "熊",
+    "es": "oso",
+    "fr": "ours",
+    "de": "Bär"
+  },
+  "wolf": {
+    "en": "wolf",
+    "th": "หมาป่า",
+    "ja": "オオカミ",
+    "ko": "늑대",
+    "zh": "狼",
+    "es": "lobo",
+    "fr": "loup",
+    "de": "Wolf"
+  },
+  "fox": {
+    "en": "fox",
+    "th": "สุนัขจิ้งจอก",
+    "ja": "狐",
+    "ko": "여우",
+    "zh": "狐狸",
+    "es": "zorro",
+    "fr": "renard",
+    "de": "Fuchs"
+  },
+  "monkey": {
+    "en": "monkey",
+    "th": "ลิง",
+    "ja": "猿",
+    "ko": "원숭이",
+    "zh": "猴子",
+    "es": "mono",
+    "fr": "singe",
+    "de": "Affe"
+  },
+  "ape": {
+    "en": "ape",
+    "th": "ลิงไม่มีหาง",
+    "ja": "類人猿",
+    "ko": "유인원",
+    "zh": "猿",
+    "es": "simio",
+    "fr": "singe",
+    "de": "Menschenaffe"
+  },
+  "gorilla": {
+    "en": "gorilla",
+    "th": "กอริลลา",
+    "ja": "ゴリラ",
+    "ko": "고릴라",
+    "zh": "大猩猩",
+    "es": "gorila",
+    "fr": "gorille",
+    "de": "Gorilla"
+  },
+  "chimpanzee": {
+    "en": "chimpanzee",
+    "th": "ชิมแปนซี",
+    "ja": "チンパンジー",
+    "ko": "침팬지",
+    "zh": "黑猩猩",
+    "es": "chimpancé",
+    "fr": "chimpanzé",
+    "de": "Schimpanse"
+  },
+  "panda": {
+    "en": "panda",
+    "th": "แพนด้า",
+    "ja": "パンダ",
+    "ko": "판다",
+    "zh": "熊猫",
+    "es": "panda",
+    "fr": "panda",
+    "de": "Panda"
+  },
+  "kangaroo": {
+    "en": "kangaroo",
+    "th": "จิงโจ้",
+    "ja": "カンガルー",
+    "ko": "캥거루",
+    "zh": "袋鼠",
+    "es": "canguro",
+    "fr": "kangourou",
+    "de": "Känguru"
+  },
+  "koala": {
+    "en": "koala",
+    "th": "โคอาล่า",
+    "ja": "コアラ",
+    "ko": "코알라",
+    "zh": "考拉",
+    "es": "koala",
+    "fr": "koala",
+    "de": "Koala"
+  },
+  "crocodile": {
+    "en": "crocodile",
+    "th": "จระเข้",
+    "ja": "ワニ",
+    "ko": "악어",
+    "zh": "鳄鱼",
+    "es": "cocodrilo",
+    "fr": "crocodile",
+    "de": "Krokodil"
+  },
+  "alligator": {
+    "en": "alligator",
+    "th": "แอลลิเกเตอร์",
+    "ja": "アリゲーター",
+    "ko": "앨리게이터",
+    "zh": "短吻鳄",
+    "es": "aligátor",
+    "fr": "alligator",
+    "de": "Alligator"
+  },
+  "snake": {
+    "en": "snake",
+    "th": "งู",
+    "ja": "蛇",
+    "ko": "뱀",
+    "zh": "蛇",
+    "es": "serpiente",
+    "fr": "serpent",
+    "de": "Schlange"
+  },
+  "frog": {
+    "en": "frog",
+    "th": "กบ",
+    "ja": "カエル",
+    "ko": "개구리",
+    "zh": "青蛙",
+    "es": "rana",
+    "fr": "grenouille",
+    "de": "Frosch"
+  },
+  "toad": {
+    "en": "toad",
+    "th": "คางคก",
+    "ja": "ヒキガエル",
+    "ko": "두꺼비",
+    "zh": "蟾蜍",
+    "es": "sapo",
+    "fr": "crapaud",
+    "de": "Kröte"
+  },
+  "lizard": {
+    "en": "lizard",
+    "th": "จิ้งจก",
+    "ja": "トカゲ",
+    "ko": "도마뱀",
+    "zh": "蜥蜴",
+    "es": "lagarto",
+    "fr": "lézard",
+    "de": "Eidechse"
+  },
+  "turtle": {
+    "en": "turtle",
+    "th": "เต่า",
+    "ja": "カメ",
+    "ko": "거북이",
+    "zh": "乌龟",
+    "es": "tortuga",
+    "fr": "tortue",
+    "de": "Schildkröte"
+  },
+  "whale": {
+    "en": "whale",
+    "th": "ปลาวาฬ",
+    "ja": "鯨",
+    "ko": "고래",
+    "zh": "鲸鱼",
+    "es": "ballena",
+    "fr": "baleine",
+    "de": "Wal"
+  },
+  "dolphin": {
+    "en": "dolphin",
+    "th": "ปลาโลมา",
+    "ja": "イルカ",
+    "ko": "돌고래",
+    "zh": "海豚",
+    "es": "delfín",
+    "fr": "dauphin",
+    "de": "Delfin"
+  },
+  "shark": {
+    "en": "shark",
+    "th": "ฉลาม",
+    "ja": "サメ",
+    "ko": "상어",
+    "zh": "鲨鱼",
+    "es": "tiburón",
+    "fr": "requin",
+    "de": "Hai"
+  },
+  "octopus": {
+    "en": "octopus",
+    "th": "ปลาหมึกยักษ์",
+    "ja": "タコ",
+    "ko": "문어",
+    "zh": "章鱼",
+    "es": "pulpo",
+    "fr": "pieuvre",
+    "de": "Oktopus"
+  },
+  "squid": {
+    "en": "squid",
+    "th": "ปลาหมึก",
+    "ja": "イカ",
+    "ko": "오징어",
+    "zh": "鱿鱼",
+    "es": "calamar",
+    "fr": "calmar",
+    "de": "Tintenfisch"
+  },
+  "crab": {
+    "en": "crab",
+    "th": "ปู",
+    "ja": "カニ",
+    "ko": "게",
+    "zh": "螃蟹",
+    "es": "cangrejo",
+    "fr": "crabe",
+    "de": "Krabbe"
+  },
+  "lobster": {
+    "en": "lobster",
+    "th": "กุ้งมังกร",
+    "ja": "ロブスター",
+    "ko": "바닷가재",
+    "zh": "龙虾",
+    "es": "langosta",
+    "fr": "homard",
+    "de": "Hummer"
+  },
+  "shrimp": {
+    "en": "shrimp",
+    "th": "กุ้ง",
+    "ja": "エビ",
+    "ko": "새우",
+    "zh": "虾",
+    "es": "camarón",
+    "fr": "crevette",
+    "de": "Garnele"
+  },
+  "ant": {
+    "en": "ant",
+    "th": "มด",
+    "ja": "蟻",
+    "ko": "개미",
+    "zh": "蚂蚁",
+    "es": "hormiga",
+    "fr": "fourmi",
+    "de": "Ameise"
+  },
+  "bee": {
+    "en": "bee",
+    "th": "ผึ้ง",
+    "ja": "蜂",
+    "ko": "벌",
+    "zh": "蜜蜂",
+    "es": "abeja",
+    "fr": "abeille",
+    "de": "Biene"
+  },
+  "butterfly": {
+    "en": "butterfly",
+    "th": "ผีเสื้อ",
+    "ja": "蝶",
+    "ko": "나비",
+    "zh": "蝴蝶",
+    "es": "mariposa",
+    "fr": "papillon",
+    "de": "Schmetterling"
+  },
+  "mosquito": {
+    "en": "mosquito",
+    "th": "ยุง",
+    "ja": "蚊",
+    "ko": "모기",
+    "zh": "蚊子",
+    "es": "mosquito",
+    "fr": "moustique",
+    "de": "Mücke"
+  },
+  "fly": {
+    "en": "fly",
+    "th": "แมลงวัน",
+    "ja": "ハエ",
+    "ko": "파리",
+    "zh": "苍蝇",
+    "es": "mosca",
+    "fr": "mouche",
+    "de": "Fliege"
+  },
+  "spider": {
+    "en": "spider",
+    "th": "แมงมุม",
+    "ja": "蜘蛛",
+    "ko": "거미",
+    "zh": "蜘蛛",
+    "es": "araña",
+    "fr": "araignée",
+    "de": "Spinne"
+  },
+  "scorpion": {
+    "en": "scorpion",
+    "th": "แมงป่อง",
+    "ja": "サソリ",
+    "ko": "전갈",
+    "zh": "蝎子",
+    "es": "escorpión",
+    "fr": "scorpion",
+    "de": "Skorpion"
+  },
+  "eagle": {
+    "en": "eagle",
+    "th": "นกอินทรี",
+    "ja": "鷲",
+    "ko": "독수리",
+    "zh": "鹰",
+    "es": "águila",
+    "fr": "aigle",
+    "de": "Adler"
+  },
+  "owl": {
+    "en": "owl",
+    "th": "นกฮูก",
+    "ja": "フクロウ",
+    "ko": "부엉이",
+    "zh": "猫头鹰",
+    "es": "búho",
+    "fr": "hibou",
+    "de": "Eule"
+  },
+  "parrot": {
+    "en": "parrot",
+    "th": "นกแก้ว",
+    "ja": "オウム",
+    "ko": "앵무새",
+    "zh": "鹦鹉",
+    "es": "loro",
+    "fr": "perroquet",
+    "de": "Papagei"
+  },
+  "pigeon": {
+    "en": "pigeon",
+    "th": "นกพิราบ",
+    "ja": "鳩",
+    "ko": "비둘기",
+    "zh": "鸽子",
+    "es": "paloma",
+    "fr": "pigeon",
+    "de": "Taube"
+  },
+  "swan": {
+    "en": "swan",
+    "th": "หงส์",
+    "ja": "白鳥",
+    "ko": "백조",
+    "zh": "天鹅",
+    "es": "cisne",
+    "fr": "cygne",
+    "de": "Schwan"
+  },
+  "peacock": {
+    "en": "peacock",
+    "th": "นกยูง",
+    "ja": "孔雀",
+    "ko": "공작",
+    "zh": "孔雀",
+    "es": "pavo real",
+    "fr": "paon",
+    "de": "Pfau"
+  },
+  "flamingo": {
+    "en": "flamingo",
+    "th": "นกฟลามิงโก้",
+    "ja": "フラミンゴ",
+    "ko": "플라밍고",
+    "zh": "火烈鸟",
+    "es": "flamenco",
+    "fr": "flamant",
+    "de": "Flamingo"
+  },
+  "penguin": {
+    "en": "penguin",
+    "th": "นกเพนกวิน",
+    "ja": "ペンギン",
+    "ko": "펭귄",
+    "zh": "企鹅",
+    "es": "pingüino",
+    "fr": "manchot",
+    "de": "Pinguin"
+  },
+  "seal": {
+    "en": "seal",
+    "th": "แมวน้ำ",
+    "ja": "アザラシ",
+    "ko": "물개",
+    "zh": "海豹",
+    "es": "foca",
+    "fr": "phoque",
+    "de": "Seehund"
+  },
+  "walrus": {
+    "en": "walrus",
+    "th": "วอลรัส",
+    "ja": "セイウチ",
+    "ko": "바다코끼리",
+    "zh": "海象",
+    "es": "morsa",
+    "fr": "morse",
+    "de": "Walross"
+  },
+  "otter": {
+    "en": "otter",
+    "th": "นาก",
+    "ja": "カワウソ",
+    "ko": "수달",
+    "zh": "水獭",
+    "es": "nutria",
+    "fr": "loutre",
+    "de": "Otter"
+  },
+  "beaver": {
+    "en": "beaver",
+    "th": "บีเวอร์",
+    "ja": "ビーバー",
+    "ko": "비버",
+    "zh": "海狸",
+    "es": "castor",
+    "fr": "castor",
+    "de": "Biber"
+  },
+  "hippopotamus": {
+    "en": "hippopotamus",
+    "th": "ฮิปโปโปเตมัส",
+    "ja": "カバ",
+    "ko": "하마",
+    "zh": "河马",
+    "es": "hipopótamo",
+    "fr": "hippopotame",
+    "de": "Nilpferd"
+  },
+  "rhinoceros": {
+    "en": "rhinoceros",
+    "th": "แรด",
+    "ja": "サイ",
+    "ko": "코뿔소",
+    "zh": "犀牛",
+    "es": "rinoceronte",
+    "fr": "rhinocéros",
+    "de": "Nashorn"
+  },
+  "camel": {
+    "en": "camel",
+    "th": "อูฐ",
+    "ja": "ラクダ",
+    "ko": "낙타",
+    "zh": "骆驼",
+    "es": "camello",
+    "fr": "chameau",
+    "de": "Kamel"
+  },
+  "donkey": {
+    "en": "donkey",
+    "th": "ลา",
+    "ja": "ロバ",
+    "ko": "당나귀",
+    "zh": "驴",
+    "es": "burro",
+    "fr": "âne",
+    "de": "Esel"
+  },
+  "mule": {
+    "en": "mule",
+    "th": "ล่อ",
+    "ja": "ラバ",
+    "ko": "노새",
+    "zh": "骡子",
+    "es": "mulo",
+    "fr": "mulet",
+    "de": "Maultier"
+  },
+  "zebra": {
+    "en": "zebra",
+    "th": "ม้าลาย",
+    "ja": "シマウマ",
+    "ko": "얼룩말",
+    "zh": "斑马",
+    "es": "cebra",
+    "fr": "zèbre",
+    "de": "Zebra"
+  },
+  "buffalo": {
+    "en": "buffalo",
+    "th": "ควาย",
+    "ja": "バッファロー",
+    "ko": "물소",
+    "zh": "水牛",
+    "es": "búfalo",
+    "fr": "buffle",
+    "de": "Büffel"
+  },
+  "yak": {
+    "en": "yak",
+    "th": "จามรี",
+    "ja": "ヤク",
+    "ko": "야크",
+    "zh": "牦牛",
+    "es": "yak",
+    "fr": "yak",
+    "de": "Yak"
+  },
+  "bison": {
+    "en": "bison",
+    "th": "ไบซัน",
+    "ja": "バイソン",
+    "ko": "들소",
+    "zh": "野牛",
+    "es": "bisonte",
+    "fr": "bison",
+    "de": "Bison"
+  },
+  "antelope": {
+    "en": "antelope",
+    "th": "ละมั่ง",
+    "ja": "アンテロープ",
+    "ko": "영양",
+    "zh": "羚羊",
+    "es": "antílope",
+    "fr": "antilope",
+    "de": "Antilope"
+  },
+  "gazelle": {
+    "en": "gazelle",
+    "th": "กาเซล",
+    "ja": "ガゼル",
+    "ko": "가젤",
+    "zh": "瞪羚",
+    "es": "gacela",
+    "fr": "gazelle",
+    "de": "Gazelle"
+  },
+  "cheetah": {
+    "en": "cheetah",
+    "th": "เสือชีตาห์",
+    "ja": "チーター",
+    "ko": "치타",
+    "zh": "猎豹",
+    "es": "guepardo",
+    "fr": "guépard",
+    "de": "Gepard"
+  },
+  "leopard": {
+    "en": "leopard",
+    "th": "เสือดาว",
+    "ja": "ヒョウ",
+    "ko": "표범",
+    "zh": "豹",
+    "es": "leopardo",
+    "fr": "léopard",
+    "de": "Leopard"
+  },
+  "jaguar": {
+    "en": "jaguar",
+    "th": "จากัวร์",
+    "ja": "ジャガー",
+    "ko": "재규어",
+    "zh": "美洲豹",
+    "es": "jaguar",
+    "fr": "jaguar",
+    "de": "Jaguar"
+  },
+  "cougar": {
+    "en": "cougar",
+    "th": "คูการ์",
+    "ja": "クーガー",
+    "ko": "쿠거",
+    "zh": "美洲狮",
+    "es": "puma",
+    "fr": "couguar",
+    "de": "Berglöwe"
+  },
+  "lynx": {
+    "en": "lynx",
+    "th": "ลิงซ์",
+    "ja": "リンクス",
+    "ko": "스라소니",
+    "zh": "猞猁",
+    "es": "lince",
+    "fr": "lynx",
+    "de": "Luchs"
+  },
+  "hyena": {
+    "en": "hyena",
+    "th": "ไฮยีน่า",
+    "ja": "ハイエナ",
+    "ko": "하이에나",
+    "zh": "鬣狗",
+    "es": "hiena",
+    "fr": "hyène",
+    "de": "Hyäne"
+  },
+  "meerkat": {
+    "en": "meerkat",
+    "th": "เมียร์แคท",
+    "ja": "ミーアキャット",
+    "ko": "미어캣",
+    "zh": "猫鼬",
+    "es": "suricata",
+    "fr": "suricate",
+    "de": "Erdmännchen"
+  },
+  "sloth": {
+    "en": "sloth",
+    "th": "สลอธ",
+    "ja": "ナマケモノ",
+    "ko": "나무늘보",
+    "zh": "树懒",
+    "es": "perezoso",
+    "fr": "paresseux",
+    "de": "Faultier"
+  },
+  "armadillo": {
+    "en": "armadillo",
+    "th": "อาร์มาดิลโล",
+    "ja": "アルマジロ",
+    "ko": "아르마딜로",
+    "zh": "犰狳",
+    "es": "armadillo",
+    "fr": "tatou",
+    "de": "Gürteltier"
+  },
+  "porcupine": {
+    "en": "porcupine",
+    "th": "เม่น",
+    "ja": "ヤマアラシ",
+    "ko": "호저",
+    "zh": "豪猪",
+    "es": "puercoespín",
+    "fr": "porc-épic",
+    "de": "Stachelschwein"
+  },
+  "hedgehog": {
+    "en": "hedgehog",
+    "th": "เม่นแคระ",
+    "ja": "ハリネズミ",
+    "ko": "고슴도치",
+    "zh": "刺猬",
+    "es": "erizo",
+    "fr": "hérisson",
+    "de": "Igel"
+  },
+  "squirrel": {
+    "en": "squirrel",
+    "th": "กระรอก",
+    "ja": "リス",
+    "ko": "다람쥐",
+    "zh": "松鼠",
+    "es": "ardilla",
+    "fr": "écureuil",
+    "de": "Eichhörnchen"
+  },
+  "chipmunk": {
+    "en": "chipmunk",
+    "th": "ชิพมังก์",
+    "ja": "シマリス",
+    "ko": "칩멍크",
+    "zh": "花栗鼠",
+    "es": "ardilla listada",
+    "fr": "tamia",
+    "de": "Streifenhörnchen"
+  },
+  "rat": {
+    "en": "rat",
+    "th": "หนู",
+    "ja": "ネズミ",
+    "ko": "쥐",
+    "zh": "老鼠",
+    "es": "rata",
+    "fr": "rat",
+    "de": "Ratte"
+  },
+  "mouse": {
+    "en": "mouse",
+    "th": "หนูตัวเล็ก",
+    "ja": "マウス",
+    "ko": "생쥐",
+    "zh": "小鼠",
+    "es": "ratón",
+    "fr": "souris",
+    "de": "Maus"
+  },
+  "bat": {
+    "en": "bat",
+    "th": "ค้างคาว",
+    "ja": "コウモリ",
+    "ko": "박쥐",
+    "zh": "蝙蝠",
+    "es": "murciélago",
+    "fr": "chauve-souris",
+    "de": "Fledermaus"
+  },
+  "crow": {
+    "en": "crow",
+    "th": "อีกา",
+    "ja": "カラス",
+    "ko": "까마귀",
+    "zh": "乌鸦",
+    "es": "cuervo",
+    "fr": "corbeau",
+    "de": "Krähe"
+  },
+  "raven": {
+    "en": "raven",
+    "th": "อีกาดำ",
+    "ja": "ワタリガラス",
+    "ko": "큰까마귀",
+    "zh": "渡鸦",
+    "es": "cuervo grande",
+    "fr": "grand corbeau",
+    "de": "Rabe"
+  },
+  "magpie": {
+    "en": "magpie",
+    "th": "นกกางเขน",
+    "ja": "カササギ",
+    "ko": "까치",
+    "zh": "喜鹊",
+    "es": "urraca",
+    "fr": "pie",
+    "de": "Elster"
+  },
+  "sparrow": {
+    "en": "sparrow",
+    "th": "นกกระจอก",
+    "ja": "スズメ",
+    "ko": "참새",
+    "zh": "麻雀",
+    "es": "gorrión",
+    "fr": "moineau",
+    "de": "Spatz"
+  },
+  "rooster": {
+    "en": "rooster",
+    "th": "ไก่ตัวผู้",
+    "ja": "雄鶏",
+    "ko": "수탉",
+    "zh": "公鸡",
+    "es": "gallo",
+    "fr": "coq",
+    "de": "Hahn"
+  },
+  "hen": {
+    "en": "hen",
+    "th": "แม่ไก่",
+    "ja": "雌鶏",
+    "ko": "암탉",
+    "zh": "母鸡",
+    "es": "gallina",
+    "fr": "poule",
+    "de": "Henne"
+  },
+  "quail": {
+    "en": "quail",
+    "th": "นกกระทา",
+    "ja": "ウズラ",
+    "ko": "메추라기",
+    "zh": "鹌鹑",
+    "es": "codorniz",
+    "fr": "caille",
+    "de": "Wachtel"
+  },
+  "pheasant": {
+    "en": "pheasant",
+    "th": "นกฟ้าพญาลอ",
+    "ja": "キジ",
+    "ko": "꿩",
+    "zh": "野鸡",
+    "es": "faisán",
+    "fr": "faisan",
+    "de": "Fasan"
+  },
+"mole": {"en":"mole","th":"ตุ่น","ja":"モグラ","ko":"두더지","zh":"鼹鼠","es":"topo","fr":"taupe","de":"Maulwurf"},
+"beetle": {"en":"beetle","th":"ด้วง","ja":"カブトムシ","ko":"딱정벌레","zh":"甲虫","es":"escarabajo","fr":"scarabée","de":"Käfer"},
+"slug": {"en":"slug","th":"ทาก","ja":"ナメクジ","ko":"민달팽이","zh":"鼻涕虫","es":"babosa","fr":"limace","de":"Nacktschnecke"}
+
 }

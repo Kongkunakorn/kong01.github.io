@@ -3,18 +3,90 @@
 {% block title %}Typing Menu{% endblock %}
 
 {% block content %}
-<a class="center TypingMenu">TypingMenu</a>
-<div id="category-list-container" style="max-width: 500px; margin: auto">
+{% block styles %}
+<style>
+</style>
+{% endblock %}
+<div class="center">
+  <div class="typing-menu-title">TypingMenu</div>
+</div>
+
+<!-- แถบเลือกภาษา (overlay fancy dropdown ซ้อนทับ select เดิม) -->
+<div class="lang-bar-wrap">
+  <!-- SRC -->
+  <div class="lang-field" data-storage="tt_srcLang">
+    <select id="srcLang" class="browser-default lang-native">
+      <option value="en">English</option>
+      <option value="th" selected>Thai</option>
+      <option value="ja">Japanese</option>
+      <option value="ko">Korean</option>
+      <option value="zh">Chinese</option>
+      <option value="es">Spanish</option>
+      <option value="fr">French</option>
+      <option value="de">German</option>
+    </select>
+    <div class="fancy-trigger">
+      <span class="fancy-label">—</span>
+      <svg viewBox="0 0 512 512" class="fancy-arrow">
+        <path
+          d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z">
+        </path>
+      </svg>
+    </div>
+    <div class="fancy-menu"></div>
+  </div>
+
+  <button id="swapLang" title="สลับภาษา" class="swap-btn">↔</button>
+
+  <!-- DEST -->
+  <div class="lang-field" data-storage="tt_destLang">
+    <select id="destLang" class="browser-default lang-native">
+      <option value="en">English</option>
+      <option value="th" selected>Thai</option>
+      <option value="ja">Japanese</option>
+      <option value="ko">Korean</option>
+      <option value="zh">Chinese</option>
+      <option value="es">Spanish</option>
+      <option value="fr">French</option>
+      <option value="de">German</option>
+    </select>
+    <div class="fancy-trigger">
+      <span class="fancy-label">—</span>
+      <svg viewBox="0 0 512 512" class="fancy-arrow">
+        <path
+          d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z">
+        </path>
+      </svg>
+    </div>
+    <div class="fancy-menu"></div>
+  </div>
+</div>
+
+<!-- ช่องค้นหา Category -->
+<div class="category-search-wrap">
+  <input id="categorySearch" class="category-search" type="text" placeholder="Search_category"
+    aria-label="Search categories" />
+  <div class="search-info" id="searchInfo">ทั้งหมด</div>
+</div>
+<div id="noResults" class="no-results">ไม่พบหมวดที่ตรงกับคำค้น</div>
+
+<!-- รายการหมวดหมู่ -->
+<div id="category-list-container">
   {% for key, icon in categories.items() %}
-  <button type="button" class="category-button modal-trigger" data-target="wordModal"
-    onclick="selectCategory('{{ key }}', '{{ category_sizes[key] }}')">
-    <span>{{ icon }} {{ key|capitalize }}</span>
-    <span style="font-size: 14px; color: #cccccc">
-      {{ category_sizes[key] }} คำ
+  <button type="button" class="category-button modal-trigger" data-target="wordModal" data-category="{{ key }}"
+    data-max="{{ category_sizes[key] }}" onclick="selectCategory(this)">
+    <!-- ซ้าย: ชื่อหมวด + ไอคอน -->
+    <span class="cat-label">
+      <span class="cat-icon" aria-hidden="true" style="margin-right:8px">{{ icon }}</span>
+      {{ key|replace('_',' ')|title }}
     </span>
+
+    <!-- ขวา: จำนวนคำ -->
+    <span class="cat-count">{{ category_sizes[key] }} words</span>
   </button>
   {% endfor %}
 </div>
+
 
 <!-- Modal สำหรับเลือกจำนวนคำ -->
 <div id="wordModal" class="modal">
@@ -22,10 +94,15 @@
     <h5>เลือกจำนวนคำที่จะเล่น</h5>
     <form id="wordForm" method="get">
       <input type="hidden" name="category" id="categoryInput" />
+      <input type="hidden" name="src" id="srcInput" />
+      <input type="hidden" name="dest" id="destInput" />
+
       <div class="input-field">
-        <input type="number" id="max_words" name="max_words" min="1" value="10" />
-        <label for="max_words">จำนวนคำ</label>
+        <input type="number" id="max_words" name="max_words" min="1" value="10" required />
+        <label for="max_words" class="active">จำนวนคำ</label>
+        <span id="maxHint" class="helper-text"></span>
       </div>
+
       <button type="submit" class="btn waves-effect waves-light">เริ่มเล่น</button>
     </form>
   </div>
@@ -35,15 +112,199 @@
 {% block scripts %}
 {{ super() }}
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.modal');
-    M.Modal.init(elems);
+  const $src = document.getElementById('srcLang');
+  const $dest = document.getElementById('destLang');
+
+  const savedSrc = localStorage.getItem('tt_srcLang') || 'en';
+  const savedDest = localStorage.getItem('tt_destLang') || 'th';
+  $src.value = savedSrc;
+  $dest.value = savedDest;
+
+  $src.addEventListener('change', () => localStorage.setItem('tt_srcLang', $src.value));
+  $dest.addEventListener('change', () => localStorage.setItem('tt_destLang', $dest.value));
+
+  /* ===== ปุ่มสลับภาษา ↔ ===== */
+  document.getElementById('swapLang').addEventListener('click', (e) => {
+    e.preventDefault();
+    const a = $src.value, b = $dest.value;
+    $src.value = b; $dest.value = a;
+    $src.dispatchEvent(new Event('change', { bubbles: true }));
+    $dest.dispatchEvent(new Event('change', { bubbles: true }));
+    refreshTrigger(srcField, $src);
+    refreshTrigger(destField, $dest);
   });
 
-  function selectCategory(category, maxCount) {
-    document.getElementById('categoryInput').value = category;
-    document.getElementById('max_words').max = parseInt(maxCount, 10);
-    document.getElementById('wordForm').action = "/play/" + category;
+  /* ===== Fancy dropdown overlay (กดเพื่อเปิด ปิดเมื่อคลิกนอก/กด Esc) ===== */
+  function buildFancy(fieldEl, selectEl) {
+    const trigger = fieldEl.querySelector('.fancy-trigger');
+    const labelEl = fieldEl.querySelector('.fancy-label');
+    const menu = fieldEl.querySelector('.fancy-menu');
+
+    function setFromSelect(v, triggerChange = false) {
+      selectEl.value = v;
+      const opt = selectEl.selectedOptions[0] || selectEl.options[0];
+      labelEl.textContent = opt ? opt.textContent : v;
+      localStorage.setItem(fieldEl.dataset.storage, selectEl.value);
+      if (triggerChange) selectEl.dispatchEvent(new Event('change', { bubbles: true }));
+    }
+
+    // ตั้งค่าเริ่มต้นจาก localStorage
+    const initVal = localStorage.getItem(fieldEl.dataset.storage) || selectEl.value;
+    setFromSelect(initVal, false);
+
+    // เรนเดอร์เมนูจาก options
+    menu.innerHTML = '';
+    Array.from(selectEl.options).forEach(opt => {
+      const item = document.createElement('div');
+      item.className = 'fancy-item';
+      item.textContent = opt.textContent;
+      item.dataset.value = opt.value;
+      item.addEventListener('click', (e) => {
+        e.stopPropagation();
+        setFromSelect(opt.value, true);
+        fieldEl.classList.remove('open');
+      });
+      menu.appendChild(item);
+    });
+
+    // เปิด/ปิดด้วยคลิกที่ปุ่ม
+    trigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      document.querySelectorAll('.lang-field.open').forEach(el => el.classList.remove('open'));
+      fieldEl.classList.toggle('open');
+      const active = [...menu.children].find(el => el.dataset.value === selectEl.value);
+      if (active) active.scrollIntoView({ block: 'nearest' });
+    });
+
+    // ปิดเมื่อ select ถูกเปลี่ยนจากภายนอก (เช่นปุ่ม ↔)
+    selectEl.addEventListener('change', () => {
+      const opt = selectEl.selectedOptions[0] || selectEl.options[0];
+      labelEl.textContent = opt ? opt.textContent : selectEl.value;
+      localStorage.setItem(fieldEl.dataset.storage, selectEl.value);
+    });
   }
+
+  function refreshTrigger(fieldEl, selectEl) {
+    const opt = selectEl.selectedOptions[0] || selectEl.options[0];
+    fieldEl.querySelector('.fancy-label').textContent = opt ? opt.textContent : selectEl.value;
+  }
+
+  // init ทั้งสองตัว
+  const srcField = document.querySelector('.lang-field:nth-of-type(1)');
+  const destField = document.querySelector('.lang-field:nth-of-type(2)');
+  buildFancy(srcField, $src);
+  buildFancy(destField, $dest);
+
+  // ปิดเมื่อคลิกนอก/กด Esc
+  document.addEventListener('click', () => {
+    document.querySelectorAll('.lang-field.open').forEach(el => el.classList.remove('open'));
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.lang-field.open').forEach(el => el.classList.remove('open'));
+    }
+  });
+
+  /* ===== Modal + ฟอร์ม /play เดิม (คงโค้ดให้ทำงานเหมือนเดิม) ===== */
+  document.addEventListener('DOMContentLoaded', function () {
+    const elems = document.querySelectorAll('.modal');
+    if (window.M && M.Modal) { M.Modal.init(elems); }
+  });
+
+  function selectCategory(btn) {
+    const category = btn.getAttribute('data-category');
+    const maxCount = parseInt(btn.getAttribute('data-max') || '0', 10);
+
+    const form = document.getElementById('wordForm');
+    const maxInput = document.getElementById('max_words');
+    const maxHint = document.getElementById('maxHint');
+
+    document.getElementById('categoryInput').value = category;
+    form.action = "/play/" + encodeURIComponent(category);
+
+    if (maxCount > 0) {
+      maxInput.max = String(maxCount);
+      maxHint.textContent = "สูงสุด " + maxCount + " คำสำหรับหมวดนี้";
+      const current = parseInt(maxInput.value || '0', 10);
+      if (current > maxCount) maxInput.value = String(Math.min(10, maxCount));
+      if (maxCount === 1) maxInput.value = "1";
+    } else {
+      maxInput.removeAttribute('max');
+      maxHint.textContent = "";
+    }
+
+    // แนบภาษา (อ่านจาก select เดิมที่ซิงก์กับ fancy แล้ว)
+    document.getElementById('srcInput').value = $src.value || 'en';
+    document.getElementById('destInput').value = $dest.value || 'th';
+
+    const modalEl = document.getElementById('wordModal');
+    if (window.M && M.Modal) {
+      const instance = M.Modal.getInstance(modalEl) || M.Modal.init(modalEl);
+      instance.open();
+    } else {
+      modalEl.style.display = 'block';
+    }
+  }
+
+  document.getElementById('wordForm').addEventListener('submit', function (e) {
+    const input = document.getElementById('max_words');
+    const maxAttr = parseInt(input.getAttribute('max') || '0', 10);
+    const minAttr = parseInt(input.getAttribute('min') || '1', 10);
+    let val = parseInt(input.value || '0', 10);
+    if (isNaN(val)) val = minAttr;
+    if (maxAttr > 0 && val > maxAttr) val = maxAttr;
+    if (val < minAttr) val = minAttr;
+    input.value = val;
+  });
+  (function () {
+    const input = document.getElementById('categorySearch');
+    const listContainer = document.getElementById('category-list-container');
+    const items = Array.from(listContainer.querySelectorAll('.category-button'));
+    const searchInfo = document.getElementById('searchInfo');
+    const noResults = document.getElementById('noResults');
+
+    function updateInfo(visibleCount, total) {
+      searchInfo.textContent = (visibleCount === total)
+        ? 'All'
+        : `${visibleCount}/${total} Category`;
+      noResults.style.display = visibleCount ? 'none' : 'block';
+    }
+
+    const total = items.length;
+    updateInfo(total, total);
+
+    let t = null;
+    function onSearch() {
+      const q = (input.value || '').toLowerCase().trim();
+      let shown = 0;
+
+      items.forEach(btn => {
+        // อ่านเฉพาะ "ชื่อหมวด" ที่อยู่ในสแปนซ้าย (ตัวอักษร+ไอคอน)
+        // โครงสร้างปุ่ม: <button> <span>[icon + NAME]</span> <span>[xx words]</span> </button>
+        const nameEl = btn.querySelector(':scope > span:first-child');
+        const nameText = (nameEl ? nameEl.textContent : '').toLowerCase().trim();
+
+        const hit = !q || nameText.includes(q);
+        btn.style.display = hit ? 'flex' : 'none';
+        if (hit) shown++;
+      });
+
+      updateInfo(shown, total);
+    }
+
+    input.addEventListener('input', () => {
+      clearTimeout(t);
+      t = setTimeout(onSearch, 80);
+    });
+
+    // ปุ่มลัด: กด '/' เพื่อโฟกัสช่องค้นหา
+    document.addEventListener('keydown', (e) => {
+      if (e.key === '/' && document.activeElement !== input) {
+        e.preventDefault();
+        input.focus();
+        input.select();
+      }
+    });
+  })();
 </script>
 {% endblock %}

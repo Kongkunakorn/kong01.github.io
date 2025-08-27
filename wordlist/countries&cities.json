@@ -1,0 +1,1002 @@
+{
+  "Thailand": {
+    "en": "Thailand",
+    "th": "ประเทศไทย",
+    "ja": "タイ",
+    "ko": "태국",
+    "zh": "泰国",
+    "es": "Tailandia",
+    "fr": "Thaïlande",
+    "de": "Thailand"
+  },
+  "Bangkok": {
+    "en": "Bangkok",
+    "th": "กรุงเทพฯ",
+    "ja": "バンコク",
+    "ko": "방콕",
+    "zh": "曼谷",
+    "es": "Bangkok",
+    "fr": "Bangkok",
+    "de": "Bangkok"
+  },
+  "Japan": {
+    "en": "Japan",
+    "th": "ญี่ปุ่น",
+    "ja": "日本",
+    "ko": "일본",
+    "zh": "日本",
+    "es": "Japón",
+    "fr": "Japon",
+    "de": "Japan"
+  },
+  "Tokyo": {
+    "en": "Tokyo",
+    "th": "โตเกียว",
+    "ja": "東京",
+    "ko": "도쿄",
+    "zh": "东京",
+    "es": "Tokio",
+    "fr": "Tokyo",
+    "de": "Tokio"
+  },
+  "Korea": {
+    "en": "South Korea",
+    "th": "เกาหลีใต้",
+    "ja": "韓国",
+    "ko": "대한민국",
+    "zh": "韩国",
+    "es": "Corea del Sur",
+    "fr": "Corée du Sud",
+    "de": "Südkorea"
+  },
+  "Seoul": {
+    "en": "Seoul",
+    "th": "โซล",
+    "ja": "ソウル",
+    "ko": "서울",
+    "zh": "首尔",
+    "es": "Seúl",
+    "fr": "Séoul",
+    "de": "Seoul"
+  },
+  "China": {
+    "en": "China",
+    "th": "จีน",
+    "ja": "中国",
+    "ko": "중국",
+    "zh": "中国",
+    "es": "China",
+    "fr": "Chine",
+    "de": "China"
+  },
+  "Beijing": {
+    "en": "Beijing",
+    "th": "ปักกิ่ง",
+    "ja": "北京",
+    "ko": "베이징",
+    "zh": "北京",
+    "es": "Pekín",
+    "fr": "Pékin",
+    "de": "Peking"
+  },
+  "France": {
+    "en": "France",
+    "th": "ฝรั่งเศส",
+    "ja": "フランス",
+    "ko": "프랑스",
+    "zh": "法国",
+    "es": "Francia",
+    "fr": "France",
+    "de": "Frankreich"
+  },
+  "Paris": {
+    "en": "Paris",
+    "th": "ปารีส",
+    "ja": "パリ",
+    "ko": "파리",
+    "zh": "巴黎",
+    "es": "París",
+    "fr": "Paris",
+    "de": "Paris"
+  },
+  "Germany": {
+    "en": "Germany",
+    "th": "เยอรมนี",
+    "ja": "ドイツ",
+    "ko": "독일",
+    "zh": "德国",
+    "es": "Alemania",
+    "fr": "Allemagne",
+    "de": "Deutschland"
+  },
+  "Berlin": {
+    "en": "Berlin",
+    "th": "เบอร์ลิน",
+    "ja": "ベルリン",
+    "ko": "베를린",
+    "zh": "柏林",
+    "es": "Berlín",
+    "fr": "Berlin",
+    "de": "Berlin"
+  },
+  "Spain": {
+    "en": "Spain",
+    "th": "สเปน",
+    "ja": "スペイン",
+    "ko": "스페인",
+    "zh": "西班牙",
+    "es": "España",
+    "fr": "Espagne",
+    "de": "Spanien"
+  },
+  "Madrid": {
+    "en": "Madrid",
+    "th": "มาดริด",
+    "ja": "マドリード",
+    "ko": "마드리드",
+    "zh": "马德里",
+    "es": "Madrid",
+    "fr": "Madrid",
+    "de": "Madrid"
+  },
+  "Italy": {
+    "en": "Italy",
+    "th": "อิตาลี",
+    "ja": "イタリア",
+    "ko": "이탈리아",
+    "zh": "意大利",
+    "es": "Italia",
+    "fr": "Italie",
+    "de": "Italien"
+  },
+  "Rome": {
+    "en": "Rome",
+    "th": "โรม",
+    "ja": "ローマ",
+    "ko": "로마",
+    "zh": "罗马",
+    "es": "Roma",
+    "fr": "Rome",
+    "de": "Rom"
+  },
+  "United States": {
+    "en": "United States",
+    "th": "สหรัฐอเมริกา",
+    "ja": "アメリカ合衆国",
+    "ko": "미국",
+    "zh": "美国",
+    "es": "Estados Unidos",
+    "fr": "États-Unis",
+    "de": "Vereinigte Staaten"
+  },
+  "Washington": {
+    "en": "Washington D.C.",
+    "th": "วอชิงตัน ดี.ซี.",
+    "ja": "ワシントンD.C.",
+    "ko": "워싱턴 D.C.",
+    "zh": "华盛顿",
+    "es": "Washington D. C.",
+    "fr": "Washington D.C.",
+    "de": "Washington, D.C."
+  },
+  "New York": {
+    "en": "New York",
+    "th": "นิวยอร์ก",
+    "ja": "ニューヨーク",
+    "ko": "뉴욕",
+    "zh": "纽约",
+    "es": "Nueva York",
+    "fr": "New York",
+    "de": "New York"
+  },
+  "Canada": {
+    "en": "Canada",
+    "th": "แคนาดา",
+    "ja": "カナダ",
+    "ko": "캐나다",
+    "zh": "加拿大",
+    "es": "Canadá",
+    "fr": "Canada",
+    "de": "Kanada"
+  },
+  "Toronto": {
+    "en": "Toronto",
+    "th": "โตรอนโต",
+    "ja": "トロント",
+    "ko": "토론토",
+    "zh": "多伦多",
+    "es": "Toronto",
+    "fr": "Toronto",
+    "de": "Toronto"
+  },
+  "Brazil": {
+    "en": "Brazil",
+    "th": "บราซิล",
+    "ja": "ブラジル",
+    "ko": "브라질",
+    "zh": "巴西",
+    "es": "Brasil",
+    "fr": "Brésil",
+    "de": "Brasilien"
+  },
+  "Rio de Janeiro": {
+    "en": "Rio de Janeiro",
+    "th": "รีโอเดจาเนโร",
+    "ja": "リオデジャネイロ",
+    "ko": "리우데자네이루",
+    "zh": "里约热内卢",
+    "es": "Río de Janeiro",
+    "fr": "Rio de Janeiro",
+    "de": "Rio de Janeiro"
+  },
+  "Mexico": {
+    "en": "Mexico",
+    "th": "เม็กซิโก",
+    "ja": "メキシコ",
+    "ko": "멕시코",
+    "zh": "墨西哥",
+    "es": "México",
+    "fr": "Mexique",
+    "de": "Mexiko"
+  },
+  "Mexico City": {
+    "en": "Mexico City",
+    "th": "เม็กซิโกซิตี",
+    "ja": "メキシコシティ",
+    "ko": "멕시코시티",
+    "zh": "墨西哥城",
+    "es": "Ciudad de México",
+    "fr": "Mexico",
+    "de": "Mexiko-Stadt"
+  },
+  "United Kingdom": {
+    "en": "United Kingdom",
+    "th": "สหราชอาณาจักร",
+    "ja": "イギリス",
+    "ko": "영국",
+    "zh": "英国",
+    "es": "Reino Unido",
+    "fr": "Royaume-Uni",
+    "de": "Vereinigtes Königreich"
+  },
+  "London": {
+    "en": "London",
+    "th": "ลอนดอน",
+    "ja": "ロンドン",
+    "ko": "런던",
+    "zh": "伦敦",
+    "es": "Londres",
+    "fr": "Londres",
+    "de": "London"
+  },
+  "Russia": {
+    "en": "Russia",
+    "th": "รัสเซีย",
+    "ja": "ロシア",
+    "ko": "러시아",
+    "zh": "俄罗斯",
+    "es": "Rusia",
+    "fr": "Russie",
+    "de": "Russland"
+  },
+  "Moscow": {
+    "en": "Moscow",
+    "th": "มอสโก",
+    "ja": "モスクワ",
+    "ko": "모스크바",
+    "zh": "莫斯科",
+    "es": "Moscú",
+    "fr": "Moscou",
+    "de": "Moskau"
+  },
+  "Australia": {
+    "en": "Australia",
+    "th": "Australia",
+    "ja": "Australia",
+    "ko": "Australia",
+    "zh": "Australia",
+    "es": "Australia",
+    "fr": "Australia",
+    "de": "Australia"
+  },
+  "Sydney": {
+    "en": "Sydney",
+    "th": "Sydney",
+    "ja": "Sydney",
+    "ko": "Sydney",
+    "zh": "Sydney",
+    "es": "Sydney",
+    "fr": "Sydney",
+    "de": "Sydney"
+  },
+  "India": {
+    "en": "India",
+    "th": "India",
+    "ja": "India",
+    "ko": "India",
+    "zh": "India",
+    "es": "India",
+    "fr": "India",
+    "de": "India"
+  },
+  "Delhi": {
+    "en": "Delhi",
+    "th": "Delhi",
+    "ja": "Delhi",
+    "ko": "Delhi",
+    "zh": "Delhi",
+    "es": "Delhi",
+    "fr": "Delhi",
+    "de": "Delhi"
+  },
+  "Mumbai": {
+    "en": "Mumbai",
+    "th": "Mumbai",
+    "ja": "Mumbai",
+    "ko": "Mumbai",
+    "zh": "Mumbai",
+    "es": "Mumbai",
+    "fr": "Mumbai",
+    "de": "Mumbai"
+  },
+  "Pakistan": {
+    "en": "Pakistan",
+    "th": "Pakistan",
+    "ja": "Pakistan",
+    "ko": "Pakistan",
+    "zh": "Pakistan",
+    "es": "Pakistan",
+    "fr": "Pakistan",
+    "de": "Pakistan"
+  },
+  "Islamabad": {
+    "en": "Islamabad",
+    "th": "Islamabad",
+    "ja": "Islamabad",
+    "ko": "Islamabad",
+    "zh": "Islamabad",
+    "es": "Islamabad",
+    "fr": "Islamabad",
+    "de": "Islamabad"
+  },
+  "Nepal": {
+    "en": "Nepal",
+    "th": "Nepal",
+    "ja": "Nepal",
+    "ko": "Nepal",
+    "zh": "Nepal",
+    "es": "Nepal",
+    "fr": "Nepal",
+    "de": "Nepal"
+  },
+  "Kathmandu": {
+    "en": "Kathmandu",
+    "th": "Kathmandu",
+    "ja": "Kathmandu",
+    "ko": "Kathmandu",
+    "zh": "Kathmandu",
+    "es": "Kathmandu",
+    "fr": "Kathmandu",
+    "de": "Kathmandu"
+  },
+  "Bhutan": {
+    "en": "Bhutan",
+    "th": "Bhutan",
+    "ja": "Bhutan",
+    "ko": "Bhutan",
+    "zh": "Bhutan",
+    "es": "Bhutan",
+    "fr": "Bhutan",
+    "de": "Bhutan"
+  },
+  "Sri Lanka": {
+    "en": "Sri Lanka",
+    "th": "Sri Lanka",
+    "ja": "Sri Lanka",
+    "ko": "Sri Lanka",
+    "zh": "Sri Lanka",
+    "es": "Sri Lanka",
+    "fr": "Sri Lanka",
+    "de": "Sri Lanka"
+  },
+  "Colombo": {
+    "en": "Colombo",
+    "th": "Colombo",
+    "ja": "Colombo",
+    "ko": "Colombo",
+    "zh": "Colombo",
+    "es": "Colombo",
+    "fr": "Colombo",
+    "de": "Colombo"
+  },
+  "Maldives": {
+    "en": "Maldives",
+    "th": "Maldives",
+    "ja": "Maldives",
+    "ko": "Maldives",
+    "zh": "Maldives",
+    "es": "Maldives",
+    "fr": "Maldives",
+    "de": "Maldives"
+  },
+  "Male": {
+    "en": "Male",
+    "th": "Male",
+    "ja": "Male",
+    "ko": "Male",
+    "zh": "Male",
+    "es": "Male",
+    "fr": "Male",
+    "de": "Male"
+  },
+  "Indonesia": {
+    "en": "Indonesia",
+    "th": "Indonesia",
+    "ja": "Indonesia",
+    "ko": "Indonesia",
+    "zh": "Indonesia",
+    "es": "Indonesia",
+    "fr": "Indonesia",
+    "de": "Indonesia"
+  },
+  "Jakarta": {
+    "en": "Jakarta",
+    "th": "Jakarta",
+    "ja": "Jakarta",
+    "ko": "Jakarta",
+    "zh": "Jakarta",
+    "es": "Jakarta",
+    "fr": "Jakarta",
+    "de": "Jakarta"
+  },
+  "Malaysia": {
+    "en": "Malaysia",
+    "th": "Malaysia",
+    "ja": "Malaysia",
+    "ko": "Malaysia",
+    "zh": "Malaysia",
+    "es": "Malaysia",
+    "fr": "Malaysia",
+    "de": "Malaysia"
+  },
+  "Kuala Lumpur": {
+    "en": "Kuala Lumpur",
+    "th": "Kuala Lumpur",
+    "ja": "Kuala Lumpur",
+    "ko": "Kuala Lumpur",
+    "zh": "Kuala Lumpur",
+    "es": "Kuala Lumpur",
+    "fr": "Kuala Lumpur",
+    "de": "Kuala Lumpur"
+  },
+  "Singapore": {
+    "en": "Singapore",
+    "th": "Singapore",
+    "ja": "Singapore",
+    "ko": "Singapore",
+    "zh": "Singapore",
+    "es": "Singapore",
+    "fr": "Singapore",
+    "de": "Singapore"
+  },
+  "Philippines": {
+    "en": "Philippines",
+    "th": "Philippines",
+    "ja": "Philippines",
+    "ko": "Philippines",
+    "zh": "Philippines",
+    "es": "Philippines",
+    "fr": "Philippines",
+    "de": "Philippines"
+  },
+  "Manila": {
+    "en": "Manila",
+    "th": "Manila",
+    "ja": "Manila",
+    "ko": "Manila",
+    "zh": "Manila",
+    "es": "Manila",
+    "fr": "Manila",
+    "de": "Manila"
+  },
+  "Vietnam": {
+    "en": "Vietnam",
+    "th": "Vietnam",
+    "ja": "Vietnam",
+    "ko": "Vietnam",
+    "zh": "Vietnam",
+    "es": "Vietnam",
+    "fr": "Vietnam",
+    "de": "Vietnam"
+  },
+  "Hanoi": {
+    "en": "Hanoi",
+    "th": "Hanoi",
+    "ja": "Hanoi",
+    "ko": "Hanoi",
+    "zh": "Hanoi",
+    "es": "Hanoi",
+    "fr": "Hanoi",
+    "de": "Hanoi"
+  },
+  "Cambodia": {
+    "en": "Cambodia",
+    "th": "Cambodia",
+    "ja": "Cambodia",
+    "ko": "Cambodia",
+    "zh": "Cambodia",
+    "es": "Cambodia",
+    "fr": "Cambodia",
+    "de": "Cambodia"
+  },
+  "Phnom Penh": {
+    "en": "Phnom Penh",
+    "th": "Phnom Penh",
+    "ja": "Phnom Penh",
+    "ko": "Phnom Penh",
+    "zh": "Phnom Penh",
+    "es": "Phnom Penh",
+    "fr": "Phnom Penh",
+    "de": "Phnom Penh"
+  },
+  "Laos": {
+    "en": "Laos",
+    "th": "Laos",
+    "ja": "Laos",
+    "ko": "Laos",
+    "zh": "Laos",
+    "es": "Laos",
+    "fr": "Laos",
+    "de": "Laos"
+  },
+  "Vientiane": {
+    "en": "Vientiane",
+    "th": "Vientiane",
+    "ja": "Vientiane",
+    "ko": "Vientiane",
+    "zh": "Vientiane",
+    "es": "Vientiane",
+    "fr": "Vientiane",
+    "de": "Vientiane"
+  },
+  "Myanmar": {
+    "en": "Myanmar",
+    "th": "Myanmar",
+    "ja": "Myanmar",
+    "ko": "Myanmar",
+    "zh": "Myanmar",
+    "es": "Myanmar",
+    "fr": "Myanmar",
+    "de": "Myanmar"
+  },
+  "Yangon": {
+    "en": "Yangon",
+    "th": "Yangon",
+    "ja": "Yangon",
+    "ko": "Yangon",
+    "zh": "Yangon",
+    "es": "Yangon",
+    "fr": "Yangon",
+    "de": "Yangon"
+  },
+  "Brunei": {
+    "en": "Brunei",
+    "th": "Brunei",
+    "ja": "Brunei",
+    "ko": "Brunei",
+    "zh": "Brunei",
+    "es": "Brunei",
+    "fr": "Brunei",
+    "de": "Brunei"
+  },
+  "Bandar Seri Begawan": {
+    "en": "Bandar Seri Begawan",
+    "th": "Bandar Seri Begawan",
+    "ja": "Bandar Seri Begawan",
+    "ko": "Bandar Seri Begawan",
+    "zh": "Bandar Seri Begawan",
+    "es": "Bandar Seri Begawan",
+    "fr": "Bandar Seri Begawan",
+    "de": "Bandar Seri Begawan"
+  },
+  "New Zealand": {
+    "en": "New Zealand",
+    "th": "New Zealand",
+    "ja": "New Zealand",
+    "ko": "New Zealand",
+    "zh": "New Zealand",
+    "es": "New Zealand",
+    "fr": "New Zealand",
+    "de": "New Zealand"
+  },
+  "Wellington": {
+    "en": "Wellington",
+    "th": "Wellington",
+    "ja": "Wellington",
+    "ko": "Wellington",
+    "zh": "Wellington",
+    "es": "Wellington",
+    "fr": "Wellington",
+    "de": "Wellington"
+  },
+  "Auckland": {
+    "en": "Auckland",
+    "th": "Auckland",
+    "ja": "Auckland",
+    "ko": "Auckland",
+    "zh": "Auckland",
+    "es": "Auckland",
+    "fr": "Auckland",
+    "de": "Auckland"
+  },
+  "Fiji": {
+    "en": "Fiji",
+    "th": "Fiji",
+    "ja": "Fiji",
+    "ko": "Fiji",
+    "zh": "Fiji",
+    "es": "Fiji",
+    "fr": "Fiji",
+    "de": "Fiji"
+  },
+  "Suva": {
+    "en": "Suva",
+    "th": "Suva",
+    "ja": "Suva",
+    "ko": "Suva",
+    "zh": "Suva",
+    "es": "Suva",
+    "fr": "Suva",
+    "de": "Suva"
+  },
+  "Argentina": {
+    "en": "Argentina",
+    "th": "Argentina",
+    "ja": "Argentina",
+    "ko": "Argentina",
+    "zh": "Argentina",
+    "es": "Argentina",
+    "fr": "Argentina",
+    "de": "Argentina"
+  },
+  "Buenos Aires": {
+    "en": "Buenos Aires",
+    "th": "Buenos Aires",
+    "ja": "Buenos Aires",
+    "ko": "Buenos Aires",
+    "zh": "Buenos Aires",
+    "es": "Buenos Aires",
+    "fr": "Buenos Aires",
+    "de": "Buenos Aires"
+  },
+  "Chile": {
+    "en": "Chile",
+    "th": "Chile",
+    "ja": "Chile",
+    "ko": "Chile",
+    "zh": "Chile",
+    "es": "Chile",
+    "fr": "Chile",
+    "de": "Chile"
+  },
+  "Santiago": {
+    "en": "Santiago",
+    "th": "Santiago",
+    "ja": "Santiago",
+    "ko": "Santiago",
+    "zh": "Santiago",
+    "es": "Santiago",
+    "fr": "Santiago",
+    "de": "Santiago"
+  },
+  "Peru": {
+    "en": "Peru",
+    "th": "Peru",
+    "ja": "Peru",
+    "ko": "Peru",
+    "zh": "Peru",
+    "es": "Peru",
+    "fr": "Peru",
+    "de": "Peru"
+  },
+  "Lima": {
+    "en": "Lima",
+    "th": "Lima",
+    "ja": "Lima",
+    "ko": "Lima",
+    "zh": "Lima",
+    "es": "Lima",
+    "fr": "Lima",
+    "de": "Lima"
+  },
+  "Colombia": {
+    "en": "Colombia",
+    "th": "Colombia",
+    "ja": "Colombia",
+    "ko": "Colombia",
+    "zh": "Colombia",
+    "es": "Colombia",
+    "fr": "Colombia",
+    "de": "Colombia"
+  },
+  "Bogotá": {
+    "en": "Bogotá",
+    "th": "Bogotá",
+    "ja": "Bogotá",
+    "ko": "Bogotá",
+    "zh": "Bogotá",
+    "es": "Bogotá",
+    "fr": "Bogotá",
+    "de": "Bogotá"
+  },
+  "Venezuela": {
+    "en": "Venezuela",
+    "th": "Venezuela",
+    "ja": "Venezuela",
+    "ko": "Venezuela",
+    "zh": "Venezuela",
+    "es": "Venezuela",
+    "fr": "Venezuela",
+    "de": "Venezuela"
+  },
+  "Caracas": {
+    "en": "Caracas",
+    "th": "Caracas",
+    "ja": "Caracas",
+    "ko": "Caracas",
+    "zh": "Caracas",
+    "es": "Caracas",
+    "fr": "Caracas",
+    "de": "Caracas"
+  },
+  "South Africa": {
+    "en": "South Africa",
+    "th": "South Africa",
+    "ja": "South Africa",
+    "ko": "South Africa",
+    "zh": "South Africa",
+    "es": "South Africa",
+    "fr": "South Africa",
+    "de": "South Africa"
+  },
+  "Cape Town": {
+    "en": "Cape Town",
+    "th": "Cape Town",
+    "ja": "Cape Town",
+    "ko": "Cape Town",
+    "zh": "Cape Town",
+    "es": "Cape Town",
+    "fr": "Cape Town",
+    "de": "Cape Town"
+  },
+  "Egypt": {
+    "en": "Egypt",
+    "th": "Egypt",
+    "ja": "Egypt",
+    "ko": "Egypt",
+    "zh": "Egypt",
+    "es": "Egypt",
+    "fr": "Egypt",
+    "de": "Egypt"
+  },
+  "Cairo": {
+    "en": "Cairo",
+    "th": "Cairo",
+    "ja": "Cairo",
+    "ko": "Cairo",
+    "zh": "Cairo",
+    "es": "Cairo",
+    "fr": "Cairo",
+    "de": "Cairo"
+  },
+  "Turkey": {
+    "en": "Turkey",
+    "th": "Turkey",
+    "ja": "Turkey",
+    "ko": "Turkey",
+    "zh": "Turkey",
+    "es": "Turkey",
+    "fr": "Turkey",
+    "de": "Turkey"
+  },
+  "Ankara": {
+    "en": "Ankara",
+    "th": "Ankara",
+    "ja": "Ankara",
+    "ko": "Ankara",
+    "zh": "Ankara",
+    "es": "Ankara",
+    "fr": "Ankara",
+    "de": "Ankara"
+  },
+  "Istanbul": {
+    "en": "Istanbul",
+    "th": "Istanbul",
+    "ja": "Istanbul",
+    "ko": "Istanbul",
+    "zh": "Istanbul",
+    "es": "Istanbul",
+    "fr": "Istanbul",
+    "de": "Istanbul"
+  },
+  "Saudi Arabia": {
+    "en": "Saudi Arabia",
+    "th": "Saudi Arabia",
+    "ja": "Saudi Arabia",
+    "ko": "Saudi Arabia",
+    "zh": "Saudi Arabia",
+    "es": "Saudi Arabia",
+    "fr": "Saudi Arabia",
+    "de": "Saudi Arabia"
+  },
+  "Riyadh": {
+    "en": "Riyadh",
+    "th": "Riyadh",
+    "ja": "Riyadh",
+    "ko": "Riyadh",
+    "zh": "Riyadh",
+    "es": "Riyadh",
+    "fr": "Riyadh",
+    "de": "Riyadh"
+  },
+  "UAE": {
+    "en": "UAE",
+    "th": "UAE",
+    "ja": "UAE",
+    "ko": "UAE",
+    "zh": "UAE",
+    "es": "UAE",
+    "fr": "UAE",
+    "de": "UAE"
+  },
+  "Dubai": {
+    "en": "Dubai",
+    "th": "Dubai",
+    "ja": "Dubai",
+    "ko": "Dubai",
+    "zh": "Dubai",
+    "es": "Dubai",
+    "fr": "Dubai",
+    "de": "Dubai"
+  },
+  "Abu Dhabi": {
+    "en": "Abu Dhabi",
+    "th": "Abu Dhabi",
+    "ja": "Abu Dhabi",
+    "ko": "Abu Dhabi",
+    "zh": "Abu Dhabi",
+    "es": "Abu Dhabi",
+    "fr": "Abu Dhabi",
+    "de": "Abu Dhabi"
+  },
+  "Qatar": {
+    "en": "Qatar",
+    "th": "Qatar",
+    "ja": "Qatar",
+    "ko": "Qatar",
+    "zh": "Qatar",
+    "es": "Qatar",
+    "fr": "Qatar",
+    "de": "Qatar"
+  },
+  "Doha": {
+    "en": "Doha",
+    "th": "Doha",
+    "ja": "Doha",
+    "ko": "Doha",
+    "zh": "Doha",
+    "es": "Doha",
+    "fr": "Doha",
+    "de": "Doha"
+  },
+  "Iran": {
+    "en": "Iran",
+    "th": "Iran",
+    "ja": "Iran",
+    "ko": "Iran",
+    "zh": "Iran",
+    "es": "Iran",
+    "fr": "Iran",
+    "de": "Iran"
+  },
+  "Tehran": {
+    "en": "Tehran",
+    "th": "Tehran",
+    "ja": "Tehran",
+    "ko": "Tehran",
+    "zh": "Tehran",
+    "es": "Tehran",
+    "fr": "Tehran",
+    "de": "Tehran"
+  },
+  "Iraq": {
+    "en": "Iraq",
+    "th": "Iraq",
+    "ja": "Iraq",
+    "ko": "Iraq",
+    "zh": "Iraq",
+    "es": "Iraq",
+    "fr": "Iraq",
+    "de": "Iraq"
+  },
+  "Baghdad": {
+    "en": "Baghdad",
+    "th": "Baghdad",
+    "ja": "Baghdad",
+    "ko": "Baghdad",
+    "zh": "Baghdad",
+    "es": "Baghdad",
+    "fr": "Baghdad",
+    "de": "Baghdad"
+  },
+  "Israel": {
+    "en": "Israel",
+    "th": "Israel",
+    "ja": "Israel",
+    "ko": "Israel",
+    "zh": "Israel",
+    "es": "Israel",
+    "fr": "Israel",
+    "de": "Israel"
+  },
+  "Jerusalem": {
+    "en": "Jerusalem",
+    "th": "Jerusalem",
+    "ja": "Jerusalem",
+    "ko": "Jerusalem",
+    "zh": "Jerusalem",
+    "es": "Jerusalem",
+    "fr": "Jerusalem",
+    "de": "Jerusalem"
+  },
+  "Jordan": {
+    "en": "Jordan",
+    "th": "Jordan",
+    "ja": "Jordan",
+    "ko": "Jordan",
+    "zh": "Jordan",
+    "es": "Jordan",
+    "fr": "Jordan",
+    "de": "Jordan"
+  },
+  "Amman": {
+    "en": "Amman",
+    "th": "Amman",
+    "ja": "Amman",
+    "ko": "Amman",
+    "zh": "Amman",
+    "es": "Amman",
+    "fr": "Amman",
+    "de": "Amman"
+  },
+  "Kenya": {
+    "en": "Kenya",
+    "th": "Kenya",
+    "ja": "Kenya",
+    "ko": "Kenya",
+    "zh": "Kenya",
+    "es": "Kenya",
+    "fr": "Kenya",
+    "de": "Kenya"
+  },
+  "Nairobi": {
+    "en": "Nairobi",
+    "th": "Nairobi",
+    "ja": "Nairobi",
+    "ko": "Nairobi",
+    "zh": "Nairobi",
+    "es": "Nairobi",
+    "fr": "Nairobi",
+    "de": "Nairobi"
+  },
+  "Nigeria": {
+    "en": "Nigeria",
+    "th": "Nigeria",
+    "ja": "Nigeria",
+    "ko": "Nigeria",
+    "zh": "Nigeria",
+    "es": "Nigeria",
+    "fr": "Nigeria",
+    "de": "Nigeria"
+  }
+}
