@@ -1,0 +1,972 @@
+{
+  "rice": {
+    "en": "rice",
+    "th": "ข้าว",
+    "ja": "ご飯",
+    "ko": "밥",
+    "zh": "米饭",
+    "es": "arroz",
+    "fr": "riz",
+    "de": "Reis"
+  },
+  "bread": {
+    "en": "bread",
+    "th": "ขนมปัง",
+    "ja": "パン",
+    "ko": "빵",
+    "zh": "面包",
+    "es": "pan",
+    "fr": "pain",
+    "de": "Brot"
+  },
+  "soup": {
+    "en": "soup",
+    "th": "ซุป",
+    "ja": "スープ",
+    "ko": "수프",
+    "zh": "汤",
+    "es": "sopa",
+    "fr": "soupe",
+    "de": "Suppe"
+  },
+  "noodles": {
+    "en": "noodles",
+    "th": "เส้นก๋วยเตี๋ยว",
+    "ja": "麺",
+    "ko": "면",
+    "zh": "面条",
+    "es": "fideos",
+    "fr": "nouilles",
+    "de": "Nudeln"
+  },
+  "salad": {
+    "en": "salad",
+    "th": "สลัด",
+    "ja": "サラダ",
+    "ko": "샐러드",
+    "zh": "沙拉",
+    "es": "ensalada",
+    "fr": "salade",
+    "de": "Salat"
+  },
+  "sandwich": {
+    "en": "sandwich",
+    "th": "แซนด์วิช",
+    "ja": "サンドイッチ",
+    "ko": "샌드위치",
+    "zh": "三明治",
+    "es": "sándwich",
+    "fr": "sandwich",
+    "de": "Sandwich"
+  },
+  "hamburger": {
+    "en": "hamburger",
+    "th": "แฮมเบอร์เกอร์",
+    "ja": "ハンバーガー",
+    "ko": "햄버거",
+    "zh": "汉堡",
+    "es": "hamburguesa",
+    "fr": "hamburger",
+    "de": "Hamburger"
+  },
+  "hot_dog": {
+    "en": "hot dog",
+    "th": "ฮอตดอก",
+    "ja": "ホットドッグ",
+    "ko": "핫도그",
+    "zh": "热狗",
+    "es": "perrito caliente",
+    "fr": "hot-dog",
+    "de": "Hotdog"
+  },
+  "pizza": {
+    "en": "pizza",
+    "th": "พิซซ่า",
+    "ja": "ピザ",
+    "ko": "피자",
+    "zh": "比萨",
+    "es": "pizza",
+    "fr": "pizza",
+    "de": "Pizza"
+  },
+  "pasta": {
+    "en": "pasta",
+    "th": "พาสต้า",
+    "ja": "パスタ",
+    "ko": "파스타",
+    "zh": "意大利面",
+    "es": "pasta",
+    "fr": "pâtes",
+    "de": "Pasta"
+  },
+  "steak": {
+    "en": "steak",
+    "th": "สเต็ก",
+    "ja": "ステーキ",
+    "ko": "스테이크",
+    "zh": "牛排",
+    "es": "filete",
+    "fr": "steak",
+    "de": "Steak"
+  },
+  "chicken_curry": {
+    "en": "chicken curry",
+    "th": "แกงไก่",
+    "ja": "チキンカレー",
+    "ko": "치킨 커리",
+    "zh": "咖喱鸡",
+    "es": "curry de pollo",
+    "fr": "curry de poulet",
+    "de": "Hähnchencurry"
+  },
+  "fried_rice": {
+    "en": "fried rice",
+    "th": "ข้าวผัด",
+    "ja": "チャーハン",
+    "ko": "볶음밥",
+    "zh": "炒饭",
+    "es": "arroz frito",
+    "fr": "riz frit",
+    "de": "Gebratener Reis"
+  },
+  "omelette": {
+    "en": "omelette",
+    "th": "ไข่เจียว",
+    "ja": "オムレツ",
+    "ko": "오믈렛",
+    "zh": "煎蛋卷",
+    "es": "tortilla francesa",
+    "fr": "omelette",
+    "de": "Omelett"
+  },
+  "sushi": {
+    "en": "sushi",
+    "th": "ซูชิ",
+    "ja": "寿司",
+    "ko": "스시",
+    "zh": "寿司",
+    "es": "sushi",
+    "fr": "sushi",
+    "de": "Sushi"
+  },
+  "sashimi": {
+    "en": "sashimi",
+    "th": "ซาซิมิ",
+    "ja": "刺身",
+    "ko": "사시미",
+    "zh": "生鱼片",
+    "es": "sashimi",
+    "fr": "sashimi",
+    "de": "Sashimi"
+  },
+  "ramen": {
+    "en": "ramen",
+    "th": "ราเมง",
+    "ja": "ラーメン",
+    "ko": "라면",
+    "zh": "拉面",
+    "es": "ramen",
+    "fr": "ramen",
+    "de": "Ramen"
+  },
+  "udon": {
+    "en": "udon",
+    "th": "อุด้ง",
+    "ja": "うどん",
+    "ko": "우동",
+    "zh": "乌冬面",
+    "es": "udon",
+    "fr": "udon",
+    "de": "Udon"
+  },
+  "tempura": {
+    "en": "tempura",
+    "th": "เท็มปุระ",
+    "ja": "天ぷら",
+    "ko": "덴푸라",
+    "zh": "天妇罗",
+    "es": "tempura",
+    "fr": "tempura",
+    "de": "Tempura"
+  },
+  "kimchi": {
+    "en": "kimchi",
+    "th": "กิมจิ",
+    "ja": "キムチ",
+    "ko": "김치",
+    "zh": "泡菜",
+    "es": "kimchi",
+    "fr": "kimchi",
+    "de": "Kimchi"
+  },
+  "bibimbap": {
+    "en": "bibimbap",
+    "th": "บิบิมบับ",
+    "ja": "ビビンバ",
+    "ko": "비빔밥",
+    "zh": "拌饭",
+    "es": "bibimbap",
+    "fr": "bibimbap",
+    "de": "Bibimbap"
+  },
+  "bulgogi": {
+    "en": "bulgogi",
+    "th": "พุลโกกิ",
+    "ja": "プルコギ",
+    "ko": "불고기",
+    "zh": "烤肉（韩式）",
+    "es": "bulgogi",
+    "fr": "bulgogi",
+    "de": "Bulgogi"
+  },
+  "tofu": {
+    "en": "tofu",
+    "th": "เต้าหู้",
+    "ja": "豆腐",
+    "ko": "두부",
+    "zh": "豆腐",
+    "es": "tofu",
+    "fr": "tofu",
+    "de": "Tofu"
+  },
+  "dumplings": {
+    "en": "dumplings",
+    "th": "เกี๊ยว",
+    "ja": "餃子",
+    "ko": "만두",
+    "zh": "饺子",
+    "es": "dumplings",
+    "fr": "raviolis",
+    "de": "Teigtaschen"
+  },
+  "spring_rolls": {
+    "en": "spring rolls",
+    "th": "ปอเปี๊ยะ",
+    "ja": "春巻き",
+    "ko": "춘권",
+    "zh": "春卷",
+    "es": "rollitos de primavera",
+    "fr": "rouleaux de printemps",
+    "de": "Frühlingsrollen"
+  },
+  "pho": {
+    "en": "pho",
+    "th": "เฝอ",
+    "ja": "フォー",
+    "ko": "퍼",
+    "zh": "越南粉",
+    "es": "pho",
+    "fr": "pho",
+    "de": "Pho"
+  },
+  "pad_thai": {
+    "en": "pad thai",
+    "th": "ผัดไทย",
+    "ja": "パッタイ",
+    "ko": "팟타이",
+    "zh": "泰式炒河粉",
+    "es": "pad thai",
+    "fr": "pad thaï",
+    "de": "Pad Thai"
+  },
+  "green_curry": {
+    "en": "green curry",
+    "th": "แกงเขียวหวาน",
+    "ja": "グリーンカレー",
+    "ko": "그린 커리",
+    "zh": "绿咖喱",
+    "es": "curry verde",
+    "fr": "curry vert",
+    "de": "Grünes Curry"
+  },
+  "tom_yum": {
+    "en": "tom yum soup",
+    "th": "ต้มยำกุ้ง",
+    "ja": "トムヤムクン",
+    "ko": "톰얌꿍",
+    "zh": "冬阴功汤",
+    "es": "sopa tom yum",
+    "fr": "soupe tom yum",
+    "de": "Tom-Yum-Suppe"
+  },
+  "som_tam": {
+    "en": "papaya salad (som tam)",
+    "th": "ส้มตำ",
+    "ja": "ソムタム",
+    "ko": "솜땀",
+    "zh": "青木瓜沙拉",
+    "es": "ensalada de papaya (som tam)",
+    "fr": "salade de papaye (som tam)",
+    "de": "Papayasalat (Som Tam)"
+  },
+  "fried_chicken": {
+    "en": "fried chicken",
+    "th": "ไก่ทอด",
+    "ja": "フライドチキン",
+    "ko": "치킨",
+    "zh": "炸鸡",
+    "es": "pollo frito",
+    "fr": "poulet frit",
+    "de": "Brathähnchen"
+  },
+  "grilled_fish": {
+    "en": "grilled fish",
+    "th": "ปลาย่าง",
+    "ja": "焼き魚",
+    "ko": "생선구이",
+    "zh": "烤鱼",
+    "es": "pescado a la parrilla",
+    "fr": "poisson grillé",
+    "de": "Gegrillter Fisch"
+  },
+  "roast_pork": {
+    "en": "roast pork",
+    "th": "หมูย่าง",
+    "ja": "ローストポーク",
+    "ko": "구운 돼지 고기",
+    "zh": "烤猪肉",
+    "es": "cerdo asado",
+    "fr": "porc rôti",
+    "de": "Schweinebraten"
+  },
+  "steamed_vegetables": {
+    "en": "steamed vegetables",
+    "th": "ผักนึ่ง",
+    "ja": "蒸し野菜",
+    "ko": "찐 채소",
+    "zh": "清蒸蔬菜",
+    "es": "verduras al vapor",
+    "fr": "légumes vapeur",
+    "de": "Gedünstetes Gemüse"
+  },
+  "stir_fry": {
+    "en": "stir-fry",
+    "th": "ผัดผัก",
+    "ja": "炒め物",
+    "ko": "볶음요리",
+    "zh": "炒菜",
+    "es": "salteado",
+    "fr": "sauté",
+    "de": "Pfannengericht"
+  },
+  "curry": {
+    "en": "curry",
+    "th": "แกงกะหรี่",
+    "ja": "カレー",
+    "ko": "카레",
+    "zh": "咖喱",
+    "es": "curry",
+    "fr": "curry",
+    "de": "Curry"
+  },
+  "kebab": {
+    "en": "kebab",
+    "th": "เคบับ",
+    "ja": "ケバブ",
+    "ko": "케밥",
+    "zh": "烤肉串",
+    "es": "kebab",
+    "fr": "kebab",
+    "de": "Kebab"
+  },
+  "hummus": {
+    "en": "hummus",
+    "th": "ฮัมมุส",
+    "ja": "フムス",
+    "ko": "후무스",
+    "zh": "鹰嘴豆泥",
+    "es": "hummus",
+    "fr": "houmous",
+    "de": "Hummus"
+  },
+  "falafel": {
+    "en": "falafel",
+    "th": "ฟาลาเฟล",
+    "ja": "ファラフェル",
+    "ko": "팔라펠",
+    "zh": "炸豆丸子",
+    "es": "falafel",
+    "fr": "falafel",
+    "de": "Falafel"
+  },
+  "shawarma": {
+    "en": "shawarma",
+    "th": "ชาวาร์มา",
+    "ja": "シャワルマ",
+    "ko": "샤와르마",
+    "zh": "沙威玛",
+    "es": "shawarma",
+    "fr": "shawarma",
+    "de": "Schawarma"
+  },
+  "tacos": {
+    "en": "tacos",
+    "th": "ทาโก้",
+    "ja": "タコス",
+    "ko": "타코",
+    "zh": "塔可",
+    "es": "tacos",
+    "fr": "tacos",
+    "de": "Tacos"
+  },
+  "burrito": {
+    "en": "burrito",
+    "th": "เบอริโต",
+    "ja": "ブリトー",
+    "ko": "부리토",
+    "zh": "卷饼",
+    "es": "burrito",
+    "fr": "burrito",
+    "de": "Burrito"
+  },
+  "quesadilla": {
+    "en": "quesadilla",
+    "th": "เคซาดิญ่า",
+    "ja": "ケサディーヤ",
+    "ko": "케사디야",
+    "zh": "奶酪玉米饼",
+    "es": "quesadilla",
+    "fr": "quesadilla",
+    "de": "Quesadilla"
+  },
+  "paella": {
+    "en": "paella",
+    "th": "ปาเอญ่า",
+    "ja": "パエリア",
+    "ko": "빠에야",
+    "zh": "西班牙海鲜饭",
+    "es": "paella",
+    "fr": "paella",
+    "de": "Paella"
+  },
+  "croissant": {
+    "en": "croissant",
+    "th": "ครัวซองต์",
+    "ja": "クロワッサン",
+    "ko": "크루아상",
+    "zh": "牛角面包",
+    "es": "croissant",
+    "fr": "croissant",
+    "de": "Croissant"
+  },
+  "baguette": {
+    "en": "baguette",
+    "th": "บาเก็ต",
+    "ja": "バゲット",
+    "ko": "바게트",
+    "zh": "法棍",
+    "es": "baguette",
+    "fr": "baguette",
+    "de": "Baguette"
+  },
+  "waffle": {
+    "en": "waffle",
+    "th": "วาฟเฟิล",
+    "ja": "ワッフル",
+    "ko": "와플",
+    "zh": "华夫饼",
+    "es": "gofre",
+    "fr": "gaufre",
+    "de": "Waffel"
+  },
+  "pancake": {
+    "en": "pancake",
+    "th": "แพนเค้ก",
+    "ja": "パンケーキ",
+    "ko": "팬케이크",
+    "zh": "煎饼",
+    "es": "panqueque",
+    "fr": "crêpe",
+    "de": "Pfannkuchen"
+  },
+  "ice_cream": {
+    "en": "ice cream",
+    "th": "ไอศกรีม",
+    "ja": "アイスクリーム",
+    "ko": "아이스크림",
+    "zh": "冰淇淋",
+    "es": "helado",
+    "fr": "glace",
+    "de": "Eis"
+  },
+  "fruit_salad": {
+    "en": "fruit salad",
+    "th": "สลัดผลไม้",
+    "ja": "フルーツサラダ",
+    "ko": "과일 샐러드",
+    "zh": "水果沙拉",
+    "es": "ensalada de frutas",
+    "fr": "salade de fruits",
+    "de": "Obstsalat"
+  },
+  "chocolate": {
+    "en": "chocolate",
+    "th": "ช็อกโกแลต",
+    "ja": "チョコレート",
+    "ko": "초콜릿",
+    "zh": "巧克力",
+    "es": "chocolate",
+    "fr": "chocolat",
+    "de": "Schokolade"
+  },
+  "cheesecake": {
+    "en": "cheesecake",
+    "th": "ชีสเค้ก",
+    "ja": "チーズケーキ",
+    "ko": "치즈케이크",
+    "zh": "芝士蛋糕",
+    "es": "tarta de queso",
+    "fr": "gâteau au fromage",
+    "de": "Käsekuchen"
+  },
+  "donut": {
+    "en": "donut",
+    "th": "โดนัท",
+    "ja": "ドーナツ",
+    "ko": "도넛",
+    "zh": "甜甜圈",
+    "es": "donut",
+    "fr": "beignet",
+    "de": "Donut"
+  },
+  "cookie": {
+    "en": "cookie",
+    "th": "คุกกี้",
+    "ja": "クッキー",
+    "ko": "쿠키",
+    "zh": "饼干",
+    "es": "galleta",
+    "fr": "cookie",
+    "de": "Keks"
+  },
+  "muffin": {
+    "en": "muffin",
+    "th": "มัฟฟิน",
+    "ja": "マフィン",
+    "ko": "머핀",
+    "zh": "松饼",
+    "es": "magdalena",
+    "fr": "muffin",
+    "de": "Muffin"
+  },
+  "brownie": {
+    "en": "brownie",
+    "th": "บราวนี่",
+    "ja": "ブラウニー",
+    "ko": "브라우니",
+    "zh": "布朗尼",
+    "es": "brownie",
+    "fr": "brownie",
+    "de": "Brownie"
+  },
+  "cupcake": {
+    "en": "cupcake",
+    "th": "คัพเค้ก",
+    "ja": "カップケーキ",
+    "ko": "컵케이크",
+    "zh": "纸杯蛋糕",
+    "es": "magdalena",
+    "fr": "cupcake",
+    "de": "Cupcake"
+  },
+  "pudding": {
+    "en": "pudding",
+    "th": "พุดดิ้ง",
+    "ja": "プリン",
+    "ko": "푸딩",
+    "zh": "布丁",
+    "es": "pudín",
+    "fr": "pudding",
+    "de": "Pudding"
+  },
+  "jelly": {
+    "en": "jelly",
+    "th": "เยลลี่",
+    "ja": "ゼリー",
+    "ko": "젤리",
+    "zh": "果冻",
+    "es": "gelatina",
+    "fr": "gelée",
+    "de": "Gelee"
+  },
+  "custard": {
+    "en": "custard",
+    "th": "คัสตาร์ด",
+    "ja": "カスタード",
+    "ko": "커스터드",
+    "zh": "蛋奶冻",
+    "es": "natillas",
+    "fr": "crème anglaise",
+    "de": "Puddingcreme"
+  },
+  "tiramisu": {
+    "en": "tiramisu",
+    "th": "ทีรามิสุ",
+    "ja": "ティラミス",
+    "ko": "티라미수",
+    "zh": "提拉米苏",
+    "es": "tiramisu",
+    "fr": "tiramisu",
+    "de": "Tiramisu"
+  },
+  "macaron": {
+    "en": "macaron",
+    "th": "มาการอง",
+    "ja": "マカロン",
+    "ko": "마카롱",
+    "zh": "马卡龙",
+    "es": "macarrón",
+    "fr": "macaron",
+    "de": "Macaron"
+  },
+  "croquette": {
+    "en": "croquette",
+    "th": "โครเกต์",
+    "ja": "コロッケ",
+    "ko": "고로케",
+    "zh": "炸丸子",
+    "es": "croqueta",
+    "fr": "croquette",
+    "de": "Krokette"
+  },
+  "lasagna": {
+    "en": "lasagna",
+    "th": "ลาซานญ่า",
+    "ja": "ラザニア",
+    "ko": "라자냐",
+    "zh": "千层面",
+    "es": "lasaña",
+    "fr": "lasagne",
+    "de": "Lasagne"
+  },
+  "gnocchi": {
+    "en": "gnocchi",
+    "th": "น็อกกี้",
+    "ja": "ニョッキ",
+    "ko": "뇨키",
+    "zh": "意大利土豆团",
+    "es": "ñoquis",
+    "fr": "gnocchi",
+    "de": "Gnocchi"
+  },
+  "risotto": {
+    "en": "risotto",
+    "th": "ริซอตโต้",
+    "ja": "リゾット",
+    "ko": "리소토",
+    "zh": "烩饭",
+    "es": "risotto",
+    "fr": "risotto",
+    "de": "Risotto"
+  },
+  "gazpacho": {
+    "en": "gazpacho",
+    "th": "กัซปาโช",
+    "ja": "ガスパチョ",
+    "ko": "가스파초",
+    "zh": "西班牙冷汤",
+    "es": "gazpacho",
+    "fr": "gaspacho",
+    "de": "Gazpacho"
+  },
+  "ratatouille": {
+    "en": "ratatouille",
+    "th": "ราตาตูย",
+    "ja": "ラタトゥイユ",
+    "ko": "라따뚜이",
+    "zh": "普罗旺斯炖菜",
+    "es": "ratatouille",
+    "fr": "ratatouille",
+    "de": "Ratatouille"
+  },
+  "fondue": {
+    "en": "fondue",
+    "th": "ฟองดูว์",
+    "ja": "フォンデュ",
+    "ko": "퐁듀",
+    "zh": "火锅（瑞士）",
+    "es": "fondue",
+    "fr": "fondue",
+    "de": "Fondue"
+  },
+  "sauerkraut": {
+    "en": "sauerkraut",
+    "th": "ซาวเคราต์",
+    "ja": "ザワークラウト",
+    "ko": "사워크라우트",
+    "zh": "酸菜",
+    "es": "chucrut",
+    "fr": "choucroute",
+    "de": "Sauerkraut"
+  },
+  "bratwurst": {
+    "en": "bratwurst",
+    "th": "ไส้กรอกเยอรมัน",
+    "ja": "ブラートヴルスト",
+    "ko": "브라트부어스트",
+    "zh": "德式香肠",
+    "es": "bratwurst",
+    "fr": "bratwurst",
+    "de": "Bratwurst"
+  },
+  "pretzel": {
+    "en": "pretzel",
+    "th": "เพรทเซล",
+    "ja": "プレッツェル",
+    "ko": "프레첼",
+    "zh": "椒盐卷饼",
+    "es": "pretzel",
+    "fr": "bretzel",
+    "de": "Brezel"
+  },
+  "schnitzel": {
+    "en": "schnitzel",
+    "th": "ชนิทเซิล",
+    "ja": "シュニッツェル",
+    "ko": "슈니첼",
+    "zh": "炸肉排",
+    "es": "schnitzel",
+    "fr": "escalope panée",
+    "de": "Schnitzel"
+  },
+  "goulash": {
+    "en": "goulash",
+    "th": "กูลาช",
+    "ja": "グヤーシュ",
+    "ko": "굴라시",
+    "zh": "古拉什",
+    "es": "goulash",
+    "fr": "goulash",
+    "de": "Gulasch"
+  },
+  "borscht": {
+    "en": "borscht",
+    "th": "บอร์ชท์",
+    "ja": "ボルシチ",
+    "ko": "보르시",
+    "zh": "罗宋汤",
+    "es": "borscht",
+    "fr": "borsch",
+    "de": "Borschtsch"
+  },
+  "pierogi": {
+    "en": "pierogi",
+    "th": "เพียโรกี",
+    "ja": "ピエロギ",
+    "ko": "피에로기",
+    "zh": "波兰饺子",
+    "es": "pierogi",
+    "fr": "pierogi",
+    "de": "Pierogi"
+  },
+  "ceviche": {
+    "en": "ceviche",
+    "th": "เซวิชเช",
+    "ja": "セビチェ",
+    "ko": "세비체",
+    "zh": "酸橘汁腌鱼",
+    "es": "ceviche",
+    "fr": "ceviche",
+    "de": "Ceviche"
+  },
+  "empanada": {
+    "en": "empanada",
+    "th": "เอมปานาดา",
+    "ja": "エンパナーダ",
+    "ko": "엠파나다",
+    "zh": "馅饼",
+    "es": "empanada",
+    "fr": "empanada",
+    "de": "Empanada"
+  },
+  "arepa": {
+    "en": "arepa",
+    "th": "อาเรปา",
+    "ja": "アレパ",
+    "ko": "아레파",
+    "zh": "阿雷帕饼",
+    "es": "arepa",
+    "fr": "arepa",
+    "de": "Arepa"
+  },
+  "tamale": {
+    "en": "tamale",
+    "th": "ทามาเล",
+    "ja": "タマル",
+    "ko": "타말레",
+    "zh": "粽子（墨西哥）",
+    "es": "tamal",
+    "fr": "tamale",
+    "de": "Tamale"
+  },
+  "chimichanga": {
+    "en": "chimichanga",
+    "th": "ชิมิชังกา",
+    "ja": "チミチャンガ",
+    "ko": "치미창가",
+    "zh": "炸卷饼",
+    "es": "chimichanga",
+    "fr": "chimichanga",
+    "de": "Chimichanga"
+  },
+  "poutine": {
+    "en": "poutine",
+    "th": "พูทีน",
+    "ja": "プーティン",
+    "ko": "푸틴",
+    "zh": "肉汁奶酪薯条",
+    "es": "poutine",
+    "fr": "poutine",
+    "de": "Poutine"
+  },
+  "clam_chowder": {
+    "en": "clam chowder",
+    "th": "ซุปหอยลาย",
+    "ja": "クラムチャウダー",
+    "ko": "클램 차우더",
+    "zh": "蛤蜊浓汤",
+    "es": "sopa de almejas",
+    "fr": "clam chowder",
+    "de": "Muschelsuppe"
+  },
+  "lobster_bisque": {
+    "en": "lobster bisque",
+    "th": "ซุปล็อบสเตอร์",
+    "ja": "ロブスタービスク",
+    "ko": "로브스터 비스크",
+    "zh": "龙虾浓汤",
+    "es": "crema de langosta",
+    "fr": "bisque de homard",
+    "de": "Hummerbisque"
+  },
+  "crab_cakes": {
+    "en": "crab cakes",
+    "th": "เค้กปู",
+    "ja": "クラブケーキ",
+    "ko": "크랩 케이크",
+    "zh": "蟹饼",
+    "es": "pastel de cangrejo",
+    "fr": "croquettes de crabe",
+    "de": "Krabbenkuchen"
+  },
+  "beef_stew": {
+    "en": "beef stew",
+    "th": "สตูว์เนื้อ",
+    "ja": "ビーフシチュー",
+    "ko": "비프 스튜",
+    "zh": "炖牛肉",
+    "es": "estofado de carne",
+    "fr": "ragoût de boeuf",
+    "de": "Rindereintopf"
+  },
+  "shepherds_pie": {
+    "en": "shepherd's pie",
+    "th": "พายเนื้อบด",
+    "ja": "シェパーズパイ",
+    "ko": "셰퍼드 파이",
+    "zh": "牧羊人派",
+    "es": "pastel de carne",
+    "fr": "hachis parmentier",
+    "de": "Shepherd's Pie"
+  },
+  "fish_and_chips": {
+    "en": "fish and chips",
+    "th": "ฟิชแอนด์ชิปส์",
+    "ja": "フィッシュアンドチップス",
+    "ko": "피시앤칩스",
+    "zh": "炸鱼薯条",
+    "es": "pescado con papas fritas",
+    "fr": "poisson-frites",
+    "de": "Fish and Chips"
+  },
+  "roast_beef": {
+    "en": "roast beef",
+    "th": "เนื้ออบ",
+    "ja": "ローストビーフ",
+    "ko": "로스트 비프",
+    "zh": "烤牛肉",
+    "es": "rosbif",
+    "fr": "rosbif",
+    "de": "Roastbeef"
+  },
+  "mashed_potatoes": {
+    "en": "mashed potatoes",
+    "th": "มันบด",
+    "ja": "マッシュポテト",
+    "ko": "으깬 감자",
+    "zh": "土豆泥",
+    "es": "puré de papas",
+    "fr": "purée de pommes de terre",
+    "de": "Kartoffelpüree"
+  },
+  "coleslaw": {
+    "en": "coleslaw",
+    "th": "โคลสลอว์",
+    "ja": "コールスロー",
+    "ko": "코울슬로",
+    "zh": "卷心菜色拉",
+    "es": "ensalada de col",
+    "fr": "coleslaw",
+    "de": "Krautsalat"
+  },
+  "beef_burger": {
+    "en": "beef burger",
+    "th": "เบอร์เกอร์เนื้อ",
+    "ja": "ビーフバーガー",
+    "ko": "비프버거",
+    "zh": "牛肉汉堡",
+    "es": "hamburguesa de ternera",
+    "fr": "burger au boeuf",
+    "de": "Rindfleischburger"
+  },
+  "chili": {
+    "en": "chili",
+    "th": "ชิลลี่คอนคาร์เน",
+    "ja": "チリコンカーン",
+    "ko": "칠리",
+    "zh": "辣味炖肉",
+    "es": "chili con carne",
+    "fr": "chili con carne",
+    "de": "Chili con Carne"
+  },
+  "casserole": {
+    "en": "casserole",
+    "th": "แคสเซอโรล",
+    "ja": "キャセロール",
+    "ko": "캐서롤",
+    "zh": "砂锅菜",
+    "es": "cazuela",
+    "fr": "casserole",
+    "de": "Auflauf"
+  },
+  "stewed_chicken": {
+    "en": "stewed chicken",
+    "th": "ไก่ต้มพะโล้",
+    "ja": "鶏肉のシチュー",
+    "ko": "닭고기 스튜",
+    "zh": "炖鸡",
+    "es": "pollo guisado",
+    "fr": "poulet mijoté",
+    "de": "Hühnereintopf"
+  },
+  "stuffed_peppers": {
+    "en": "stuffed peppers",
+    "th": "พริกยัดไส้",
+    "ja": "ピーマンの肉詰め",
+    "ko": "속을 채운 고추",
+    "zh": "酿辣椒",
+    "es": "pimientos rellenos",
+    "fr": "poivrons farcis",
+    "de": "Gefüllte Paprika"
+  },
+  "eggplant_parmesan": {
+    "en": "eggplant parmesan",
+    "th": "มะเขือม่วงอบชีส",
+    "ja": "ナスのパルメザン焼き",
+    "ko": "가지 파르메산",
+    "zh": "帕尔马茄子",
+    "es": "berenjenas a la parmesana",
+    "fr": "aubergines au parmesan",
+    "de": "Auberginen mit Parmesan"
+  }
+}

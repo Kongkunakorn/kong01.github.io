@@ -1,0 +1,862 @@
+{
+  "happy": {
+    "en": "happy",
+    "th": "มีความสุข",
+    "ja": "幸せ",
+    "ko": "행복한",
+    "zh": "高兴的",
+    "es": "feliz",
+    "fr": "heureux",
+    "de": "glücklich"
+  },
+  "sad": {
+    "en": "sad",
+    "th": "เศร้า",
+    "ja": "悲しい",
+    "ko": "슬픈",
+    "zh": "伤心的",
+    "es": "triste",
+    "fr": "triste",
+    "de": "traurig"
+  },
+  "angry": {
+    "en": "angry",
+    "th": "โกรธ",
+    "ja": "怒っている",
+    "ko": "화난",
+    "zh": "生气的",
+    "es": "enojado",
+    "fr": "fâché",
+    "de": "wütend"
+  },
+  "scared": {
+    "en": "scared",
+    "th": "กลัว",
+    "ja": "怖い",
+    "ko": "무서운",
+    "zh": "害怕的",
+    "es": "asustado",
+    "fr": "effrayé",
+    "de": "verängstigt"
+  },
+  "excited": {
+    "en": "excited",
+    "th": "ตื่นเต้น",
+    "ja": "興奮した",
+    "ko": "흥분한",
+    "zh": "兴奋的",
+    "es": "emocionado",
+    "fr": "excité",
+    "de": "aufgeregt"
+  },
+  "nervous": {
+    "en": "nervous",
+    "th": "ประหม่า",
+    "ja": "緊張した",
+    "ko": "긴장한",
+    "zh": "紧张的",
+    "es": "nervioso",
+    "fr": "nerveux",
+    "de": "nervös"
+  },
+  "surprised": {
+    "en": "surprised",
+    "th": "ประหลาดใจ",
+    "ja": "驚いた",
+    "ko": "놀란",
+    "zh": "惊讶的",
+    "es": "sorprendido",
+    "fr": "surpris",
+    "de": "überrascht"
+  },
+  "tired": {
+    "en": "tired",
+    "th": "เหนื่อย",
+    "ja": "疲れた",
+    "ko": "피곤한",
+    "zh": "累的",
+    "es": "cansado",
+    "fr": "fatigué",
+    "de": "müde"
+  },
+  "bored": {
+    "en": "bored",
+    "th": "เบื่อ",
+    "ja": "退屈した",
+    "ko": "지루한",
+    "zh": "无聊的",
+    "es": "aburrido",
+    "fr": "ennuyé",
+    "de": "gelangweilt"
+  },
+  "calm": {
+    "en": "calm",
+    "th": "สงบ",
+    "ja": "落ち着いた",
+    "ko": "차분한",
+    "zh": "冷静的",
+    "es": "calmado",
+    "fr": "calme",
+    "de": "ruhig"
+  },
+  "confused": {
+    "en": "confused",
+    "th": "สับสน",
+    "ja": "混乱した",
+    "ko": "혼란스러운",
+    "zh": "困惑的",
+    "es": "confundido",
+    "fr": "confus",
+    "de": "verwirrt"
+  },
+  "relieved": {
+    "en": "relieved",
+    "th": "โล่งใจ",
+    "ja": "安心した",
+    "ko": "안도한",
+    "zh": "如释重负的",
+    "es": "aliviado",
+    "fr": "soulagé",
+    "de": "erleichtert"
+  },
+  "hopeful": {
+    "en": "hopeful",
+    "th": "มีความหวัง",
+    "ja": "希望に満ちた",
+    "ko": "희망적인",
+    "zh": "充满希望的",
+    "es": "esperanzado",
+    "fr": "plein d'espoir",
+    "de": "hoffnungsvoll"
+  },
+  "lonely": {
+    "en": "lonely",
+    "th": "เหงา",
+    "ja": "孤独な",
+    "ko": "외로운",
+    "zh": "孤独的",
+    "es": "solo",
+    "fr": "seul",
+    "de": "einsam"
+  },
+  "guilty": {
+    "en": "guilty",
+    "th": "รู้สึกผิด",
+    "ja": "罪悪感のある",
+    "ko": "죄책감이 있는",
+    "zh": "内疚的",
+    "es": "culpable",
+    "fr": "coupable",
+    "de": "schuldig"
+  },
+  "ashamed": {
+    "en": "ashamed",
+    "th": "ละอายใจ",
+    "ja": "恥ずかしい",
+    "ko": "부끄러운",
+    "zh": "羞愧的",
+    "es": "avergonzado",
+    "fr": "honteux",
+    "de": "beschämt"
+  },
+  "embarrassed": {
+    "en": "embarrassed",
+    "th": "อับอาย",
+    "ja": "恥ずかしい",
+    "ko": "당황한",
+    "zh": "尴尬的",
+    "es": "avergonzado",
+    "fr": "embarrassé",
+    "de": "verlegen"
+  },
+  "frustrated": {
+    "en": "frustrated",
+    "th": "หงุดหงิด",
+    "ja": "欲求不満の",
+    "ko": "좌절한",
+    "zh": "沮丧的",
+    "es": "frustrado",
+    "fr": "frustré",
+    "de": "frustriert"
+  },
+  "jealous": {
+    "en": "jealous",
+    "th": "อิจฉา",
+    "ja": "嫉妬した",
+    "ko": "질투하는",
+    "zh": "嫉妒的",
+    "es": "celoso",
+    "fr": "jaloux",
+    "de": "eifersüchtig"
+  },
+  "proud": {
+    "en": "proud",
+    "th": "ภูมิใจ",
+    "ja": "誇りに思う",
+    "ko": "자랑스러운",
+    "zh": "自豪的",
+    "es": "orgulloso",
+    "fr": "fier",
+    "de": "stolz"
+  },
+  "worried": {
+    "en": "worried",
+    "th": "กังวล",
+    "ja": "心配している",
+    "ko": "걱정하는",
+    "zh": "担心的",
+    "es": "preocupado",
+    "fr": "inquiet",
+    "de": "besorgt"
+  },
+  "anxious": {
+    "en": "anxious",
+    "th": "กระวนกระวาย",
+    "ja": "不安な",
+    "ko": "불안한",
+    "zh": "焦虑的",
+    "es": "ansioso",
+    "fr": "anxieux",
+    "de": "ängstlich"
+  },
+  "relaxed": {
+    "en": "relaxed",
+    "th": "ผ่อนคลาย",
+    "ja": "リラックスした",
+    "ko": "편안한",
+    "zh": "放松的",
+    "es": "relajado",
+    "fr": "détendu",
+    "de": "entspannt"
+  },
+  "satisfied": {
+    "en": "satisfied",
+    "th": "พอใจ",
+    "ja": "満足した",
+    "ko": "만족한",
+    "zh": "满意的",
+    "es": "satisfecho",
+    "fr": "satisfait",
+    "de": "zufrieden"
+  },
+  "disappointed": {
+    "en": "disappointed",
+    "th": "ผิดหวัง",
+    "ja": "失望した",
+    "ko": "실망한",
+    "zh": "失望的",
+    "es": "decepcionado",
+    "fr": "déçu",
+    "de": "enttäuscht"
+  },
+  "grateful": {
+    "en": "grateful",
+    "th": "รู้สึกขอบคุณ",
+    "ja": "感謝している",
+    "ko": "감사하는",
+    "zh": "感激的",
+    "es": "agradecido",
+    "fr": "reconnaissant",
+    "de": "dankbar"
+  },
+  "nostalgic": {
+    "en": "nostalgic",
+    "th": "คิดถึงอดีต",
+    "ja": "懐かしい",
+    "ko": "향수를 불러일으키는",
+    "zh": "怀旧的",
+    "es": "nostálgico",
+    "fr": "nostalgique",
+    "de": "nostalgisch"
+  },
+  "overwhelmed": {
+    "en": "overwhelmed",
+    "th": "ท่วมท้น",
+    "ja": "圧倒された",
+    "ko": "압도된",
+    "zh": "不知所措的",
+    "es": "abrumado",
+    "fr": "accablé",
+    "de": "überwältigt"
+  },
+  "shocked": {
+    "en": "shocked",
+    "th": "ตกใจ",
+    "ja": "ショックを受けた",
+    "ko": "충격을 받은",
+    "zh": "震惊的",
+    "es": "conmocionado",
+    "fr": "choqué",
+    "de": "schockiert"
+  },
+  "afraid": {
+    "en": "afraid",
+    "th": "หวาดกลัว",
+    "ja": "恐れている",
+    "ko": "두려운",
+    "zh": "害怕的",
+    "es": "temeroso",
+    "fr": "effrayé",
+    "de": "ängstlich"
+  },
+  "hopeful_again": {
+    "en": "hopeful again",
+    "th": "กลับมามีความหวัง",
+    "ja": "再び希望を持つ",
+    "ko": "다시 희망적인",
+    "zh": "重新充满希望的",
+    "es": "esperanzado de nuevo",
+    "fr": "plein d'espoir à nouveau",
+    "de": "wieder hoffnungsvoll"
+  },
+  "determined": {
+    "en": "determined",
+    "th": "มุ่งมั่น",
+    "ja": "決心した",
+    "ko": "결심한",
+    "zh": "坚定的",
+    "es": "decidido",
+    "fr": "déterminé",
+    "de": "entschlossen"
+  },
+  "inspired": {
+    "en": "inspired",
+    "th": "ได้แรงบันดาลใจ",
+    "ja": "触発された",
+    "ko": "영감을 받은",
+    "zh": "受启发的",
+    "es": "inspirado",
+    "fr": "inspiré",
+    "de": "inspiriert"
+  },
+  "motivated": {
+    "en": "motivated",
+    "th": "มีแรงจูงใจ",
+    "ja": "やる気がある",
+    "ko": "동기부여된",
+    "zh": "有动力的",
+    "es": "motivado",
+    "fr": "motivé",
+    "de": "motiviert"
+  },
+  "depressed": {
+    "en": "depressed",
+    "th": "หดหู่",
+    "ja": "落ち込んだ",
+    "ko": "우울한",
+    "zh": "沮丧的",
+    "es": "deprimido",
+    "fr": "déprimé",
+    "de": "deprimiert"
+  },
+  "ecstatic": {
+    "en": "ecstatic",
+    "th": "ปลื้มปีติ",
+    "ja": "有頂天の",
+    "ko": "황홀한",
+    "zh": "欣喜若狂的",
+    "es": "extático",
+    "fr": "extatique",
+    "de": "ekstatisch"
+  },
+  "resentful": {
+    "en": "resentful",
+    "th": "ไม่พอใจ",
+    "ja": "憤慨した",
+    "ko": "분개한",
+    "zh": "愤恨的",
+    "es": "resentido",
+    "fr": "rancunier",
+    "de": "nachtragend"
+  },
+  "content": {
+    "en": "content",
+    "th": "พอใจ",
+    "ja": "満足している",
+    "ko": "만족한",
+    "zh": "满足的",
+    "es": "contento",
+    "fr": "content",
+    "de": "zufrieden"
+  },
+  "overjoyed": {
+    "en": "overjoyed",
+    "th": "ดีใจสุดๆ",
+    "ja": "大喜びの",
+    "ko": "매우 기쁜",
+    "zh": "狂喜的",
+    "es": "exultante",
+    "fr": "comblé de joie",
+    "de": "hocherfreut"
+  },
+  "annoyed": {
+    "en": "annoyed",
+    "th": "รำคาญ",
+    "ja": "苛立った",
+    "ko": "짜증난",
+    "zh": "恼火的",
+    "es": "molesto",
+    "fr": "ennuyé",
+    "de": "genervt"
+  },
+  "resented": {
+    "en": "resented",
+    "th": "เคือง",
+    "ja": "恨んだ",
+    "ko": "원망한",
+    "zh": "怨恨的",
+    "es": "resentido",
+    "fr": "ressenti",
+    "de": "verärgert"
+  },
+  "stressed": {
+    "en": "stressed",
+    "th": "เครียด",
+    "ja": "ストレスを感じた",
+    "ko": "스트레스를 받은",
+    "zh": "有压力的",
+    "es": "estresado",
+    "fr": "stressé",
+    "de": "gestresst"
+  },
+  "reluctant": {
+    "en": "reluctant",
+    "th": "ไม่เต็มใจ",
+    "ja": "気が進まない",
+    "ko": "마지못해 하는",
+    "zh": "不情愿的",
+    "es": "reacio",
+    "fr": "réticent",
+    "de": "widerstrebend"
+  },
+  "sympathetic": {
+    "en": "sympathetic",
+    "th": "เห็นอกเห็นใจ",
+    "ja": "同情的な",
+    "ko": "동정심 있는",
+    "zh": "同情的",
+    "es": "compasivo",
+    "fr": "compatissant",
+    "de": "mitfühlend"
+  },
+  "offended": {
+    "en": "offended",
+    "th": "ขุ่นเคือง",
+    "ja": "気分を害した",
+    "ko": "불쾌한",
+    "zh": "被冒犯的",
+    "es": "ofendido",
+    "fr": "offensé",
+    "de": "beleidigt"
+  },
+  "hurt": {
+    "en": "hurt",
+    "th": "เจ็บปวด",
+    "ja": "傷ついた",
+    "ko": "상처 입은",
+    "zh": "受伤的",
+    "es": "herido",
+    "fr": "blessé",
+    "de": "verletzt"
+  },
+  "confident": {
+    "en": "confident",
+    "th": "มั่นใจ",
+    "ja": "自信がある",
+    "ko": "자신감 있는",
+    "zh": "自信的",
+    "es": "seguro",
+    "fr": "confiant",
+    "de": "selbstbewusst"
+  },
+  "hopeless": {
+    "en": "hopeless",
+    "th": "สิ้นหวัง",
+    "ja": "絶望的な",
+    "ko": "희망 없는",
+    "zh": "绝望的",
+    "es": "sin esperanza",
+    "fr": "désespéré",
+    "de": "hoffnungslos"
+  },
+  "desperate": {
+    "en": "desperate",
+    "th": "หมดหวัง",
+    "ja": "必死の",
+    "ko": "절망적인",
+    "zh": "绝望的",
+    "es": "desesperado",
+    "fr": "désespéré",
+    "de": "verzweifelt"
+  },
+  "uneasy": {
+    "en": "uneasy",
+    "th": "ไม่สบายใจ",
+    "ja": "不安な",
+    "ko": "불안한",
+    "zh": "不安的",
+    "es": "incómodo",
+    "fr": "mal à l'aise",
+    "de": "unruhig"
+  },
+  "peaceful": {
+    "en": "peaceful",
+    "th": "สงบสุข",
+    "ja": "平和な",
+    "ko": "평화로운",
+    "zh": "平静的",
+    "es": "pacífico",
+    "fr": "paisible",
+    "de": "friedlich"
+  },
+  "regretful": {
+    "en": "regretful",
+    "th": "รู้สึกเสียใจ",
+    "ja": "後悔している",
+    "ko": "후회하는",
+    "zh": "懊悔的",
+    "es": "arrepentido",
+    "fr": "regrettable",
+    "de": "reuevoll"
+  },
+  "resenting": {
+    "en": "resenting",
+    "th": "ขุ่นเคือง",
+    "ja": "憤慨している",
+    "ko": "분개한",
+    "zh": "怨恨的",
+    "es": "resentido",
+    "fr": "rancunier",
+    "de": "grollend"
+  },
+  "enthusiastic": {
+    "en": "enthusiastic",
+    "th": "กระตือรือร้น",
+    "ja": "熱心な",
+    "ko": "열정적인",
+    "zh": "热情的",
+    "es": "entusiasta",
+    "fr": "enthousiaste",
+    "de": "begeistert"
+  },
+  "miserable": {
+    "en": "miserable",
+    "th": "ทุกข์ทรมาน",
+    "ja": "惨めな",
+    "ko": "비참한",
+    "zh": "悲惨的",
+    "es": "miserable",
+    "fr": "misérable",
+    "de": "elend"
+  },
+  "melancholy": {
+    "en": "melancholy",
+    "th": "เศร้าซึม",
+    "ja": "憂鬱な",
+    "ko": "우울한",
+    "zh": "忧郁的",
+    "es": "melancólico",
+    "fr": "mélancolique",
+    "de": "melancholisch"
+  },
+  "grumpy": {
+    "en": "grumpy",
+    "th": "บึ้งตึง",
+    "ja": "不機嫌な",
+    "ko": "심술궂은",
+    "zh": "脾气暴躁的",
+    "es": "gruñón",
+    "fr": "grincheux",
+    "de": "mürrisch"
+  },
+  "cheerless": {
+    "en": "cheerless",
+    "th": "ไม่มีความสุข",
+    "ja": "陰気な",
+    "ko": "우울한",
+    "zh": "阴郁的",
+    "es": "triste",
+    "fr": "triste",
+    "de": "freudlos"
+  },
+  "delighted": {
+    "en": "delighted",
+    "th": "ยินดี",
+    "ja": "喜んでいる",
+    "ko": "기쁜",
+    "zh": "高兴的",
+    "es": "encantado",
+    "fr": "ravi",
+    "de": "erfreut"
+  },
+  "pleased": {
+    "en": "pleased",
+    "th": "พอใจ",
+    "ja": "満足した",
+    "ko": "만족한",
+    "zh": "满意的",
+    "es": "complacido",
+    "fr": "content",
+    "de": "zufrieden"
+  },
+  "thrilled": {
+    "en": "thrilled",
+    "th": "ตื่นเต้นดีใจ",
+    "ja": "ワクワクした",
+    "ko": "황홀한",
+    "zh": "兴奋的",
+    "es": "emocionado",
+    "fr": "ravi",
+    "de": "begeistert"
+  },
+  "glad": {
+    "en": "glad",
+    "th": "ยินดี",
+    "ja": "嬉しい",
+    "ko": "기쁜",
+    "zh": "高兴的",
+    "es": "contento",
+    "fr": "content",
+    "de": "froh"
+  },
+  "resentment": {
+    "en": "resentment",
+    "th": "ความไม่พอใจ",
+    "ja": "憤り",
+    "ko": "분노",
+    "zh": "怨恨",
+    "es": "resentimiento",
+    "fr": "ressentiment",
+    "de": "Groll"
+  },
+  "delirious": {
+    "en": "delirious",
+    "th": "เพ้อคลั่ง",
+    "ja": "狂喜した",
+    "ko": "혼미한",
+    "zh": "狂喜的",
+    "es": "delirante",
+    "fr": "délirant",
+    "de": "außer sich"
+  },
+  "apprehensive": {
+    "en": "apprehensive",
+    "th": "หวาดหวั่น",
+    "ja": "不安な",
+    "ko": "불안한",
+    "zh": "担心的",
+    "es": "aprensivo",
+    "fr": "craintif",
+    "de": "besorgt"
+  },
+  "compassionate": {
+    "en": "compassionate",
+    "th": "เมตตา",
+    "ja": "思いやりのある",
+    "ko": "동정심 있는",
+    "zh": "富有同情心的",
+    "es": "compasivo",
+    "fr": "compatissant",
+    "de": "mitfühlend"
+  },
+  "affectionate": {
+    "en": "affectionate",
+    "th": "รักใคร่",
+    "ja": "愛情深い",
+    "ko": "다정한",
+    "zh": "深情的",
+    "es": "afectuoso",
+    "fr": "affectueux",
+    "de": "liebevoll"
+  },
+  "caring": {
+    "en": "caring",
+    "th": "เอาใจใส่",
+    "ja": "思いやりのある",
+    "ko": "배려심 있는",
+    "zh": "关心的",
+    "es": "cariñoso",
+    "fr": "attentionné",
+    "de": "fürsorglich"
+  },
+  "apathetic": {
+    "en": "apathetic",
+    "th": "ไม่แยแส",
+    "ja": "無関心な",
+    "ko": "무관심한",
+    "zh": "冷漠的",
+    "es": "apático",
+    "fr": "apathique",
+    "de": "gleichgültig"
+  },
+  "indifferent": {
+    "en": "indifferent",
+    "th": "เฉยเมย",
+    "ja": "無関心な",
+    "ko": "무관심한",
+    "zh": "冷漠的",
+    "es": "indiferente",
+    "fr": "indifférent",
+    "de": "gleichgültig"
+  },
+  "envious": {
+    "en": "envious",
+    "th": "อิจฉา",
+    "ja": "羨ましい",
+    "ko": "부러운",
+    "zh": "羡慕的",
+    "es": "envidioso",
+    "fr": "envieux",
+    "de": "neidisch"
+  },
+  "humiliated": {
+    "en": "humiliated",
+    "th": "อับอาย",
+    "ja": "屈辱を受けた",
+    "ko": "굴욕적인",
+    "zh": "羞辱的",
+    "es": "humillado",
+    "fr": "humilié",
+    "de": "gedemütigt"
+  },
+  "ashamed_again": {
+    "en": "ashamed again",
+    "th": "อับอายอีกครั้ง",
+    "ja": "再び恥ずかしい",
+    "ko": "다시 부끄러운",
+    "zh": "再次羞愧的",
+    "es": "avergonzado de nuevo",
+    "fr": "honteux à nouveau",
+    "de": "wieder beschämt"
+  },
+  "terrified": {
+    "en": "terrified",
+    "th": "หวาดกลัวมาก",
+    "ja": "恐怖に満ちた",
+    "ko": "겁에 질린",
+    "zh": "吓坏的",
+    "es": "aterrorizado",
+    "fr": "terrifié",
+    "de": "verängstigt"
+  },
+  "amazed": {
+    "en": "amazed",
+    "th": "ทึ่ง",
+    "ja": "驚いた",
+    "ko": "놀란",
+    "zh": "惊讶的",
+    "es": "asombrado",
+    "fr": "étonné",
+    "de": "erstaunt"
+  },
+  "awed": {
+    "en": "awed",
+    "th": "ประทับใจ",
+    "ja": "畏敬の念を抱いた",
+    "ko": "경외하는",
+    "zh": "敬畏的",
+    "es": "asombrado",
+    "fr": "impressionné",
+    "de": "ehrfürchtig"
+  },
+  "touched": {
+    "en": "touched",
+    "th": "ประทับใจ",
+    "ja": "感動した",
+    "ko": "감동한",
+    "zh": "感动的",
+    "es": "conmovido",
+    "fr": "ému",
+    "de": "gerührt"
+  },
+  "confident_again": {
+    "en": "confident again",
+    "th": "มั่นใจอีกครั้ง",
+    "ja": "再び自信がある",
+    "ko": "다시 자신감 있는",
+    "zh": "再次自信的",
+    "es": "seguro de nuevo",
+    "fr": "confiant à nouveau",
+    "de": "wieder selbstbewusst"
+  },
+  "reluctant_again": {
+    "en": "reluctant again",
+    "th": "ไม่เต็มใจอีกครั้ง",
+    "ja": "再び気が進まない",
+    "ko": "다시 마지못해 하는",
+    "zh": "再次不情愿的",
+    "es": "reacio de nuevo",
+    "fr": "réticent à nouveau",
+    "de": "wieder widerstrebend"
+  },
+  "offended_again": {
+    "en": "offended again",
+    "th": "ขุ่นเคืองอีกครั้ง",
+    "ja": "再び気分を害した",
+    "ko": "다시 불쾌한",
+    "zh": "再次被冒犯的",
+    "es": "ofendido de nuevo",
+    "fr": "offensé à nouveau",
+    "de": "wieder beleidigt"
+  },
+  "anxious_again": {
+    "en": "anxious again",
+    "th": "กังวลอีกครั้ง",
+    "ja": "再び不安な",
+    "ko": "다시 불안한",
+    "zh": "再次焦虑的",
+    "es": "ansioso de nuevo",
+    "fr": "anxieux à nouveau",
+    "de": "wieder ängstlich"
+  },
+  "heartbroken": {
+    "en": "heartbroken",
+    "th": "อกหัก",
+    "ja": "失恋した",
+    "ko": "마음이 아픈",
+    "zh": "心碎的",
+    "es": "desconsolado",
+    "fr": "déchiré",
+    "de": "herzgebrochen"
+  },
+  "disgusted": {
+    "en": "disgusted",
+    "th": "ขยะแขยง",
+    "ja": "嫌悪した",
+    "ko": "역겨운",
+    "zh": "厌恶的",
+    "es": "disgustado",
+    "fr": "dégoûté",
+    "de": "angeekelt"
+  },
+  "offended_final": {
+    "en": "offended final",
+    "th": "โกรธขุ่นเคือง",
+    "ja": "最後に気分を害した",
+    "ko": "마지막으로 불쾌한",
+    "zh": "最终被冒犯的",
+    "es": "ofendido final",
+    "fr": "offensé final",
+    "de": "endgültig beleidigt"
+  },
+  "worried_final": {
+    "en": "worried final",
+    "th": "กังวลมาก",
+    "ja": "最後に心配している",
+    "ko": "마지막으로 걱정하는",
+    "zh": "最终担心的",
+    "es": "preocupado final",
+    "fr": "inquiet final",
+    "de": "endgültig besorgt"
+  },
+  "excited_final": {
+    "en": "excited final",
+    "th": "ตื่นเต้นมาก",
+    "ja": "最後に興奮した",
+    "ko": "마지막으로 흥분한",
+    "zh": "最终兴奋的",
+    "es": "emocionado final",
+    "fr": "excité final",
+    "de": "endgültig aufgeregt"
+  }
+}

@@ -1,0 +1,962 @@
+{
+  "heart": {
+    "en": "heart",
+    "th": "หัวใจ",
+    "ja": "心臓",
+    "ko": "심장",
+    "zh": "心脏",
+    "es": "corazón",
+    "fr": "cœur",
+    "de": "Herz"
+  },
+  "lung": {
+    "en": "lung",
+    "th": "ปอด",
+    "ja": "肺",
+    "ko": "폐",
+    "zh": "肺",
+    "es": "pulmón",
+    "fr": "poumon",
+    "de": "Lunge"
+  },
+  "brain": {
+    "en": "brain",
+    "th": "สมอง",
+    "ja": "脳",
+    "ko": "뇌",
+    "zh": "大脑",
+    "es": "cerebro",
+    "fr": "cerveau",
+    "de": "Gehirn"
+  },
+  "liver": {
+    "en": "liver",
+    "th": "ตับ",
+    "ja": "肝臓",
+    "ko": "간",
+    "zh": "肝脏",
+    "es": "hígado",
+    "fr": "foie",
+    "de": "Leber"
+  },
+  "kidney": {
+    "en": "kidney",
+    "th": "ไต",
+    "ja": "腎臓",
+    "ko": "신장",
+    "zh": "肾脏",
+    "es": "riñón",
+    "fr": "rein",
+    "de": "Niere"
+  },
+  "stomach": {
+    "en": "stomach",
+    "th": "กระเพาะอาหาร",
+    "ja": "胃",
+    "ko": "위",
+    "zh": "胃",
+    "es": "estómago",
+    "fr": "estomac",
+    "de": "Magen"
+  },
+  "intestine": {
+    "en": "intestine",
+    "th": "ลำไส้",
+    "ja": "腸",
+    "ko": "장",
+    "zh": "肠",
+    "es": "intestino",
+    "fr": "intestin",
+    "de": "Darm"
+  },
+  "pancreas": {
+    "en": "pancreas",
+    "th": "ตับอ่อน",
+    "ja": "膵臓",
+    "ko": "췌장",
+    "zh": "胰腺",
+    "es": "páncreas",
+    "fr": "pancréas",
+    "de": "Bauchspeicheldrüse"
+  },
+  "spleen": {
+    "en": "spleen",
+    "th": "ม้าม",
+    "ja": "脾臓",
+    "ko": "비장",
+    "zh": "脾脏",
+    "es": "bazo",
+    "fr": "rate",
+    "de": "Milz"
+  },
+  "bladder": {
+    "en": "bladder",
+    "th": "กระเพาะปัสสาวะ",
+    "ja": "膀胱",
+    "ko": "방광",
+    "zh": "膀胱",
+    "es": "vejiga",
+    "fr": "vessie",
+    "de": "Blase"
+  },
+  "esophagus": {
+    "en": "esophagus",
+    "th": "หลอดอาหาร",
+    "ja": "食道",
+    "ko": "식도",
+    "zh": "食管",
+    "es": "esófago",
+    "fr": "œsophage",
+    "de": "Speiseröhre"
+  },
+  "trachea": {
+    "en": "trachea",
+    "th": "หลอดลม",
+    "ja": "気管",
+    "ko": "기관",
+    "zh": "气管",
+    "es": "tráquea",
+    "fr": "trachée",
+    "de": "Luftröhre"
+  },
+  "larynx": {
+    "en": "larynx",
+    "th": "กล่องเสียง",
+    "ja": "喉頭",
+    "ko": "후두",
+    "zh": "喉头",
+    "es": "laringe",
+    "fr": "larynx",
+    "de": "Kehlkopf"
+  },
+  "pharynx": {
+    "en": "pharynx",
+    "th": "คอหอย",
+    "ja": "咽頭",
+    "ko": "인두",
+    "zh": "咽喉",
+    "es": "faringe",
+    "fr": "pharynx",
+    "de": "Rachen"
+  },
+  "diaphragm": {
+    "en": "diaphragm",
+    "th": "กะบังลม",
+    "ja": "横隔膜",
+    "ko": "횡격막",
+    "zh": "膈肌",
+    "es": "diafragma",
+    "fr": "diaphragme",
+    "de": "Zwerchfell"
+  },
+  "spinal cord": {
+    "en": "spinal cord",
+    "th": "ไขสันหลัง",
+    "ja": "脊髄",
+    "ko": "척수",
+    "zh": "脊髓",
+    "es": "médula espinal",
+    "fr": "moelle épinière",
+    "de": "Rückenmark"
+  },
+  "thyroid gland": {
+    "en": "thyroid gland",
+    "th": "ต่อมไทรอยด์",
+    "ja": "甲状腺",
+    "ko": "갑상선",
+    "zh": "甲状腺",
+    "es": "tiroides",
+    "fr": "thyroïde",
+    "de": "Schilddrüse"
+  },
+  "pituitary gland": {
+    "en": "pituitary gland",
+    "th": "ต่อมใต้สมอง",
+    "ja": "下垂体",
+    "ko": "뇌하수체",
+    "zh": "脑下垂体",
+    "es": "glándula pituitaria",
+    "fr": "hypophyse",
+    "de": "Hypophyse"
+  },
+  "adrenal gland": {
+    "en": "adrenal gland",
+    "th": "ต่อมหมวกไต",
+    "ja": "副腎",
+    "ko": "부신",
+    "zh": "肾上腺",
+    "es": "glándula suprarrenal",
+    "fr": "glande surrénale",
+    "de": "Nebenniere"
+  },
+  "skin": {
+    "en": "skin",
+    "th": "ผิวหนัง",
+    "ja": "皮膚",
+    "ko": "피부",
+    "zh": "皮肤",
+    "es": "piel",
+    "fr": "peau",
+    "de": "Haut"
+  },
+  "eye": {
+    "en": "eye",
+    "th": "ตา",
+    "ja": "目",
+    "ko": "눈",
+    "zh": "眼睛",
+    "es": "ojo",
+    "fr": "œil",
+    "de": "Auge"
+  },
+  "ear": {
+    "en": "ear",
+    "th": "หู",
+    "ja": "耳",
+    "ko": "귀",
+    "zh": "耳朵",
+    "es": "oreja",
+    "fr": "oreille",
+    "de": "Ohr"
+  },
+  "nose": {
+    "en": "nose",
+    "th": "จมูก",
+    "ja": "鼻",
+    "ko": "코",
+    "zh": "鼻子",
+    "es": "nariz",
+    "fr": "nez",
+    "de": "Nase"
+  },
+  "tongue": {
+    "en": "tongue",
+    "th": "ลิ้น",
+    "ja": "舌",
+    "ko": "혀",
+    "zh": "舌头",
+    "es": "lengua",
+    "fr": "langue",
+    "de": "Zunge"
+  },
+  "teeth": {
+    "en": "teeth",
+    "th": "ฟัน",
+    "ja": "歯",
+    "ko": "이",
+    "zh": "牙齿",
+    "es": "dientes",
+    "fr": "dents",
+    "de": "Zähne"
+  },
+  "gallbladder": {
+    "en": "gallbladder",
+    "th": "ถุงน้ำดี",
+    "ja": "胆嚢",
+    "ko": "담낭",
+    "zh": "胆囊",
+    "es": "vesícula biliar",
+    "fr": "vésicule biliaire",
+    "de": "Gallenblase"
+  },
+  "appendix": {
+    "en": "appendix",
+    "th": "ไส้ติ่ง",
+    "ja": "虫垂",
+    "ko": "충수",
+    "zh": "阑尾",
+    "es": "apéndice",
+    "fr": "appendice",
+    "de": "Blinddarm"
+  },
+  "colon": {
+    "en": "colon",
+    "th": "ลำไส้ใหญ่",
+    "ja": "結腸",
+    "ko": "결장",
+    "zh": "结肠",
+    "es": "colon",
+    "fr": "côlon",
+    "de": "Dickdarm"
+  },
+  "rectum": {
+    "en": "rectum",
+    "th": "ไส้ตรง",
+    "ja": "直腸",
+    "ko": "직장",
+    "zh": "直肠",
+    "es": "recto",
+    "fr": "rectum",
+    "de": "Mastdarm"
+  },
+  "anus": {
+    "en": "anus",
+    "th": "ทวารหนัก",
+    "ja": "肛門",
+    "ko": "항문",
+    "zh": "肛门",
+    "es": "ano",
+    "fr": "anus",
+    "de": "After"
+  },
+  "prostate": {
+    "en": "prostate",
+    "th": "ต่อมลูกหมาก",
+    "ja": "前立腺",
+    "ko": "전립선",
+    "zh": "前列腺",
+    "es": "próstata",
+    "fr": "prostate",
+    "de": "Prostata"
+  },
+  "ovary": {
+    "en": "ovary",
+    "th": "รังไข่",
+    "ja": "卵巣",
+    "ko": "난소",
+    "zh": "卵巢",
+    "es": "ovario",
+    "fr": "ovaire",
+    "de": "Eierstock"
+  },
+  "uterus": {
+    "en": "uterus",
+    "th": "มดลูก",
+    "ja": "子宮",
+    "ko": "자궁",
+    "zh": "子宫",
+    "es": "útero",
+    "fr": "utérus",
+    "de": "Gebärmutter"
+  },
+  "vagina": {
+    "en": "vagina",
+    "th": "ช่องคลอด",
+    "ja": "膣",
+    "ko": "질",
+    "zh": "阴道",
+    "es": "vagina",
+    "fr": "vagin",
+    "de": "Vagina"
+  },
+  "penis": {
+    "en": "penis",
+    "th": "อวัยวะเพศชาย",
+    "ja": "陰茎",
+    "ko": "음경",
+    "zh": "阴茎",
+    "es": "pene",
+    "fr": "pénis",
+    "de": "Penis"
+  },
+  "scrotum": {
+    "en": "scrotum",
+    "th": "ถุงอัณฑะ",
+    "ja": "陰嚢",
+    "ko": "음낭",
+    "zh": "阴囊",
+    "es": "escroto",
+    "fr": "scrotum",
+    "de": "Skrotum"
+  },
+  "testis": {
+    "en": "testis",
+    "th": "อัณฑะ",
+    "ja": "精巣",
+    "ko": "고환",
+    "zh": "睾丸",
+    "es": "testículo",
+    "fr": "testicule",
+    "de": "Hoden"
+  },
+  "fallopian tube": {
+    "en": "fallopian tube",
+    "th": "ท่อนำไข่",
+    "ja": "卵管",
+    "ko": "난관",
+    "zh": "输卵管",
+    "es": "trompa de Falopio",
+    "fr": "trompe de Fallope",
+    "de": "Eileiter"
+  },
+  "placenta": {
+    "en": "placenta",
+    "th": "รก",
+    "ja": "胎盤",
+    "ko": "태반",
+    "zh": "胎盘",
+    "es": "placenta",
+    "fr": "placenta",
+    "de": "Plazenta"
+  },
+  "artery": {
+    "en": "artery",
+    "th": "หลอดเลือดแดง",
+    "ja": "動脈",
+    "ko": "동맥",
+    "zh": "动脉",
+    "es": "arteria",
+    "fr": "artère",
+    "de": "Arterie"
+  },
+  "vein": {
+    "en": "vein",
+    "th": "หลอดเลือดดำ",
+    "ja": "静脈",
+    "ko": "정맥",
+    "zh": "静脉",
+    "es": "vena",
+    "fr": "veine",
+    "de": "Vene"
+  },
+  "capillary": {
+    "en": "capillary",
+    "th": "เส้นเลือดฝอย",
+    "ja": "毛細血管",
+    "ko": "모세혈관",
+    "zh": "毛细血管",
+    "es": "capilar",
+    "fr": "capillaire",
+    "de": "Kapillare"
+  },
+  "alveoli": {
+    "en": "alveoli",
+    "th": "ถุงลมปอด",
+    "ja": "肺胞",
+    "ko": "폐포",
+    "zh": "肺泡",
+    "es": "alvéolos",
+    "fr": "alvéoles",
+    "de": "Alveolen"
+  },
+  "cornea": {
+    "en": "cornea",
+    "th": "กระจกตา",
+    "ja": "角膜",
+    "ko": "각막",
+    "zh": "角膜",
+    "es": "córnea",
+    "fr": "cornée",
+    "de": "Hornhaut"
+  },
+  "retina": {
+    "en": "retina",
+    "th": "จอประสาทตา",
+    "ja": "網膜",
+    "ko": "망막",
+    "zh": "视网膜",
+    "es": "retina",
+    "fr": "rétine",
+    "de": "Netzhaut"
+  },
+  "cochlea": {
+    "en": "cochlea",
+    "th": "โคเคลีย",
+    "ja": "蝸牛",
+    "ko": "달팽이관",
+    "zh": "耳蜗",
+    "es": "cóclea",
+    "fr": "cochlée",
+    "de": "Cochlea"
+  },
+  "tonsil": {
+    "en": "tonsil",
+    "th": "ต่อมทอนซิล",
+    "ja": "扁桃腺",
+    "ko": "편도선",
+    "zh": "扁桃体",
+    "es": "amígdala",
+    "fr": "amygdale",
+    "de": "Tonsille"
+  },
+  "thymus": {
+    "en": "thymus",
+    "th": "ต่อมไทมัส",
+    "ja": "胸腺",
+    "ko": "흉선",
+    "zh": "胸腺",
+    "es": "timo",
+    "fr": "thymus",
+    "de": "Thymus"
+  },
+  "hypothalamus": {
+    "en": "hypothalamus",
+    "th": "ไฮโปทาลามัส",
+    "ja": "視床下部",
+    "ko": "시상하부",
+    "zh": "下丘脑",
+    "es": "hipotálamo",
+    "fr": "hypothalamus",
+    "de": "Hypothalamus"
+  },
+  "pineal gland": {
+    "en": "pineal gland",
+    "th": "ต่อมไพเนียล",
+    "ja": "松果体",
+    "ko": "송과선",
+    "zh": "松果体",
+    "es": "glándula pineal",
+    "fr": "glande pinéale",
+    "de": "Zirbeldrüse"
+  },
+  "parathyroid gland": {
+    "en": "parathyroid gland",
+    "th": "ต่อมพาราไทรอยด์",
+    "ja": "副甲状腺",
+    "ko": "부갑상선",
+    "zh": "甲状旁腺",
+    "es": "glándula paratiroides",
+    "fr": "parathyroïde",
+    "de": "Nebenschilddrüse"
+  },
+  "salivary gland": {
+    "en": "salivary gland",
+    "th": "ต่อมน้ำลาย",
+    "ja": "唾液腺",
+    "ko": "침샘",
+    "zh": "唾液腺",
+    "es": "glándula salival",
+    "fr": "glande salivaire",
+    "de": "Speicheldrüse"
+  },
+  "tonsils": {
+    "en": "tonsils",
+    "th": "ทอนซิล",
+    "ja": "扁桃腺",
+    "ko": "편도선",
+    "zh": "扁桃体",
+    "es": "amígdalas",
+    "fr": "amygdales",
+    "de": "Mandeln"
+  },
+  "uvula": {
+    "en": "uvula",
+    "th": "ลิ้นไก่",
+    "ja": "口蓋垂",
+    "ko": "목젖",
+    "zh": "小舌",
+    "es": "úvula",
+    "fr": "luette",
+    "de": "Zäpfchen"
+  },
+  "epiglottis": {
+    "en": "epiglottis",
+    "th": "ฝาปิดกล่องเสียง",
+    "ja": "喉頭蓋",
+    "ko": "후두개",
+    "zh": "会厌",
+    "es": "epiglotis",
+    "fr": "épiglotte",
+    "de": "Kehldeckel"
+  },
+  "bronchi": {
+    "en": "bronchi",
+    "th": "หลอดลมฝอยใหญ่",
+    "ja": "気管支",
+    "ko": "기관지",
+    "zh": "支气管",
+    "es": "bronquios",
+    "fr": "bronches",
+    "de": "Bronchien"
+  },
+  "bronchioles": {
+    "en": "bronchioles",
+    "th": "หลอดลมฝอยเล็ก",
+    "ja": "細気管支",
+    "ko": "세기관지",
+    "zh": "细支气管",
+    "es": "bronquiolos",
+    "fr": "bronchioles",
+    "de": "Bronchiolen"
+  },
+  "alveolus": {
+    "en": "alveolus",
+    "th": "ถุงลม",
+    "ja": "肺胞",
+    "ko": "폐포",
+    "zh": "肺泡",
+    "es": "alvéolo",
+    "fr": "alvéole",
+    "de": "Alveole"
+  },
+  "atrium": {
+    "en": "atrium",
+    "th": "เอเทรียม",
+    "ja": "心房",
+    "ko": "심방",
+    "zh": "心房",
+    "es": "aurícula",
+    "fr": "oreillette",
+    "de": "Vorhof"
+  },
+  "ventricle": {
+    "en": "ventricle",
+    "th": "โพรงหัวใจ",
+    "ja": "心室",
+    "ko": "심실",
+    "zh": "心室",
+    "es": "ventrículo",
+    "fr": "ventricule",
+    "de": "Herzkammer"
+  },
+  "aorta": {
+    "en": "aorta",
+    "th": "หลอดเลือดแดงใหญ่",
+    "ja": "大動脈",
+    "ko": "대동맥",
+    "zh": "主动脉",
+    "es": "aorta",
+    "fr": "aorte",
+    "de": "Aorta"
+  },
+  "vena cava": {
+    "en": "vena cava",
+    "th": "เส้นเลือดดำใหญ่",
+    "ja": "大静脈",
+    "ko": "대정맥",
+    "zh": "腔静脉",
+    "es": "vena cava",
+    "fr": "veine cave",
+    "de": "Hohlvene"
+  },
+  "atrioventricular valve": {
+    "en": "atrioventricular valve",
+    "th": "ลิ้นหัวใจห้องบนล่าง",
+    "ja": "房室弁",
+    "ko": "방실판",
+    "zh": "房室瓣",
+    "es": "válvula auriculoventricular",
+    "fr": "valve auriculo-ventriculaire",
+    "de": "Atrioventrikularklappe"
+  },
+  "pulmonary valve": {
+    "en": "pulmonary valve",
+    "th": "ลิ้นปอด",
+    "ja": "肺動脈弁",
+    "ko": "폐동맥판",
+    "zh": "肺动脉瓣",
+    "es": "válvula pulmonar",
+    "fr": "valve pulmonaire",
+    "de": "Pulmonalklappe"
+  },
+  "mitral valve": {
+    "en": "mitral valve",
+    "th": "ลิ้นไมทรัล",
+    "ja": "僧帽弁",
+    "ko": "승모판",
+    "zh": "二尖瓣",
+    "es": "válvula mitral",
+    "fr": "valve mitrale",
+    "de": "Mitralklappe"
+  },
+  "aortic valve": {
+    "en": "aortic valve",
+    "th": "ลิ้นเอออร์ตา",
+    "ja": "大動脈弁",
+    "ko": "대동맥판",
+    "zh": "主动脉瓣",
+    "es": "válvula aórtica",
+    "fr": "valve aortique",
+    "de": "Aortenklappe"
+  },
+  "coronary artery": {
+    "en": "coronary artery",
+    "th": "หลอดเลือดหัวใจ",
+    "ja": "冠動脈",
+    "ko": "관상동맥",
+    "zh": "冠状动脉",
+    "es": "arteria coronaria",
+    "fr": "artère coronaire",
+    "de": "Koronararterie"
+  },
+  "coronary vein": {
+    "en": "coronary vein",
+    "th": "หลอดเลือดดำหัวใจ",
+    "ja": "冠静脈",
+    "ko": "관상정맥",
+    "zh": "冠状静脉",
+    "es": "vena coronaria",
+    "fr": "veine coronaire",
+    "de": "Koronarvene"
+  },
+  "dermis": {
+    "en": "dermis",
+    "th": "ชั้นหนังแท้",
+    "ja": "真皮",
+    "ko": "진피",
+    "zh": "真皮",
+    "es": "dermis",
+    "fr": "derme",
+    "de": "Dermis"
+  },
+  "epidermis": {
+    "en": "epidermis",
+    "th": "หนังกำพร้า",
+    "ja": "表皮",
+    "ko": "표피",
+    "zh": "表皮",
+    "es": "epidermis",
+    "fr": "épiderme",
+    "de": "Epidermis"
+  },
+  "subcutaneous tissue": {
+    "en": "subcutaneous tissue",
+    "th": "ชั้นไขมันใต้ผิวหนัง",
+    "ja": "皮下組織",
+    "ko": "피하조직",
+    "zh": "皮下组织",
+    "es": "tejido subcutáneo",
+    "fr": "tissu sous-cutané",
+    "de": "Unterhautgewebe"
+  },
+  "hair follicle": {
+    "en": "hair follicle",
+    "th": "รูขุมขน",
+    "ja": "毛包",
+    "ko": "모낭",
+    "zh": "毛囊",
+    "es": "folículo piloso",
+    "fr": "follicule pileux",
+    "de": "Haarfollikel"
+  },
+  "sweat gland": {
+    "en": "sweat gland",
+    "th": "ต่อมเหงื่อ",
+    "ja": "汗腺",
+    "ko": "땀샘",
+    "zh": "汗腺",
+    "es": "glándula sudorípara",
+    "fr": "glande sudoripare",
+    "de": "Schweißdrüse"
+  },
+  "sebaceous gland": {
+    "en": "sebaceous gland",
+    "th": "ต่อมไขมัน",
+    "ja": "皮脂腺",
+    "ko": "피지선",
+    "zh": "皮脂腺",
+    "es": "glándula sebácea",
+    "fr": "glande sébacée",
+    "de": "Talgdrüse"
+  },
+  "nail": {
+    "en": "nail",
+    "th": "เล็บ",
+    "ja": "爪",
+    "ko": "손톱",
+    "zh": "指甲",
+    "es": "uña",
+    "fr": "ongle",
+    "de": "Nagel"
+  },
+  "jaw": {
+    "en": "jaw",
+    "th": "ขากรรไกร",
+    "ja": "顎",
+    "ko": "턱",
+    "zh": "下颌",
+    "es": "mandíbula",
+    "fr": "mâchoire",
+    "de": "Kiefer"
+  },
+  "cheek": {
+    "en": "cheek",
+    "th": "แก้ม",
+    "ja": "頬",
+    "ko": "뺨",
+    "zh": "脸颊",
+    "es": "mejilla",
+    "fr": "joue",
+    "de": "Wange"
+  },
+  "chin": {
+    "en": "chin",
+    "th": "คาง",
+    "ja": "顎",
+    "ko": "턱",
+    "zh": "下巴",
+    "es": "barbilla",
+    "fr": "menton",
+    "de": "Kinn"
+  },
+  "forehead": {
+    "en": "forehead",
+    "th": "หน้าผาก",
+    "ja": "額",
+    "ko": "이마",
+    "zh": "前额",
+    "es": "frente",
+    "fr": "front",
+    "de": "Stirn"
+  },
+  "skull": {
+    "en": "skull",
+    "th": "กะโหลกศีรษะ",
+    "ja": "頭蓋骨",
+    "ko": "두개골",
+    "zh": "头骨",
+    "es": "cráneo",
+    "fr": "crâne",
+    "de": "Schädel"
+  },
+  "rib": {
+    "en": "rib",
+    "th": "ซี่โครง",
+    "ja": "肋骨",
+    "ko": "갈비뼈",
+    "zh": "肋骨",
+    "es": "costilla",
+    "fr": "côte",
+    "de": "Rippe"
+  },
+  "pelvis": {
+    "en": "pelvis",
+    "th": "กระดูกเชิงกราน",
+    "ja": "骨盤",
+    "ko": "골반",
+    "zh": "骨盆",
+    "es": "pelvis",
+    "fr": "bassin",
+    "de": "Becken"
+  },
+  "clavicle": {
+    "en": "clavicle",
+    "th": "กระดูกไหปลาร้า",
+    "ja": "鎖骨",
+    "ko": "쇄골",
+    "zh": "锁骨",
+    "es": "clavícula",
+    "fr": "clavicule",
+    "de": "Schlüsselbein"
+  },
+  "scapula": {
+    "en": "scapula",
+    "th": "กระดูกสะบัก",
+    "ja": "肩甲骨",
+    "ko": "견갑골",
+    "zh": "肩胛骨",
+    "es": "escápula",
+    "fr": "omoplate",
+    "de": "Schulterblatt"
+  },
+  "humerus": {
+    "en": "humerus",
+    "th": "กระดูกต้นแขน",
+    "ja": "上腕骨",
+    "ko": "상완골",
+    "zh": "肱骨",
+    "es": "húmero",
+    "fr": "humérus",
+    "de": "Oberarmknochen"
+  },
+  "radius": {
+    "en": "radius",
+    "th": "กระดูกเรเดียส",
+    "ja": "橈骨",
+    "ko": "요골",
+    "zh": "桡骨",
+    "es": "radio",
+    "fr": "radius",
+    "de": "Speiche"
+  },
+  "ulna": {
+    "en": "ulna",
+    "th": "กระดูกอัลนา",
+    "ja": "尺骨",
+    "ko": "척골",
+    "zh": "尺骨",
+    "es": "cúbito",
+    "fr": "ulna",
+    "de": "Elle"
+  },
+  "femur": {
+    "en": "femur",
+    "th": "กระดูกต้นขา",
+    "ja": "大腿骨",
+    "ko": "대퇴골",
+    "zh": "股骨",
+    "es": "fémur",
+    "fr": "fémur",
+    "de": "Oberschenkelknochen"
+  },
+  "patella": {
+    "en": "patella",
+    "th": "ลูกสะบ้า",
+    "ja": "膝蓋骨",
+    "ko": "슬개골",
+    "zh": "髌骨",
+    "es": "rótula",
+    "fr": "rotule",
+    "de": "Kniescheibe"
+  },
+  "tibia": {
+    "en": "tibia",
+    "th": "กระดูกแข้ง",
+    "ja": "脛骨",
+    "ko": "경골",
+    "zh": "胫骨",
+    "es": "tibia",
+    "fr": "tibia",
+    "de": "Schienbein"
+  },
+  "fibula": {
+    "en": "fibula",
+    "th": "กระดูกน่อง",
+    "ja": "腓骨",
+    "ko": "비골",
+    "zh": "腓骨",
+    "es": "peroné",
+    "fr": "fibula",
+    "de": "Wadenbein"
+  },
+  "heel": {
+    "en": "heel",
+    "th": "ส้นเท้า",
+    "ja": "かかと",
+    "ko": "발꿈치",
+    "zh": "脚跟",
+    "es": "talón",
+    "fr": "talon",
+    "de": "Ferse"
+  },
+  "sole": {
+    "en": "sole",
+    "th": "ฝ่าเท้า",
+    "ja": "足の裏",
+    "ko": "발바닥",
+    "zh": "脚底",
+    "es": "planta del pie",
+    "fr": "plante du pied",
+    "de": "Fußsohle"
+  },
+  "palm": {
+    "en": "palm",
+    "th": "ฝ่ามือ",
+    "ja": "手のひら",
+    "ko": "손바닥",
+    "zh": "手掌",
+    "es": "palma",
+    "fr": "paume",
+    "de": "Handfläche"
+  },
+  "finger": {
+    "en": "finger",
+    "th": "นิ้วมือ",
+    "ja": "指",
+    "ko": "손가락",
+    "zh": "手指",
+    "es": "dedo",
+    "fr": "doigt",
+    "de": "Finger"
+  },
+  "toe": {
+    "en": "toe",
+    "th": "นิ้วเท้า",
+    "ja": "つま先",
+    "ko": "발가락",
+    "zh": "脚趾",
+    "es": "dedo del pie",
+    "fr": "orteil",
+    "de": "Zeh"
+  }
+}

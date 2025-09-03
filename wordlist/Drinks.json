@@ -1,0 +1,922 @@
+{
+  "water": {
+    "en": "water",
+    "th": "น้ำ",
+    "ja": "水",
+    "ko": "물",
+    "zh": "水",
+    "es": "agua",
+    "fr": "eau",
+    "de": "Wasser"
+  },
+  "coffee": {
+    "en": "coffee",
+    "th": "กาแฟ",
+    "ja": "コーヒー",
+    "ko": "커피",
+    "zh": "咖啡",
+    "es": "café",
+    "fr": "café",
+    "de": "Kaffee"
+  },
+  "tea": {
+    "en": "tea",
+    "th": "ชา",
+    "ja": "お茶",
+    "ko": "차",
+    "zh": "茶",
+    "es": "té",
+    "fr": "thé",
+    "de": "Tee"
+  },
+  "milk": {
+    "en": "milk",
+    "th": "นม",
+    "ja": "牛乳",
+    "ko": "우유",
+    "zh": "牛奶",
+    "es": "leche",
+    "fr": "lait",
+    "de": "Milch"
+  },
+  "juice": {
+    "en": "juice",
+    "th": "น้ำผลไม้",
+    "ja": "ジュース",
+    "ko": "주스",
+    "zh": "果汁",
+    "es": "jugo",
+    "fr": "jus",
+    "de": "Saft"
+  },
+  "soda": {
+    "en": "soda",
+    "th": "โซดา",
+    "ja": "ソーダ",
+    "ko": "탄산음료",
+    "zh": "苏打",
+    "es": "refresco",
+    "fr": "soda",
+    "de": "Limonade"
+  },
+  "cola": {
+    "en": "cola",
+    "th": "โคล่า",
+    "ja": "コーラ",
+    "ko": "콜라",
+    "zh": "可乐",
+    "es": "cola",
+    "fr": "cola",
+    "de": "Cola"
+  },
+  "lemonade": {
+    "en": "lemonade",
+    "th": "น้ำมะนาว",
+    "ja": "レモネード",
+    "ko": "레모네이드",
+    "zh": "柠檬水",
+    "es": "limonada",
+    "fr": "limonade",
+    "de": "Limonade"
+  },
+  "smoothie": {
+    "en": "smoothie",
+    "th": "สมูทตี้",
+    "ja": "スムージー",
+    "ko": "스무디",
+    "zh": "冰沙",
+    "es": "batido",
+    "fr": "smoothie",
+    "de": "Smoothie"
+  },
+  "milkshake": {
+    "en": "milkshake",
+    "th": "มิลค์เชค",
+    "ja": "ミルクセーキ",
+    "ko": "밀크셰이크",
+    "zh": "奶昔",
+    "es": "batido de leche",
+    "fr": "milkshake",
+    "de": "Milchshake"
+  },
+  "hot_chocolate": {
+    "en": "hot chocolate",
+    "th": "โกโก้ร้อน",
+    "ja": "ホットチョコレート",
+    "ko": "핫초코",
+    "zh": "热巧克力",
+    "es": "chocolate caliente",
+    "fr": "chocolat chaud",
+    "de": "Heiße Schokolade"
+  },
+  "green_tea": {
+    "en": "green tea",
+    "th": "ชาเขียว",
+    "ja": "緑茶",
+    "ko": "녹차",
+    "zh": "绿茶",
+    "es": "té verde",
+    "fr": "thé vert",
+    "de": "Grüner Tee"
+  },
+  "black_tea": {
+    "en": "black tea",
+    "th": "ชาดำ",
+    "ja": "紅茶",
+    "ko": "홍차",
+    "zh": "红茶",
+    "es": "té negro",
+    "fr": "thé noir",
+    "de": "Schwarzer Tee"
+  },
+  "oolong_tea": {
+    "en": "oolong tea",
+    "th": "ชาอู่หลง",
+    "ja": "烏龍茶",
+    "ko": "우롱차",
+    "zh": "乌龙茶",
+    "es": "té oolong",
+    "fr": "thé oolong",
+    "de": "Oolong-Tee"
+  },
+  "herbal_tea": {
+    "en": "herbal tea",
+    "th": "ชาสมุนไพร",
+    "ja": "ハーブティー",
+    "ko": "허브차",
+    "zh": "花草茶",
+    "es": "té de hierbas",
+    "fr": "tisane",
+    "de": "Kräutertee"
+  },
+  "chai": {
+    "en": "chai",
+    "th": "ชาชัย",
+    "ja": "チャイ",
+    "ko": "차이",
+    "zh": "印度奶茶",
+    "es": "chai",
+    "fr": "chaï",
+    "de": "Chai"
+  },
+  "espresso": {
+    "en": "espresso",
+    "th": "เอสเปรสโซ",
+    "ja": "エスプレッソ",
+    "ko": "에스프레소",
+    "zh": "浓缩咖啡",
+    "es": "espresso",
+    "fr": "expresso",
+    "de": "Espresso"
+  },
+  "latte": {
+    "en": "latte",
+    "th": "ลาเต้",
+    "ja": "ラテ",
+    "ko": "라떼",
+    "zh": "拿铁",
+    "es": "café con leche",
+    "fr": "café au lait",
+    "de": "Latte"
+  },
+  "cappuccino": {
+    "en": "cappuccino",
+    "th": "คาปูชิโน่",
+    "ja": "カプチーノ",
+    "ko": "카푸치노",
+    "zh": "卡布奇诺",
+    "es": "capuchino",
+    "fr": "cappuccino",
+    "de": "Cappuccino"
+  },
+  "mocha": {
+    "en": "mocha",
+    "th": "มอคค่า",
+    "ja": "モカ",
+    "ko": "모카",
+    "zh": "摩卡",
+    "es": "moca",
+    "fr": "moka",
+    "de": "Mokka"
+  },
+  "americano": {
+    "en": "americano",
+    "th": "อเมริกาโน่",
+    "ja": "アメリカーノ",
+    "ko": "아메리카노",
+    "zh": "美式咖啡",
+    "es": "americano",
+    "fr": "américain",
+    "de": "Americano"
+  },
+  "frappe": {
+    "en": "frappé",
+    "th": "แฟรปเป้",
+    "ja": "フラッペ",
+    "ko": "프라페",
+    "zh": "冰沙咖啡",
+    "es": "frappé",
+    "fr": "frappé",
+    "de": "Frappé"
+  },
+  "iced_tea": {
+    "en": "iced tea",
+    "th": "ชาเย็น",
+    "ja": "アイスティー",
+    "ko": "아이스티",
+    "zh": "冰茶",
+    "es": "té helado",
+    "fr": "thé glacé",
+    "de": "Eistee"
+  },
+  "iced_coffee": {
+    "en": "iced coffee",
+    "th": "กาแฟเย็น",
+    "ja": "アイスコーヒー",
+    "ko": "아이스 커피",
+    "zh": "冰咖啡",
+    "es": "café helado",
+    "fr": "café glacé",
+    "de": "Eiskaffee"
+  },
+  "coconut_water": {
+    "en": "coconut water",
+    "th": "น้ำมะพร้าว",
+    "ja": "ココナッツウォーター",
+    "ko": "코코넛 워터",
+    "zh": "椰子水",
+    "es": "agua de coco",
+    "fr": "eau de coco",
+    "de": "Kokoswasser"
+  },
+  "soy_milk": {
+    "en": "soy milk",
+    "th": "นมถั่วเหลือง",
+    "ja": "豆乳",
+    "ko": "두유",
+    "zh": "豆奶",
+    "es": "leche de soja",
+    "fr": "lait de soja",
+    "de": "Sojamilch"
+  },
+  "almond_milk": {
+    "en": "almond milk",
+    "th": "นมอัลมอนด์",
+    "ja": "アーモンドミルク",
+    "ko": "아몬드 밀크",
+    "zh": "杏仁奶",
+    "es": "leche de almendra",
+    "fr": "lait d'amande",
+    "de": "Mandelmilch"
+  },
+  "energy_drink": {
+    "en": "energy drink",
+    "th": "เครื่องดื่มชูกำลัง",
+    "ja": "エナジードリンク",
+    "ko": "에너지 음료",
+    "zh": "功能饮料",
+    "es": "bebida energética",
+    "fr": "boisson énergisante",
+    "de": "Energydrink"
+  },
+  "sports_drink": {
+    "en": "sports drink",
+    "th": "เกลือแร่",
+    "ja": "スポーツドリンク",
+    "ko": "스포츠 음료",
+    "zh": "运动饮料",
+    "es": "bebida isotónica",
+    "fr": "boisson pour sportifs",
+    "de": "Sportgetränk"
+  },
+  "beer": {
+    "en": "beer",
+    "th": "เบียร์",
+    "ja": "ビール",
+    "ko": "맥주",
+    "zh": "啤酒",
+    "es": "cerveza",
+    "fr": "bière",
+    "de": "Bier"
+  },
+  "wine": {
+    "en": "wine",
+    "th": "ไวน์",
+    "ja": "ワイン",
+    "ko": "와인",
+    "zh": "葡萄酒",
+    "es": "vino",
+    "fr": "vin",
+    "de": "Wein"
+  },
+  "red_wine": {
+    "en": "red wine",
+    "th": "ไวน์แดง",
+    "ja": "赤ワイン",
+    "ko": "레드 와인",
+    "zh": "红酒",
+    "es": "vino tinto",
+    "fr": "vin rouge",
+    "de": "Rotwein"
+  },
+  "white_wine": {
+    "en": "white wine",
+    "th": "ไวน์ขาว",
+    "ja": "白ワイン",
+    "ko": "화이트 와인",
+    "zh": "白葡萄酒",
+    "es": "vino blanco",
+    "fr": "vin blanc",
+    "de": "Weißwein"
+  },
+  "champagne": {
+    "en": "champagne",
+    "th": "แชมเปญ",
+    "ja": "シャンパン",
+    "ko": "샴페인",
+    "zh": "香槟",
+    "es": "champán",
+    "fr": "champagne",
+    "de": "Champagner"
+  },
+  "whiskey": {
+    "en": "whiskey",
+    "th": "วิสกี้",
+    "ja": "ウイスキー",
+    "ko": "위스키",
+    "zh": "威士忌",
+    "es": "whisky",
+    "fr": "whisky",
+    "de": "Whisky"
+  },
+  "vodka": {
+    "en": "vodka",
+    "th": "วอดก้า",
+    "ja": "ウォッカ",
+    "ko": "보드카",
+    "zh": "伏特加",
+    "es": "vodka",
+    "fr": "vodka",
+    "de": "Wodka"
+  },
+  "rum": {
+    "en": "rum",
+    "th": "รัม",
+    "ja": "ラム",
+    "ko": "럼",
+    "zh": "朗姆酒",
+    "es": "ron",
+    "fr": "rhum",
+    "de": "Rum"
+  },
+  "gin": {
+    "en": "gin",
+    "th": "จิน",
+    "ja": "ジン",
+    "ko": "진",
+    "zh": "杜松子酒",
+    "es": "ginebra",
+    "fr": "gin",
+    "de": "Gin"
+  },
+  "tequila": {
+    "en": "tequila",
+    "th": "เตกีล่า",
+    "ja": "テキーラ",
+    "ko": "데킬라",
+    "zh": "龙舌兰",
+    "es": "tequila",
+    "fr": "téquila",
+    "de": "Tequila"
+  },
+  "cocktail": {
+    "en": "cocktail",
+    "th": "ค็อกเทล",
+    "ja": "カクテル",
+    "ko": "칵테일",
+    "zh": "鸡尾酒",
+    "es": "cóctel",
+    "fr": "cocktail",
+    "de": "Cocktail"
+  },
+  "martini": {
+    "en": "martini",
+    "th": "มาร์ตินี่",
+    "ja": "マティーニ",
+    "ko": "마티니",
+    "zh": "马提尼",
+    "es": "martini",
+    "fr": "martini",
+    "de": "Martini"
+  },
+  "margarita": {
+    "en": "margarita",
+    "th": "มาร์การิต้า",
+    "ja": "マルガリータ",
+    "ko": "마가리타",
+    "zh": "玛格丽塔",
+    "es": "margarita",
+    "fr": "margarita",
+    "de": "Margarita"
+  },
+  "bloody_mary": {
+    "en": "bloody mary",
+    "th": "บลัดดี้แมรี่",
+    "ja": "ブラッディ・マリー",
+    "ko": "블러디 메리",
+    "zh": "血腥玛丽",
+    "es": "bloody mary",
+    "fr": "bloody mary",
+    "de": "Bloody Mary"
+  },
+  "mojito": {
+    "en": "mojito",
+    "th": "โมฮีโต้",
+    "ja": "モヒート",
+    "ko": "모히토",
+    "zh": "莫吉托",
+    "es": "mojito",
+    "fr": "mojito",
+    "de": "Mojito"
+  },
+  "piña_colada": {
+    "en": "piña colada",
+    "th": "พีนาโคลาดา",
+    "ja": "ピニャコラーダ",
+    "ko": "피냐콜라다",
+    "zh": "椰林飘香",
+    "es": "piña colada",
+    "fr": "piña colada",
+    "de": "Pina Colada"
+  },
+  "sake": {
+    "en": "sake",
+    "th": "สาเก",
+    "ja": "酒",
+    "ko": "사케",
+    "zh": "清酒",
+    "es": "sake",
+    "fr": "saké",
+    "de": "Sake"
+  },
+  "soju": {
+    "en": "soju",
+    "th": "โซจู",
+    "ja": "焼酎",
+    "ko": "소주",
+    "zh": "烧酒",
+    "es": "soju",
+    "fr": "soju",
+    "de": "Soju"
+  },
+  "baijiu": {
+    "en": "baijiu",
+    "th": "ไป่จิ่ว",
+    "ja": "白酒",
+    "ko": "백주",
+    "zh": "白酒",
+    "es": "baijiu",
+    "fr": "baijiu",
+    "de": "Baijiu"
+  },
+  "sparkling_water": {
+    "en": "sparkling water",
+    "th": "น้ำแร่โซดา",
+    "ja": "炭酸水",
+    "ko": "탄산수",
+    "zh": "气泡水",
+    "es": "agua con gas",
+    "fr": "eau gazeuse",
+    "de": "Sprudelwasser"
+  },
+  "tonic_water": {
+    "en": "tonic water",
+    "th": "โทนิกวอเตอร์",
+    "ja": "トニックウォーター",
+    "ko": "토닉워터",
+    "zh": "奎宁水",
+    "es": "agua tónica",
+    "fr": "tonic",
+    "de": "Tonic Water"
+  },
+  "ginger_ale": {
+    "en": "ginger ale",
+    "th": "จินเจอร์เอล",
+    "ja": "ジンジャーエール",
+    "ko": "진저에일",
+    "zh": "姜汁汽水",
+    "es": "ginger ale",
+    "fr": "ginger ale",
+    "de": "Ginger Ale"
+  },
+  "root_beer": {
+    "en": "root beer",
+    "th": "รูทเบียร์",
+    "ja": "ルートビア",
+    "ko": "루트비어",
+    "zh": "沙士",
+    "es": "root beer",
+    "fr": "root beer",
+    "de": "Root Beer"
+  },
+  "kombucha": {
+    "en": "kombucha",
+    "th": "คอมบูชา",
+    "ja": "コンブチャ",
+    "ko": "콤부차",
+    "zh": "康普茶",
+    "es": "kombucha",
+    "fr": "kombucha",
+    "de": "Kombucha"
+  },
+  "matcha": {
+    "en": "matcha",
+    "th": "มัทฉะ",
+    "ja": "抹茶",
+    "ko": "말차",
+    "zh": "抹茶",
+    "es": "matcha",
+    "fr": "matcha",
+    "de": "Matcha"
+  },
+  "barley_tea": {
+    "en": "barley tea",
+    "th": "ชาข้าวบาร์เลย์",
+    "ja": "麦茶",
+    "ko": "보리차",
+    "zh": "大麦茶",
+    "es": "té de cebada",
+    "fr": "thé d'orge",
+    "de": "Gersten-Tee"
+  },
+  "mate_tea": {
+    "en": "mate tea",
+    "th": "ชามาเต้",
+    "ja": "マテ茶",
+    "ko": "마테차",
+    "zh": "马黛茶",
+    "es": "mate",
+    "fr": "maté",
+    "de": "Mate-Tee"
+  },
+  "turmeric_latte": {
+    "en": "turmeric latte",
+    "th": "ขมิ้นลาเต้",
+    "ja": "ターメリックラテ",
+    "ko": "강황 라떼",
+    "zh": "姜黄拿铁",
+    "es": "cúrcuma latte",
+    "fr": "lait doré",
+    "de": "Kurkuma Latte"
+  },
+  "chai_latte": {
+    "en": "chai latte",
+    "th": "ชาชัยลาเต้",
+    "ja": "チャイラテ",
+    "ko": "차이 라떼",
+    "zh": "印度奶茶拿铁",
+    "es": "chai latte",
+    "fr": "chaï latte",
+    "de": "Chai Latte"
+  },
+  "protein_shake": {
+    "en": "protein shake",
+    "th": "โปรตีนเชค",
+    "ja": "プロテインシェイク",
+    "ko": "단백질 쉐이크",
+    "zh": "蛋白质奶昔",
+    "es": "batido de proteínas",
+    "fr": "shake protéiné",
+    "de": "Proteinshake"
+  },
+  "horchata": {
+    "en": "horchata",
+    "th": "ออร์ชาตา",
+    "ja": "オルチャータ",
+    "ko": "오르차타",
+    "zh": "大米饮料",
+    "es": "horchata",
+    "fr": "horchata",
+    "de": "Horchata"
+  },
+  "aguas_frescas": {
+    "en": "aguas frescas",
+    "th": "น้ำผลไม้สด",
+    "ja": "アグアフレスカ",
+    "ko": "아구아프레스카",
+    "zh": "水果饮料",
+    "es": "aguas frescas",
+    "fr": "aguas frescas",
+    "de": "Aguas frescas"
+  },
+  "bubble_tea": {
+    "en": "bubble tea",
+    "th": "ชานมไข่มุก",
+    "ja": "タピオカティー",
+    "ko": "버블티",
+    "zh": "珍珠奶茶",
+    "es": "té de burbujas",
+    "fr": "thé aux perles",
+    "de": "Bubble Tea"
+  },
+  "thai_iced_tea": {
+    "en": "thai iced tea",
+    "th": "ชาไทยเย็น",
+    "ja": "タイアイスティー",
+    "ko": "타이 아이스티",
+    "zh": "泰式奶茶",
+    "es": "té helado tailandés",
+    "fr": "thé glacé thaï",
+    "de": "Thai-Eistee"
+  },
+  "thai_iced_coffee": {
+    "en": "thai iced coffee",
+    "th": "กาแฟเย็นไทย",
+    "ja": "タイアイスコーヒー",
+    "ko": "타이 아이스커피",
+    "zh": "泰式冰咖啡",
+    "es": "café helado tailandés",
+    "fr": "café glacé thaï",
+    "de": "Thai-Eiskaffee"
+  },
+  "fruit_punch": {
+    "en": "fruit punch",
+    "th": "ฟรุตพันช์",
+    "ja": "フルーツポンチ",
+    "ko": "과일 펀치",
+    "zh": "水果宾治",
+    "es": "ponche de frutas",
+    "fr": "punch aux fruits",
+    "de": "Fruchtpunsch"
+  },
+  "lemon_iced_tea": {
+    "en": "lemon iced tea",
+    "th": "ชามะนาวเย็น",
+    "ja": "レモンアイスティー",
+    "ko": "레몬 아이스티",
+    "zh": "柠檬冰茶",
+    "es": "té helado de limón",
+    "fr": "thé glacé au citron",
+    "de": "Eistee Zitrone"
+  },
+  "apple_cider": {
+    "en": "apple cider",
+    "th": "แอปเปิ้ลไซเดอร์",
+    "ja": "アップルサイダー",
+    "ko": "사과 사이더",
+    "zh": "苹果酒",
+    "es": "sidra de manzana",
+    "fr": "cidre de pomme",
+    "de": "Apfelwein"
+  },
+  "cider": {
+    "en": "cider",
+    "th": "ไซเดอร์",
+    "ja": "サイダー",
+    "ko": "사이다",
+    "zh": "苹果汽酒",
+    "es": "sidra",
+    "fr": "cidre",
+    "de": "Cider"
+  },
+  "mulled_wine": {
+    "en": "mulled wine",
+    "th": "ไวน์ร้อน",
+    "ja": "ホットワイン",
+    "ko": "뱅쇼",
+    "zh": "热红酒",
+    "es": "vino caliente",
+    "fr": "vin chaud",
+    "de": "Glühwein"
+  },
+  "mead": {
+    "en": "mead",
+    "th": "มีด (เหล้าน้ำผึ้ง)",
+    "ja": "蜂蜜酒",
+    "ko": "벌꿀주",
+    "zh": "蜂蜜酒",
+    "es": "hidromiel",
+    "fr": "hydromel",
+    "de": "Met"
+  },
+  "sangria": {
+    "en": "sangria",
+    "th": "ซังเกรีย",
+    "ja": "サングリア",
+    "ko": "상그리아",
+    "zh": "桑格利亚酒",
+    "es": "sangría",
+    "fr": "sangria",
+    "de": "Sangria"
+  },
+  "aperol_spritz": {
+    "en": "aperol spritz",
+    "th": "อเปอรอลสปริตซ์",
+    "ja": "アペロールスプリッツ",
+    "ko": "아페롤 스프리츠",
+    "zh": "阿佩罗开胃酒",
+    "es": "aperol spritz",
+    "fr": "aperol spritz",
+    "de": "Aperol Spritz"
+  },
+  "campari": {
+    "en": "campari",
+    "th": "คัมพารี",
+    "ja": "カンパリ",
+    "ko": "캄파리",
+    "zh": "金巴利酒",
+    "es": "campari",
+    "fr": "campari",
+    "de": "Campari"
+  },
+  "vermouth": {
+    "en": "vermouth",
+    "th": "เวอร์มุธ",
+    "ja": "ベルモット",
+    "ko": "베르무트",
+    "zh": "味美思酒",
+    "es": "vermut",
+    "fr": "vermouth",
+    "de": "Wermut"
+  },
+  "brandy": {
+    "en": "brandy",
+    "th": "บรั่นดี",
+    "ja": "ブランデー",
+    "ko": "브랜디",
+    "zh": "白兰地",
+    "es": "brandy",
+    "fr": "brandy",
+    "de": "Branntwein"
+  },
+  "cognac": {
+    "en": "cognac",
+    "th": "คอนญัก",
+    "ja": "コニャック",
+    "ko": "코냑",
+    "zh": "科涅克白兰地",
+    "es": "coñac",
+    "fr": "cognac",
+    "de": "Cognac"
+  },
+  "liqueur": {
+    "en": "liqueur",
+    "th": "เหล้าหวาน",
+    "ja": "リキュール",
+    "ko": "리큐르",
+    "zh": "利口酒",
+    "es": "licor",
+    "fr": "liqueur",
+    "de": "Likör"
+  },
+  "absinthe": {
+    "en": "absinthe",
+    "th": "แอ็บซินท์",
+    "ja": "アブサン",
+    "ko": "압생트",
+    "zh": "苦艾酒",
+    "es": "absenta",
+    "fr": "absinthe",
+    "de": "Absinth"
+  },
+  "grappa": {
+    "en": "grappa",
+    "th": "กรัปป้า",
+    "ja": "グラッパ",
+    "ko": "그라파",
+    "zh": "格拉巴酒",
+    "es": "grappa",
+    "fr": "grappa",
+    "de": "Grappa"
+  },
+  "ouzo": {
+    "en": "ouzo",
+    "th": "อูโซ",
+    "ja": "ウーゾ",
+    "ko": "우조",
+    "zh": "茴香酒",
+    "es": "ouzo",
+    "fr": "ouzo",
+    "de": "Ouzo"
+  },
+  "arak": {
+    "en": "arak",
+    "th": "อารัค",
+    "ja": "アラック",
+    "ko": "아락",
+    "zh": "阿拉克酒",
+    "es": "arak",
+    "fr": "arak",
+    "de": "Arak"
+  },
+  "teh_tarikh": {
+    "en": "teh tarik",
+    "th": "ชาดึง",
+    "ja": "テータリック",
+    "ko": "테타릭",
+    "zh": "拉茶",
+    "es": "teh tarik",
+    "fr": "teh tarik",
+    "de": "Teh Tarik"
+  },
+  "bandung_drink": {
+    "en": "bandung",
+    "th": "บันดุง (นมกุหลาบ)",
+    "ja": "バンドゥン",
+    "ko": "반둥",
+    "zh": "玫瑰糖奶",
+    "es": "bandung",
+    "fr": "bandung",
+    "de": "Bandung"
+  },
+  "es_cendol": {
+    "en": "es cendol",
+    "th": "เฉาก๊วยอินโด",
+    "ja": "チェンドル",
+    "ko": "첸돌",
+    "zh": "珍多冰",
+    "es": "es cendol",
+    "fr": "es cendol",
+    "de": "Es Cendol"
+  },
+  "es_teler": {
+    "en": "es teler",
+    "th": "เอสเตเลอร์",
+    "ja": "エステレール",
+    "ko": "에스텔레르",
+    "zh": "印尼水果冰",
+    "es": "es teler",
+    "fr": "es teler",
+    "de": "Es Teler"
+  },
+  "falooda": {
+    "en": "falooda",
+    "th": "ฟาลูดา",
+    "ja": "ファルーダ",
+    "ko": "팔루다",
+    "zh": "法露达",
+    "es": "falooda",
+    "fr": "falooda",
+    "de": "Falooda"
+  },
+  "lassi": {
+    "en": "lassi",
+    "th": "ลัสซี",
+    "ja": "ラッシー",
+    "ko": "라씨",
+    "zh": "拉西",
+    "es": "lassi",
+    "fr": "lassi",
+    "de": "Lassi"
+  },
+  "ayran": {
+    "en": "ayran",
+    "th": "ไอย์ราน",
+    "ja": "アイラン",
+    "ko": "아이란",
+    "zh": "艾兰酸奶",
+    "es": "ayran",
+    "fr": "ayran",
+    "de": "Ayran"
+  },
+  "egg_nog": {
+    "en": "egg nog",
+    "th": "เอกน็อก",
+    "ja": "エッグノッグ",
+    "ko": "에그노그",
+    "zh": "蛋酒",
+    "es": "ponche de huevo",
+    "fr": "lait de poule",
+    "de": "Eierlikör"
+  },
+  "buttermilk": {
+    "en": "buttermilk",
+    "th": "บัตเตอร์มิลค์",
+    "ja": "バターミルク",
+    "ko": "버터밀크",
+    "zh": "酪乳",
+    "es": "suero de leche",
+    "fr": "babeurre",
+    "de": "Buttermilch"
+  },
+  "kefir": {
+    "en": "kefir",
+    "th": "เคเฟียร์",
+    "ja": "ケフィア",
+    "ko": "케피어",
+    "zh": "克非尔",
+    "es": "kéfir",
+    "fr": "kéfir",
+    "de": "Kefir"
+  },
+  "yakult": {
+    "en": "yakult",
+    "th": "ยาคูลท์",
+    "ja": "ヤクルト",
+    "ko": "야쿠르트",
+    "zh": "养乐多",
+    "es": "yakult",
+    "fr": "yakult",
+    "de": "Yakult"
+  }
+}

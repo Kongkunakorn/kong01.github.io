@@ -1,0 +1,992 @@
+{
+  "car": {
+    "en": "car",
+    "th": "รถยนต์",
+    "ja": "車",
+    "ko": "자동차",
+    "zh": "汽车",
+    "es": "coche",
+    "fr": "voiture",
+    "de": "Auto"
+  },
+  "bus": {
+    "en": "bus",
+    "th": "รถบัส",
+    "ja": "バス",
+    "ko": "버스",
+    "zh": "公共汽车",
+    "es": "autobús",
+    "fr": "bus",
+    "de": "Bus"
+  },
+  "train": {
+    "en": "train",
+    "th": "รถไฟ",
+    "ja": "電車",
+    "ko": "기차",
+    "zh": "火车",
+    "es": "tren",
+    "fr": "train",
+    "de": "Zug"
+  },
+  "subway": {
+    "en": "subway",
+    "th": "รถไฟใต้ดิน",
+    "ja": "地下鉄",
+    "ko": "지하철",
+    "zh": "地铁",
+    "es": "metro",
+    "fr": "métro",
+    "de": "U-Bahn"
+  },
+  "tram": {
+    "en": "tram",
+    "th": "รถราง",
+    "ja": "路面電車",
+    "ko": "노면전차",
+    "zh": "有轨电车",
+    "es": "tranvía",
+    "fr": "tramway",
+    "de": "Straßenbahn"
+  },
+  "airplane": {
+    "en": "airplane",
+    "th": "เครื่องบิน",
+    "ja": "飛行機",
+    "ko": "비행기",
+    "zh": "飞机",
+    "es": "avión",
+    "fr": "avion",
+    "de": "Flugzeug"
+  },
+  "helicopter": {
+    "en": "helicopter",
+    "th": "เฮลิคอปเตอร์",
+    "ja": "ヘリコプター",
+    "ko": "헬리콥터",
+    "zh": "直升机",
+    "es": "helicóptero",
+    "fr": "hélicoptère",
+    "de": "Hubschrauber"
+  },
+  "ship": {
+    "en": "ship",
+    "th": "เรือ",
+    "ja": "船",
+    "ko": "배",
+    "zh": "船",
+    "es": "barco",
+    "fr": "navire",
+    "de": "Schiff"
+  },
+  "boat": {
+    "en": "boat",
+    "th": "เรือเล็ก",
+    "ja": "ボート",
+    "ko": "보트",
+    "zh": "小船",
+    "es": "bote",
+    "fr": "bateau",
+    "de": "Boot"
+  },
+  "canoe": {
+    "en": "canoe",
+    "th": "เรือแคนู",
+    "ja": "カヌー",
+    "ko": "카누",
+    "zh": "独木舟",
+    "es": "canoa",
+    "fr": "canoë",
+    "de": "Kanu"
+  },
+  "motorcycle": {
+    "en": "motorcycle",
+    "th": "รถจักรยานยนต์",
+    "ja": "オートバイ",
+    "ko": "오토바이",
+    "zh": "摩托车",
+    "es": "motocicleta",
+    "fr": "moto",
+    "de": "Motorrad"
+  },
+  "scooter": {
+    "en": "scooter",
+    "th": "สกู๊ตเตอร์",
+    "ja": "スクーター",
+    "ko": "스쿠터",
+    "zh": "踏板车",
+    "es": "scooter",
+    "fr": "scooter",
+    "de": "Roller"
+  },
+  "bicycle": {
+    "en": "bicycle",
+    "th": "จักรยาน",
+    "ja": "自転車",
+    "ko": "자전거",
+    "zh": "自行车",
+    "es": "bicicleta",
+    "fr": "vélo",
+    "de": "Fahrrad"
+  },
+  "skateboard": {
+    "en": "skateboard",
+    "th": "สเกตบอร์ด",
+    "ja": "スケートボード",
+    "ko": "스케이트보드",
+    "zh": "滑板",
+    "es": "monopatín",
+    "fr": "skateboard",
+    "de": "Skateboard"
+  },
+  "rollerblades": {
+    "en": "rollerblades",
+    "th": "โรลเลอร์เบลด",
+    "ja": "ローラーブレード",
+    "ko": "롤러블레이드",
+    "zh": "轮滑鞋",
+    "es": "patines en línea",
+    "fr": "rollers",
+    "de": "Inlineskates"
+  },
+  "taxi": {
+    "en": "taxi",
+    "th": "แท็กซี่",
+    "ja": "タクシー",
+    "ko": "택시",
+    "zh": "出租车",
+    "es": "taxi",
+    "fr": "taxi",
+    "de": "Taxi"
+  },
+  "truck": {
+    "en": "truck",
+    "th": "รถบรรทุก",
+    "ja": "トラック",
+    "ko": "트럭",
+    "zh": "卡车",
+    "es": "camión",
+    "fr": "camion",
+    "de": "Lkw"
+  },
+  "van": {
+    "en": "van",
+    "th": "รถตู้",
+    "ja": "バン",
+    "ko": "밴",
+    "zh": "面包车",
+    "es": "furgoneta",
+    "fr": "fourgon",
+    "de": "Van"
+  },
+  "ambulance": {
+    "en": "ambulance",
+    "th": "รถพยาบาล",
+    "ja": "救急車",
+    "ko": "구급차",
+    "zh": "救护车",
+    "es": "ambulancia",
+    "fr": "ambulance",
+    "de": "Krankenwagen"
+  },
+  "fire_engine": {
+    "en": "fire engine",
+    "th": "รถดับเพลิง",
+    "ja": "消防車",
+    "ko": "소방차",
+    "zh": "消防车",
+    "es": "camión de bomberos",
+    "fr": "camion de pompiers",
+    "de": "Feuerwehrwagen"
+  },
+  "police_car": {
+    "en": "police car",
+    "th": "รถตำรวจ",
+    "ja": "パトカー",
+    "ko": "경찰차",
+    "zh": "警车",
+    "es": "coche de policía",
+    "fr": "voiture de police",
+    "de": "Polizeiauto"
+  },
+  "bulldozer": {
+    "en": "bulldozer",
+    "th": "รถแทรกเตอร์ดันดิน",
+    "ja": "ブルドーザー",
+    "ko": "불도저",
+    "zh": "推土机",
+    "es": "bulldozer",
+    "fr": "bulldozer",
+    "de": "Bulldozer"
+  },
+  "forklift": {
+    "en": "forklift",
+    "th": "รถยก",
+    "ja": "フォークリフト",
+    "ko": "지게차",
+    "zh": "叉车",
+    "es": "montacargas",
+    "fr": "chariot élévateur",
+    "de": "Gabelstapler"
+  },
+  "tractor": {
+    "en": "tractor",
+    "th": "รถแทรกเตอร์",
+    "ja": "トラクター",
+    "ko": "트랙터",
+    "zh": "拖拉机",
+    "es": "tractor",
+    "fr": "tracteur",
+    "de": "Traktor"
+  },
+  "submarine": {
+    "en": "submarine",
+    "th": "เรือดำน้ำ",
+    "ja": "潜水艦",
+    "ko": "잠수함",
+    "zh": "潜艇",
+    "es": "submarino",
+    "fr": "sous-marin",
+    "de": "U-Boot"
+  },
+  "spaceship": {
+    "en": "spaceship",
+    "th": "ยานอวกาศ",
+    "ja": "宇宙船",
+    "ko": "우주선",
+    "zh": "宇宙飞船",
+    "es": "nave espacial",
+    "fr": "vaisseau spatial",
+    "de": "Raumschiff"
+  },
+  "rocket": {
+    "en": "rocket",
+    "th": "จรวด",
+    "ja": "ロケット",
+    "ko": "로켓",
+    "zh": "火箭",
+    "es": "cohete",
+    "fr": "fusée",
+    "de": "Rakete"
+  },
+  "ferry": {
+    "en": "ferry",
+    "th": "เรือข้ามฟาก",
+    "ja": "フェリー",
+    "ko": "페리",
+    "zh": "渡轮",
+    "es": "ferry",
+    "fr": "ferry",
+    "de": "Fähre"
+  },
+  "yacht": {
+    "en": "yacht",
+    "th": "เรือยอชต์",
+    "ja": "ヨット",
+    "ko": "요트",
+    "zh": "游艇",
+    "es": "yate",
+    "fr": "yacht",
+    "de": "Jacht"
+  },
+  "cruise_ship": {
+    "en": "cruise ship",
+    "th": "เรือสำราญ",
+    "ja": "クルーズ船",
+    "ko": "크루즈선",
+    "zh": "游轮",
+    "es": "crucero",
+    "fr": "bateau de croisière",
+    "de": "Kreuzfahrtschiff"
+  },
+  "hovercraft": {
+    "en": "hovercraft",
+    "th": "เรือยกตัว",
+    "ja": "ホバークラフト",
+    "ko": "호버크래프트",
+    "zh": "气垫船",
+    "es": "aerodeslizador",
+    "fr": "aéroglisseur",
+    "de": "Luftkissenfahrzeug"
+  },
+  "balloon": {
+    "en": "hot air balloon",
+    "th": "บอลลูนลมร้อน",
+    "ja": "熱気球",
+    "ko": "열기구",
+    "zh": "热气球",
+    "es": "globo aerostático",
+    "fr": "montgolfière",
+    "de": "Heißluftballon"
+  },
+  "glider": {
+    "en": "glider",
+    "th": "เครื่องร่อน",
+    "ja": "グライダー",
+    "ko": "글라이더",
+    "zh": "滑翔机",
+    "es": "planeador",
+    "fr": "planeur",
+    "de": "Segelflugzeug"
+  },
+  "jet": {
+    "en": "jet",
+    "th": "เจ็ต",
+    "ja": "ジェット機",
+    "ko": "제트기",
+    "zh": "喷气式飞机",
+    "es": "jet",
+    "fr": "jet",
+    "de": "Jet"
+  },
+  "sailboat": {
+    "en": "sailboat",
+    "th": "เรือใบ",
+    "ja": "帆船",
+    "ko": "요트",
+    "zh": "帆船",
+    "es": "velero",
+    "fr": "voilier",
+    "de": "Segelboot"
+  },
+  "canoe_kayak": {
+    "en": "kayak",
+    "th": "คายัค",
+    "ja": "カヤック",
+    "ko": "카약",
+    "zh": "皮划艇",
+    "es": "kayak",
+    "fr": "kayak",
+    "de": "Kajak"
+  },
+  "rickshaw": {
+    "en": "rickshaw",
+    "th": "รถลาก",
+    "ja": "人力車",
+    "ko": "릭샤",
+    "zh": "人力车",
+    "es": "rickshaw",
+    "fr": "pousse-pousse",
+    "de": "Rikscha"
+  },
+  "sleigh": {
+    "en": "sleigh",
+    "th": "เลื่อนหิมะ",
+    "ja": "そり",
+    "ko": "썰매",
+    "zh": "雪橇",
+    "es": "trineo",
+    "fr": "traîneau",
+    "de": "Schlitten"
+  },
+  "dogsled": {
+    "en": "dogsled",
+    "th": "เลื่อนสุนัขลาก",
+    "ja": "犬ぞり",
+    "ko": "개썰매",
+    "zh": "狗拉雪橇",
+    "es": "trineo de perros",
+    "fr": "traîneau à chiens",
+    "de": "Hundeschlitten"
+  },
+  "camel": {
+    "en": "camel",
+    "th": "อูฐ (ยานพาหนะ)",
+    "ja": "ラクダ",
+    "ko": "낙타",
+    "zh": "骆驼",
+    "es": "camello",
+    "fr": "chameau",
+    "de": "Kamel"
+  },
+  "horse": {
+    "en": "horse",
+    "th": "ม้า (ยานพาหนะ)",
+    "ja": "馬",
+    "ko": "말",
+    "zh": "马",
+    "es": "caballo",
+    "fr": "cheval",
+    "de": "Pferd"
+  },
+  "donkey": {
+    "en": "donkey",
+    "th": "ลา (ยานพาหนะ)",
+    "ja": "ロバ",
+    "ko": "당나귀",
+    "zh": "驴",
+    "es": "burro",
+    "fr": "âne",
+    "de": "Esel"
+  },
+  "ox_cart": {
+    "en": "ox cart",
+    "th": "เกวียนวัว",
+    "ja": "牛車",
+    "ko": "소수레",
+    "zh": "牛车",
+    "es": "carro de bueyes",
+    "fr": "charrette à bœufs",
+    "de": "Ochsenkarren"
+  },
+  "carriage": {
+    "en": "carriage",
+    "th": "รถม้า",
+    "ja": "馬車",
+    "ko": "마차",
+    "zh": "马车",
+    "es": "carruaje",
+    "fr": "carrosse",
+    "de": "Kutsche"
+  },
+  "wheelchair": {
+    "en": "wheelchair",
+    "th": "รถเข็นคนพิการ",
+    "ja": "車椅子",
+    "ko": "휠체어",
+    "zh": "轮椅",
+    "es": "silla de ruedas",
+    "fr": "fauteuil roulant",
+    "de": "Rollstuhl"
+  },
+  "stroller": {
+    "en": "stroller",
+    "th": "รถเข็นเด็ก",
+    "ja": "ベビーカー",
+    "ko": "유모차",
+    "zh": "婴儿车",
+    "es": "cochecito",
+    "fr": "poussette",
+    "de": "Kinderwagen"
+  },
+  "escalator": {
+    "en": "escalator",
+    "th": "บันไดเลื่อน",
+    "ja": "エスカレーター",
+    "ko": "에스컬레이터",
+    "zh": "自动扶梯",
+    "es": "escalera mecánica",
+    "fr": "escalator",
+    "de": "Rolltreppe"
+  },
+  "elevator": {
+    "en": "elevator",
+    "th": "ลิฟต์",
+    "ja": "エレベーター",
+    "ko": "엘리베이터",
+    "zh": "电梯",
+    "es": "ascensor",
+    "fr": "ascenseur",
+    "de": "Aufzug"
+  },
+  "moving_walkway": {
+    "en": "moving walkway",
+    "th": "ทางเลื่อน",
+    "ja": "動く歩道",
+    "ko": "무빙워크",
+    "zh": "自动人行道",
+    "es": "pasillo rodante",
+    "fr": "trottoir roulant",
+    "de": "Rollsteig"
+  },
+  "monorail": {
+    "en": "monorail",
+    "th": "รถไฟรางเดี่ยว",
+    "ja": "モノレール",
+    "ko": "모노레일",
+    "zh": "单轨列车",
+    "es": "monorraíl",
+    "fr": "monorail",
+    "de": "Monorail"
+  },
+  "light_rail": {
+    "en": "light rail",
+    "th": "รถไฟฟ้ารางเบา",
+    "ja": "ライトレール",
+    "ko": "경전철",
+    "zh": "轻轨",
+    "es": "tren ligero",
+    "fr": "tramway léger",
+    "de": "Stadtbahn"
+  },
+  "bullet_train": {
+    "en": "bullet train",
+    "th": "รถไฟความเร็วสูง",
+    "ja": "新幹線",
+    "ko": "고속열차",
+    "zh": "高铁",
+    "es": "tren bala",
+    "fr": "TGV",
+    "de": "Hochgeschwindigkeitszug"
+  },
+  "trolleybus": {
+    "en": "trolleybus",
+    "th": "รถโดยสารไฟฟ้า",
+    "ja": "トロリーバス",
+    "ko": "트롤리버스",
+    "zh": "无轨电车",
+    "es": "trolebús",
+    "fr": "trolleybus",
+    "de": "O-Bus"
+  },
+  "cable_car": {
+    "en": "cable car",
+    "th": "รถกระเช้า",
+    "ja": "ケーブルカー",
+    "ko": "케이블카",
+    "zh": "缆车",
+    "es": "teleférico",
+    "fr": "téléphérique",
+    "de": "Seilbahn"
+  },
+  "funicular": {
+    "en": "funicular",
+    "th": "รถรางไฟฟ้าลากขึ้นเขา",
+    "ja": "ケーブル鉄道",
+    "ko": "푸니쿨라",
+    "zh": "缆索铁路",
+    "es": "funicular",
+    "fr": "funiculaire",
+    "de": "Standseilbahn"
+  },
+  "segway": {
+    "en": "segway",
+    "th": "เซกเวย์",
+    "ja": "セグウェイ",
+    "ko": "세그웨이",
+    "zh": "赛格威",
+    "es": "segway",
+    "fr": "segway",
+    "de": "Segway"
+  },
+  "electric_car": {
+    "en": "electric car",
+    "th": "รถยนต์ไฟฟ้า",
+    "ja": "電気自動車",
+    "ko": "전기차",
+    "zh": "电动车",
+    "es": "coche eléctrico",
+    "fr": "voiture électrique",
+    "de": "Elektroauto"
+  },
+  "hybrid_car": {
+    "en": "hybrid car",
+    "th": "รถยนต์ไฮบริด",
+    "ja": "ハイブリッドカー",
+    "ko": "하이브리드 자동차",
+    "zh": "混合动力车",
+    "es": "coche híbrido",
+    "fr": "voiture hybride",
+    "de": "Hybridauto"
+  },
+  "limousine": {
+    "en": "limousine",
+    "th": "ลิมูซีน",
+    "ja": "リムジン",
+    "ko": "리무진",
+    "zh": "豪华轿车",
+    "es": "limusina",
+    "fr": "limousine",
+    "de": "Limousine"
+  },
+  "sports_car": {
+    "en": "sports car",
+    "th": "รถสปอร์ต",
+    "ja": "スポーツカー",
+    "ko": "스포츠카",
+    "zh": "跑车",
+    "es": "coche deportivo",
+    "fr": "voiture de sport",
+    "de": "Sportwagen"
+  },
+  "pickup_truck": {
+    "en": "pickup truck",
+    "th": "รถปิกอัพ",
+    "ja": "ピックアップトラック",
+    "ko": "픽업트럭",
+    "zh": "皮卡",
+    "es": "camioneta",
+    "fr": "pick-up",
+    "de": "Pickup"
+  },
+  "minivan": {
+    "en": "minivan",
+    "th": "รถมินิแวน",
+    "ja": "ミニバン",
+    "ko": "미니밴",
+    "zh": "小型货车",
+    "es": "minivan",
+    "fr": "minivan",
+    "de": "Minivan"
+  },
+  "motorhome": {
+    "en": "motorhome",
+    "th": "รถบ้าน",
+    "ja": "キャンピングカー",
+    "ko": "모터홈",
+    "zh": "房车",
+    "es": "autocaravana",
+    "fr": "camping-car",
+    "de": "Wohnmobil"
+  },
+  "caravan": {
+    "en": "caravan",
+    "th": "คาราวาน",
+    "ja": "キャラバン",
+    "ko": "카라반",
+    "zh": "旅行车",
+    "es": "caravana",
+    "fr": "caravane",
+    "de": "Karawane"
+  },
+  "gondola": {
+    "en": "gondola",
+    "th": "กอนโดลา",
+    "ja": "ゴンドラ",
+    "ko": "곤돌라",
+    "zh": "贡多拉",
+    "es": "góndola",
+    "fr": "gondole",
+    "de": "Gondel"
+  },
+  "rickshaw_auto": {
+    "en": "auto rickshaw",
+    "th": "รถตุ๊กตุ๊ก",
+    "ja": "オートリクシャー",
+    "ko": "오토릭샤",
+    "zh": "三轮车",
+    "es": "mototaxi",
+    "fr": "auto-rickshaw",
+    "de": "Autorikscha"
+  },
+  "hoverboard": {
+    "en": "hoverboard",
+    "th": "โฮเวอร์บอร์ด",
+    "ja": "ホバーボード",
+    "ko": "호버보드",
+    "zh": "悬浮滑板",
+    "es": "hoverboard",
+    "fr": "hoverboard",
+    "de": "Hoverboard"
+  },
+  "maglev_train": {
+    "en": "maglev train",
+    "th": "รถไฟแม่เหล็กลอยตัว",
+    "ja": "リニアモーターカー",
+    "ko": "마그레브 열차",
+    "zh": "磁悬浮列车",
+    "es": "tren maglev",
+    "fr": "train à sustentation magnétique",
+    "de": "Magnetschwebebahn"
+  },
+  "drone": {
+    "en": "drone",
+    "th": "โดรน",
+    "ja": "ドローン",
+    "ko": "드론",
+    "zh": "无人机",
+    "es": "dron",
+    "fr": "drone",
+    "de": "Drohne"
+  },
+  "jetski": {
+    "en": "jetski",
+    "th": "เจ็ตสกี",
+    "ja": "ジェットスキー",
+    "ko": "제트스키",
+    "zh": "摩托艇",
+    "es": "moto acuática",
+    "fr": "jet-ski",
+    "de": "Jetski"
+  },
+  "paraglider": {
+    "en": "paraglider",
+    "th": "ร่มร่อน",
+    "ja": "パラグライダー",
+    "ko": "패러글라이더",
+    "zh": "滑翔伞",
+    "es": "parapente",
+    "fr": "parapente",
+    "de": "Paragleiter"
+  },
+  "hang_glider": {
+    "en": "hang glider",
+    "th": "เครื่องร่อนแขวน",
+    "ja": "ハンググライダー",
+    "ko": "행글라이더",
+    "zh": "悬挂式滑翔机",
+    "es": "ala delta",
+    "fr": "deltaplane",
+    "de": "Hängegleiter"
+  },
+  "skis": {
+    "en": "skis",
+    "th": "สกี",
+    "ja": "スキー",
+    "ko": "스키",
+    "zh": "滑雪板",
+    "es": "esquís",
+    "fr": "skis",
+    "de": "Ski"
+  },
+  "snowmobile": {
+    "en": "snowmobile",
+    "th": "สโนว์โมบิล",
+    "ja": "スノーモービル",
+    "ko": "스노모빌",
+    "zh": "雪地摩托",
+    "es": "moto de nieve",
+    "fr": "motoneige",
+    "de": "Schneemobil"
+  },
+  "toboggan": {
+    "en": "toboggan",
+    "th": "เลื่อนหิมะ",
+    "ja": "トボガン",
+    "ko": "터보건",
+    "zh": "平底雪橇",
+    "es": "trineo",
+    "fr": "luge",
+    "de": "Schlitten"
+  },
+  "raft": {
+    "en": "raft",
+    "th": "แพ",
+    "ja": "いかだ",
+    "ko": "뗏목",
+    "zh": "木筏",
+    "es": "balsa",
+    "fr": "radeau",
+    "de": "Floß"
+  },
+  "rowing_boat": {
+    "en": "rowing boat",
+    "th": "เรือพาย",
+    "ja": "ボート",
+    "ko": "노 젓는 배",
+    "zh": "划艇",
+    "es": "bote de remos",
+    "fr": "barque",
+    "de": "Ruderboot"
+  },
+  "speedboat": {
+    "en": "speedboat",
+    "th": "เรือเร็ว",
+    "ja": "スピードボート",
+    "ko": "스피드보트",
+    "zh": "快艇",
+    "es": "lancha rápida",
+    "fr": "vedette rapide",
+    "de": "Schnellboot"
+  },
+  "catamaran": {
+    "en": "catamaran",
+    "th": "คาตามารัน",
+    "ja": "双胴船",
+    "ko": "쌍동선",
+    "zh": "双体船",
+    "es": "catamarán",
+    "fr": "catamaran",
+    "de": "Katamaran"
+  },
+  "hovertrain": {
+    "en": "hovertrain",
+    "th": "รถไฟยกตัว",
+    "ja": "ホバートレイン",
+    "ko": "호버트레인",
+    "zh": "气垫列车",
+    "es": "tren aéreo",
+    "fr": "train aéroglisseur",
+    "de": "Luftkissenbahn"
+  },
+  "cargoplane": {
+    "en": "cargo plane",
+    "th": "เครื่องบินบรรทุกสินค้า",
+    "ja": "貨物機",
+    "ko": "화물기",
+    "zh": "货机",
+    "es": "avión de carga",
+    "fr": "avion cargo",
+    "de": "Frachtflugzeug"
+  },
+  "seaplane": {
+    "en": "seaplane",
+    "th": "เครื่องบินน้ำ",
+    "ja": "水上飛行機",
+    "ko": "수상비행기",
+    "zh": "水上飞机",
+    "es": "hidroavión",
+    "fr": "hydravion",
+    "de": "Wasserflugzeug"
+  },
+  "biplane": {
+    "en": "biplane",
+    "th": "เครื่องบินปีกสองชั้น",
+    "ja": "複葉機",
+    "ko": "복엽기",
+    "zh": "双翼飞机",
+    "es": "biplano",
+    "fr": "biplan",
+    "de": "Doppeldecker"
+  },
+  "tricycle": {
+    "en": "tricycle",
+    "th": "รถสามล้อถีบ",
+    "ja": "三輪車",
+    "ko": "세발자전거",
+    "zh": "三轮车",
+    "es": "triciclo",
+    "fr": "tricycle",
+    "de": "Dreirad"
+  },
+  "quad_bike": {
+    "en": "quad bike",
+    "th": "รถเอทีวี",
+    "ja": "四輪バイク",
+    "ko": "사륜 바이크",
+    "zh": "四轮摩托",
+    "es": "quad",
+    "fr": "quad",
+    "de": "Quad"
+  },
+  "golf_cart": {
+    "en": "golf cart",
+    "th": "รถกอล์ฟ",
+    "ja": "ゴルフカート",
+    "ko": "골프카트",
+    "zh": "高尔夫球车",
+    "es": "carrito de golf",
+    "fr": "voiturette de golf",
+    "de": "Golfwagen"
+  },
+  "handcart": {
+    "en": "handcart",
+    "th": "รถเข็น",
+    "ja": "手押し車",
+    "ko": "수레",
+    "zh": "手推车",
+    "es": "carretilla",
+    "fr": "chariot à main",
+    "de": "Handkarren"
+  },
+  "pushcart": {
+    "en": "pushcart",
+    "th": "รถเข็นผลัก",
+    "ja": "押し車",
+    "ko": "푸시카트",
+    "zh": "推车",
+    "es": "carro de mano",
+    "fr": "chariot",
+    "de": "Schubkarre"
+  },
+  "scooter_electric": {
+    "en": "electric scooter",
+    "th": "สกู๊ตเตอร์ไฟฟ้า",
+    "ja": "電動スクーター",
+    "ko": "전동 스쿠터",
+    "zh": "电动滑板车",
+    "es": "patinete eléctrico",
+    "fr": "trottinette électrique",
+    "de": "Elektroroller"
+  },
+  "unicycle": {
+    "en": "unicycle",
+    "th": "จักรยานล้อเดียว",
+    "ja": "一輪車",
+    "ko": "외발자전거",
+    "zh": "独轮车",
+    "es": "monociclo",
+    "fr": "monocycle",
+    "de": "Einrad"
+  },
+  "penny_farthing": {
+    "en": "penny-farthing",
+    "th": "จักรยานโบราณล้อใหญ่",
+    "ja": "ペニーファージング",
+    "ko": "페니 파딩",
+    "zh": "高轮自行车",
+    "es": "penny-farthing",
+    "fr": "grand-bi",
+    "de": "Hochrad"
+  },
+  "stagecoach": {
+    "en": "stagecoach",
+    "th": "รถม้าโดยสาร",
+    "ja": "駅馬車",
+    "ko": "역마차",
+    "zh": "驿站马车",
+    "es": "diligencia",
+    "fr": "diligence",
+    "de": "Postkutsche"
+  },
+  "covered_wagon": {
+    "en": "covered wagon",
+    "th": "เกวียนผ้าใบ",
+    "ja": "幌馬車",
+    "ko": "덮개 마차",
+    "zh": "篷车",
+    "es": "carreta cubierta",
+    "fr": "chariot bâché",
+    "de": "Planwagen"
+  },
+  "rickety_cart": {
+    "en": "rickety cart",
+    "th": "รถเข็นเก่า",
+    "ja": "壊れかけのカート",
+    "ko": "낡은 수레",
+    "zh": "破旧的车",
+    "es": "carro desvencijado",
+    "fr": "chariot bancal",
+    "de": "klappriger Wagen"
+  },
+  "armored_vehicle": {
+    "en": "armored vehicle",
+    "th": "รถหุ้มเกราะ",
+    "ja": "装甲車",
+    "ko": "장갑차",
+    "zh": "装甲车",
+    "es": "vehículo blindado",
+    "fr": "véhicule blindé",
+    "de": "Panzerfahrzeug"
+  },
+  "tank": {
+    "en": "tank",
+    "th": "รถถัง",
+    "ja": "戦車",
+    "ko": "탱크",
+    "zh": "坦克",
+    "es": "tanque",
+    "fr": "char",
+    "de": "Panzer"
+  },
+  "hover_vehicle": {
+    "en": "hover vehicle",
+    "th": "ยานลอย",
+    "ja": "ホバー車両",
+    "ko": "호버 차량",
+    "zh": "悬浮车辆",
+    "es": "vehículo flotante",
+    "fr": "véhicule à coussin d'air",
+    "de": "Luftkissenfahrzeug"
+  },
+  "spaceshuttle": {
+    "en": "space shuttle",
+    "th": "กระสวยอวกาศ",
+    "ja": "スペースシャトル",
+    "ko": "스페이스셔틀",
+    "zh": "航天飞机",
+    "es": "transbordador espacial",
+    "fr": "navette spatiale",
+    "de": "Space Shuttle"
+  },
+  "mars_rover": {
+    "en": "Mars rover",
+    "th": "ยานสำรวจดาวอังคาร",
+    "ja": "火星探査車",
+    "ko": "화성 탐사차",
+    "zh": "火星车",
+    "es": "rover de Marte",
+    "fr": "rover martien",
+    "de": "Marsrover"
+  }
+}

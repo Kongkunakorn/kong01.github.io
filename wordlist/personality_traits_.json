@@ -1,0 +1,942 @@
+{
+  "kind": {
+    "en": "kind",
+    "th": "ใจดี",
+    "ja": "親切",
+    "ko": "친절한",
+    "zh": "善良的",
+    "es": "amable",
+    "fr": "gentil",
+    "de": "freundlich"
+  },
+  "honest": {
+    "en": "honest",
+    "th": "ซื่อสัตย์",
+    "ja": "正直な",
+    "ko": "정직한",
+    "zh": "诚实的",
+    "es": "honesto",
+    "fr": "honnête",
+    "de": "ehrlich"
+  },
+  "brave": {
+    "en": "brave",
+    "th": "กล้าหาญ",
+    "ja": "勇敢な",
+    "ko": "용감한",
+    "zh": "勇敢的",
+    "es": "valiente",
+    "fr": "courageux",
+    "de": "mutig"
+  },
+  "shy": {
+    "en": "shy",
+    "th": "ขี้อาย",
+    "ja": "恥ずかしがり屋の",
+    "ko": "수줍은",
+    "zh": "害羞的",
+    "es": "tímido",
+    "fr": "timide",
+    "de": "schüchtern"
+  },
+  "polite": {
+    "en": "polite",
+    "th": "สุภาพ",
+    "ja": "礼儀正しい",
+    "ko": "예의 바른",
+    "zh": "有礼貌的",
+    "es": "educado",
+    "fr": "poli",
+    "de": "höflich"
+  },
+  "selfish": {
+    "en": "selfish",
+    "th": "เห็นแก่ตัว",
+    "ja": "利己的な",
+    "ko": "이기적인",
+    "zh": "自私的",
+    "es": "egoísta",
+    "fr": "égoïste",
+    "de": "egoistisch"
+  },
+  "lazy": {
+    "en": "lazy",
+    "th": "ขี้เกียจ",
+    "ja": "怠け者の",
+    "ko": "게으른",
+    "zh": "懒惰的",
+    "es": "perezoso",
+    "fr": "paresseux",
+    "de": "faul"
+  },
+  "hardworking": {
+    "en": "hardworking",
+    "th": "ขยัน",
+    "ja": "勤勉な",
+    "ko": "근면한",
+    "zh": "勤奋的",
+    "es": "trabajador",
+    "fr": "travailleur",
+    "de": "fleißig"
+  },
+  "friendly": {
+    "en": "friendly",
+    "th": "เป็นมิตร",
+    "ja": "友好的",
+    "ko": "친근한",
+    "zh": "友好的",
+    "es": "amigable",
+    "fr": "amical",
+    "de": "freundlich"
+  },
+  "patient": {
+    "en": "patient",
+    "th": "อดทน",
+    "ja": "我慢強い",
+    "ko": "참을성 있는",
+    "zh": "有耐心的",
+    "es": "paciente",
+    "fr": "patient",
+    "de": "geduldig"
+  },
+  "optimistic": {
+    "en": "optimistic",
+    "th": "มองโลกในแง่ดี",
+    "ja": "楽観的な",
+    "ko": "낙관적인",
+    "zh": "乐观的",
+    "es": "optimista",
+    "fr": "optimiste",
+    "de": "optimistisch"
+  },
+  "pessimistic": {
+    "en": "pessimistic",
+    "th": "มองโลกในแง่ร้าย",
+    "ja": "悲観的な",
+    "ko": "비관적인",
+    "zh": "悲观的",
+    "es": "pesimista",
+    "fr": "pessimiste",
+    "de": "pessimistisch"
+  },
+  "curious": {
+    "en": "curious",
+    "th": "อยากรู้อยากเห็น",
+    "ja": "好奇心旺盛な",
+    "ko": "호기심 많은",
+    "zh": "好奇的",
+    "es": "curioso",
+    "fr": "curieux",
+    "de": "neugierig"
+  },
+  "responsible": {
+    "en": "responsible",
+    "th": "มีความรับผิดชอบ",
+    "ja": "責任感のある",
+    "ko": "책임감 있는",
+    "zh": "有责任心的",
+    "es": "responsable",
+    "fr": "responsable",
+    "de": "verantwortlich"
+  },
+  "stubborn": {
+    "en": "stubborn",
+    "th": "ดื้อ",
+    "ja": "頑固な",
+    "ko": "고집스러운",
+    "zh": "固执的",
+    "es": "terco",
+    "fr": "têtu",
+    "de": "stur"
+  },
+  "generous": {
+    "en": "generous",
+    "th": "ใจกว้าง",
+    "ja": "寛大な",
+    "ko": "관대한",
+    "zh": "慷慨的",
+    "es": "generoso",
+    "fr": "généreux",
+    "de": "großzügig"
+  },
+  "jealous": {
+    "en": "jealous",
+    "th": "ขี้อิจฉา",
+    "ja": "嫉妬深い",
+    "ko": "질투심 많은",
+    "zh": "嫉妒的",
+    "es": "celoso",
+    "fr": "jaloux",
+    "de": "eifersüchtig"
+  },
+  "humble": {
+    "en": "humble",
+    "th": "ถ่อมตัว",
+    "ja": "謙虚な",
+    "ko": "겸손한",
+    "zh": "谦虚的",
+    "es": "humilde",
+    "fr": "humble",
+    "de": "bescheiden"
+  },
+  "arrogant": {
+    "en": "arrogant",
+    "th": "หยิ่งยโส",
+    "ja": "傲慢な",
+    "ko": "거만한",
+    "zh": "傲慢的",
+    "es": "arrogante",
+    "fr": "arrogant",
+    "de": "arrogant"
+  },
+  "creative": {
+    "en": "creative",
+    "th": "สร้างสรรค์",
+    "ja": "創造的な",
+    "ko": "창의적인",
+    "zh": "有创造力的",
+    "es": "creativo",
+    "fr": "créatif",
+    "de": "kreativ"
+  },
+  "intelligent": {
+    "en": "intelligent",
+    "th": "ฉลาด",
+    "ja": "知的な",
+    "ko": "지적인",
+    "zh": "聪明的",
+    "es": "inteligente",
+    "fr": "intelligent",
+    "de": "intelligent"
+  },
+  "clever": {
+    "en": "clever",
+    "th": "ฉลาดหลักแหลม",
+    "ja": "賢い",
+    "ko": "영리한",
+    "zh": "聪明的",
+    "es": "listo",
+    "fr": "malin",
+    "de": "klug"
+  },
+  "wise": {
+    "en": "wise",
+    "th": "มีปัญญา",
+    "ja": "賢明な",
+    "ko": "현명한",
+    "zh": "明智的",
+    "es": "sabio",
+    "fr": "sage",
+    "de": "weise"
+  },
+  "loyal": {
+    "en": "loyal",
+    "th": "ภักดี",
+    "ja": "忠実な",
+    "ko": "충실한",
+    "zh": "忠诚的",
+    "es": "leal",
+    "fr": "loyal",
+    "de": "loyal"
+  },
+  "disloyal": {
+    "en": "disloyal",
+    "th": "ไม่ซื่อสัตย์",
+    "ja": "不忠実な",
+    "ko": "불충실한",
+    "zh": "不忠诚的",
+    "es": "desleal",
+    "fr": "déloyal",
+    "de": "illoyal"
+  },
+  "helpful": {
+    "en": "helpful",
+    "th": "ช่วยเหลือเกื้อกูล",
+    "ja": "助けになる",
+    "ko": "도움이 되는",
+    "zh": "乐于助人的",
+    "es": "servicial",
+    "fr": "serviable",
+    "de": "hilfsbereit"
+  },
+  "rude": {
+    "en": "rude",
+    "th": "หยาบคาย",
+    "ja": "失礼な",
+    "ko": "무례한",
+    "zh": "粗鲁的",
+    "es": "grosero",
+    "fr": "grossier",
+    "de": "unhöflich"
+  },
+  "funny": {
+    "en": "funny",
+    "th": "ตลก",
+    "ja": "面白い",
+    "ko": "웃긴",
+    "zh": "有趣的",
+    "es": "gracioso",
+    "fr": "drôle",
+    "de": "lustig"
+  },
+  "serious": {
+    "en": "serious",
+    "th": "จริงจัง",
+    "ja": "真面目な",
+    "ko": "진지한",
+    "zh": "严肃的",
+    "es": "serio",
+    "fr": "sérieux",
+    "de": "ernst"
+  },
+  "cheerful": {
+    "en": "cheerful",
+    "th": "ร่าเริง",
+    "ja": "陽気な",
+    "ko": "쾌활한",
+    "zh": "开朗的",
+    "es": "alegre",
+    "fr": "joyeux",
+    "de": "fröhlich"
+  },
+  "sensitive": {
+    "en": "sensitive",
+    "th": "อ่อนไหว",
+    "ja": "敏感な",
+    "ko": "예민한",
+    "zh": "敏感的",
+    "es": "sensible",
+    "fr": "sensible",
+    "de": "empfindlich"
+  },
+  "confident": {
+    "en": "confident",
+    "th": "มั่นใจ",
+    "ja": "自信がある",
+    "ko": "자신감 있는",
+    "zh": "自信的",
+    "es": "seguro",
+    "fr": "confiant",
+    "de": "selbstbewusst"
+  },
+  "insecure": {
+    "en": "insecure",
+    "th": "ไม่มั่นใจ",
+    "ja": "不安な",
+    "ko": "불안한",
+    "zh": "缺乏自信的",
+    "es": "inseguro",
+    "fr": "incertain",
+    "de": "unsicher"
+  },
+  "organized": {
+    "en": "organized",
+    "th": "เป็นระเบียบ",
+    "ja": "整理整頓された",
+    "ko": "체계적인",
+    "zh": "有条理的",
+    "es": "organizado",
+    "fr": "organisé",
+    "de": "organisiert"
+  },
+  "disorganized": {
+    "en": "disorganized",
+    "th": "ไม่มีระเบียบ",
+    "ja": "整理されていない",
+    "ko": "체계적이지 않은",
+    "zh": "无条理的",
+    "es": "desorganizado",
+    "fr": "désorganisé",
+    "de": "unorganisiert"
+  },
+  "adventurous": {
+    "en": "adventurous",
+    "th": "รักการผจญภัย",
+    "ja": "冒険好きな",
+    "ko": "모험심 강한",
+    "zh": "爱冒险的",
+    "es": "aventurero",
+    "fr": "aventureux",
+    "de": "abenteuerlustig"
+  },
+  "cautious": {
+    "en": "cautious",
+    "th": "ระมัดระวัง",
+    "ja": "用心深い",
+    "ko": "조심스러운",
+    "zh": "谨慎的",
+    "es": "cauteloso",
+    "fr": "prudent",
+    "de": "vorsichtig"
+  },
+  "ambitious": {
+    "en": "ambitious",
+    "th": "ทะเยอทะยาน",
+    "ja": "野心的な",
+    "ko": "야망 있는",
+    "zh": "有雄心的",
+    "es": "ambicioso",
+    "fr": "ambitieux",
+    "de": "ehrgeizig"
+  },
+  "greedy": {
+    "en": "greedy",
+    "th": "โลภ",
+    "ja": "貪欲な",
+    "ko": "욕심 많은",
+    "zh": "贪婪的",
+    "es": "avaro",
+    "fr": "avide",
+    "de": "gierig"
+  },
+  "modest": {
+    "en": "modest",
+    "th": "ถ่อมตน",
+    "ja": "控えめな",
+    "ko": "겸손한",
+    "zh": "谦逊的",
+    "es": "modesto",
+    "fr": "modeste",
+    "de": "bescheiden"
+  },
+  "bossy": {
+    "en": "bossy",
+    "th": "ชอบออกคำสั่ง",
+    "ja": "威張る",
+    "ko": "거만한",
+    "zh": "专横的",
+    "es": "mandón",
+    "fr": "autoritaire",
+    "de": "herrisch"
+  },
+  "charismatic": {
+    "en": "charismatic",
+    "th": "มีเสน่ห์ดึงดูด",
+    "ja": "カリスマ的な",
+    "ko": "카리스마 있는",
+    "zh": "有魅力的",
+    "es": "carismático",
+    "fr": "charismatique",
+    "de": "charismatisch"
+  },
+  "moody": {
+    "en": "moody",
+    "th": "อารมณ์แปรปรวน",
+    "ja": "気分屋の",
+    "ko": "기분 변화가 심한",
+    "zh": "喜怒无常的",
+    "es": "temperamental",
+    "fr": "lunatique",
+    "de": "launisch"
+  },
+  "reliable": {
+    "en": "reliable",
+    "th": "เชื่อถือได้",
+    "ja": "信頼できる",
+    "ko": "믿을 수 있는",
+    "zh": "可靠的",
+    "es": "fiable",
+    "fr": "fiable",
+    "de": "zuverlässig"
+  },
+  "unreliable": {
+    "en": "unreliable",
+    "th": "ไม่น่าเชื่อถือ",
+    "ja": "信頼できない",
+    "ko": "믿을 수 없는",
+    "zh": "不可靠的",
+    "es": "poco fiable",
+    "fr": "peu fiable",
+    "de": "unzuverlässig"
+  },
+  "thoughtful": {
+    "en": "thoughtful",
+    "th": "รอบคอบ",
+    "ja": "思慮深い",
+    "ko": "사려 깊은",
+    "zh": "体贴的",
+    "es": "atento",
+    "fr": "attentionné",
+    "de": "nachdenklich"
+  },
+  "careless": {
+    "en": "careless",
+    "th": "สะเพร่า",
+    "ja": "不注意な",
+    "ko": "부주의한",
+    "zh": "粗心的",
+    "es": "descuidado",
+    "fr": "insouciant",
+    "de": "unvorsichtig"
+  },
+  "independent": {
+    "en": "independent",
+    "th": "เป็นอิสระ",
+    "ja": "自立した",
+    "ko": "독립적인",
+    "zh": "独立的",
+    "es": "independiente",
+    "fr": "indépendant",
+    "de": "unabhängig"
+  },
+  "dependent": {
+    "en": "dependent",
+    "th": "พึ่งพาผู้อื่น",
+    "ja": "依存的な",
+    "ko": "의존적인",
+    "zh": "依赖的",
+    "es": "dependiente",
+    "fr": "dépendant",
+    "de": "abhängig"
+  },
+  "outgoing": {
+    "en": "outgoing",
+    "th": "ชอบเข้าสังคม",
+    "ja": "社交的な",
+    "ko": "외향적인",
+    "zh": "外向的",
+    "es": "extrovertido",
+    "fr": "sociable",
+    "de": "kontaktfreudig"
+  },
+  "introverted": {
+    "en": "introverted",
+    "th": "เก็บตัว",
+    "ja": "内向的な",
+    "ko": "내성적인",
+    "zh": "内向的",
+    "es": "introvertido",
+    "fr": "introverti",
+    "de": "introvertiert"
+  },
+  "extroverted": {
+    "en": "extroverted",
+    "th": "เปิดเผย",
+    "ja": "外向的な",
+    "ko": "외향적인",
+    "zh": "外向的",
+    "es": "extrovertido",
+    "fr": "extraverti",
+    "de": "extrovertiert"
+  },
+  "calm": {
+    "en": "calm",
+    "th": "ใจเย็น",
+    "ja": "落ち着いた",
+    "ko": "차분한",
+    "zh": "冷静的",
+    "es": "tranquilo",
+    "fr": "calme",
+    "de": "ruhig"
+  },
+  "aggressive": {
+    "en": "aggressive",
+    "th": "ก้าวร้าว",
+    "ja": "攻撃的な",
+    "ko": "공격적인",
+    "zh": "好斗的",
+    "es": "agresivo",
+    "fr": "agressif",
+    "de": "aggressiv"
+  },
+  "dependable": {
+    "en": "dependable",
+    "th": "พึ่งพาได้",
+    "ja": "信頼できる",
+    "ko": "신뢰할 수 있는",
+    "zh": "可靠的",
+    "es": "fiable",
+    "fr": "fiable",
+    "de": "verlässlich"
+  },
+  "unfriendly": {
+    "en": "unfriendly",
+    "th": "ไม่เป็นมิตร",
+    "ja": "不親切な",
+    "ko": "불친절한",
+    "zh": "不友好的",
+    "es": "antipático",
+    "fr": "inamicaux",
+    "de": "unfreundlich"
+  },
+  "cooperative": {
+    "en": "cooperative",
+    "th": "ร่วมมือ",
+    "ja": "協力的な",
+    "ko": "협력적인",
+    "zh": "合作的",
+    "es": "cooperativo",
+    "fr": "coopératif",
+    "de": "kooperativ"
+  },
+  "uncooperative": {
+    "en": "uncooperative",
+    "th": "ไม่ร่วมมือ",
+    "ja": "非協力的な",
+    "ko": "비협조적인",
+    "zh": "不合作的",
+    "es": "poco cooperativo",
+    "fr": "peu coopératif",
+    "de": "unkooperativ"
+  },
+  "tolerant": {
+    "en": "tolerant",
+    "th": "ใจกว้าง",
+    "ja": "寛容な",
+    "ko": "관대한",
+    "zh": "宽容的",
+    "es": "tolerante",
+    "fr": "tolérant",
+    "de": "tolerant"
+  },
+  "intolerant": {
+    "en": "intolerant",
+    "th": "ไม่ยอมรับฟัง",
+    "ja": "不寛容な",
+    "ko": "편협한",
+    "zh": "心胸狭窄的",
+    "es": "intolerante",
+    "fr": "intolérant",
+    "de": "intolerant"
+  },
+  "realistic": {
+    "en": "realistic",
+    "th": "เป็นจริง",
+    "ja": "現実的な",
+    "ko": "현실적인",
+    "zh": "现实的",
+    "es": "realista",
+    "fr": "réaliste",
+    "de": "realistisch"
+  },
+  "idealistic": {
+    "en": "idealistic",
+    "th": "อุดมคติ",
+    "ja": "理想主義的な",
+    "ko": "이상주의적인",
+    "zh": "理想主义的",
+    "es": "idealista",
+    "fr": "idéaliste",
+    "de": "idealistisch"
+  },
+  "warm": {
+    "en": "warm",
+    "th": "อบอุ่น",
+    "ja": "温かい",
+    "ko": "따뜻한",
+    "zh": "温暖的",
+    "es": "cálido",
+    "fr": "chaleureux",
+    "de": "warm"
+  },
+  "cold": {
+    "en": "cold",
+    "th": "เย็นชา",
+    "ja": "冷たい",
+    "ko": "차가운",
+    "zh": "冷漠的",
+    "es": "frío",
+    "fr": "froid",
+    "de": "kalt"
+  },
+  "proud": {
+    "en": "proud",
+    "th": "ภูมิใจ",
+    "ja": "誇り高い",
+    "ko": "자랑스러운",
+    "zh": "自豪的",
+    "es": "orgulloso",
+    "fr": "fier",
+    "de": "stolz"
+  },
+  "humorous": {
+    "en": "humorous",
+    "th": "ตลก",
+    "ja": "ユーモラスな",
+    "ko": "유머러스한",
+    "zh": "幽默的",
+    "es": "humorístico",
+    "fr": "drôle",
+    "de": "humorvoll"
+  },
+  "serious-minded": {
+    "en": "serious-minded",
+    "th": "จริงจัง",
+    "ja": "真面目な",
+    "ko": "진지한",
+    "zh": "认真的",
+    "es": "serio",
+    "fr": "sérieux",
+    "de": "ernst"
+  },
+  "enthusiastic": {
+    "en": "enthusiastic",
+    "th": "กระตือรือร้น",
+    "ja": "熱心な",
+    "ko": "열정적인",
+    "zh": "热情的",
+    "es": "entusiasta",
+    "fr": "enthousiaste",
+    "de": "begeistert"
+  },
+  "apathetic": {
+    "en": "apathetic",
+    "th": "ไม่สนใจ",
+    "ja": "無関心な",
+    "ko": "무관심한",
+    "zh": "冷漠的",
+    "es": "apático",
+    "fr": "apathique",
+    "de": "gleichgültig"
+  },
+  "forgiving": {
+    "en": "forgiving",
+    "th": "ให้อภัย",
+    "ja": "寛大な",
+    "ko": "용서하는",
+    "zh": "宽容的",
+    "es": "perdonador",
+    "fr": "indulgent",
+    "de": "verzeihend"
+  },
+  "vengeful": {
+    "en": "vengeful",
+    "th": "พยาบาท",
+    "ja": "復讐心のある",
+    "ko": "복수심이 강한",
+    "zh": "报复心强的",
+    "es": "vengativo",
+    "fr": "vengeur",
+    "de": "rachsüchtig"
+  },
+  "grateful": {
+    "en": "grateful",
+    "th": "กตัญญู",
+    "ja": "感謝している",
+    "ko": "감사하는",
+    "zh": "感激的",
+    "es": "agradecido",
+    "fr": "reconnaissant",
+    "de": "dankbar"
+  },
+  "ungrateful": {
+    "en": "ungrateful",
+    "th": "อกตัญญู",
+    "ja": "恩知らず",
+    "ko": "은혜를 모르는",
+    "zh": "忘恩负义的",
+    "es": "desagradecido",
+    "fr": "ingrat",
+    "de": "undankbar"
+  },
+  "fair": {
+    "en": "fair",
+    "th": "ยุติธรรม",
+    "ja": "公正な",
+    "ko": "공정한",
+    "zh": "公平的",
+    "es": "justo",
+    "fr": "équitable",
+    "de": "gerecht"
+  },
+  "unfair": {
+    "en": "unfair",
+    "th": "ไม่ยุติธรรม",
+    "ja": "不公平な",
+    "ko": "불공정한",
+    "zh": "不公平的",
+    "es": "injusto",
+    "fr": "injuste",
+    "de": "ungerecht"
+  },
+  "caring": {
+    "en": "caring",
+    "th": "เอาใจใส่",
+    "ja": "思いやりのある",
+    "ko": "배려심 있는",
+    "zh": "关心的",
+    "es": "cariñoso",
+    "fr": "attentionné",
+    "de": "fürsorglich"
+  },
+  "uncaring": {
+    "en": "uncaring",
+    "th": "ไม่เอาใจใส่",
+    "ja": "思いやりのない",
+    "ko": "무심한",
+    "zh": "冷漠的",
+    "es": "despreocupado",
+    "fr": "indifférent",
+    "de": "gefühllos"
+  },
+  "fair-minded": {
+    "en": "fair-minded",
+    "th": "มีเหตุผล",
+    "ja": "公平な",
+    "ko": "공정한",
+    "zh": "公正的",
+    "es": "imparcial",
+    "fr": "équitable",
+    "de": "gerecht"
+  },
+  "unfair-minded": {
+    "en": "unfair-minded",
+    "th": "ไม่มีเหตุผล",
+    "ja": "不公平な",
+    "ko": "편파적인",
+    "zh": "不公正的",
+    "es": "parcial",
+    "fr": "injuste",
+    "de": "voreingenommen"
+  },
+  "flexible": {
+    "en": "flexible",
+    "th": "ยืดหยุ่น",
+    "ja": "柔軟な",
+    "ko": "융통성 있는",
+    "zh": "灵活的",
+    "es": "flexible",
+    "fr": "flexible",
+    "de": "flexibel"
+  },
+  "inflexible": {
+    "en": "inflexible",
+    "th": "ไม่ยืดหยุ่น",
+    "ja": "融通が利かない",
+    "ko": "융통성 없는",
+    "zh": "不灵活的",
+    "es": "inflexible",
+    "fr": "inflexible",
+    "de": "unflexibel"
+  },
+  "brilliant": {
+    "en": "brilliant",
+    "th": "ฉลาดมาก",
+    "ja": "素晴らしい",
+    "ko": "훌륭한",
+    "zh": "杰出的",
+    "es": "brillante",
+    "fr": "brillant",
+    "de": "brillant"
+  },
+  "dull": {
+    "en": "dull",
+    "th": "น่าเบื่อ",
+    "ja": "退屈な",
+    "ko": "지루한",
+    "zh": "乏味的",
+    "es": "aburrido",
+    "fr": "terne",
+    "de": "langweilig"
+  },
+  "faithful": {
+    "en": "faithful",
+    "th": "ซื่อสัตย์",
+    "ja": "忠実な",
+    "ko": "충실한",
+    "zh": "忠实的",
+    "es": "fiel",
+    "fr": "fidèle",
+    "de": "treu"
+  },
+  "unfaithful": {
+    "en": "unfaithful",
+    "th": "ไม่ซื่อสัตย์",
+    "ja": "不誠実な",
+    "ko": "불성실한",
+    "zh": "不忠实的",
+    "es": "infiel",
+    "fr": "infidèle",
+    "de": "untreu"
+  },
+  "courageous": {
+    "en": "courageous",
+    "th": "กล้าหาญ",
+    "ja": "勇敢な",
+    "ko": "용감한",
+    "zh": "勇敢的",
+    "es": "valiente",
+    "fr": "courageux",
+    "de": "mutig"
+  },
+  "cowardly": {
+    "en": "cowardly",
+    "th": "ขี้ขลาด",
+    "ja": "臆病な",
+    "ko": "겁많은",
+    "zh": "胆小的",
+    "es": "cobarde",
+    "fr": "lâche",
+    "de": "feige"
+  },
+  "obedient": {
+    "en": "obedient",
+    "th": "เชื่อฟัง",
+    "ja": "従順な",
+    "ko": "순종적인",
+    "zh": "顺从的",
+    "es": "obediente",
+    "fr": "obéissant",
+    "de": "gehorsam"
+  },
+  "disobedient": {
+    "en": "disobedient",
+    "th": "ไม่เชื่อฟัง",
+    "ja": "反抗的な",
+    "ko": "불순종하는",
+    "zh": "不服从的",
+    "es": "desobediente",
+    "fr": "désobéissant",
+    "de": "ungehorsam"
+  },
+  "polished": {
+    "en": "polished",
+    "th": "สุภาพ",
+    "ja": "上品な",
+    "ko": "세련된",
+    "zh": "文雅的",
+    "es": "pulido",
+    "fr": "raffiné",
+    "de": "kultiviert"
+  },
+  "rough": {
+    "en": "rough",
+    "th": "หยาบ",
+    "ja": "乱暴な",
+    "ko": "거친",
+    "zh": "粗糙的",
+    "es": "áspero",
+    "fr": "rugueux",
+    "de": "grob"
+  },
+  "romantic": {
+    "en": "romantic",
+    "th": "โรแมนติก",
+    "ja": "ロマンチックな",
+    "ko": "낭만적인",
+    "zh": "浪漫的",
+    "es": "romántico",
+    "fr": "romantique",
+    "de": "romantisch"
+  },
+  "practical": {
+    "en": "practical",
+    "th": "ปฏิบัติได้จริง",
+    "ja": "実際的な",
+    "ko": "실용적인",
+    "zh": "实际的",
+    "es": "práctico",
+    "fr": "pratique",
+    "de": "praktisch"
+  },
+  "impractical": {
+    "en": "impractical",
+    "th": "ไม่ปฏิบัติได้จริง",
+    "ja": "非現実的な",
+    "ko": "비현실적인",
+    "zh": "不切实际的",
+    "es": "impráctico",
+    "fr": "impraticable",
+    "de": "unpraktisch"
+  }
+}
