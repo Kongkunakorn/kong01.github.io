@@ -526,29 +526,32 @@ h4 {
 }
 
 /* Typing Game Elements */
+/* =========================
+   Typing Game (Index Page)
+   ========================= */
+
+/* Current word & translation */
 #current-word {
   font-size: 2.5em;
-  margin: 20px 0;
-  color: #ffffff;
-  margin-bottom: 30px;
+  margin: 20px 0 30px;
   margin-top: 40px;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-family: "Lora", serif !important;
   font-weight: 700 !important;
+  color: #ffffff;
 }
 
 #translation {
-  color: #00ff00;
-  margin-top: 15px;
+  color: green;
   font-size: 1.5em;
+  margin-top: 15px;
   font-family: "Lora", serif !important;
   font-weight: 500 !important;
   font-style: italic !important;
-  /* เพิ่มความสวยงามด้วย italic */
 }
 
-/* Letter Boxes */
+/* Letter boxes */
 #letter-boxes {
   display: flex;
   flex-wrap: wrap;
@@ -560,59 +563,31 @@ h4 {
 .letter-box {
   width: 38px;
   height: 38px;
-  border: 2px solid #ffffff;
-  /* กรอบสีขาว */
+  border: 2px solid #bbb;
   border-radius: 6px;
   font-size: 1.5em;
   text-align: center;
   line-height: 38px;
-  background: #2b2b2b;
-  /* พื้นหลังสีดำ */
-  color: #ffffff;
-  /* ตัวอักษรสีขาว */
+  background: #fff;
   transition: border-color 0.2s, background 0.2s;
   user-select: none;
-  font-family: "Lora", serif !important;
-  font-weight: 600 !important;
 }
 
 .letter-box.correct {
-  border-color: #00ff00;
-  /* เขียวสด */
-  background: #003300;
-  /* เขียวเข้ม */
-  color: #006800;
+  border-color: #4caf50;
+  background: #c8e6c9;
+  /* เขียวอ่อน */
+  color: #1b5e20;
 }
 
 .letter-box.wrong {
-  border-color: #ff0000;
-  /* แดงสด */
-  background: #330000;
-  /* แดงเข้ม */
-  color: #520000;
+  border-color: #e53935;
+  background: #ffcdd2;
+  /* แดงอ่อน */
+  color: #b71c1c;
 }
 
-/* Input Elements */
-input#input-box {
-  padding: 10px;
-  font-size: 1.2em;
-  width: 100%;
-  max-width: 300px;
-  margin-top: 15px;
-  border-radius: 5px;
-  border: 2px solid #ffffff;
-  background-color: #2b2b2b;
-  color: #ffffff;
-  font-family: "Lora", serif !important;
-}
-
-input#input-box:focus {
-  outline: none;
-  border-color: #00ff00;
-  box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
-}
-
-/* Hidden Input */
+/* Hidden input */
 #hidden-input {
   position: absolute;
   opacity: 0;
@@ -620,6 +595,182 @@ input#input-box:focus {
   height: 1px;
   border: none;
   background: transparent;
+}
+
+/* History panel */
+#history-panel.open {
+  transform: translateX(0);
+}
+
+.history-item {
+  border: 1px solid #2c2c2c;
+  border-radius: 8px;
+  padding: 8px 10px;
+  background: #181818;
+}
+
+.history-item:hover {
+  border-color: #00ff00;
+  box-shadow: 0 0 0 2px rgba(0, 255, 0, .12);
+}
+
+.history-dest {
+  color: #a3d977;
+  margin-top: 2px;
+}
+
+.history-meta {
+  font-size: 12px;
+  color: #9a9a9a;
+  margin-top: 4px;
+}
+
+/* Fix: keep .history-dest green by default (beat global !important) */
+.history-item .history-dest {
+  color: #a3d977 !important;
+}
+
+/* History button */
+.history-btn {
+  position: fixed;
+  /* จากเดิม sticky → fixed */
+  top: 110px;
+  /* ปรับตามความสูง navbar ของคุณ */
+  left: 12px;
+  z-index: 1100;
+
+  padding: 8px 12px;
+  font-weight: 600;
+  border-radius: 10px;
+
+  background: #1f1f1f;
+  color: #eeeeee;
+  border: 1px solid #444;
+  cursor: pointer;
+  transition: background-color .25s ease, color .25s ease, border-color .25s ease, transform .12s ease, box-shadow .25s ease;
+  overflow: hidden;
+}
+
+.history-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 56px;
+  height: 56px;
+  border-radius: inherit;
+  background: #00ff88;
+  transform: scale(0);
+  z-index: -1;
+  transition: transform .6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.history-btn:hover {
+  color: #000000;
+  border-color: #00ff88;
+  box-shadow: 0 0 0 2px rgba(0, 255, 136, .15);
+}
+
+.history-btn:hover::before {
+  transform: scale(3);
+}
+
+.history-btn:active {
+  transform: scale(0.98);
+  color: #000000;
+  border-color: #00ff88;
+}
+
+/* ปุ่มคงสีเขียวเมื่อ panel เปิด */
+#history-panel.open~.history-btn {
+  background: #00ff88;
+  color: #000;
+  border-color: #00ff88;
+  box-shadow: 0 0 0 2px rgba(0, 255, 136, .15);
+  display: none;
+  /* ซ่อนปุ่มเมื่อเปิดแถบ */
+}
+
+/* Resize handle */
+#history-panel .resize-handle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 6px;
+  height: 100%;
+  cursor: ew-resize;
+  background: transparent;
+}
+
+#history-panel .resize-handle:hover {
+  background: rgba(0, 255, 136, 0.1);
+}
+
+/* End actions */
+.game-actions {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.game-btn {
+  padding: 20px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color .25s ease, color .25s ease,
+    border-color .25s ease, transform .12s ease;
+}
+
+.game-btn:hover {
+  background: #00ff00;
+  color: #000000;
+  border-color: #00ff00;
+}
+
+.game-btn:active {
+  transform: scale(0.98);
+}
+
+/* Speakable chips */
+/* ====== Click-to-speak chip (Green/Black Theme) ====== */
+.speakable {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #2e2e2e !important;
+  /* ขอบเขียว */
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  color: #00ff00 !important;
+  /* ตัวอักษรเขียว */
+  background: #2b2b2b !important;
+  /* พื้นดำ */
+  transition: background-color .25s ease,
+    color .25s ease,
+    border-color .25s ease,
+    box-shadow .25s ease;
+}
+
+.speakable:hover,
+.speakable:active {
+  background: #00ff00 !important;
+  /* พื้นเขียว */
+  color: #000000 !important;
+  /* ตัวอักษรดำ */
+  border-color: #00ff00 !important;
+  box-shadow: 0 0 6px rgba(0, 255, 0, .4);
+}
+
+.speakable .speak-icon {
+  font-size: 13px;
+  opacity: .9;
 }
 
 /* ===== THEME BUTTON (Green highlight) ===== */
@@ -745,13 +896,6 @@ nav div a:hover {
 
   #current-word {
     font-size: 1.8em;
-  }
-
-  .letter-box {
-    width: 30px;
-    height: 40px;
-    font-size: 1.2em;
-    line-height: 40px;
   }
 
   input#input-box {
@@ -1145,4 +1289,38 @@ input:focus,
 textarea:focus,
 select:focus {
   box-shadow: 0 0 6px rgba(0, 255, 136, 0.4) !important;
+}
+
+/* ==== Force text to turn black on hover/active (beats global !important) ==== */
+
+/* speakable chips */
+#history-panel .speakable:hover,
+#history-panel .speakable:active {
+  background: #00ff00 !important;
+  /* เขียว */
+  color: #000000 !important;
+  /* ตัวอักษรดำ */
+  border-color: #00ff00 !important;
+}
+
+/* ลูก ๆ ข้างใน (เช่น span) ก็ให้เป็นดำด้วย เพื่อชนะ global span{color:#fff!important} */
+#history-panel .speakable:hover *,
+#history-panel .speakable:active * {
+  color: #000000 !important;
+}
+
+/* ถ้าข้างในมี SVG ให้ตามสีตัวอักษรด้วย */
+#history-panel .speakable svg {
+  fill: currentColor !important;
+}
+
+/* ปุ่ม History */
+.history-btn:hover,
+.history-btn:active {
+  color: #000000 !important;
+}
+
+.history-btn:hover *,
+.history-btn:active * {
+  color: #000000 !important;
 }

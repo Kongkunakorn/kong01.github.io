@@ -64,6 +64,73 @@ hud.appendChild(hudScore);
 (currentWord?.parentElement || document.body).insertBefore(hud, currentWord.nextSibling);
 
 let currentWordText = words[index];
+// ===== Speech (Web Speech API) =====
+const Speech = {
+  voices: [],
+  ready: false,
+  langFallbackMap: {
+    en: 'en-US',
+    th: 'th-TH',
+    ja: 'ja-JP',
+    ko: 'ko-KR',
+    zh: 'zh-CN',   // หรือ zh-TW ตามชุดคำของคุณ
+    es: 'es-ES',
+    fr: 'fr-FR',
+    de: 'de-DE'
+  },
+  normalizeLang(code) {
+    if (!code) return 'en-US';
+    code = String(code).toLowerCase();
+    // ถ้าได้ en-US อยู่แล้วก็คืนเลย
+    if (code.includes('-')) return code;
+    return this.langFallbackMap[code] || 'en-US';
+  },
+  loadVoices() {
+    try {
+      this.voices = window.speechSynthesis.getVoices() || [];
+      this.ready = this.voices.length > 0;
+    } catch {
+      this.voices = [];
+      this.ready = false;
+    }
+  },
+  getVoiceFor(langCode) {
+    const want = this.normalizeLang(langCode);
+    if (!this.ready) this.loadVoices();
+
+    // พยายาม match แบบ exact ก่อน
+    let v = this.voices.find(v => v.lang && v.lang.toLowerCase() === want.toLowerCase());
+    if (v) return v;
+
+    // พยายาม match แบบ prefix (เช่น en-* )
+    const prefix = want.split('-')[0];
+    v = this.voices.find(v => v.lang && v.lang.toLowerCase().startsWith(prefix));
+    if (v) return v;
+
+    // ไม่เจอ ก็คืน default (ปล่อยให้เบราว์เซอร์เลือก)
+    return null;
+  },
+  speak(text, langCode) {
+    if (!window.speechSynthesis || !text) return;
+    // ยกเลิกเสียงเดิมก่อน (กันซ้อน)
+    try { window.speechSynthesis.cancel(); } catch { }
+
+    const u = new SpeechSynthesisUtterance(text);
+    const voice = this.getVoiceFor(langCode);
+    if (voice) u.voice = voice;
+    u.lang = this.normalizeLang(langCode);
+    u.rate = 1.0;   // ปรับได้ 0.5–2
+    u.pitch = 1.0;  // ปรับได้ 0–2
+    u.volume = 1.0; // 0–1
+    window.speechSynthesis.speak(u);
+  }
+};
+
+// โหลดเสียงเมื่อพร้อม
+if ('speechSynthesis' in window) {
+  Speech.loadVoices();
+  window.speechSynthesis.onvoiceschanged = () => Speech.loadVoices();
+}
 
 // ===== Utilities: Time & WPM =====
 function formatHMS(totalSeconds) {
@@ -315,19 +382,41 @@ inputBox.addEventListener("input", () => {
 function renderHistory() {
   if (!historyList) return;
   historyList.innerHTML = "";
-  // แสดงรายการล่าสุดไว้บน
+
+  // รายการใหม่อยู่บนสุด
   for (let i = historyItems.length - 1; i >= 0; i--) {
     const it = historyItems[i];
+
     const card = document.createElement('div');
     card.className = 'history-item';
 
+    // กล่อง "ต้นฉบับ" ที่คลิกอ่านได้
     const srcEl = document.createElement('div');
     srcEl.className = 'history-src';
-    srcEl.textContent = `(${window.srcLang || 'src'}) ${it.src}`;
+    const srcChip = document.createElement('button');
+    srcChip.type = 'button';
+    srcChip.className = 'speakable';
+    srcChip.setAttribute('data-lang', window.srcLang || 'en');
+    srcChip.setAttribute('data-text', it.src);
+    srcChip.setAttribute('title', 'Click to speak');
+    srcChip.innerHTML = `<span class="speak-icon">🔊</span><span>(${window.srcLang || 'src'}) ${it.src}</span>`;
+    srcEl.appendChild(srcChip);
 
+    // กล่อง "คำแปล" ที่คลิกอ่านได้ (ถ้ามี)
     const destEl = document.createElement('div');
     destEl.className = 'history-dest';
-    destEl.textContent = it.dest ? `→ (${window.destLang || 'dest'}) ${it.dest}` : '→ (No translation)';
+    if (it.dest) {
+      const destChip = document.createElement('button');
+      destChip.type = 'button';
+      destChip.className = 'speakable';
+      destChip.setAttribute('data-lang', window.destLang || 'th');
+      destChip.setAttribute('data-text', it.dest);
+      destChip.setAttribute('title', 'Click to speak');
+      destChip.innerHTML = `<span class="speak-icon">🔊</span><span>(${window.destLang || 'dest'}) ${it.dest}</span>`;
+      destEl.appendChild(destChip);
+    } else {
+      destEl.textContent = '→ (No translation)';
+    }
 
     const metaEl = document.createElement('div');
     metaEl.className = 'history-meta';
@@ -338,6 +427,22 @@ function renderHistory() {
     card.appendChild(metaEl);
     historyList.appendChild(card);
   }
+}
+
+// 🟢 วาง block นี้ต่อท้าย renderHistory()
+if (historyList) {
+  historyList.addEventListener('click', (e) => {
+    const btn = e.target.closest('.speakable');
+    if (!btn) return;
+    const text = btn.getAttribute('data-text') || '';
+    const lang = btn.getAttribute('data-lang') || 'en';
+    if (text.trim()) {
+      Speech.speak(text, lang);
+      // ใส่เอฟเฟกต์เล็ก ๆ ให้ผู้ใช้เห็นว่ากดแล้ว
+      btn.style.boxShadow = '0 0 0 2px rgba(0,255,0,.25)';
+      setTimeout(() => { btn.style.boxShadow = ''; }, 250);
+    }
+  });
 }
 function openHistory() {
   if (!historyPanel) return;
