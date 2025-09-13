@@ -233,7 +233,7 @@ def profile():
         "total_words": 0,
         "wpm": 0,
         "total_seconds": 0,
-        "timestamp_human": None
+        "last_played_human": None
     }
 
     try:
@@ -249,7 +249,7 @@ def profile():
                 stats["total_words"] = fields.get("total_words", 0)
                 stats["wpm"] = fields.get("wpm", 0)
                 stats["total_seconds"] = fields.get("total_seconds", 0)
-                stats["timestamp_human"] = fields.get("timestamp_human", "-")
+                stats["last_played_human"] = fields.get("last_played_human", "-")
     except Exception as e:
         print(f"Error loading profile stats: {e}")
 
